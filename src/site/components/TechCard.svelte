@@ -1,7 +1,13 @@
 <script lang="ts">
   import type { Action } from 'svelte/action';
-  import { isRepeatable, type Technology } from '../../domain/technology.ts';
-  import { iconUrl, researchCost, traitGlyph, traitTitle } from '../state/presentation.ts';
+  import { hasTrait, isRepeatable, type Technology } from '../../domain/technology.ts';
+  import {
+    badgedTraitsOf,
+    iconUrl,
+    researchCost,
+    traitGlyph,
+    traitTitle,
+  } from '../state/presentation.ts';
   import type { TreeView } from '../state/tree-view.svelte.ts';
 
   let {
@@ -30,6 +36,8 @@
 <div
   class="card {technology.area} emphasis-{emphasis}"
   class:dimmed
+  class:rare={hasTrait(technology, 'rare')}
+  class:dangerous={hasTrait(technology, 'dangerous')}
   class:inspected={view.inspected === technology.key}
   hidden={!view.visible.has(technology.key)}
   use:register={technology.key}
@@ -52,7 +60,7 @@
       <span class="meta">
         <span class="cost">{researchCost(technology.cost)}</span>
         {#if isRepeatable(technology)}<span class="repeatable" title="Repeatable">∞</span>{/if}
-        {#each technology.traits as trait (trait)}
+        {#each badgedTraitsOf(technology.traits) as trait (trait)}
           <span class="trait {trait}" title={traitTitle(trait)}>{traitGlyph(trait)}</span>
         {/each}
         {#if requirementCount > 1}
@@ -97,6 +105,25 @@
 
   .card:hover {
     background: var(--card-hover);
+  }
+
+  .card.rare {
+    border-top-color: var(--rare);
+    border-right-color: var(--rare);
+    border-bottom-color: var(--rare);
+    background: var(--rare-card);
+  }
+
+  .card.dangerous {
+    border-top-color: var(--dangerous);
+    border-right-color: var(--dangerous);
+    border-bottom-color: var(--dangerous);
+    background: var(--dangerous-card);
+  }
+
+  .card.rare:hover,
+  .card.dangerous:hover {
+    filter: brightness(1.2);
   }
 
   .card.dimmed {
@@ -189,14 +216,6 @@
   .repeatable {
     color: var(--hover);
     font-weight: 700;
-  }
-
-  .trait.rare {
-    color: #b98cff;
-  }
-
-  .trait.dangerous {
-    color: var(--penalty);
   }
 
   .trait.starting {

@@ -41,6 +41,16 @@ export function traitTitle(trait: TechnologyTrait): string {
   return titles[trait];
 }
 
+/**
+ * Rare and dangerous techs are told apart by card colour, purple and red as in the game,
+ * so only the other traits need a badge.
+ */
+export const BADGED_TRAITS: readonly TechnologyTrait[] = ['starting', 'granted'];
+
+export function badgedTraitsOf(traits: readonly TechnologyTrait[]): TechnologyTrait[] {
+  return traits.filter((trait) => BADGED_TRAITS.includes(trait));
+}
+
 export function traitGlyph(trait: TechnologyTrait): string {
   const glyphs: Record<TechnologyTrait, string> = {
     rare: '◆',

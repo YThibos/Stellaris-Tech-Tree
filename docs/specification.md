@@ -64,7 +64,8 @@ Each milestone ships on its own and is useful on its own.
 - Research areas are horizontal bands: Physics, Society, Engineering, each in its in-game colour.
 - Within a band and column, techs are grouped by category, then ordered by name.
 - Each tier header shows its tier gate per area, for example "T5 - needs 6 T4 Engineering".
-- Event-only, rare, dangerous and starting techs carry distinct badges.
+- Rare techs have a purple outline and card, dangerous techs a red one, as in the game, so they need no badge and the card keeps its room for other information.
+- Starting techs, techs the game never draws, repeatables and techs with more than one requirement carry small badges.
 
 ### 5.2 Prerequisites and requirement paths
 
@@ -164,6 +165,7 @@ A separate tab lists them.
 - Each row lists the techs that would raise it further; clicking one lights its requirement path in the tree, as in 5.2.
 - Version one counts technologies only and says so on the tab.
   Traditions, ascension perks, civics, edicts and megastructure upgrades also move some of these numbers; including them needs their files extracted too and is a later step.
+- Techs the game never draws show where they come from (an event, a tradition, an ascension perk, a relic, and so on) in the details panel, with a distinct badge for each kind of source, once those files are extracted.
 - The extraction keeps each tech's bonuses structured (modifier key, English name, amount) rather than as display text, so the tab can add them up.
 - Open questions for when this milestone starts: which modifiers count as "capacities" by default, and whether the tab shows only capacities or every empire modifier with a capacity filter.
 

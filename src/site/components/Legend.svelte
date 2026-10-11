@@ -1,10 +1,7 @@
 <script lang="ts">
-  import { traitGlyph, traitTitle } from '../state/presentation.ts';
-  import type { TechnologyTrait } from '../../domain/technology.ts';
+  import { BADGED_TRAITS, traitGlyph, traitTitle } from '../state/presentation.ts';
 
   let { onclose }: { onclose: () => void } = $props();
-
-  const traits: TechnologyTrait[] = ['rare', 'dangerous', 'starting', 'granted'];
 </script>
 
 <aside class="legend" aria-label="Legend">
@@ -26,11 +23,18 @@
     <li><span class="swatch hover"></span>Hovered tech's requirements</li>
     <li><span class="swatch leads-to"></span>What the hovered tech leads to</li>
   </ul>
+  <h3>Cards</h3>
+  <ul class="swatches">
+    <li><span class="card-swatch rare"></span>Rare tech</li>
+    <li><span class="card-swatch dangerous"></span>Dangerous tech</li>
+  </ul>
   <h3>Markers</h3>
   <ul class="swatches">
-    {#each traits as trait (trait)}
+    {#each BADGED_TRAITS as trait (trait)}
       <li><span class="glyph {trait}">{traitGlyph(trait)}</span>{traitTitle(trait)}</li>
     {/each}
+    <li><span class="glyph repeatable">∞</span>Repeatable</li>
+    <li><span class="glyph multi">⇇</span>Number of requirements, when more than one</li>
   </ul>
 </aside>
 
@@ -101,12 +105,33 @@
     text-align: center;
   }
 
-  .glyph.rare {
-    color: #b98cff;
+  .glyph.repeatable {
+    color: var(--hover);
+    font-weight: 700;
   }
 
-  .glyph.dangerous {
-    color: var(--penalty);
+  .glyph.multi {
+    color: var(--warning);
+  }
+
+  .card-swatch {
+    width: 22px;
+    height: 14px;
+    border: 1px solid;
+    border-left: 3px solid var(--engineering);
+    border-radius: 3px;
+  }
+
+  .card-swatch.rare {
+    border-color: var(--rare);
+    border-left-color: var(--engineering);
+    background: var(--rare-card);
+  }
+
+  .card-swatch.dangerous {
+    border-color: var(--dangerous);
+    border-left-color: var(--engineering);
+    background: var(--dangerous-card);
   }
 
   .glyph.starting {
