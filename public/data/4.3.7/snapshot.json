@@ -1,0 +1,11 @@
+{
+ "gameVersion": "4.3.7",
+ "extractedOn": "2026-10-11",
+ "notice": "Preview data: Stellaris 4.3.7 as published by the original Stellaris Tech Tree (MIT licence). Tier gates and raw game script are not part of it; a fresh extraction of the current version replaces it.",
+ "layers": [
+  {
+   "sourceId": "vanilla",
+   "file": "vanilla.json"
+  }
+ ]
+}

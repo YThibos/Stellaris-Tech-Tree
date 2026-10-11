@@ -1,0 +1,62 @@
+:root {
+  color-scheme: dark;
+  --space-deep: #070b11;
+  --space: #0c131c;
+  --panel: #101a25;
+  --panel-raised: #15212f;
+  --card: #132030;
+  --card-hover: #1a2b3f;
+  --line: #24384d;
+  --text: #d9e4ee;
+  --text-muted: #8ea3b7;
+  --text-faint: #5d7286;
+  --physics: #4ea5ff;
+  --society: #5ccf6a;
+  --engineering: #f2a43c;
+  --lit: #ffd166;
+  --hover: #7fe3ff;
+  --leads-to: #c49bff;
+  --boost: #74e08a;
+  --penalty: #ff7a6b;
+  --warning: #ffb547;
+  --radius: 6px;
+  --font: 'Exo 2', 'Segoe UI', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--space-deep);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 20% 0%, #13243a 0%, transparent 55%),
+    radial-gradient(ellipse at 90% 100%, #1b1530 0%, transparent 50%), var(--space-deep);
+}
+
+#app {
+  height: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--hover);
+  outline-offset: 2px;
+}
+
+[hidden] {
+  display: none !important;
+}

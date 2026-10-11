@@ -26,23 +26,23 @@ The reference tool (bloodstainedcrow.github.io/stellaris-tech-tree, data up to 4
 
 ## 3. Glossary (the domain language used in code and UI)
 
-| Term | Meaning |
-|---|---|
-| Technology | One researchable tech, identified by its game key (for example `tech_mega_engineering`). |
-| Research area | Physics, Society or Engineering. |
-| Tier | The game's tech tier, read from the data (vanilla: T0 to T5). |
-| Tier gate | The number of techs from the previous tier in the same area that must be researched before a tier is offered. |
-| Category | The game's sub-grouping (Voidcraft, Industry, Biology, ...). |
-| Prerequisite | A tech that must be researched before another. A tech can have several. |
-| Requirement path | Every tech that must be researched before a given tech, transitively. |
-| Repeatable | A tech that can be researched more than once (`levels` other than 1; unlimited when `-1`). |
-| Availability | The conditions under which the game can ever offer a tech (the game's `potential` block). |
-| Draw weight | How likely the tech is to be offered: base weight and its weight modifiers. |
-| Unlock | What a tech grants: buildings, components, edicts, modifiers, capacity bonuses. |
-| Content source | Where a definition came from: Vanilla, or one mod. |
-| Playset | The enabled mods, in launcher load order. |
-| Snapshot | The extracted data for one game version. |
-| Campaign | A named set of researched-tech marks, kept in the browser. |
+| Term             | Meaning                                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------------------------------- |
+| Technology       | One researchable tech, identified by its game key (for example `tech_mega_engineering`).                      |
+| Research area    | Physics, Society or Engineering.                                                                              |
+| Tier             | The game's tech tier, read from the data (vanilla: T0 to T5).                                                 |
+| Tier gate        | The number of techs from the previous tier in the same area that must be researched before a tier is offered. |
+| Category         | The game's sub-grouping (Voidcraft, Industry, Biology, ...).                                                  |
+| Prerequisite     | A tech that must be researched before another. A tech can have several.                                       |
+| Requirement path | Every tech that must be researched before a given tech, transitively.                                         |
+| Repeatable       | A tech that can be researched more than once (`levels` other than 1; unlimited when `-1`).                    |
+| Availability     | The conditions under which the game can ever offer a tech (the game's `potential` block).                     |
+| Draw weight      | How likely the tech is to be offered: base weight and its weight modifiers.                                   |
+| Unlock           | What a tech grants: buildings, components, edicts, modifiers, capacity bonuses.                               |
+| Content source   | Where a definition came from: Vanilla, or one mod.                                                            |
+| Playset          | The enabled mods, in launcher load order.                                                                     |
+| Snapshot         | The extracted data for one game version.                                                                      |
+| Campaign         | A named set of researched-tech marks, kept in the browser.                                                    |
 
 ## 4. Delivery milestones
 
@@ -68,6 +68,7 @@ Each milestone ships on its own and is useful on its own.
 ### 5.2 Prerequisites and requirement paths
 
 - Every prerequisite is a link, including the second and third ones.
+- Requirements the game hides in a tech's availability conditions (Mega-Engineering needs Battleships or Stingers) are links too, drawn dashed and listed as "and one of", because the player must research them all the same.
 - Hovering a tech previews its links: its requirement path and the techs it leads to.
 - Clicking a tech locks its requirement path lit until that tech is clicked again.
 - Several techs can be locked lit at once; the lit set is the union of their requirement paths.
@@ -271,3 +272,13 @@ Which mods carry tech content is confirmed by the first extraction report.
 **Unavailable**
 
 - Four library entries show no title (removed or hidden from the Workshop) and cannot be loaded.
+
+## 13. Credits
+
+This project stands on the work of the original Stellaris Tech Tree and owes it both the idea and the inspiration.
+
+- [turanar/stellaris-tech-tree](https://github.com/turanar/stellaris-tech-tree) by turanar (Richard Simões), the original tech tree and its extraction tool, MIT licensed.
+- [BloodStainedCrow/stellaris-tech-tree](https://github.com/BloodStainedCrow/stellaris-tech-tree) and [BloodStainedCrow/stellaris-technology](https://github.com/BloodStainedCrow/stellaris-technology), which kept the tree current through Stellaris 4.3.
+
+The README carries these credits prominently, not only in a footnote.
+Until the first extraction of 4.5 lands, the preview build uses their MIT-licensed 4.3.7 data, with the licence notice kept in `THIRD-PARTY-NOTICES.md`.
