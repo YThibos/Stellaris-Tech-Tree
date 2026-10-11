@@ -172,22 +172,23 @@ A TypeScript command-line tool the captain runs on the gaming PC after a patch o
 ### 6.2 Snapshot layout
 
 ```
-data/
+public/data/
   versions.json                 list of snapshots, newest first
   4.5.x/
-    snapshot.json               game version, extraction date, playset with mod versions
+    snapshot.json               game version, extraction date, layers
     vanilla.json                vanilla layer
     mods/<workshop-id>.json     one layer per tech-relevant mod
     icons/<source>/<icon>.webp
 ```
 
-A layer holds that source's raw tech definitions by file path and key, its tier definitions, its localisation and its icon list.
+A layer holds that source's technologies with their text already in English, its tier definitions and the icons it uses.
 The browser merges layers; the extraction script never pre-merges, so toggling stays exact.
 
 ### 6.3 Parsing
 
 The Clausewitz script format (key, operator, value; nested blocks; `@variables`; `@[ ]` maths) is parsed by one parser module shared by extraction and save import.
-Candidate: the `jomini` library (WASM, MIT, built for Paradox text formats and large saves) versus a hand-written parser; decided in milestone 1 by a spike on vanilla files and a late-game save.
+Milestone 1 uses a small hand-written parser in `src/script`, with no runtime dependencies so the browser can reuse it for save import.
+If late-game saves prove too slow to read in milestone 3, the `jomini` library (WASM, MIT, built for Paradox saves) is the fallback.
 
 ## 7. Architecture
 
