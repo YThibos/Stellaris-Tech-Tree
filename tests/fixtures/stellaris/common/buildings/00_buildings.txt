@@ -1,0 +1,3 @@
+building_mega_shipyard_hub = {
+	prerequisites = { tech_mega_engineering }
+}

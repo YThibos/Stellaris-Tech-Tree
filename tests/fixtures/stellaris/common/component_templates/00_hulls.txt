@@ -1,0 +1,4 @@
+utility_component_template = {
+	key = "MEGA_ARMOR_1"
+	prerequisites = { "tech_repeatable_hull" }
+}

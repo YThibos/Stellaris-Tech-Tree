@@ -1,0 +1,61 @@
+@local_factor = 1.5
+
+tech_starbase_5 = {
+	cost = @tier4cost1
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	prerequisites = { "tech_starbase_4" }
+	weight = @[ tier5weight1 * 2 ]
+}
+
+tech_battleships = {
+	cost = @tier4cost1
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	weight = 10
+}
+
+# Mega-Engineering hides Battleships in its availability conditions.
+tech_mega_engineering = {
+	cost = @tier5cost1
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	prerequisites = { "tech_starbase_5" "tech_zero_point_power" }
+	is_rare = yes
+	potential = {
+		OR = {
+			has_technology = tech_battleships
+			has_technology = tech_stingers
+		}
+		NOT = { has_ethic = ethic_gestalt_consciousness }
+	}
+	weight = @tier5weight1
+	weight_modifier = {
+		factor = 0.25
+		modifier = {
+			factor = @local_factor
+			num_owned_planets >= 10
+		}
+		inline_script = { script = technologies/curator_boost FACTOR = 2 }
+	}
+	modifier = {
+		country_resource_max_add = 20000
+		megastructure_build_speed_mult = 0.25
+	}
+	prereqfor_desc = {
+		feature = { title = "MEGASTRUCTURE_RESTORATION" desc = "MEGASTRUCTURE_RESTORATION_DESC" }
+	}
+}
+
+tech_repeatable_hull = {
+	cost = 50000
+	area = engineering
+	tier = 5
+	levels = -1
+	category = { materials }
+	prerequisites = { "tech_mega_engineering" }
+	weight = 0
+}

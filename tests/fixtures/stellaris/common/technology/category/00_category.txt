@@ -1,0 +1,2 @@
+voidcraft = { icon = "GFX_voidcraft" }
+materials = { }

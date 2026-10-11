@@ -1,0 +1,5 @@
+modifier = {
+	factor = $FACTOR$
+	has_ascension_perk = ap_master_builders
+	[[MISSING] is_gestalt = yes ]
+}

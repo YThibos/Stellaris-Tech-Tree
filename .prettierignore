@@ -1,3 +1,4 @@
 dist/
 public/
 package-lock.json
+tests/fixtures/

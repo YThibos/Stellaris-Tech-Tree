@@ -1,0 +1,3 @@
+﻿@tier4cost1 = 8000
+@tier5cost1 = 24000
+@tier5weight1 = 5
