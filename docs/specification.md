@@ -52,6 +52,7 @@ Each milestone ships on its own and is useful on its own.
 2. **Mods** - extraction of the playset, mod layers, the mod toggle panel, provenance and change display.
 3. **Progress** - campaigns, bulk marking, save import, hide researched, tier-gate progress.
 4. **Older versions** - version picker over earlier vanilla snapshots.
+5. **Empire capacities** (to explore after milestone 4) - see 5.12.
 
 ## 5. Functional requirements
 
@@ -151,6 +152,20 @@ Campaign marks are personal and stay out of the address.
 - Dark theme echoing the in-game research screen, with area colours (physics blue, society green, engineering orange) and game icons on cards.
 - Desktop-first; usable on a tablet; phones get a readable, scrollable layout without the hover features.
 - Keyboard: `/` focuses search, `Esc` clears search, then clears lit locks.
+
+### 5.12 Empire capacities (to explore)
+
+Some techs raise empire-wide limits that the game makes hard to track: Arc Furnace and Dyson Swarm capacity, Deep Space Citadel capacity, resource storage, and similar.
+A separate tab lists them.
+
+- One row per empire modifier that techs grant, grouped by kind (megastructure capacity, storage, and so on), searchable.
+- For the active campaign, each row shows its current value from researched techs, broken down by the tech that granted each part.
+  Repeatables count once per researched level.
+- Each row lists the techs that would raise it further; clicking one lights its requirement path in the tree, as in 5.2.
+- Version one counts technologies only and says so on the tab.
+  Traditions, ascension perks, civics, edicts and megastructure upgrades also move some of these numbers; including them needs their files extracted too and is a later step.
+- The extraction keeps each tech's bonuses structured (modifier key, English name, amount) rather than as display text, so the tab can add them up.
+- Open questions for when this milestone starts: which modifiers count as "capacities" by default, and whether the tab shows only capacities or every empire modifier with a capacity filter.
 
 ## 6. Data pipeline
 
