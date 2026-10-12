@@ -1,7 +1,7 @@
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import type { SnapshotManifest, VersionCatalogue } from '../domain/snapshot.ts';
-import { ddsToWebp } from './icon-converter.ts';
+import { textureToWebp } from './icon-converter.ts';
 import type { IconCopy, LayerExtraction } from './layer-extraction.ts';
 
 export interface SnapshotWrite {
@@ -83,7 +83,7 @@ async function writeIcons(folder: string, extractions: LayerExtraction[]): Promi
     try {
       const target = path.join(folder, icon.to);
       await mkdir(path.dirname(target), { recursive: true });
-      await writeFile(target, await ddsToWebp(await icon.folder.bytes(icon.from)));
+      await writeFile(target, await textureToWebp(await icon.folder.bytes(icon.from)));
     } catch (error) {
       failures.push({ icon, reason: error instanceof Error ? error.message : String(error) });
     }

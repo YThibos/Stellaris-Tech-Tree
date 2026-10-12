@@ -83,6 +83,7 @@ function reportLayer({ layer, findings }: LayerExtraction): void {
   listFindings('Inline scripts that were not found', findings.missingInlineScripts);
   listFindings('Techs without an English name', findings.unnamedTechnologies);
   listFindings('Techs without an icon', findings.technologiesWithoutIcon);
+  listFindings('Techs with a research cost of 0', findings.technologiesWithoutCost);
 }
 
 function listFindings(title: string, findings: string[]): void {

@@ -31,7 +31,7 @@ export class InlineScripts {
 
   private paste(entry: ScriptEntry, depth: number): ScriptEntry[] {
     const call = invocationOf(entry);
-    const template = this.templates.get(call.script);
+    const template = this.templates.get(templateName(call.script));
     if (template === undefined) {
       this.missing.add(call.script);
       return [];
@@ -45,9 +45,17 @@ export async function readInlineTemplates(folder: ContentFolder): Promise<Map<st
   const templates = new Map<string, string>();
   for (const file of await folder.files(INLINE_SCRIPT_FOLDER, '.txt')) {
     const name = file.slice(INLINE_SCRIPT_FOLDER.length + 1, -'.txt'.length);
-    templates.set(name, await folder.text(file));
+    templates.set(templateName(name), await folder.text(file));
   }
   return templates;
+}
+
+/** The game finds templates whatever their letter case or slash direction, as Windows does. */
+function templateName(path: string): string {
+  return path
+    .replace(/\\/g, '/')
+    .replace(/\.txt$/i, '')
+    .toLowerCase();
 }
 
 interface Invocation {

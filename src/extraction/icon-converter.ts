@@ -24,17 +24,24 @@ interface Texture {
   rgba: Uint8Array;
 }
 
-/** Converts one of the game's DDS textures into a WebP image for the browser. */
-export async function ddsToWebp(dds: Buffer): Promise<Buffer> {
-  const texture = decodeTexture(dds);
+/**
+ * Converts one of the game's icon textures into a WebP image for the browser. Most are DDS, but
+ * some mods ship PNG or JPEG files under a `.dds` name, which the game reads all the same.
+ */
+export async function textureToWebp(file: Buffer): Promise<Buffer> {
+  if (!isDds(file)) return sharp(file).webp({ quality: 82 }).toBuffer();
+  const texture = decodeTexture(file);
   return sharp(texture.rgba, { raw: { width: texture.width, height: texture.height, channels: 4 } })
     .webp({ quality: 82 })
     .toBuffer();
 }
 
+function isDds(file: Buffer): boolean {
+  return file.subarray(0, 4).toString('latin1') === 'DDS ';
+}
+
 function decodeTexture(dds: Buffer): Texture {
   const view = new DataView(dds.buffer, dds.byteOffset, dds.byteLength);
-  if (view.getUint32(0, true) !== 0x20534444) throw new Error('Not a DDS texture.');
   const height = view.getUint32(12, true);
   const width = view.getUint32(16, true);
   const fourCC = String.fromCharCode(...dds.subarray(84, 88));

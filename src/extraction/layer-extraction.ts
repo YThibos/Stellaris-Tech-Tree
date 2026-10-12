@@ -1,7 +1,8 @@
 import type { ContentLayer, ContentSource } from '../domain/snapshot.ts';
-import type { Technology, Unlock } from '../domain/technology.ts';
+import { hasTrait, type Technology, type Unlock } from '../domain/technology.ts';
 import type { TierGate } from '../domain/tier-gate.ts';
-import { isBlock } from '../script/script-node.ts';
+import { isBlock, valueOf, type ScriptBlock } from '../script/script-node.ts';
+import { writeScript } from '../script/script-writer.ts';
 import { parseScript } from '../script/script-parser.ts';
 import { ConditionNarrator } from './condition-narrator.ts';
 import type { ContentFolder } from './content-folder.ts';
@@ -37,6 +38,8 @@ export interface ExtractionFindings {
   unnamedTechnologies: string[];
   technologiesWithoutIcon: string[];
   unreadableTechnologies: string[];
+  /** Techs that are not starting techs yet cost nothing, with the cost as the game file writes it. */
+  technologiesWithoutCost: string[];
 }
 
 /**
@@ -83,8 +86,25 @@ export async function extractLayer(
         .filter((technology) => !icons.has(technology.icon))
         .map(({ key }) => key),
       unreadableTechnologies: unreadable,
+      technologiesWithoutCost: costlessTechnologies(technologies, definitions),
     },
   };
+}
+
+function costlessTechnologies(
+  technologies: Technology[],
+  definitions: TechnologyDefinition[],
+): string[] {
+  const blocks = new Map(definitions.map(({ key, block }) => [key, block]));
+  return technologies
+    .filter((technology) => technology.cost === 0 && !hasTrait(technology, 'starting'))
+    .map((technology) => `${technology.key}: ${costAsWritten(blocks.get(technology.key))}`);
+}
+
+function costAsWritten(block: ScriptBlock | undefined): string {
+  const cost = block && valueOf(block, 'cost');
+  if (cost === undefined) return 'no cost given';
+  return isBlock(cost) ? `cost = { ${writeScript(cost).replace(/\s+/g, ' ')} }` : `cost = ${cost}`;
 }
 
 /** Whether a layer gives the tech tree anything at all; mods that do not are left out. */

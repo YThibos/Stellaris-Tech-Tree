@@ -141,6 +141,10 @@ describe('extracting a game folder', () => {
     ]);
   });
 
+  it('reports techs that cost nothing, with the cost as written', () => {
+    expect(extraction.findings.technologiesWithoutCost).toEqual([]);
+  });
+
   it('reports what it could not resolve', () => {
     expect(extraction.findings.unnamedTechnologies).toEqual([]);
     expect(extraction.findings.technologiesWithoutIcon.sort()).toEqual([
@@ -190,7 +194,8 @@ describe('writing a snapshot', () => {
       new ContentLibrary(),
     );
     const written = await writeSnapshot(dataRoot, '4.5.3', '2026-10-12', [withBrokenIcon]);
-    expect(written.iconFailures).toEqual([`${ICONS}/tech_battleships.dds: Not a DDS texture.`]);
+    expect(written.iconFailures).toHaveLength(1);
+    expect(written.iconFailures[0]).toMatch(new RegExp(`^${ICONS}/tech_battleships.dds: `));
     const layer = await readJson<ContentLayer>(path.join(dataRoot, '4.5.3', 'vanilla.json'));
     expect(layer.technologies.find(({ key }) => key === 'tech_battleships')?.icon).toBeNull();
   });
