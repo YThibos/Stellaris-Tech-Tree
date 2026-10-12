@@ -1,4 +1,4 @@
-import type { Technology } from './technology.ts';
+import type { Technology, TechnologyKey, Unlock } from './technology.ts';
 import type { TierGate } from './tier-gate.ts';
 
 /** Where a set of definitions came from: the base game or one mod. */
@@ -14,6 +14,10 @@ export interface ContentLayer {
   source: ContentSource;
   technologies: Technology[];
   tierGates: TierGate[];
+  /** Every tech file the source ships; one with the same path as an earlier source's replaces it. */
+  technologyFiles: string[];
+  /** What this source lets techs it does not define unlock, such as a mod's buildings. */
+  unlocksAdded: Record<TechnologyKey, Unlock[]>;
 }
 
 /** The extracted data for one game version. */

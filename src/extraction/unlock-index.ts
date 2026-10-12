@@ -36,26 +36,24 @@ const KIND_NAMES: Record<string, string> = {
 };
 
 /**
- * Everything in the game that names a tech among its prerequisites, gathered by tech, so a tech
- * can list what researching it unlocks.
+ * Everything one source defines that names a tech among its prerequisites, gathered by tech, so a
+ * tech can list what researching it unlocks.
  */
 export async function indexUnlocks(
-  folders: ContentFolder[],
+  folder: ContentFolder,
   inlineScripts: InlineScripts,
   localisation: Localisation,
 ): Promise<Map<string, Unlock[]>> {
   const unlocks = new Map<string, Unlock[]>();
-  for (const folder of folders) {
-    for (const file of await folder.files(COMMON, '.txt')) {
-      const kind = kindOf(file);
-      if (!kind) continue;
-      const content = inlineScripts.expand(parseScript(await folder.text(file)));
-      for (const entry of content.entries) {
-        if (!entry.key || !isBlock(entry.value)) continue;
-        const name = nameOf(entry.key, textOf(entry.value, 'key'), localisation);
-        for (const technology of listItems(blockOf(entry.value, 'prerequisites'))) {
-          unlocks.set(technology, [...(unlocks.get(technology) ?? []), { kind, name }]);
-        }
+  for (const file of await folder.files(COMMON, '.txt')) {
+    const kind = kindOf(file);
+    if (!kind) continue;
+    const content = inlineScripts.expand(parseScript(await folder.text(file)));
+    for (const entry of content.entries) {
+      if (!entry.key || !isBlock(entry.value)) continue;
+      const name = nameOf(entry.key, textOf(entry.value, 'key'), localisation);
+      for (const technology of listItems(blockOf(entry.value, 'prerequisites'))) {
+        unlocks.set(technology, [...(unlocks.get(technology) ?? []), { kind, name }]);
       }
     }
   }

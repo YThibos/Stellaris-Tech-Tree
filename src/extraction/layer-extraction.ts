@@ -1,13 +1,13 @@
 import type { ContentLayer, ContentSource } from '../domain/snapshot.ts';
-import type { Technology } from '../domain/technology.ts';
+import type { Technology, Unlock } from '../domain/technology.ts';
 import type { TierGate } from '../domain/tier-gate.ts';
-import { isBlock, type ScriptBlock } from '../script/script-node.ts';
+import { isBlock } from '../script/script-node.ts';
 import { parseScript } from '../script/script-parser.ts';
 import { ConditionNarrator } from './condition-narrator.ts';
 import type { ContentFolder } from './content-folder.ts';
-import { InlineScripts } from './inline-scripts.ts';
-import { Localisation } from './localisation.ts';
-import { ScriptedVariables } from './scripted-variables.ts';
+import type { ContentLibrary } from './content-library.ts';
+import type { InlineScripts } from './inline-scripts.ts';
+import type { ScriptedVariables } from './scripted-variables.ts';
 import { readTechnology, technologyName, type TechnologyDefinition } from './technology-reader.ts';
 import { readTierGates } from './tier-reader.ts';
 import { indexUnlocks } from './unlock-index.ts';
@@ -15,7 +15,6 @@ import { indexUnlocks } from './unlock-index.ts';
 const TECHNOLOGY_FOLDER = 'common/technology';
 const TIER_FOLDER = 'common/technology/tier';
 const SUPPORTING_FOLDERS = ['common/technology/tier/', 'common/technology/category/'];
-const VARIABLE_FOLDER = 'common/scripted_variables';
 const TECHNOLOGY_ICON_FOLDER = 'gfx/interface/icons/technologies';
 
 /** One icon a layer needs: where the game keeps it and where the snapshot will hold it. */
@@ -41,21 +40,20 @@ export interface ExtractionFindings {
 }
 
 /**
- * Reads one content source - the game, or later one mod - into a snapshot layer.
- * `folders` lists every folder whose definitions apply, in load order, ending with the source itself.
+ * Reads one content source - the game, or one mod - into a snapshot layer.
+ * `folders` lists every folder loaded up to the source, in load order, ending with the source itself.
  */
 export async function extractLayer(
   source: ContentSource,
   folders: ContentFolder[],
+  library: ContentLibrary,
 ): Promise<LayerExtraction> {
   const own = folders.at(-1);
   if (!own) throw new Error(`No folder given for ${source.name}.`);
-  const variables = await readVariables(folders);
-  const inlineScripts = await InlineScripts.read(folders);
-  const localisation = await Localisation.read(folders);
-  const definitions = await readDefinitions(own, variables, inlineScripts);
+  const { variables, inlineScripts, localisation } = await library.contextFor(folders);
+  const { definitions, files } = await readDefinitions(own, variables, inlineScripts);
   const narrator = new ConditionNarrator(localisation, (key) => technologyName(key, localisation));
-  const unlocks = await indexUnlocks(folders, inlineScripts, localisation);
+  const unlocks = await indexUnlocks(own, inlineScripts, localisation);
   const icons = new IconCatalogue(source.id, folders);
   const { technologies, unreadable } = readAll(definitions, {
     source: source.id,
@@ -66,9 +64,14 @@ export async function extractLayer(
     iconPath: (name) => icons.claim(name),
   });
   await icons.locate();
-  const tierGates = await readTiers(own, variables);
   return {
-    layer: { source, technologies: withLocatedIcons(technologies, icons), tierGates },
+    layer: {
+      source,
+      technologies: withLocatedIcons(technologies, icons),
+      tierGates: await readTiers(own, variables),
+      technologyFiles: files,
+      unlocksAdded: unlocksForOtherSources(unlocks, definitions),
+    },
     icons: icons.copies(),
     findings: {
       unresolvedVariables: [...variables.unresolved].sort(),
@@ -84,31 +87,32 @@ export async function extractLayer(
   };
 }
 
-async function readVariables(folders: ContentFolder[]): Promise<ScriptedVariables> {
-  const variables = new ScriptedVariables();
-  for (const folder of folders) {
-    for (const file of await folder.files(VARIABLE_FOLDER, '.txt')) {
-      variables.learnFrom(parseScript(await folder.text(file)));
-    }
-  }
-  return variables;
+/** Whether a layer gives the tech tree anything at all; mods that do not are left out. */
+export function contributesToTree(layer: ContentLayer): boolean {
+  return (
+    layer.technologies.length > 0 ||
+    layer.tierGates.length > 0 ||
+    Object.keys(layer.unlocksAdded).length > 0
+  );
 }
 
 async function readDefinitions(
   folder: ContentFolder,
   variables: ScriptedVariables,
   inlineScripts: InlineScripts,
-): Promise<TechnologyDefinition[]> {
-  const definitions = new Map<string, ScriptBlock>();
-  for (const file of await technologyFiles(folder)) {
+): Promise<{ definitions: TechnologyDefinition[]; files: string[] }> {
+  const definitions = new Map<string, TechnologyDefinition>();
+  const files = await technologyFiles(folder);
+  for (const file of files) {
     const content = inlineScripts.expand(parseScript(await folder.text(file)));
     variables.learnFrom(content);
     for (const entry of content.entries) {
-      if (entry.key && !entry.key.startsWith('@') && isBlock(entry.value))
-        definitions.set(entry.key, entry.value);
+      if (entry.key && !entry.key.startsWith('@') && isBlock(entry.value)) {
+        definitions.set(entry.key, { key: entry.key, file, block: entry.value });
+      }
     }
   }
-  return [...definitions].map(([key, block]) => ({ key, block }));
+  return { definitions: [...definitions.values()], files };
 }
 
 async function technologyFiles(folder: ContentFolder): Promise<string[]> {
@@ -116,6 +120,15 @@ async function technologyFiles(folder: ContentFolder): Promise<string[]> {
   return files.filter(
     (file) => !SUPPORTING_FOLDERS.some((supporting) => file.startsWith(supporting)),
   );
+}
+
+/** Unlocks this source attaches to techs another source defines, such as a mod's new buildings. */
+function unlocksForOtherSources(
+  unlocks: Map<string, Unlock[]>,
+  definitions: TechnologyDefinition[],
+): Record<string, Unlock[]> {
+  const own = new Set(definitions.map(({ key }) => key));
+  return Object.fromEntries([...unlocks].filter(([key]) => !own.has(key)));
 }
 
 function readAll(

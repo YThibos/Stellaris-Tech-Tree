@@ -27,6 +27,10 @@
     technology.prerequisites.length + technology.requiresOneOf.length,
   );
   const dimmed = $derived(view.isFaded(technology.key));
+  const changedBy = $derived(
+    view.replacedDefinitionOf(technology.key) ? view.sourceOf(technology)?.name : undefined,
+  );
+  const missing = $derived(view.tree.missingRequirements(technology));
 </script>
 
 <div
@@ -57,6 +61,14 @@
         {#each badgedTraitsOf(technology.traits) as trait (trait)}
           <span class="trait {trait}" title={traitTitle(trait)}>{traitGlyph(trait)}</span>
         {/each}
+        {#if changedBy}
+          <span class="changed" title="Changed by {changedBy}">✎</span>
+        {/if}
+        {#if missing.length > 0}
+          <span class="missing" title="Needs techs that are not loaded: {missing.join(', ')}"
+            >!</span
+          >
+        {/if}
         {#if requirementCount > 1}
           <span class="multi" title="{requirementCount} requirements">⇇{requirementCount}</span>
         {/if}
@@ -203,6 +215,15 @@
 
   .trait.granted {
     color: var(--hover);
+  }
+
+  .changed {
+    color: var(--leads-to);
+  }
+
+  .missing {
+    color: var(--penalty);
+    font-weight: 700;
   }
 
   .multi {

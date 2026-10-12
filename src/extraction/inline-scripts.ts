@@ -14,15 +14,9 @@ export class InlineScripts {
 
   private constructor(private readonly templates: Map<string, string>) {}
 
-  static async read(folders: ContentFolder[]): Promise<InlineScripts> {
-    const templates = new Map<string, string>();
-    for (const folder of folders) {
-      for (const file of await folder.files(INLINE_SCRIPT_FOLDER, '.txt')) {
-        const name = file.slice(INLINE_SCRIPT_FOLDER.length + 1, -'.txt'.length);
-        templates.set(name, await folder.text(file));
-      }
-    }
-    return new InlineScripts(templates);
+  /** Later folders' templates replace earlier ones of the same name. */
+  static combine(folders: Map<string, string>[]): InlineScripts {
+    return new InlineScripts(new Map(folders.flatMap((templates) => [...templates])));
   }
 
   expand(block: ScriptBlock, depth = 0): ScriptBlock {
@@ -45,6 +39,15 @@ export class InlineScripts {
     const filled = fillParameters(template, call.parameters);
     return this.expand(parseScript(filled), depth + 1).entries;
   }
+}
+
+export async function readInlineTemplates(folder: ContentFolder): Promise<Map<string, string>> {
+  const templates = new Map<string, string>();
+  for (const file of await folder.files(INLINE_SCRIPT_FOLDER, '.txt')) {
+    const name = file.slice(INLINE_SCRIPT_FOLDER.length + 1, -'.txt'.length);
+    templates.set(name, await folder.text(file));
+  }
+  return templates;
 }
 
 interface Invocation {

@@ -11,18 +11,18 @@
   let { snapshot }: { snapshot: LoadedSnapshot } = $props();
 
   const view = untrack(() => restoredView(snapshot));
-  const layout = untrack(() => layoutBoard(snapshot.tree));
+  const layout = $derived(layoutBoard(view.tree));
   let search = $state<HTMLInputElement | null>(null);
 
   $effect(() => {
-    writeSharedView({ query: view.query, lit: [...view.lit] });
+    writeSharedView({ query: view.query, lit: [...view.lit], modsOff: view.modsOff() });
   });
 
-  function restoredView({ tree }: LoadedSnapshot): TreeView {
-    const restored = new TreeView(tree);
+  function restoredView({ layers }: LoadedSnapshot): TreeView {
     const shared = readSharedView();
+    const restored = new TreeView(layers, shared.modsOff);
     restored.query = shared.query;
-    for (const key of shared.lit) if (tree.technology(key)) restored.lit.add(key);
+    for (const key of shared.lit) if (restored.tree.technology(key)) restored.lit.add(key);
     return restored;
   }
 

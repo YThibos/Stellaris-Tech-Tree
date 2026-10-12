@@ -1,0 +1,9 @@
+giga_tech_birch_world = {
+	cost = @tier5cost1
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	prerequisites = { "tech_mega_engineering" }
+	is_rare = yes
+	weight = @tier5weight1
+}

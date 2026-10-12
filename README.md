@@ -27,25 +27,34 @@ This version is built around the questions you actually ask mid-campaign:
 
 ## Using the tree
 
-| To                                    | Do this                                                       |
-| ------------------------------------- | ------------------------------------------------------------- |
-| Keep its whole requirement path lit   | Click it; click it again to switch it off                     |
-| Plan towards several goals at once    | Click several techs; their paths combine                      |
-| Read a tech's details                 | Click the ⓘ on its card                                       |
-| Find a tech                           | Type in the search box, or press `/`                          |
-| Clear search, details, then lit paths | Press `Esc`                                                   |
-| Share exactly what you're looking at  | Copy the page address; it remembers your search and lit techs |
+| To                                    | Do this                                                             |
+| ------------------------------------- | ------------------------------------------------------------------- |
+| Keep its whole requirement path lit   | Click it; click it again to switch it off                           |
+| Plan towards several goals at once    | Click several techs; their paths combine                            |
+| Read a tech's details                 | Click the ⓘ on its card                                             |
+| Find a tech                           | Type in the search box, or press `/`                                |
+| Clear search, details, then lit paths | Press `Esc`                                                         |
+| Switch mods on or off                 | Click **Mods**, find a mod by name and tick or untick it            |
+| Find every tech from one mod          | Type part of the mod's name in the search box                       |
+| Share exactly what you're looking at  | Copy the page address; it remembers your search, lit techs and mods |
 
 Purple cards are rare techs and red cards dangerous ones, as in the game.
-Markers on a card: ★ starting tech, ✦ never drawn (granted by events and similar), ∞ repeatable, ⇇ more than one requirement.
+Markers on a card: ★ starting tech, ✦ never drawn (granted by events and similar), ∞ repeatable, ⇇ more than one requirement, ✎ changed by a mod, ! needs a tech that is not loaded (for example from a mod you switched off).
+
+## Mods
+
+The tree includes every mod in your playset that touches technology: mods that add techs, like Gigastructural Engineering, Ancient Cache of Technologies or Guilli's Technologies, mods that change the game's techs, and mods that give existing techs new unlocks.
+Each one can be switched off in the **Mods** list, and the tree rebuilds itself as the game would load it.
+When a mod changes a tech, the tech's details say which mod and what changed, such as a new requirement or a higher cost.
+
+The game decides conflicts the same way here as in game: a mod file with the same name as an earlier one replaces it, and when two files define the same tech, the file whose name sorts last wins.
 
 ![Searching for lasers hides every other tech and narrows the columns](docs/images/search.png)
 
 ## Coming next
 
-1. **Mods** - Gigastructural Engineering, Ancient Cache of Technologies, Guilli's Technologies and any other mod in your playset, each with an on/off switch and a searchable list.
-2. **Your campaign** - mark what you have researched, by importing a save file, by marking a tech with everything before it, or a whole tier at once, then hide what's done.
-3. **Older versions** - pick an earlier game patch.
+1. **Your campaign** - mark what you have researched, by importing a save file, by marking a tech with everything before it, or a whole tier at once, then hide what's done.
+2. **Older versions** - pick an earlier game patch.
 
 ## Updating the data for your own game
 
@@ -69,7 +78,9 @@ You don't need to be a programmer to update it; these steps take about ten minut
    npm run extract
    ```
 
-   It finds Stellaris in the usual Steam folders and reports what it read.
+   It finds Stellaris in the usual Steam folders, reads the mods you last enabled in the Stellaris launcher, in their load order, and reports what it read.
+   Start the game once from the launcher with the playset you want, so the launcher records it.
+   To leave mods out, add `-- --no-mods`.
    If it can't find the game, tell it where Stellaris is installed:
 
    ```sh

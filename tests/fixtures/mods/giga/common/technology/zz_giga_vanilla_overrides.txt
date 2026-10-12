@@ -1,0 +1,8 @@
+tech_battleships = {
+	cost = 12000
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	prerequisites = { "tech_starbase_5" }
+	weight = 10
+}

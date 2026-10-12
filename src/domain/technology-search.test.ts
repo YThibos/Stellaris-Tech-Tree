@@ -25,3 +25,10 @@ describe('matchesSearch', () => {
     expect(matchesSearch(lasers, 'blue psionic')).toBe(false);
   });
 });
+
+describe('matchesSearch with a source', () => {
+  it('finds a tech by the name of the mod it comes from', () => {
+    expect(matchesSearch(lasers, 'giga', 'Gigastructural Engineering & More')).toBe(true);
+    expect(matchesSearch(lasers, 'giga')).toBe(false);
+  });
+});

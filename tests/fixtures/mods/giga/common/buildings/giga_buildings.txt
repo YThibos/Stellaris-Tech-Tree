@@ -1,0 +1,3 @@
+building_giga_research_hub = {
+	prerequisites = { tech_mega_engineering }
+}

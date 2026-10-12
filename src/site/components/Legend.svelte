@@ -33,6 +33,11 @@
     {/each}
     <li><span class="glyph repeatable">∞</span>Repeatable</li>
     <li><span class="glyph multi">⇇</span>Number of requirements, when more than one</li>
+    <li><span class="glyph changed">✎</span>Changed by a mod</li>
+    <li>
+      <span class="glyph missing">!</span>Needs a tech that is not loaded, such as one from a mod
+      that is off
+    </li>
   </ul>
 </aside>
 
@@ -101,6 +106,15 @@
 
   .glyph.repeatable {
     color: var(--hover);
+    font-weight: 700;
+  }
+
+  .glyph.changed {
+    color: var(--leads-to);
+  }
+
+  .glyph.missing {
+    color: var(--penalty);
     font-weight: 700;
   }
 

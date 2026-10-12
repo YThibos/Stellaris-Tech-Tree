@@ -17,6 +17,7 @@ export function aTechnology(overrides: Partial<Technology> & Pick<Technology, 'k
     drawWeight: { base: 100, factor: 1, modifiers: [] },
     unlocks: [],
     source: 'vanilla',
+    file: 'common/technology/00_test.txt',
     ...overrides,
   };
 }

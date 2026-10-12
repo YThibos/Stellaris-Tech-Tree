@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import type { SnapshotManifest, VersionCatalogue } from '../domain/snapshot.ts';
 import { ddsToWebp } from './icon-converter.ts';
@@ -11,7 +11,7 @@ export interface SnapshotWrite {
 
 /**
  * Writes a game version's snapshot and lists it in the version catalogue, replacing an earlier
- * extraction of the same version. Output is stable, so re-extracting unchanged files changes nothing.
+ * extraction of the same version entirely, so a mod dropped from the playset leaves nothing behind. Output is stable, so re-extracting unchanged files changes nothing.
  */
 export async function writeSnapshot(
   dataRoot: string,
@@ -20,6 +20,7 @@ export async function writeSnapshot(
   extractions: LayerExtraction[],
 ): Promise<SnapshotWrite> {
   const folder = path.join(dataRoot, gameVersion);
+  await rm(folder, { recursive: true, force: true });
   await mkdir(folder, { recursive: true });
   const iconFailures = await writeIcons(folder, extractions);
   const unconverted = new Set(iconFailures.map((failure) => failure.icon.to));

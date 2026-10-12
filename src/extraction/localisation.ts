@@ -4,20 +4,34 @@ const LOCALISATION_FOLDER = 'localisation';
 const ENTRY = /^\s*([\w.\-']+):\d*\s*"(.*)"/;
 const MAX_REFERENCE_DEPTH = 8;
 
+/** One folder's English text: its ordinary files, and those in `replace` folders that load last. */
+export interface LocalisationEntries {
+  ordinary: Map<string, string>;
+  replacing: Map<string, string>;
+}
+
+export async function readLocalisationEntries(folder: ContentFolder): Promise<LocalisationEntries> {
+  const entries: LocalisationEntries = { ordinary: new Map(), replacing: new Map() };
+  for (const file of await englishFiles(folder)) {
+    const target = isReplacing(file) ? entries.replacing : entries.ordinary;
+    for (const [key, value] of parseEntries(await folder.text(file))) target.set(key, value);
+  }
+  return entries;
+}
+
 /**
  * The game's English text, keyed case-insensitively as the game does.
- * Later folders replace earlier ones, as a mod's localisation replaces the game's.
+ * Later folders win, and every `replace` folder wins over every ordinary file, as in the game.
  */
 export class Localisation {
   private constructor(private readonly entries: Map<string, string>) {}
 
-  static async read(folders: ContentFolder[]): Promise<Localisation> {
+  static combine(folders: LocalisationEntries[]): Localisation {
     const entries = new Map<string, string>();
-    for (const folder of folders) {
-      for (const file of await englishFiles(folder)) {
-        for (const [key, value] of parseEntries(await folder.text(file))) entries.set(key, value);
-      }
-    }
+    for (const { ordinary } of folders)
+      for (const [key, value] of ordinary) entries.set(key, value);
+    for (const { replacing } of folders)
+      for (const [key, value] of replacing) entries.set(key, value);
     return new Localisation(entries);
   }
 
@@ -46,9 +60,11 @@ export class Localisation {
 
 async function englishFiles(folder: ContentFolder): Promise<string[]> {
   const files = await folder.files(LOCALISATION_FOLDER, '.yml');
-  const english = files.filter((file) => file.toLowerCase().endsWith('_l_english.yml'));
-  const replacing = (file: string) => file.toLowerCase().includes('/replace/');
-  return [...english.filter((file) => !replacing(file)), ...english.filter(replacing)];
+  return files.filter((file) => file.toLowerCase().endsWith('_l_english.yml'));
+}
+
+function isReplacing(file: string): boolean {
+  return file.toLowerCase().includes('/replace/');
 }
 
 function parseEntries(content: string): [string, string][] {

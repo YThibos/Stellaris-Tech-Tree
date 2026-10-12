@@ -2,6 +2,7 @@
   import type { SnapshotManifest } from '../../domain/snapshot.ts';
   import type { TreeView } from '../state/tree-view.svelte.ts';
   import Legend from './Legend.svelte';
+  import ModPanel from './ModPanel.svelte';
 
   let {
     view,
@@ -9,8 +10,12 @@
     search = $bindable(),
   }: { view: TreeView; manifest: SnapshotManifest; search: HTMLInputElement | null } = $props();
 
-  let showLegend = $state(false);
+  let openPanel = $state<'legend' | 'mods' | null>(null);
   const shownCount = $derived(view.visible.size);
+
+  function toggle(panel: 'legend' | 'mods'): void {
+    openPanel = openPanel === panel ? null : panel;
+  }
   const totalCount = $derived(view.tree.technologies.length);
 </script>
 
@@ -43,14 +48,19 @@
         <span class="lit-dot"></span>{view.lit.size} lit · Clear
       </button>
     {/if}
-    <button class="ghost" onclick={() => (showLegend = !showLegend)} aria-expanded={showLegend}>
-      Legend
-    </button>
+    {#if view.mods().length > 0}
+      <button onclick={() => toggle('mods')} aria-expanded={openPanel === 'mods'}>
+        Mods {view.enabledMods.size}/{view.mods().length}
+      </button>
+    {/if}
+    <button onclick={() => toggle('legend')} aria-expanded={openPanel === 'legend'}>Legend</button>
   </div>
 </header>
 
-{#if showLegend}
-  <Legend onclose={() => (showLegend = false)} />
+{#if openPanel === 'legend'}
+  <Legend onclose={() => (openPanel = null)} />
+{:else if openPanel === 'mods'}
+  <ModPanel {view} onclose={() => (openPanel = null)} />
 {/if}
 
 <style>

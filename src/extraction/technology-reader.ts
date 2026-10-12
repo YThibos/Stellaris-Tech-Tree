@@ -18,6 +18,7 @@ const WEIGHT_EFFECT_KEYS = new Set(['factor', 'add']);
 
 export interface TechnologyDefinition {
   key: string;
+  file: string;
   block: ScriptBlock;
 }
 
@@ -35,7 +36,7 @@ export function readTechnology(
   definition: TechnologyDefinition,
   context: TechnologyContext,
 ): Technology {
-  const { key, block } = definition;
+  const { key, file, block } = definition;
   const drawWeight = drawWeightOf(block, context);
   const potential = blockOf(block, 'potential');
   return {
@@ -55,6 +56,7 @@ export function readTechnology(
     drawWeight,
     unlocks: unlocksOf(block, key, context),
     source: context.source,
+    file,
   };
 }
 

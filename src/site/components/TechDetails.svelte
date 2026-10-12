@@ -7,6 +7,7 @@
   } from '../../domain/technology.ts';
   import {
     areaTitle,
+    changeText,
     iconUrl,
     repeatabilityText,
     researchCost,
@@ -16,6 +17,7 @@
     weightEffectTone,
   } from '../state/presentation.ts';
   import type { TreeView } from '../state/tree-view.svelte.ts';
+  import { changesBetween } from '../../domain/technology-changes.ts';
   import ConditionBlock from './ConditionBlock.svelte';
 
   let { view, assetBase }: { view: TreeView; assetBase: string } = $props();
@@ -25,6 +27,13 @@
     technology ? view.tree.requirementPath(technology.key).size : 0,
   );
   const missing = $derived(technology ? view.tree.missingRequirements(technology) : []);
+  const source = $derived(technology ? view.sourceOf(technology) : undefined);
+  const replaced = $derived(technology ? view.replacedDefinitionOf(technology.key) : undefined);
+  const changes = $derived(technology && replaced ? changesBetween(replaced, technology) : []);
+
+  function nameOf(key: string): string {
+    return view.tree.technology(key)?.name ?? key;
+  }
 
   function unlocksByKind(unlocks: Unlock[]): [string, string[]][] {
     const kinds = new Map<string, string[]>();
@@ -77,8 +86,18 @@
         <dt>Repeats</dt>
         <dd>{repeatabilityText(technology.repeatability)}</dd>
       {/if}
-      <dt>Source</dt>
-      <dd>{technology.source === 'vanilla' ? 'Stellaris' : technology.source}</dd>
+      <dt>{replaced ? 'Changed by' : 'Source'}</dt>
+      <dd>
+        {#if source?.workshopId}
+          <a
+            href="https://steamcommunity.com/sharedfiles/filedetails/?id={source.workshopId}"
+            target="_blank"
+            rel="noopener noreferrer">{source.name}</a
+          >
+        {:else}
+          {source?.name ?? technology.source}
+        {/if}
+      </dd>
     </dl>
 
     {#if technology.traits.length > 0}
@@ -87,6 +106,15 @@
           <li class={trait}><span>{traitGlyph(trait)}</span> {traitTitle(trait)}</li>
         {/each}
       </ul>
+    {/if}
+
+    {#if changes.length > 0}
+      <section>
+        <h3>What {source?.name} changed</h3>
+        <ul>
+          {#each changes as change, index (index)}<li>{changeText(change, nameOf)}</li>{/each}
+        </ul>
+      </section>
     {/if}
 
     {#if technology.description}
@@ -247,6 +275,10 @@
 
   .light.on {
     background: #ffd16630;
+  }
+
+  .facts a {
+    color: var(--physics);
   }
 
   .facts {

@@ -180,7 +180,10 @@ A TypeScript command-line tool the captain runs on the gaming PC after a patch o
   - The Stellaris install folder.
   - The Steam Workshop content folder for Stellaris.
   - The launcher's playset (enabled mods and load order).
-- Reads, per content source: `common/technology` (including tier definitions), `common/scripted_variables`, localisation (English), and the icons techs reference.
+- Reads, per content source: `common/technology` (including tier definitions), `common/scripted_variables`, `common/inline_scripts`, localisation (English), every `common/` object that names a tech as a prerequisite (for unlocks), and the icons techs reference.
+- The playset comes from `dlc_load.json` in the Stellaris user folder, which the launcher writes in load order when the game starts; each entry's `.mod` descriptor gives the mod's folder.
+- Each mod is read against everything loaded before it, so it can use the game's variables and text.
+- A mod becomes a layer when it adds or changes techs, defines tiers, or gives existing techs new unlocks; other mods are listed in the report.
 - Resolves `@variables` and inline maths, localisation references and colour codes.
 - Converts icons from DDS to WebP.
 - Writes a snapshot folder per game version, committed by the captain.
@@ -256,9 +259,12 @@ Settled by the first extraction of 4.5.2:
 - Tiers 2 to 5 each need 6 techs of the previous tier in the same area; tiers 0 and 1 need none.
 - Mega-Engineering needs only Zero Point Power in 4.5.2; the Citadel and Battleships requirements of earlier versions are gone.
 
+- The game's override rules for technologies, per the Stellaris wiki's modding page: a file with the same path as an earlier source's replaces it; files are then read in ASCII order of their names, with launcher order breaking ties; for technologies the last definition of a key wins (LIOS).
+  The site's layer merge follows exactly this, with tests.
+
 Still open:
 
-- The game's duplicate-key rule for technologies across mods (first or last loaded wins), verified against real mod pairs before the override module is final.
+- That real mod pairs (Gigastructures with ACOT, for example) behave as the rules above predict; checked against the first extraction with mods.
 - That Ironman saves are plain text like normal saves.
 - How Technology Ascendant changes research, since it may alter costs or tiers across the board rather than add techs.
 

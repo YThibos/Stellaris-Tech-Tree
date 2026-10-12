@@ -7,6 +7,7 @@ import type { ContentLayer, SnapshotManifest, VersionCatalogue } from '../domain
 import type { Technology } from '../domain/technology.ts';
 import { redDxt1Dds, uncompressedBgraDds } from '../../tests/support/dds.ts';
 import { ContentFolder } from './content-folder.ts';
+import { ContentLibrary } from './content-library.ts';
 import { gameVersionOf } from './game-installation.ts';
 import { extractLayer, type LayerExtraction } from './layer-extraction.ts';
 import { writeSnapshot } from './snapshot-writer.ts';
@@ -32,6 +33,7 @@ beforeAll(async () => {
   extraction = await extractLayer(
     { id: 'vanilla', name: 'Stellaris', version: '4.5.2', workshopId: null },
     [new ContentFolder(gameFolder)],
+    new ContentLibrary(),
   );
 });
 
@@ -126,6 +128,11 @@ describe('extracting a game folder', () => {
     expect(technology('tech_repeatable_hull').traits).toEqual(['granted']);
   });
 
+  it('records the file each tech comes from and every tech file the source ships', () => {
+    expect(technology('tech_battleships').file).toBe('common/technology/00_eng_tech.txt');
+    expect(extraction.layer.technologyFiles).toEqual(['common/technology/00_eng_tech.txt']);
+  });
+
   it('reads the tier gates', () => {
     expect(extraction.layer.tierGates).toEqual([
       { tier: 0, previouslyUnlocked: 0 },
@@ -180,6 +187,7 @@ describe('writing a snapshot', () => {
     const withBrokenIcon = await extractLayer(
       { id: 'vanilla', name: 'Stellaris', version: '4.5.2', workshopId: null },
       [new ContentFolder(gameFolder)],
+      new ContentLibrary(),
     );
     const written = await writeSnapshot(dataRoot, '4.5.3', '2026-10-12', [withBrokenIcon]);
     expect(written.iconFailures).toEqual([`${ICONS}/tech_battleships.dds: Not a DDS texture.`]);

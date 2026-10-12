@@ -24,6 +24,8 @@ export interface Technology {
   drawWeight: DrawWeight;
   unlocks: Unlock[];
   source: string;
+  /** The game file that defines this tech, such as `common/technology/00_eng_tech.txt`. */
+  file: string;
 }
 
 export type Repeatability =

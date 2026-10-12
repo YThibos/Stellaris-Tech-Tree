@@ -1,37 +1,58 @@
 /**
- * Extracts the Stellaris tech tree from your own game files into this project's data folder.
+ * Extracts the Stellaris tech tree, with the mods in your playset, from your own game files into
+ * this project's data folder.
  *
- * Usage: npm run extract -- [--game <Stellaris folder>] [--version <game version>]
- *   --game     Where Stellaris is installed. Found automatically in the usual Steam libraries.
- *   --version  The game version to file the data under. Read from the game when left out.
- *   --data     Where snapshots live. Defaults to public/data.
+ * Usage: npm run extract -- [--game <folder>] [--user-folder <folder>] [--version <version>] [--no-mods]
+ *   --game         Where Stellaris is installed. Found automatically in the usual Steam libraries.
+ *   --user-folder  Where Stellaris keeps your settings and mod list, usually
+ *                  Documents/Paradox Interactive/Stellaris. Found automatically.
+ *   --version      The game version to file the data under. Read from the game when left out.
+ *   --no-mods      Extract the base game only.
+ *   --data         Where snapshots live. Defaults to public/data.
  */
 import path from 'node:path';
 import { parseArgs } from 'node:util';
-import { ContentFolder } from './content-folder.ts';
 import { findGameFolder, gameVersionOf, isStellaris } from './game-installation.ts';
-import { extractLayer, type LayerExtraction } from './layer-extraction.ts';
+import type { LayerExtraction } from './layer-extraction.ts';
+import { findUserFolder, readPlayset, type Playset } from './playset.ts';
+import { extractSnapshot } from './snapshot-extraction.ts';
 import { writeSnapshot } from './snapshot-writer.ts';
 
 const DEFAULT_DATA_ROOT = path.join('public', 'data');
+const NO_PLAYSET: Playset = { mods: [], unavailable: [] };
 
 async function main(): Promise<void> {
   const options = parseArgs({
-    options: { game: { type: 'string' }, version: { type: 'string' }, data: { type: 'string' } },
+    options: {
+      game: { type: 'string' },
+      'user-folder': { type: 'string' },
+      version: { type: 'string' },
+      'no-mods': { type: 'boolean' },
+      data: { type: 'string' },
+    },
   }).values;
   const gameFolder = await locateGame(options.game);
   const gameVersion = options.version ?? (await gameVersionOf(gameFolder));
-  if (!gameVersion)
+  if (!gameVersion) {
     fail('Could not read the game version. Pass it with --version, for example --version 4.5.2.');
-  console.log(`Reading Stellaris ${gameVersion} from ${gameFolder} …`);
-  const vanilla = await extractLayer(
-    { id: 'vanilla', name: 'Stellaris', version: gameVersion, workshopId: null },
-    [new ContentFolder(gameFolder)],
+  }
+  const playset = options['no-mods'] ? NO_PLAYSET : await locatePlayset(options['user-folder']);
+  console.log(
+    `Reading Stellaris ${gameVersion} from ${gameFolder} and ${playset.mods.length} enabled mods …`,
   );
-  const written = await writeSnapshot(options.data ?? DEFAULT_DATA_ROOT, gameVersion, today(), [
-    vanilla,
-  ]);
-  report(vanilla, written.folder, written.iconFailures);
+  const extraction = await extractSnapshot(gameFolder, gameVersion, playset.mods);
+  const written = await writeSnapshot(
+    options.data ?? DEFAULT_DATA_ROOT,
+    gameVersion,
+    today(),
+    extraction.layers,
+  );
+  console.log(`\nWrote ${written.folder}`);
+  for (const layer of extraction.layers) reportLayer(layer);
+  listFindings('Mods with nothing for the tech tree', extraction.modsWithoutTechContent);
+  listFindings('Enabled mods whose files were not found', playset.unavailable);
+  listFindings('Icons that could not be converted', written.iconFailures);
+  console.log('\nCommit the data folder to publish it.');
 }
 
 async function locateGame(given: string | undefined): Promise<string> {
@@ -41,26 +62,34 @@ async function locateGame(given: string | undefined): Promise<string> {
   return folder;
 }
 
-function report(extraction: LayerExtraction, folder: string, iconFailures: string[]): void {
-  const { layer, findings } = extraction;
-  console.log(`\nWrote ${folder}`);
+async function locatePlayset(given: string | undefined): Promise<Playset> {
+  const folder = given ?? (await findUserFolder());
+  if (!folder) {
+    console.log(
+      'No mod list found; extracting the base game only. Pass --user-folder to point at it.',
+    );
+    return NO_PLAYSET;
+  }
+  return readPlayset(folder);
+}
+
+function reportLayer({ layer, findings }: LayerExtraction): void {
+  const added = Object.keys(layer.unlocksAdded).length;
   console.log(
-    `  ${layer.technologies.length} technologies, ${layer.tierGates.length} tier definitions`,
+    `\n  ${layer.source.name}: ${layer.technologies.length} techs${added ? `, unlocks for ${added} other techs` : ''}`,
   );
   listFindings('Techs that could not be read', findings.unreadableTechnologies);
   listFindings('Variables that could not be resolved', findings.unresolvedVariables);
   listFindings('Inline scripts that were not found', findings.missingInlineScripts);
   listFindings('Techs without an English name', findings.unnamedTechnologies);
   listFindings('Techs without an icon', findings.technologiesWithoutIcon);
-  listFindings('Icons that could not be converted', iconFailures);
-  console.log('\nCommit the data folder to publish it.');
 }
 
 function listFindings(title: string, findings: string[]): void {
   if (findings.length === 0) return;
-  console.log(`\n  ${title} (${findings.length}):`);
-  for (const finding of findings.slice(0, 15)) console.log(`    - ${finding}`);
-  if (findings.length > 15) console.log(`    … and ${findings.length - 15} more`);
+  console.log(`\n    ${title} (${findings.length}):`);
+  for (const finding of findings.slice(0, 15)) console.log(`      - ${finding}`);
+  if (findings.length > 15) console.log(`      … and ${findings.length - 15} more`);
 }
 
 function today(): string {

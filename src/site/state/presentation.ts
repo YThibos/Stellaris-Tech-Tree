@@ -1,6 +1,7 @@
 import type { TreeColumn } from '../../domain/tech-tree.ts';
 import type { Repeatability, TechnologyTrait } from '../../domain/technology.ts';
 import type { WeightEffect } from '../../domain/condition.ts';
+import type { TechnologyChange } from '../../domain/technology-changes.ts';
 
 const NUMBER_FORMAT = new Intl.NumberFormat('en-GB');
 
@@ -69,4 +70,29 @@ export function weightEffectTone(effect: WeightEffect): 'boost' | 'penalty' | 'n
   const neutral = effect.kind === 'factor' ? 1 : 0;
   if (effect.value > neutral) return 'boost';
   return effect.value < neutral ? 'penalty' : 'neutral';
+}
+
+/** One line describing how a mod changed a tech, with techs named as players know them. */
+export function changeText(change: TechnologyChange, nameOf: (key: string) => string): string {
+  switch (change.aspect) {
+    case 'requirements':
+      return requirementChangeText(change.added.map(nameOf), change.removed.map(nameOf));
+    case 'cost':
+      return `Cost ${researchCost(change.before)} → ${researchCost(change.after)}`;
+    case 'tier':
+      return `Tier ${change.before} → ${change.after}`;
+    case 'area':
+    case 'category':
+      return `${areaTitle(change.aspect)} ${change.before} → ${change.after}`;
+    default:
+      return `${areaTitle(change.aspect)} changed`;
+  }
+}
+
+function requirementChangeText(added: string[], removed: string[]): string {
+  const parts = [
+    added.length > 0 ? `now also needs ${added.join(', ')}` : '',
+    removed.length > 0 ? `no longer needs ${removed.join(', ')}` : '',
+  ];
+  return `Requirements: ${parts.filter(Boolean).join('; ')}`;
 }
