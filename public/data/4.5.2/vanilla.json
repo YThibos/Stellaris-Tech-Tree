@@ -132,7 +132,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archeology_lab_ancrel",
@@ -263,7 +264,8 @@
      "name": "Archaeology Skill +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeostudies",
@@ -408,7 +410,8 @@
      "name": "Antiquarian"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_secrets_cybrex",
@@ -443,7 +446,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_secrets_league",
@@ -483,7 +487,8 @@
      "name": "First League Filing Offices"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_secrets_irassian",
@@ -518,7 +523,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_secrets_vultaum",
@@ -558,7 +564,8 @@
      "name": "Vultaum Reality Computer"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_secrets_yuht",
@@ -593,7 +600,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_secrets_baol",
@@ -633,7 +641,8 @@
      "name": "Baol Organic Plant"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_secrets_zroni",
@@ -668,7 +677,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeoshield",
@@ -1170,7 +1180,8 @@
      "name": "Ancient Suspension Epidermis"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeoarmor",
@@ -1672,7 +1683,8 @@
      "name": "Ancient Energized Carapace"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_detection_scrambler",
@@ -2154,7 +2166,8 @@
      "name": "Unlocks Component: Ancient Target Scrambler"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_titan_beam",
@@ -2632,7 +2645,8 @@
      "name": "Ancient Ruination Glare"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_pk_devolving_beam",
@@ -3112,7 +3126,8 @@
      "name": "Devolving Beam"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_mass_drivers",
@@ -3614,7 +3629,8 @@
      "name": "Ancient Macro Shard Batteries"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_lasers",
@@ -4104,7 +4120,8 @@
      "name": "Ancient Collapser Beam"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_point_defence",
@@ -4586,7 +4603,8 @@
      "name": "Ancient Defensive Web Slinger"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_missiles",
@@ -5068,7 +5086,8 @@
      "name": "Ancient Nano-Talon Cloud Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_mass_accelerator",
@@ -5550,7 +5569,8 @@
      "name": "Ancient Saturator Artillery"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_strike_crafts",
@@ -6032,7 +6052,8 @@
      "name": "Ancient Driller Beasts"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_rampart",
@@ -6509,7 +6530,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_overcharger",
@@ -6982,7 +7004,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_archaeo_refinery",
@@ -7464,7 +7487,8 @@
      "name": "Ancient Refinery"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_ancient_relics_tech.txt"
   },
   {
    "key": "tech_colossus",
@@ -7510,7 +7534,8 @@
      "name": "Unlocks Ship Type: Colossus"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_apocalypse_tech.txt"
   },
   {
    "key": "tech_pk_cracker",
@@ -7629,7 +7654,8 @@
      "name": "World Cracker"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_apocalypse_tech.txt"
   },
   {
    "key": "tech_pk_shielder",
@@ -7759,7 +7785,8 @@
      "name": "Global Pacifier"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_apocalypse_tech.txt"
   },
   {
    "key": "tech_pk_neutron",
@@ -7911,7 +7938,8 @@
      "name": "Neutron Sweep"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_apocalypse_tech.txt"
   },
   {
    "key": "tech_pk_godray",
@@ -8034,7 +8062,8 @@
      "name": "Divine Enforcer"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_apocalypse_tech.txt"
   },
   {
    "key": "tech_pk_nanobots",
@@ -8153,7 +8182,8 @@
      "name": "Nanobot Diffuser"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_apocalypse_tech.txt"
   },
   {
    "key": "tech_btc_1",
@@ -8200,7 +8230,8 @@
      "name": "Star Cracker"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_apocalypse_tech.txt"
   },
   {
    "key": "tech_pk_smelter",
@@ -8319,7 +8350,8 @@
      "name": "Planet Smelter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_apocalypse_tech.txt"
   },
   {
    "key": "tech_rift_sphere",
@@ -8367,7 +8399,8 @@
      "name": "Riftwalker"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_astral_planes_tech.txt"
   },
   {
    "key": "tech_astral_harvesting",
@@ -8610,7 +8643,8 @@
      "name": "$astral_threads$"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_astral_planes_tech.txt"
   },
   {
    "key": "tech_maulers",
@@ -8662,7 +8696,8 @@
      "name": "Unlocks Ship Type: Juvenile Mauler"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_mauler_build_speed",
@@ -8725,7 +8760,8 @@
      "name": "Elder Offspring Mauler Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_mauler_growth_1",
@@ -8889,7 +8925,8 @@
      "name": "Fleet Command Limit +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_mauler_growth_2",
@@ -9057,7 +9094,8 @@
      "name": "Unlocks Ship Type: Elder Mauler"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weavers",
@@ -9207,7 +9245,8 @@
      "name": "Unlocks Ship Type: Juvenile Weaver"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_build_speed",
@@ -9270,7 +9309,8 @@
      "name": "Elder Offspring Weaver Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_growth_1",
@@ -9434,7 +9474,8 @@
      "name": "Fleet Command Limit +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_growth_2",
@@ -9602,7 +9643,8 @@
      "name": "Unlocks Ship Type: Elder Weaver"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_harbingers",
@@ -9758,7 +9800,8 @@
      "name": "Fleet Command Limit +40"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_harbinger_build_speed",
@@ -9821,7 +9864,8 @@
      "name": "Elder Offspring Harbinger Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_harbinger_growth_1",
@@ -9981,7 +10025,8 @@
      "name": "Unlocks Ship Type: Mature Harbinger"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_harbinger_growth_2",
@@ -10145,7 +10190,8 @@
      "name": "Unlocks Ship Type: Elder Harbinger"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_stingers",
@@ -10297,7 +10343,8 @@
      "name": "Fleet Command Limit +40"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_stinger_build_speed",
@@ -10360,7 +10407,8 @@
      "name": "Elder Offspring Stinger Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_stinger_growth_1",
@@ -10520,7 +10568,8 @@
      "name": "Unlocks Ship Type: Mature Stinger"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_stinger_growth_2",
@@ -10688,7 +10737,8 @@
      "name": "Unlocks Ship Type: Elder Stinger"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_growth_chamber_1",
@@ -10751,7 +10801,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_growth_chamber_2",
@@ -10819,7 +10870,8 @@
      "name": "[GetAdvancedGrowthChamberTitle]"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_mandibles_2",
@@ -10917,7 +10969,8 @@
      "name": "Composite Mandibles"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_mandibles_3",
@@ -10987,7 +11040,8 @@
      "name": "Crystalline Mandibles"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_healing_1",
@@ -11026,7 +11080,8 @@
      "name": "Spore Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_healing_2",
@@ -11065,7 +11120,8 @@
      "name": "Improved Spore Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_healing_3",
@@ -11104,7 +11160,8 @@
      "name": "Advanced Spore Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_healing_4",
@@ -11172,7 +11229,8 @@
      "name": "Adaptive Spore Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_healing_5",
@@ -11240,7 +11298,8 @@
      "name": "Intelligent Adaptive Spore Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_healing_6",
@@ -11306,7 +11365,8 @@
      "name": "Rebirth Spores"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_evasion_1",
@@ -11347,7 +11407,8 @@
      "name": "Energy Burster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_evasion_2",
@@ -11386,7 +11447,8 @@
      "name": "Tangler Pod Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_evasion_3",
@@ -11425,7 +11487,8 @@
      "name": "Agile Spike Array"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_evasion_4",
@@ -11493,7 +11556,8 @@
      "name": "Electro Sprayer"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_evasion_5",
@@ -11561,7 +11625,8 @@
      "name": "Evasion Darts"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_evasion_6",
@@ -11627,7 +11692,8 @@
      "name": "Adaptive Tendrils"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_fire_rate_1",
@@ -11666,7 +11732,8 @@
      "name": "Weaver Biofield Generators"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_fire_rate_2",
@@ -11705,7 +11772,8 @@
      "name": "Weaver Booster Blaster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_fire_rate_3",
@@ -11744,7 +11812,8 @@
      "name": "Weaver Organo-Tech Amplifier"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_fire_rate_4",
@@ -11812,7 +11881,8 @@
      "name": "Weaver Aura Caster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_fire_rate_5",
@@ -11880,7 +11950,8 @@
      "name": "Weaver Swift Shooter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_fire_rate_6",
@@ -11946,7 +12017,8 @@
      "name": "Weaver Wave Maker"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_confuser_1",
@@ -11985,7 +12057,8 @@
      "name": "Gloom Spores"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_confuser_2",
@@ -12024,7 +12097,8 @@
      "name": "Tangle Pulse"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_confuser_3",
@@ -12063,7 +12137,8 @@
      "name": "Neuro Scourge"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_confuser_4",
@@ -12131,7 +12206,8 @@
      "name": "Ruin Barbs"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_confuser_5",
@@ -12199,7 +12275,8 @@
      "name": "Snare Darts"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_confuser_6",
@@ -12265,7 +12342,8 @@
      "name": "Havoc Storm"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_evasion_1",
@@ -12306,7 +12384,8 @@
      "name": "Vector Lock Cannon"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_evasion_2",
@@ -12345,7 +12424,8 @@
      "name": "Enzymatic Webcaster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_evasion_3",
@@ -12384,7 +12464,8 @@
      "name": "Seeker Shard Array"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_evasion_4",
@@ -12452,7 +12533,8 @@
      "name": "Pinion Accelerator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_evasion_5",
@@ -12520,7 +12602,8 @@
      "name": "Prey Tracker"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_evasion_6",
@@ -12586,7 +12669,8 @@
      "name": "Precision Lancer"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_fire_rate_1",
@@ -12625,7 +12709,8 @@
      "name": "Reload Jammer"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_fire_rate_2",
@@ -12664,7 +12749,8 @@
      "name": "Fire Disrupter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_fire_rate_3",
@@ -12703,7 +12789,8 @@
      "name": "Mind Missiles"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_fire_rate_4",
@@ -12771,7 +12858,8 @@
      "name": "Degradation Beams"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_fire_rate_5",
@@ -12839,7 +12927,8 @@
      "name": "Fiend Disabler"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_weaver_bio_anti_fire_rate_6",
@@ -12905,7 +12994,8 @@
      "name": "Tracker Stopper"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_deep_space_citadel",
@@ -13146,7 +13236,8 @@
      "name": "Deep Space Citadel System Capacity +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_wilderness_terraform",
@@ -13181,7 +13272,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_biogenesis_tech.txt"
   },
   {
    "key": "tech_storm_manipulation",
@@ -13410,7 +13502,8 @@
      "name": "Storm repel field"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_advanced_storm_manipulation",
@@ -13614,7 +13707,8 @@
      "name": "Advanced Storm Repulsion Center"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_industrial_storm_protection",
@@ -13842,7 +13936,8 @@
      "name": "Cosmic Storm Protection Tech Level +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_advanced_industrial_storm_protection",
@@ -14076,7 +14171,8 @@
      "name": "Cosmic Storm Protection Tech Level +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_storm_prediction_1",
@@ -14310,7 +14406,8 @@
      "name": "Cosmic Storm Movement Intel +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_storm_prediction_2",
@@ -14542,7 +14639,8 @@
      "name": "Cosmic Storm Movement Intel +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_ship_hull_storm_breaker_1",
@@ -14768,7 +14866,8 @@
      "name": "Negative Effects from Cosmic Storms on Ship Defenses -45%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_ship_hull_storm_breaker_2",
@@ -14990,7 +15089,8 @@
      "name": "Negative Effects from Cosmic Storms on Ship Defenses -45%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_ship_storm_weapons_1",
@@ -15211,7 +15311,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_ship_storm_weapons_2",
@@ -15428,7 +15529,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_cosmic_storm_tech.txt"
   },
   {
    "key": "tech_gargantuan_evolution",
@@ -15460,7 +15562,8 @@
      "name": "Energy Credits from Jobs +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_distant_stars_tech.txt"
   },
   {
    "key": "tech_lgate_activation",
@@ -15506,7 +15609,8 @@
      "name": "Unlocks Special Project: Activate L-Gate"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_distant_stars_tech.txt"
   },
   {
    "key": "tech_repeatable_lcluster_clue",
@@ -15564,7 +15668,8 @@
      "name": "L-Gate Insight Gained: +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_distant_stars_tech.txt"
   },
   {
    "key": "tech_experimental_subspace_navigation",
@@ -15656,7 +15761,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_distant_stars_tech.txt"
   },
   {
    "key": "tech_neuroregeneration",
@@ -15692,7 +15798,8 @@
      "name": "Leader Lifespan +10"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_distant_stars_tech.txt"
   },
   {
    "key": "tech_nanite_repair_system",
@@ -15723,7 +15830,8 @@
      "name": "Nanite Repair System"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_distant_stars_tech.txt"
   },
   {
    "key": "tech_nanite_autocannon",
@@ -15770,7 +15878,8 @@
      "name": "Nanite-Infused Thorn Cannon"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_distant_stars_tech.txt"
   },
   {
    "key": "tech_nanite_flak_batteries",
@@ -15805,7 +15914,8 @@
      "name": "Nanite Flak Battery"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_distant_stars_tech.txt"
   },
   {
    "key": "tech_solar_panel_network",
@@ -15842,7 +15952,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_corvettes",
@@ -15890,7 +16001,8 @@
      "name": "Unlocks Ship Type: Corvette"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_destroyers",
@@ -16050,7 +16162,8 @@
      "name": "Fleet Command Limit +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_cruisers",
@@ -16206,7 +16319,8 @@
      "name": "Fleet Command Limit +40"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_battleships",
@@ -16362,7 +16476,8 @@
      "name": "Fleet Command Limit +60"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_titans",
@@ -16524,7 +16639,8 @@
      "name": "Fleet Command Limit +80"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_juggernaut",
@@ -16648,7 +16764,8 @@
      "name": "Unlocks Ship Type: Juggernaut"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_corvette_build_speed",
@@ -16699,7 +16816,8 @@
      "name": "Frigate Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_corvette_hull_1",
@@ -16746,7 +16864,8 @@
      "name": "Frigate Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_corvette_hull_2",
@@ -16861,7 +16980,8 @@
      "name": "Frigate Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_destroyer_build_speed",
@@ -16908,7 +17028,8 @@
      "name": "Offspring Destroyer Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_destroyer_hull_1",
@@ -16967,7 +17088,8 @@
      "name": "Offspring Destroyer Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_destroyer_hull_2",
@@ -17093,7 +17215,8 @@
      "name": "Offspring Destroyer Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_cruiser_build_speed",
@@ -17140,7 +17263,8 @@
      "name": "Offspring Cruiser Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_cruiser_hull_1",
@@ -17199,7 +17323,8 @@
      "name": "Offspring Cruiser Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_cruiser_hull_2",
@@ -17325,7 +17450,8 @@
      "name": "Offspring Cruiser Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_battleship_build_speed",
@@ -17372,7 +17498,8 @@
      "name": "Offspring Battleship Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_battleship_hull_1",
@@ -17431,7 +17558,8 @@
      "name": "Offspring Battleship Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_battleship_hull_2",
@@ -17557,7 +17685,8 @@
      "name": "Offspring Battleship Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_titan_hull_1",
@@ -17671,7 +17800,8 @@
      "name": "Titan Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_titan_hull_2",
@@ -17785,7 +17915,8 @@
      "name": "Titan Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_starbase_1",
@@ -17831,7 +17962,8 @@
      "name": "Unlocks Starbase: Outpost"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_starbase_2",
@@ -17877,7 +18009,8 @@
      "name": "Unlocks Starbase Upgrade: Starport"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_starbase_3",
@@ -18060,7 +18193,8 @@
      "name": "Unlocks Starbase Upgrade: Starhold"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_starbase_4",
@@ -18247,7 +18381,8 @@
      "name": "Unlocks Starbase Upgrade: Star Fortress"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_starbase_5",
@@ -18434,7 +18569,8 @@
      "name": "Unlocks Starbase Upgrade: Citadel"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_habitat_1",
@@ -18625,7 +18761,8 @@
      "name": "Unlocks Megastructure: Habitat Central Complex"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_habitat_2",
@@ -18749,7 +18886,8 @@
      "name": "Habitat Max Districts +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_habitat_3",
@@ -18873,7 +19011,8 @@
      "name": "Habitat Max Districts +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_modular_engineering",
@@ -18966,7 +19105,8 @@
      "name": "Station Module Cost -25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_space_defense_station_improvement",
@@ -19092,7 +19232,8 @@
      "name": "Station Upgrade Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_strike_craft_1",
@@ -19137,7 +19278,8 @@
      "name": "Leader trait carrier specialization 2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_strike_craft_2",
@@ -19176,7 +19318,8 @@
      "name": "Cyber Flagella"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_strike_craft_3",
@@ -19215,7 +19358,8 @@
      "name": "Super Flagella"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_strike_craft_skrand",
@@ -19259,7 +19403,8 @@
      "name": "Warmaster Flagella"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_assault_armies",
@@ -19313,7 +19458,8 @@
      "name": "Giant Undead Army"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_ship_armor_1",
@@ -19393,7 +19539,8 @@
      "name": "Nanocomposite Carapace"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_ship_armor_2",
@@ -19492,7 +19639,8 @@
      "name": "Army Health +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_ship_armor_3",
@@ -19591,7 +19739,8 @@
      "name": "Army Health +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_ship_armor_4",
@@ -19690,7 +19839,8 @@
      "name": "Army Health +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_ship_armor_5",
@@ -19789,7 +19939,8 @@
      "name": "Army Health +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_crystal_armor_1",
@@ -19846,7 +19997,8 @@
      "name": "Crystal Infused Innards"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_crystal_armor_2",
@@ -19890,7 +20042,8 @@
      "name": "Crystal Forged Innards"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_armor_hardeners_1",
@@ -19926,7 +20079,8 @@
      "name": "Reactive Scales"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_armor_hardeners_2",
@@ -19962,7 +20116,8 @@
      "name": "Living Reactive Scales"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_thrusters_1",
@@ -20002,7 +20157,8 @@
      "name": "Unlocks Component: Chemical Thruster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_thrusters_2",
@@ -20070,7 +20226,8 @@
      "name": "Unlocks Component: Ion Thruster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_thrusters_3",
@@ -20138,7 +20295,8 @@
      "name": "Unlocks Component: Plasma Thruster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_thrusters_4",
@@ -20206,7 +20364,8 @@
      "name": "Unlocks Component: Impulse Thruster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_space_defense_station_1",
@@ -20248,7 +20407,8 @@
      "name": "Defense Platform"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_defense_platform_hull_1",
@@ -20330,7 +20490,8 @@
      "name": "Defense Platform Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_basic_industry",
@@ -20390,7 +20551,8 @@
      "name": "Battle Thrall District"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_mechanized_mining",
@@ -20450,7 +20612,8 @@
      "name": "Hollow Mountain"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_powered_exoskeletons",
@@ -20485,7 +20648,8 @@
      "name": "Worker and simple drone cat bonus workforce mult +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_space_mining_1",
@@ -20516,7 +20680,8 @@
      "name": "Resources Produced from Mining Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_space_mining_2",
@@ -20547,7 +20712,8 @@
      "name": "Resources Produced from Mining Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_space_mining_3",
@@ -20578,7 +20744,8 @@
      "name": "Resources Produced from Mining Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_space_mining_4",
@@ -20609,7 +20776,8 @@
      "name": "Resources Produced from Mining Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_space_mining_5",
@@ -20640,7 +20808,8 @@
      "name": "Resources Produced from Mining Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_mining_1",
@@ -20675,7 +20844,8 @@
      "name": "Produced from [GetMinerSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_mining_2",
@@ -20710,7 +20880,8 @@
      "name": "Produced from [GetMinerSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_mining_3",
@@ -20745,7 +20916,8 @@
      "name": "Produced from [GetMinerSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_mineral_purification_1",
@@ -20895,7 +21067,8 @@
      "name": "Mining subsidies nomadic"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_mineral_purification_2",
@@ -20975,7 +21148,8 @@
      "name": "Lithic Baths"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_alloys_1",
@@ -21058,7 +21232,8 @@
      "name": "Solid-Light Smelter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_alloys_2",
@@ -21114,7 +21289,8 @@
      "name": "Nano-Smelter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_advanced_metallurgy_1",
@@ -21146,7 +21322,8 @@
      "name": "Resources Produced from [GetFoundrySwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_advanced_metallurgy_2",
@@ -21179,7 +21356,8 @@
      "name": "Resources Produced from [GetFoundrySwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_luxuries_1",
@@ -21266,7 +21444,8 @@
      "name": "Recirculation Center"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_luxuries_2",
@@ -21330,7 +21509,8 @@
      "name": "Indulgence Reprocessors"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_engineering_1",
@@ -21460,7 +21640,8 @@
      "name": "Materials Workshop"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_engineering_2",
@@ -21603,7 +21784,8 @@
      "name": "Applied Mechanics Institute"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_engineering_3",
@@ -21746,7 +21928,8 @@
      "name": "Advanced Engineering Complex"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_robotic_workers",
@@ -21849,7 +22032,8 @@
      "name": "Robot Assembly Plants"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_droid_workers",
@@ -21968,7 +22152,8 @@
      "name": "Robotic Assault Army"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_synthetic_workers",
@@ -22183,7 +22368,8 @@
      "name": "Job Efficiency for Mechanical and Machine Pops +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_synthetic_leaders",
@@ -22276,7 +22462,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_robot_assembly_complex",
@@ -22401,7 +22588,8 @@
      "name": "Robot Assembly Complex"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_integrated_cybernetics",
@@ -22496,7 +22684,8 @@
      "name": "Army Health +0.1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_space_construction",
@@ -22536,7 +22725,8 @@
      "name": "Unlocks Station: Research Station"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_afterburners_1",
@@ -22602,7 +22792,8 @@
      "name": "Maneuvering Tentacles"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_afterburners_2",
@@ -22638,7 +22829,8 @@
      "name": "Enhanced Maneuvering Tentacles"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_assembly_pattern",
@@ -22699,7 +22891,8 @@
      "name": "Infrastructure Build Speed +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_construction_templates",
@@ -22821,7 +23014,8 @@
      "name": "Infrastructure Build Speed +50%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_housing_1",
@@ -22853,7 +23047,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_housing_2",
@@ -22908,7 +23103,8 @@
      "name": "Expanded Warren"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_leviathan_techgenesis",
@@ -22947,7 +23143,8 @@
      "name": "Unlocks Feature: Leviathan Tech Genesis"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech.txt"
   },
   {
    "key": "tech_repeatable_improved_tile_mineral_output",
@@ -22978,7 +23175,8 @@
      "name": "Minerals from Jobs +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_military_station_damage",
@@ -23009,7 +23207,8 @@
      "name": "Defense Platform Damage +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_military_station_health",
@@ -23040,7 +23239,8 @@
      "name": "Defense Platform Hull Points +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_armor_output",
@@ -23071,7 +23271,8 @@
      "name": "Armor Hit Points +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_weapon_type_explosive_damage",
@@ -23100,7 +23301,8 @@
      "name": "Explosive Weapon Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_weapon_type_explosive_fire_rate",
@@ -23129,7 +23331,8 @@
      "name": "Explosive Weapon Fire Rate +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_weapon_type_kinetic_damage",
@@ -23160,7 +23363,8 @@
      "name": "Kinetic Weapon Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_weapon_type_kinetic_fire_rate",
@@ -23191,7 +23395,8 @@
      "name": "Kinetic Weapon Fire Rate +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_reduced_building_time",
@@ -23223,7 +23428,8 @@
      "name": "Infrastructure Build Speed +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_tech_repeatable.txt"
   },
   {
    "key": "tech_mass_drivers_1",
@@ -23279,7 +23485,8 @@
      "name": "Shard Accelerator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_mass_drivers_2",
@@ -23369,7 +23576,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_mass_drivers_3",
@@ -23459,7 +23667,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_mass_drivers_4",
@@ -23549,7 +23758,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_mass_drivers_5",
@@ -23639,7 +23849,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_kinetic_artillery_1",
@@ -23705,7 +23916,8 @@
      "name": "Kinetic Battery"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_kinetic_artillery_2",
@@ -23776,7 +23988,8 @@
      "name": "Kinetic Artillery"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_mass_accelerator_1",
@@ -23842,7 +24055,8 @@
      "name": "Mega Bombard"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_mass_accelerator_2",
@@ -23909,7 +24123,8 @@
      "name": "Giga Bombard"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_autocannons_1",
@@ -24019,7 +24234,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_autocannons_2",
@@ -24109,7 +24325,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_autocannons_3",
@@ -24199,7 +24416,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_flak_batteries_1",
@@ -24235,7 +24453,8 @@
      "name": "Flak Battery"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_flak_batteries_2",
@@ -24301,7 +24520,8 @@
      "name": "Flak Cannons"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_flak_batteries_3",
@@ -24367,7 +24587,8 @@
      "name": "Flak Artillery"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_missiles_1",
@@ -24436,7 +24657,8 @@
      "name": "Leader trait rocketry specialization 2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_missiles_2",
@@ -24511,7 +24733,8 @@
      "name": "Volatile Miasma Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_missiles_3",
@@ -24585,7 +24808,8 @@
      "name": "Antimatter Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_missiles_4",
@@ -24663,7 +24887,8 @@
      "name": "Marauder Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_missiles_5",
@@ -24733,7 +24958,8 @@
      "name": "Marauder Missiles"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_swarmer_missiles_1",
@@ -24801,7 +25027,8 @@
      "name": "Spore Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_swarmer_missiles_2",
@@ -24871,7 +25098,8 @@
      "name": "Barbed Spore Launcher"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_torpedoes_1",
@@ -25022,7 +25250,8 @@
      "name": "Frigate"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_torpedoes_2",
@@ -25096,7 +25325,8 @@
      "name": "Carapace Bio-Torpedoes"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_torpedoes_3",
@@ -25170,7 +25400,8 @@
      "name": "Devastator Bio-Torpedoes"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_eng_weapon_tech.txt"
   },
   {
    "key": "tech_pyroclastic_resonation",
@@ -25204,7 +25435,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_extreme_frontiers_tech.txt"
   },
   {
    "key": "tech_alloy_fossilization",
@@ -25243,7 +25475,8 @@
      "name": "Bio-Furnace"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_extreme_frontiers_tech.txt"
   },
   {
    "key": "tech_orbital_maneuvers",
@@ -25282,7 +25515,8 @@
      "name": "Sublight Speed +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_extreme_frontiers_tech.txt"
   },
   {
    "key": "tech_cryovault",
@@ -25325,7 +25559,8 @@
      "name": "Cryovault"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_extreme_frontiers_tech.txt"
   },
   {
    "key": "tech_living_test_subjects",
@@ -25364,7 +25599,8 @@
      "name": "Research Cost ( Society) -5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_extreme_frontiers_tech.txt"
   },
   {
    "key": "tech_georadiation_terraforming",
@@ -25398,7 +25634,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_extreme_frontiers_tech.txt"
   },
   {
    "key": "tech_dark_matter_deflector",
@@ -25481,7 +25718,8 @@
      "name": "Dark Matter Energy Epidermis"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_dark_matter_power_core",
@@ -25548,7 +25786,8 @@
      "name": "Unlocks Component: Dark Matter Reactor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_dark_matter_propulsion",
@@ -25619,7 +25858,8 @@
      "name": "Unlocks Component: Dark Matter Thrusters"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_affluence_1",
@@ -25823,7 +26063,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_affluence_2",
@@ -25921,7 +26162,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_nourishment_1",
@@ -26140,7 +26382,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_nourishment_2",
@@ -26253,7 +26496,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_fabricator_1",
@@ -26457,7 +26701,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_fabricator_2",
@@ -26540,7 +26785,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_singularity_1",
@@ -26744,7 +26990,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_singularity_2",
@@ -26827,7 +27074,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_forge_1",
@@ -27031,7 +27279,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_forge_2",
@@ -27114,7 +27363,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_dome_1",
@@ -27318,7 +27568,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_dome_2",
@@ -27401,7 +27652,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_fortress_1",
@@ -27605,7 +27857,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_fortress_2",
@@ -27688,7 +27941,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_administration_1",
@@ -27892,7 +28146,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_administration_2",
@@ -27975,7 +28230,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_assembly_1",
@@ -28242,7 +28498,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_assembly_2",
@@ -28340,7 +28597,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_clinic_1",
@@ -28559,7 +28817,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_clinic_2",
@@ -28642,7 +28901,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_security_1",
@@ -28846,7 +29106,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_security_2",
@@ -28929,7 +29190,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_market_1",
@@ -29148,7 +29410,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_market_2",
@@ -29231,7 +29494,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_silo_1",
@@ -29435,7 +29699,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_silo_2",
@@ -29518,7 +29783,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_entertainment_1",
@@ -29737,7 +30003,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_entertainment_2",
@@ -29820,7 +30087,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_lab_1",
@@ -30024,7 +30292,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_lab_2",
@@ -30107,7 +30376,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_mine_1",
@@ -30311,7 +30581,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_fe_mine_2",
@@ -30394,7 +30665,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_fallen_empire_tech.txt"
   },
   {
    "key": "tech_cloaking_1",
@@ -30553,7 +30825,8 @@
      "name": "Unlocks Component: Basic Cloaking Field Generator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_cloaking_2",
@@ -30725,7 +30998,8 @@
      "name": "Unlocks Component: Advanced Cloaking Field Generator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_cloaking_3",
@@ -30869,7 +31143,8 @@
      "name": "Unlocks Component: Elite Cloaking Field Generator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_cloaking_dark_matter",
@@ -30991,7 +31266,8 @@
      "name": "Unlocks Component: Dark Matter Cloaking Field Generator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_cloaking_psi",
@@ -31166,7 +31442,8 @@
      "name": "Unlocks Component: Psi-Phase Field Generator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_detection_array",
@@ -31281,7 +31558,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_dark_matter_detection",
@@ -31397,7 +31675,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_assisted_detection",
@@ -31512,7 +31791,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_subspace_drive",
@@ -31557,7 +31837,8 @@
      "name": "Unlocks Component: Subspace Drive"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_unusual_senses",
@@ -31600,7 +31881,8 @@
      "name": "Envoys add +0.25"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_new_numbers",
@@ -31643,7 +31925,8 @@
      "name": "All technology research speed +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_trinary_computing",
@@ -31690,7 +31973,8 @@
      "name": "Operation Difficulty -1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_atmospheric_orbital_mechanics",
@@ -31741,7 +32025,8 @@
      "name": "Station Upkeep -50%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_predatory_tactics",
@@ -31784,7 +32069,8 @@
      "name": "Envoys add +0.5"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_satisfying_insults",
@@ -31831,7 +32117,8 @@
      "name": "Insult Efficiency +0.5"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_compact_living",
@@ -31874,7 +32161,8 @@
      "name": "Empire Size Effect -5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_alien_topography",
@@ -31917,7 +32205,8 @@
      "name": "Max Districts (Non-artificial planets only) +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_xeno_aesthetics",
@@ -31960,7 +32249,8 @@
      "name": "Damage to Rivals +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_lost_building_methods",
@@ -32007,7 +32297,8 @@
      "name": "District Cost -30%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_supreme_alloy",
@@ -32050,7 +32341,8 @@
      "name": "Produced per 100 [GetFoundrySwapPluralWithIcon] +0.25"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_ordered_retreat",
@@ -32093,7 +32385,8 @@
      "name": "Time Spent Missing In Action -15%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_temple_of_transportation",
@@ -32136,7 +32429,8 @@
      "name": "Monthly Unity from Hyper Relays +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_first_contact_tech.txt"
   },
   {
    "key": "tech_galactic_archivism",
@@ -32228,7 +32522,8 @@
      "name": "Grand Archive"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_gravity_wells",
@@ -32273,7 +32568,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_gravity_snare_capacity_1",
@@ -32316,7 +32612,8 @@
      "name": "Fauna Capture Chance +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_gravity_snare_capacity_2",
@@ -32410,7 +32707,8 @@
      "name": "Fauna Capture Chance +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_gravity_snare_capacity_3",
@@ -32504,7 +32802,8 @@
      "name": "Fauna Capture Chance +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_containment_vessel",
@@ -32603,7 +32902,8 @@
      "name": "Fauna Capture Chance +0.1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_voidworm_immunity",
@@ -32642,7 +32942,8 @@
      "name": "Damage to Voidworms +15%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_asteroidal_carapace",
@@ -32681,7 +32982,8 @@
      "name": "Asteroidal Carapace"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_alien_cloning",
@@ -32772,7 +33074,8 @@
      "name": "Unlocks Feature: Corvette-Scale Space Fauna Cloning"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_improved_incubators",
@@ -32956,7 +33259,8 @@
      "name": "Unlocks Feature: Destroyer-Scale Space Fauna Cloning"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_metabolic_gases",
@@ -33160,7 +33464,8 @@
      "name": "Unlocks Feature: Battleship-Scale Space Fauna Cloning"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_boarding_cables",
@@ -33199,7 +33504,8 @@
      "name": "Boarding Cables"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_controlled_mutations",
@@ -33247,7 +33553,8 @@
      "name": "Mutation slots add +3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_controlled_mutations_2",
@@ -33298,7 +33605,8 @@
      "name": "Mutation slots add +3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_unique_mutation_space_amoeba",
@@ -33331,7 +33639,8 @@
      "name": "Leechcraft"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_unique_mutation_tiyanki",
@@ -33364,7 +33673,8 @@
      "name": "Herdsong Chords"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_unique_mutation_voidworm",
@@ -33397,7 +33707,8 @@
      "name": "Virulent Cysts"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_unique_mutation_cutholoid",
@@ -33430,7 +33741,8 @@
      "name": "Gastric Fountain"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_unique_mutation_crystalline_entity",
@@ -33463,7 +33775,8 @@
      "name": "Fissile Cores"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_unique_mutation_restorative_enzymes",
@@ -33496,7 +33809,8 @@
      "name": "Restorative Enzymes"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_unique_mutation_starborne_biology",
@@ -33529,7 +33843,8 @@
      "name": "Starborne Biology"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_thrusters_bio_integration",
@@ -33578,7 +33893,8 @@
      "name": "Unlocks Feature: Thrusters upgrades for Space Fauna"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_hyper_drive_bio_integration",
@@ -33627,7 +33943,8 @@
      "name": "Unlocks Feature: Hyper Drives upgrades for Space Fauna"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_sensors_bio_integration",
@@ -33672,7 +33989,8 @@
      "name": "Unlocks Feature: Sensors upgrades for Space Fauna"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_combat_computers_bio_integration",
@@ -33825,7 +34143,8 @@
      "name": "Unlocks Feature: Combat Computers upgrades for Space Fauna"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_grand_archive_tech.txt"
   },
   {
    "key": "tech_akx_worm_1",
@@ -33872,7 +34191,8 @@
      "name": "Future Glimpse: Omega Theory"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_horizonsignal_tech.txt"
   },
   {
    "key": "tech_akx_worm_2",
@@ -33919,7 +34239,8 @@
      "name": "Future Glimpse: Omega Theory"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_horizonsignal_tech.txt"
   },
   {
    "key": "tech_akx_worm_3",
@@ -33988,7 +34309,8 @@
      "name": "Omega Alignment"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_horizonsignal_tech.txt"
   },
   {
    "key": "tech_dragon_armor",
@@ -34044,7 +34366,8 @@
      "name": "Draconic Carapace"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_leviathans_tech.txt"
   },
   {
    "key": "tech_enigmatic_encoder",
@@ -34080,7 +34403,8 @@
      "name": "Enigmatic Encoder Chip"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_leviathans_tech.txt"
   },
   {
    "key": "tech_enigmatic_decoder",
@@ -34116,7 +34440,8 @@
      "name": "Enigmatic Decoder Chip"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_leviathans_tech.txt"
   },
   {
    "key": "tech_identity_copy",
@@ -34155,7 +34480,8 @@
      "name": "Grants access to policy: Synthetic Identities - Identity Copies"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_identity_fusion",
@@ -34196,7 +34522,8 @@
      "name": "Grants access to policy: Synthetic Identities - Identity Fusion"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_identity_initialization",
@@ -34237,7 +34564,8 @@
      "name": "Grants access to policy: Synthetic Identities - Identity Initialization"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_synth_queen_knowledge",
@@ -34314,7 +34642,8 @@
      "name": "All technology research speed +0.2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_crisis_1",
@@ -34358,7 +34687,8 @@
      "name": "Unlocks Cosmogenesis Crisis Level 2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_crisis_2",
@@ -34402,7 +34732,8 @@
      "name": "Unlocks Cosmogenesis Crisis Level 3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_crisis_3",
@@ -34446,7 +34777,8 @@
      "name": "Unlocks Cosmogenesis Crisis Level 4"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_crisis_4",
@@ -34490,7 +34822,8 @@
      "name": "Unlocks Cosmogenesis Crisis Level 5"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_crisis_5",
@@ -34534,7 +34867,8 @@
      "name": "Unlocks Megastructure: Horizon Needle"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_escort",
@@ -34579,7 +34913,8 @@
      "name": "Unlocks Ship Type: Riddle Escort"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_battlecruiser",
@@ -34624,7 +34959,8 @@
      "name": "Unlocks Ship Type: Enigma Battlecruiser"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_FE_titan",
@@ -34673,7 +35009,8 @@
      "name": "Unlocks Ship Type: Paradox Titan"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_weaver",
@@ -34718,7 +35055,8 @@
      "name": "Unlocks Ship Type: Quandary Weaver"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_mauler",
@@ -34763,7 +35101,8 @@
      "name": "Unlocks Ship Type: Cipher Mauler"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_harbinger",
@@ -34808,7 +35147,8 @@
      "name": "Unlocks Ship Type: Maze Harbinger"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_stinger",
@@ -34853,7 +35193,8 @@
      "name": "Unlocks Ship Type: Cryptic Stinger"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_world",
@@ -34901,7 +35242,8 @@
      "name": "Unlocks Megastructure: Synaptic Lathe"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_cosmogenesis_thesis",
@@ -34969,7 +35311,8 @@
      "name": "Attempt to bend the Rules of Reality"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_lathe_resonator",
@@ -35098,7 +35441,8 @@
      "name": "Synaptic Resonator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_lathe_overclocker",
@@ -35227,7 +35571,8 @@
      "name": "Synaptic Overclocker"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_lathe_preserver",
@@ -35356,7 +35701,8 @@
      "name": "Synaptic Preserver"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_lathe_life_support",
@@ -35485,7 +35831,8 @@
      "name": "Synaptic Sustainer"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_lathe_cogitator",
@@ -35614,7 +35961,8 @@
      "name": "Synaptic Cogitator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_lathe_validator",
@@ -35743,7 +36091,8 @@
      "name": "Synaptic Validator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_orbital_arc_furnace",
@@ -35879,7 +36228,8 @@
      "name": "Arc Furnace Capacity +3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_dyson_swarm",
@@ -36040,7 +36390,8 @@
      "name": "Dyson Swarm Capacity +3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_nanite_repair_system_synth_queen",
@@ -36080,7 +36431,8 @@
      "name": "Cetana's Nanites Repair System"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_machine_age_tech.txt"
   },
   {
    "key": "tech_orbital_trash_dispersal",
@@ -36116,7 +36468,8 @@
      "name": "Orbital Shed Disperser"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megacorp_tech.txt"
   },
   {
    "key": "tech_xeno_tourism_agency",
@@ -36153,7 +36506,8 @@
      "name": "Xeno-Outreach Agency"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megacorp_tech.txt"
   },
   {
    "key": "tech_executive_retreat",
@@ -36190,7 +36544,8 @@
      "name": "Executive Retreat"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megacorp_tech.txt"
   },
   {
    "key": "tech_mega_engineering",
@@ -36845,7 +37200,8 @@
      "name": "Station Capacity +3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_science_nexus",
@@ -37033,7 +37389,8 @@
      "name": "The Groik Nexus"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_sentry_array",
@@ -37221,7 +37578,8 @@
      "name": "Sentry Array"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_strategic_coordination",
@@ -37439,7 +37797,8 @@
      "name": "Strategic Coordination Center"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_interstellar_assembly",
@@ -37646,7 +38005,8 @@
      "name": "Interstellar Assembly"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_mega_art",
@@ -37868,7 +38228,8 @@
      "name": "Mega Art Installation: Perfection"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_gateway_activation",
@@ -38098,7 +38459,8 @@
      "name": "Gateway ness"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_gateway_construction",
@@ -38265,7 +38627,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_dyson_sphere",
@@ -38326,7 +38689,8 @@
      "name": "Dyson Sphere"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_matter_decompressor",
@@ -38387,7 +38751,8 @@
      "name": "Matter Decompressor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_ring_world",
@@ -38440,7 +38805,8 @@
      "name": "Completed Ring World Section"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_mega_shipyard",
@@ -38658,7 +39024,8 @@
      "name": "Mega Shipyard"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_megastructures.txt"
   },
   {
    "key": "tech_arkship_construction",
@@ -38695,7 +39062,8 @@
      "name": "Unlocks Feature: Arkship Construction"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_arkship_tier_2",
@@ -38762,7 +39130,8 @@
      "name": "Unlocks Arkship Upgrade: Arkship Engineering"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_arkship_tier_3",
@@ -38844,7 +39213,8 @@
      "name": "Unlocks Arkship Upgrade: Arkship Mastery"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_civilian_arkship",
@@ -38934,7 +39304,8 @@
      "name": "Unlocks Arkship Class: Civilian"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_science_arkship",
@@ -39024,7 +39395,8 @@
      "name": "Unlocks Arkship Class: Scientific"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_military_arkship",
@@ -39113,7 +39485,8 @@
      "name": "Unlocks Arkship Class: Military"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_arkship_planetary_refinery",
@@ -39269,7 +39642,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_arkship_stellar_igniter",
@@ -39385,7 +39759,8 @@
      "name": "Unlocks Contract Type: Stellar Ignition"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_arkship_system_scanner",
@@ -39547,7 +39922,8 @@
      "name": "Unlocks Contract Type: Deep Scan"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_arkship_exodus_jump",
@@ -39658,7 +40034,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_nomads_mechanized_mining",
@@ -39693,7 +40070,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_waystation_1",
@@ -39747,7 +40125,8 @@
      "name": "Station Capacity +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_waystation_2",
@@ -39927,7 +40306,8 @@
      "name": "Logistic Ship Stockpile Capacity +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_waystation_3",
@@ -40087,7 +40467,8 @@
      "name": "Logistic Ship Stockpile Capacity +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_planetary_engineering",
@@ -40188,7 +40569,8 @@
      "name": "Unlocks Contract Type: Clear Blockers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_dyson_gun",
@@ -40370,7 +40752,8 @@
      "name": "Unlocks Megastructure: Stellar Cannon"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_nomads_dlc_tech.txt"
   },
   {
    "key": "tech_quantum_catapult",
@@ -40662,7 +41045,8 @@
      "name": "Quantum Catapult"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_overlord_tech.txt"
   },
   {
    "key": "tech_orbital_ring_tier_1",
@@ -40855,7 +41239,8 @@
      "name": "Station Capacity +3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_overlord_tech.txt"
   },
   {
    "key": "tech_hyper_relays",
@@ -41096,7 +41481,8 @@
      "name": "Relay network dummy"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_overlord_tech.txt"
   },
   {
    "key": "tech_space_exploration",
@@ -41136,7 +41522,8 @@
      "name": "Unlocks Ship Type: Science Ship"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_basic_science_lab_1",
@@ -41184,7 +41571,8 @@
      "name": "Research Segment"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_basic_science_lab_2",
@@ -41275,7 +41663,8 @@
      "name": "Experimentation Complex"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_basic_science_lab_3",
@@ -41331,7 +41720,8 @@
      "name": "Experimentation Nexus"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_global_research_initiative",
@@ -41419,7 +41809,8 @@
      "name": "Enrichment Labs"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_curator_lab",
@@ -41542,7 +41933,8 @@
      "name": "Science ship survey speed +0.33"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_archeology_lab",
@@ -41677,7 +42069,8 @@
      "name": "Ship anomaly research speed mult +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_space_science_1",
@@ -41708,7 +42101,8 @@
      "name": "Resources Produced from Research Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_space_science_2",
@@ -41739,7 +42133,8 @@
      "name": "Resources Produced from Research Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_space_science_3",
@@ -41770,7 +42165,8 @@
      "name": "Resources Produced from Research Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_space_science_4",
@@ -41801,7 +42197,8 @@
      "name": "Resources Produced from Research Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_space_science_5",
@@ -41832,7 +42229,8 @@
      "name": "Resources Produced from Research Stations +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_physics_1",
@@ -41962,7 +42360,8 @@
      "name": "Field Dynamics Center"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_physics_2",
@@ -42105,7 +42504,8 @@
      "name": "Quantum Relations Annex"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_physics_3",
@@ -42220,7 +42620,8 @@
      "name": "Fundamental Research Nexus"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_administrative_ai",
@@ -42271,7 +42672,8 @@
      "name": "Upkeep for [GetResearcherPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_cryostasis_1",
@@ -42311,7 +42713,8 @@
      "name": "Colony Development Speed +50%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_cryostasis_2",
@@ -42351,7 +42754,8 @@
      "name": "Colony Development Speed +50%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_self_aware_logic",
@@ -42402,7 +42806,8 @@
      "name": "Num tech alternatives add +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_automated_exploration",
@@ -42579,7 +42984,8 @@
      "name": "Science ship survey speed +0.25"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_sapient_ai",
@@ -42662,7 +43068,8 @@
      "name": "Upkeep for [GetResearcherPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_positronic_implants",
@@ -42721,7 +43128,8 @@
      "name": "Upkeep for [GetResearcherPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_combat_computers_1",
@@ -42921,7 +43329,8 @@
      "name": "Unlocks Component: Basic Combat Roles"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_combat_computers_2",
@@ -43049,7 +43458,8 @@
      "name": "Unlocks Component: Advanced Combat Roles"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_combat_computers_3",
@@ -43270,7 +43680,8 @@
      "name": "Unlocks Component: Sapient Combat AI"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_combat_computers_autonomous",
@@ -43469,7 +43880,8 @@
      "name": "Unlocks Component: Autonomous Ship Intellects"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_auxiliary_fire_control",
@@ -43504,7 +43916,8 @@
      "name": "Artificial Fire Control Instinct"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_synchronized_defences",
@@ -43658,7 +44071,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_consumer_good_refinement_1",
@@ -43698,7 +44112,8 @@
      "name": "Resources Produced from [GetFactorySwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_consumer_good_refinement_2",
@@ -43739,7 +44154,8 @@
      "name": "Resources Produced from [GetFactorySwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_neuro_quantum_links",
@@ -43845,7 +44261,8 @@
      "name": "[GetSpecialist] Pop Resource Output +2.5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_encryption_1",
@@ -43916,7 +44333,8 @@
      "name": "Encryption +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_encryption_2",
@@ -43987,7 +44405,8 @@
      "name": "Encryption +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_encryption_3",
@@ -44058,7 +44477,8 @@
      "name": "Encryption +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_decryption_1",
@@ -44141,7 +44561,8 @@
      "name": "Codebreaking +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_decryption_2",
@@ -44212,7 +44633,8 @@
      "name": "Codebreaking +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_decryption_3",
@@ -44283,7 +44705,8 @@
      "name": "Codebreaking +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_fission_power",
@@ -44323,7 +44746,8 @@
      "name": "Unlocks Component: Fission Reactor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_fusion_power",
@@ -44395,7 +44819,8 @@
      "name": "Unlocks Component: Fusion Reactor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_cold_fusion_power",
@@ -44459,7 +44884,8 @@
      "name": "Unlocks Component: Cold Fusion Reactor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_antimatter_power",
@@ -44531,7 +44957,8 @@
      "name": "Unlocks Component: Antimatter Reactor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_zero_point_power",
@@ -44595,7 +45022,8 @@
      "name": "Unlocks Component: Zero Point Reactor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_reactor_boosters_1",
@@ -44629,7 +45057,8 @@
      "name": "Reactor Booster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_reactor_boosters_2",
@@ -44661,7 +45090,8 @@
      "name": "Improved Reactor Booster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_reactor_boosters_3",
@@ -44693,7 +45123,8 @@
      "name": "Advanced Reactor Booster"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_shields_1",
@@ -44749,7 +45180,8 @@
      "name": "Energy Epidermis"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_shields_2",
@@ -44824,7 +45256,8 @@
      "name": "Army Health +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_shields_3",
@@ -44899,7 +45332,8 @@
      "name": "Army Health +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_shields_4",
@@ -44974,7 +45408,8 @@
      "name": "Army Health +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_shields_5",
@@ -45049,7 +45484,8 @@
      "name": "Army Health +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_shield_rechargers_1",
@@ -45080,7 +45516,8 @@
      "name": "Shield Capacitor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_shield_hardeners_1",
@@ -45116,7 +45553,8 @@
      "name": "Energy Field Hardener"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_shield_hardeners_2",
@@ -45152,7 +45590,8 @@
      "name": "Improved Energy Field Hardener"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_planetary_shield_generator",
@@ -45255,7 +45694,8 @@
      "name": "Planetary Shield Canopy"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_sensors_2",
@@ -45380,7 +45820,8 @@
      "name": "Unlocks Component: Gravitic Sensors"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_sensors_3",
@@ -45507,7 +45948,8 @@
      "name": "Unlocks Component: Subspace Sensors"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_sensors_4",
@@ -45634,7 +46076,8 @@
      "name": "Unlocks Component: Tachyon Sensors"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_power_plant_1",
@@ -45690,7 +46133,8 @@
      "name": "Reactor Arrays"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_power_plant_2",
@@ -45741,7 +46185,8 @@
      "name": "Produced from [GetTechnicianSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_power_plant_3",
@@ -45792,7 +46237,8 @@
      "name": "Produced from [GetTechnicianSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_power_plant_4",
@@ -45843,7 +46289,8 @@
      "name": "Produced from [GetTechnicianSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_power_hub_1",
@@ -45989,7 +46436,8 @@
      "name": "Capacity subsidies wilderness"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_power_hub_2",
@@ -46084,7 +46532,8 @@
      "name": "Chloroplastic Cyst"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_hyper_drive_1",
@@ -46124,7 +46573,8 @@
      "name": "Unlocks Component: Hyperdrive I"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_hyper_drive_2",
@@ -46236,7 +46686,8 @@
      "name": "Automatic Resettlement Chance +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_hyper_drive_3",
@@ -46333,7 +46784,8 @@
      "name": "Automatic Resettlement Chance +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_wormhole_stabilization",
@@ -46564,7 +47016,8 @@
      "name": "Starlit wormhole"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_jump_drive_1",
@@ -46733,7 +47186,8 @@
      "name": "Unlocks Component: Jump Drive"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_ftl_inhibitor",
@@ -46788,7 +47242,8 @@
      "name": "FTL Inhibitor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech.txt"
   },
   {
    "key": "tech_repeatable_improved_tile_energy_output",
@@ -46819,7 +47274,8 @@
      "name": "Energy Credits from Jobs +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_shield_output",
@@ -46850,7 +47306,8 @@
      "name": "Shield Hit Points +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_weapon_type_energy_damage",
@@ -46881,7 +47338,8 @@
      "name": "Energy Weapon Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_weapon_type_energy_fire_rate",
@@ -46912,7 +47370,8 @@
      "name": "Energy Weapon Fire Rate +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_reduced_building_cost",
@@ -46942,7 +47401,8 @@
      "name": "Building Cost -5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_tech_repeatable.txt"
   },
   {
    "key": "tech_lasers_1",
@@ -46998,7 +47458,8 @@
      "name": "Red Eye Beam"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_lasers_2",
@@ -47088,7 +47549,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_lasers_3",
@@ -47178,7 +47640,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_lasers_4",
@@ -47268,7 +47731,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_lasers_5",
@@ -47358,7 +47822,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_energy_lance_1",
@@ -47424,7 +47889,8 @@
      "name": "Particle Lance"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_energy_lance_2",
@@ -47491,7 +47957,8 @@
      "name": "Tachyon Lance"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_plasma_1",
@@ -47601,7 +48068,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_plasma_2",
@@ -47691,7 +48159,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_plasma_3",
@@ -47781,7 +48250,8 @@
      "name": "Army Damage +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_arc_emitter_1",
@@ -47847,7 +48317,8 @@
      "name": "Arc Emitter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_arc_emitter_2",
@@ -47913,7 +48384,8 @@
      "name": "Focused Arc Emitter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_disruptors_1",
@@ -48003,7 +48475,8 @@
      "name": "Medium Disruptor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_disruptors_2",
@@ -48073,7 +48546,8 @@
      "name": "Medium Ion Disruptor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_disruptors_3",
@@ -48143,7 +48617,8 @@
      "name": "Medium Phased Disruptor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_energy_torpedoes_1",
@@ -48229,7 +48704,8 @@
      "name": "Proton Launchers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_energy_torpedoes_2",
@@ -48295,7 +48771,8 @@
      "name": "Neutron Launchers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_pd_tracking_1",
@@ -48335,7 +48812,8 @@
      "name": "Sentinel Spitter Gun"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_pd_tracking_2",
@@ -48374,7 +48852,8 @@
      "name": "Barrier Spitter Gun"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_pd_tracking_3",
@@ -48413,7 +48892,8 @@
      "name": "Guardian Spitter Gun"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_extradimensional_weapon_1",
@@ -48511,7 +48991,8 @@
      "name": "Bio-Disintegrator"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_mining_drone_weapon_1",
@@ -48558,7 +49039,8 @@
      "name": "Sharp-Eye Laser"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_space_cloud_weapon_1",
@@ -48594,7 +49076,8 @@
      "name": "Lightning Breath"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "null_void_beam",
@@ -48638,7 +49121,8 @@
      "name": "Null Void Siphon"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_starfire_cannon",
@@ -48716,7 +49200,8 @@
      "name": "Starfire Cannon"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_phys_weapon_tech.txt"
   },
   {
    "key": "tech_critter_feeder",
@@ -48751,7 +49236,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_plantoids_tech.txt"
   },
   {
    "key": "tech_psionic_aura",
@@ -48786,7 +49272,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_aura_intensification",
@@ -48823,7 +49310,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_psionic_suppression",
@@ -48921,7 +49409,8 @@
      "name": "Unlocks Feature: Unlocks the ability to construct Shroud Seals and Psionic Suppressors."
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_aura_resonation",
@@ -48958,7 +49447,8 @@
     "modifiers": []
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_materiality_engine",
@@ -48998,7 +49488,8 @@
      "name": "Materiality Engine"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_psionic_bombers",
@@ -49042,7 +49533,8 @@
      "name": "Psionic Sappers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_psionic_lightning",
@@ -49086,7 +49578,8 @@
      "name": "Psionic Bio-Lightning"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_psionic_disruptor",
@@ -49142,7 +49635,8 @@
      "name": "Psionic Bio-Disruptors"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_zro_launcher",
@@ -49186,7 +49680,8 @@
      "name": "Zro Pods"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_shroud_tech.txt"
   },
   {
    "key": "tech_planetary_defenses",
@@ -49226,7 +49721,8 @@
      "name": "Ordnance Engineering"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_interplanetary_commerce",
@@ -49266,7 +49762,8 @@
      "name": "Commercial Zones"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_space_trading",
@@ -49316,7 +49813,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_interstellar_economics",
@@ -49403,7 +49901,8 @@
      "name": "Holo-Production Studios"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_galactic_markets",
@@ -49518,7 +50017,8 @@
      "name": "Galactic Stock Exchange"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_prescient_data_modeling",
@@ -49550,7 +50050,8 @@
      "name": "Trade from Jobs +2.5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_industrial_farming",
@@ -49594,7 +50095,8 @@
      "name": "Arkship Deck"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_eco_simulation",
@@ -49866,7 +50368,8 @@
      "name": "Produced from [GetFarmerSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_gene_crops",
@@ -50099,7 +50602,8 @@
      "name": "Produced from [GetFarmerSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_nano_vitality_crops",
@@ -50320,7 +50824,8 @@
      "name": "Produced from [GetFarmerSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_nutrient_replication",
@@ -50600,7 +51105,8 @@
      "name": "Produced from [GetFarmerSwapPluralWithIcon] +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_hydroponics",
@@ -50788,7 +51294,8 @@
      "name": "Hydroponics Farms"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_food_processing_1",
@@ -51035,7 +51542,8 @@
      "name": "Farming subsidies wilderness"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_food_processing_2",
@@ -51246,7 +51754,8 @@
      "name": "Sylviculture Plantation"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_society_1",
@@ -51391,7 +51900,8 @@
      "name": "Xenobiological Lab"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_society_2",
@@ -51549,7 +52059,8 @@
      "name": "Neurogenetics Institute"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_society_3",
@@ -51707,7 +52218,8 @@
      "name": "Life Systems Complex"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_alien_life_studies",
@@ -51907,7 +52419,8 @@
      "name": "Alien Zoo"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_colonization_1",
@@ -51969,7 +52482,8 @@
      "name": "Unlocks Ship Type: Colony Ship"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_colonization_2",
@@ -52000,7 +52514,8 @@
      "name": "Habitability +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_colonization_3",
@@ -52031,7 +52546,8 @@
      "name": "Habitability +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_colonization_4",
@@ -52062,7 +52578,8 @@
      "name": "Habitability +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_colonization_5",
@@ -52093,7 +52610,8 @@
      "name": "Habitability +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_tomb_world_adaption",
@@ -52212,7 +52730,8 @@
      "name": "Tomb World Habitability +0.2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_basic_health",
@@ -52256,7 +52775,8 @@
      "name": "Medical Center"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_frontier_health",
@@ -52346,7 +52866,8 @@
      "name": "Gene Clinics"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_frontier_hospital",
@@ -52449,7 +52970,8 @@
      "name": "Cyto-Revitalization Centers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_mountain_range",
@@ -52569,7 +53091,8 @@
      "name": "Impassable Mountains"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_volcano",
@@ -52719,7 +53242,8 @@
      "name": "Research Option: Volcanic Terraforming"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_dangerous_wildlife",
@@ -52839,7 +53363,8 @@
      "name": "Dangerous Wildlife"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_dense_jungle",
@@ -52959,7 +53484,8 @@
      "name": "Dense Jungle"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_quicksand_basin",
@@ -53079,7 +53605,8 @@
      "name": "Quicksand Basin"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_noxious_swamp",
@@ -53199,7 +53726,8 @@
      "name": "Noxious Swamp"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_massive_glacier",
@@ -53319,7 +53847,8 @@
      "name": "Massive Glacier"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_toxic_kelp",
@@ -53439,7 +53968,8 @@
      "name": "Toxic Kelp"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_deep_sinkhole",
@@ -53559,7 +54089,8 @@
      "name": "Deep Sinkhole"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_terrestrial_sculpting",
@@ -53672,7 +54203,8 @@
      "name": "Terraforming gas"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_ecological_adaptation",
@@ -53714,7 +54246,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_climate_restoration",
@@ -53761,7 +54294,8 @@
      "name": "Unlocks Feature: Climate Restoration"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_volcanic_forge",
@@ -53853,7 +54387,8 @@
      "name": "Volcanic Foundry"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_volcanic_terraforming",
@@ -53921,7 +54456,8 @@
      "name": "Unlocks Feature: Volcanic Terraforming"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_genome_mapping",
@@ -54089,7 +54625,8 @@
      "name": "Pop Growth Speed +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_vitality_boosters",
@@ -54242,7 +54779,8 @@
      "name": "Leader Lifespan +10"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_epigenetic_triggers",
@@ -54508,7 +55046,8 @@
      "name": "Unlocks Feature: Epigenetic Triggers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_cloning",
@@ -54669,7 +55208,8 @@
      "name": "Clone Vats"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_gene_banks",
@@ -54852,7 +55392,8 @@
      "name": "Clone Army"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_gene_seed_purification",
@@ -55101,7 +55642,8 @@
      "name": "Gene Warrior Army"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_morphogenetic_field_mastery",
@@ -55329,7 +55871,8 @@
      "name": "Xenomorph Army"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_gene_tailoring",
@@ -55494,7 +56037,8 @@
      "name": "Organic Species Modification Points +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_glandular_acclimation",
@@ -55644,7 +56188,8 @@
      "name": "House of Apotheosis"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_gene_expressions",
@@ -55816,7 +56361,8 @@
      "name": "Unlocks Species Modifcation: Vocational Editing"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_selected_lineages",
@@ -56002,7 +56548,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_capacity_boosters",
@@ -56177,7 +56724,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_regenerative_hull_tissue",
@@ -56208,7 +56756,8 @@
      "name": "Regenerative Hull Tissue"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_fleet_size_1",
@@ -56257,7 +56806,8 @@
      "name": "Fleet Command Limit +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_fleet_size_2",
@@ -56304,7 +56854,8 @@
      "name": "Fleet Command Limit +40"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_fleet_size_3",
@@ -56351,7 +56902,8 @@
      "name": "Fleet Command Limit +60"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_fleet_size_4",
@@ -56398,7 +56950,8 @@
      "name": "Fleet Command Limit +80"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_fleet_size_5",
@@ -56445,7 +56998,8 @@
      "name": "Fleet Command Limit +100"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_interstellar_fleet_traditions",
@@ -56485,7 +57039,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_refit_standards",
@@ -56536,7 +57091,8 @@
      "name": "Ship Upkeep -5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_command_matrix",
@@ -56587,7 +57143,8 @@
      "name": "Ship Fire Rate +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_navy_size_1",
@@ -56632,7 +57189,8 @@
      "name": "Naval Capacity +25"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_navy_size_2",
@@ -56679,7 +57237,8 @@
      "name": "Naval Capacity +50"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_navy_size_3",
@@ -56726,7 +57285,8 @@
      "name": "Naval Capacity +75"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_doctrine_navy_size_4",
@@ -56773,7 +57333,8 @@
      "name": "Naval Capacity +100"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_centralized_command",
@@ -56822,7 +57383,8 @@
      "name": "Max Occupation Garrisons +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_combat_training",
@@ -56873,7 +57435,8 @@
      "name": "Assault Army Morale +15%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_ground_defense_planning",
@@ -56920,7 +57483,8 @@
      "name": "Defense Army Damage +33%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_global_defense_grid",
@@ -56990,7 +57554,8 @@
      "name": "Defense Army Health +25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_psionic_theory",
@@ -57394,7 +57959,8 @@
      "name": "Army Morale Damage Taken -10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_telepathy",
@@ -57600,7 +58166,8 @@
      "name": "Psionic Army"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_precognition_interface",
@@ -57855,7 +58422,8 @@
      "name": "Unlocks Component: Precognitive Interface"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_thought_enforcement",
@@ -58107,7 +58675,8 @@
      "name": "Thought enforcement gestalt"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_psi_jump_drive_1",
@@ -58176,7 +58745,8 @@
      "name": "Unlocks Component: Psi Jump Drive"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_galactic_ambitions",
@@ -58266,7 +58836,8 @@
      "name": "Station Capacity +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_manifest_destiny",
@@ -58358,7 +58929,8 @@
      "name": "Station Capacity +2"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_interstellar_campaigns",
@@ -58482,7 +59054,8 @@
      "name": "War Exhaustion Gain -10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_galactic_campaigns",
@@ -58606,7 +59179,8 @@
      "name": "War Exhaustion Gain -10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_existential_campaigns",
@@ -58784,7 +59358,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_planetary_government",
@@ -58876,7 +59451,8 @@
      "name": "Sacrifice bounty zombie"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_planetary_unification",
@@ -58928,7 +59504,8 @@
      "name": "Monthly Unity +2.5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_colonial_centralization",
@@ -58991,7 +59568,8 @@
      "name": "Scientist Capacity +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_galactic_administration",
@@ -59034,7 +59612,8 @@
      "name": "Civic Slots +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_planetary_infrastructure_1",
@@ -59078,7 +59657,8 @@
      "name": "Habitat Max Districts +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_planetary_infrastructure_2",
@@ -59123,7 +59703,8 @@
      "name": "Habitat Max Districts +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_subdermal_stimulation",
@@ -59241,7 +59822,8 @@
      "name": "Army Morale +0.1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_tracking_implants",
@@ -59356,7 +59938,8 @@
      "name": "Tracking implants"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_global_production_strategy",
@@ -59456,7 +60039,8 @@
      "name": "Forge subsidies wilderness"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_adaptive_bureaucracy",
@@ -59548,7 +60132,8 @@
      "name": "Edict Fund +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_effective_bureaucracy",
@@ -59648,7 +60233,8 @@
      "name": "Edict Fund +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_colonial_bureaucracy",
@@ -59752,7 +60338,8 @@
      "name": "Base Intel Level +10"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_galactic_bureaucracy",
@@ -59860,7 +60447,8 @@
      "name": "Base Intel Level +10"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_living_state",
@@ -59980,7 +60568,8 @@
      "name": "Faction Resource Output +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_collective_self",
@@ -60116,7 +60705,8 @@
      "name": "Envoys add +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_autonomous_agents",
@@ -60220,7 +60810,8 @@
      "name": "Envoys add +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_embodied_dynamism",
@@ -60336,7 +60927,8 @@
      "name": "Envoys add +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_neural_implants",
@@ -60500,7 +61092,8 @@
      "name": "Slave Processing Facility"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_artificial_moral_codes",
@@ -60550,7 +61143,8 @@
      "name": "Amenities +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_synthetic_thought_patterns",
@@ -60589,7 +61183,8 @@
      "name": "Resources from Jobs +2.5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_unity_of_purpose",
@@ -60634,7 +61229,8 @@
      "name": "Amenities +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_collective_production_methods",
@@ -60673,7 +61269,8 @@
      "name": "Resources from Jobs +2.5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_resource_processing_algorithms",
@@ -60712,7 +61309,8 @@
      "name": "Resources from Jobs +2.5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_holo_entertainment",
@@ -60752,7 +61350,8 @@
      "name": "Holo-Theatres"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_hyper_entertainment_forum",
@@ -60820,7 +61419,8 @@
      "name": "Hyper-Entertainment Forums"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_paradise_dome",
@@ -60909,7 +61509,8 @@
      "name": "Organic Paradise"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_cultural_heritage",
@@ -61067,7 +61668,8 @@
      "name": "Synergy Headquarters"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_heritage_site",
@@ -61237,7 +61839,8 @@
      "name": "Synergy Administration"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_hypercomms_forum",
@@ -61408,7 +62011,8 @@
      "name": "Synergy Nexus"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_autocurating_vault",
@@ -61469,7 +62073,8 @@
      "name": "Creativity Exhibition Vault"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_holographic_rituals",
@@ -61559,7 +62164,8 @@
      "name": "Grim Holotemple"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_consecration_fields",
@@ -61621,7 +62227,8 @@
      "name": "Temple of Grand Sacrifice"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_transcendent_faith",
@@ -61679,7 +62286,8 @@
      "name": "Citadel of Faith"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_hive_node",
@@ -61723,7 +62331,8 @@
      "name": "Synaptic Nodes"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_hive_cluster",
@@ -61766,7 +62375,8 @@
      "name": "Synaptic reinforcement"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_hive_confluence",
@@ -61798,7 +62408,8 @@
      "name": "Confluence of Thought"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_wilderness_node",
@@ -61846,7 +62457,8 @@
      "name": "Avatar Chamber"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_wilderness_cluster",
@@ -61881,7 +62493,8 @@
      "name": "Avatar Forest"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_wilderness_confluence",
@@ -61917,7 +62530,8 @@
      "name": "Avatar Cortex"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_ascension_theory",
@@ -62025,7 +62639,8 @@
      "name": "Ascension perks add +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_psionic_barrier",
@@ -62083,7 +62698,8 @@
      "name": "Null Void Epidermis"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_psionic_shield",
@@ -62141,7 +62757,8 @@
      "name": "Psionic Skin"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_penal_colonies",
@@ -62274,7 +62891,8 @@
      "name": "Create Penal Colony"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_resort_colonies",
@@ -62333,7 +62951,8 @@
      "name": "Create Resort World"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_slave_colonies",
@@ -62450,7 +63069,8 @@
      "name": "Create Thrall-World"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_housing_agrarian_idyll",
@@ -62495,7 +63115,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_federation_code",
@@ -62628,7 +63249,8 @@
      "name": "Diplomatic Agreement Influence Upkeep -25%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_xeno_diplomacy",
@@ -62740,7 +63362,8 @@
      "name": "Diplomatic Weight +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_xeno_relations",
@@ -62845,7 +63468,8 @@
      "name": "Diplomatic Weight +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_capital_productivity_1",
@@ -62892,7 +63516,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_capital_productivity_2",
@@ -62940,7 +63565,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_capital_productivity_3",
@@ -62988,7 +63614,8 @@
     ]
    },
    "unlocks": [],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_covenant_composer",
@@ -63026,7 +63653,8 @@
      "name": "Blessing of the Composer"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_covenant_eater",
@@ -63064,7 +63692,8 @@
      "name": "Blessing of the Eater"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_covenant_instrument",
@@ -63102,7 +63731,8 @@
      "name": "Blessing of the Instrument"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_covenant_cradle",
@@ -63140,7 +63770,8 @@
      "name": "Blessing of the Cradle"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_covenant_whisperers",
@@ -63178,7 +63809,8 @@
      "name": "Blessing of the Whisperers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_xeno_linguistics",
@@ -63262,7 +63894,8 @@
      "name": "First Contact Speed +20%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_node_reformatting_1",
@@ -63442,7 +64075,8 @@
      "name": "Unlocks Agendas: Node Reformatting"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_node_reformatting_2",
@@ -63598,7 +64232,8 @@
      "name": "Councilor exp gain +0.25"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_node_reformatting_3",
@@ -63785,7 +64420,8 @@
      "name": "Effective Councilor Skill +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_node_culling_1",
@@ -63980,7 +64616,8 @@
      "name": "Unlocks Agendas: Node Culling"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_node_culling_2",
@@ -64136,7 +64773,8 @@
      "name": "Councilor exp gain +0.25"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_node_culling_3",
@@ -64323,7 +64961,8 @@
      "name": "Effective Councilor Skill +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_bio_reactor",
@@ -64430,7 +65069,8 @@
      "name": "Bio-Reactor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_bio_reactor_2",
@@ -64537,7 +65177,8 @@
      "name": "Advanced Bio-Reactor"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech.txt"
   },
   {
    "key": "tech_repeatable_improved_tile_food_output",
@@ -64576,7 +65217,8 @@
      "name": "Food from Jobs +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_core_system_cap",
@@ -64607,7 +65249,8 @@
      "name": "Monthly Unity +5%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_army_damage",
@@ -64638,7 +65281,8 @@
      "name": "Army Damage +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_army_health",
@@ -64669,7 +65313,8 @@
      "name": "Army Health +0.1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_leader_life_span",
@@ -64700,7 +65345,8 @@
      "name": "Leader Lifespan +5"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_naval_cap",
@@ -64732,7 +65378,8 @@
      "name": "Naval Capacity +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_command_limit",
@@ -64764,7 +65411,8 @@
      "name": "Fleet Command Limit +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_improved_starbase_capacity",
@@ -64796,7 +65444,8 @@
      "name": "Station Capacity +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_weapon_type_strike_craft_fire_damage",
@@ -64827,7 +65476,8 @@
      "name": "Strike Craft Damage +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_repeatable_weapon_type_strike_craft_fire_rate",
@@ -64858,7 +65508,8 @@
      "name": "Strike Craft Fire Rate +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_tech_repeatable.txt"
   },
   {
    "key": "tech_amoeba_strike_craft_1",
@@ -64893,7 +65544,8 @@
      "name": "Flagella Swarmers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_weapon_tech.txt"
   },
   {
    "key": "tech_swarm_strike_craft_1",
@@ -64929,7 +65581,8 @@
      "name": "Scourge Swarmers"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_weapon_tech.txt"
   },
   {
    "key": "tech_scourge_missile_1",
@@ -64965,7 +65618,8 @@
      "name": "Scourge Missile"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_weapon_tech.txt"
   },
   {
    "key": "tech_space_whale_weapon_1",
@@ -64996,7 +65650,8 @@
      "name": "Energy Siphon"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_soc_weapon_tech.txt"
   },
   {
    "key": "tech_enhanced_cryosleep_sedatives",
@@ -65027,7 +65682,8 @@
      "name": "Organic Pop Resettlement Cost -30%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strange_worlds_tech.txt"
   },
   {
    "key": "tech_universal_marcophage",
@@ -65063,7 +65719,8 @@
      "name": "Biological Pop Growth Speed +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strange_worlds_tech.txt"
   },
   {
    "key": "tech_mine_living_metal",
@@ -65148,7 +65805,8 @@
      "name": "Living Metal"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_mine_betharian",
@@ -65205,7 +65863,8 @@
      "name": "Betharian Power Plant"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_mine_volatile_motes",
@@ -65320,7 +65979,8 @@
      "name": "Mote Harvesting Traps"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_volatile_motes",
@@ -65411,7 +66071,8 @@
      "name": "Chemical Digester"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_mine_exotic_gases",
@@ -65526,7 +66187,8 @@
      "name": "Gas Extraction Wells"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_exotic_gases",
@@ -65617,7 +66279,8 @@
      "name": "Exotic Gas Filters"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_mine_rare_crystals",
@@ -65747,7 +66410,8 @@
      "name": "Crystal Mines"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_rare_crystals",
@@ -65842,7 +66506,8 @@
      "name": "Crystal Bed"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_mine_zro",
@@ -66050,7 +66715,8 @@
      "name": "Zro"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_mine_dark_matter",
@@ -66188,7 +66854,8 @@
      "name": "Dark Matter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_nanite_transmutation",
@@ -66341,7 +67008,8 @@
      "name": "Nanite Transmuter"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_strategic_resources_tech.txt"
   },
   {
    "key": "tech_robomodding_m",
@@ -66397,7 +67065,8 @@
      "name": "Leader Lifespan +20"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_robomodding",
@@ -66461,7 +67130,8 @@
      "name": "Habitability +0.05"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_robomodding_points_1",
@@ -66545,7 +67215,8 @@
      "name": "Machine Modification Points +3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_robomodding_points_2",
@@ -66723,7 +67394,8 @@
      "name": "Machine Modification Points +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_binary_motivators",
@@ -66780,7 +67452,8 @@
      "name": "Machine Modification Points +3"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_nanite_assemblers",
@@ -66917,7 +67590,8 @@
      "name": "Machine Modification Points +1"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_mega_assembly",
@@ -67050,7 +67724,8 @@
      "name": "Machine Assembly Complex"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_adaptive_combat_algorithms",
@@ -67100,7 +67775,8 @@
      "name": "Advanced War Android Army"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_biomechanics",
@@ -67212,7 +67888,8 @@
      "name": "Mega War Android"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_micro_replicators",
@@ -67266,7 +67943,8 @@
      "name": "Mechanical Pop Assembly Speed +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   },
   {
    "key": "tech_self_assembling_components",
@@ -67318,7 +67996,8 @@
      "name": "Mechanical Pop Assembly Speed +10%"
     }
    ],
-   "source": "vanilla"
+   "source": "vanilla",
+   "file": "common/technology/00_synthetic_dawn_tech.txt"
   }
  ],
  "tierGates": [
@@ -67346,5 +68025,41 @@
    "tier": 5,
    "previouslyUnlocked": 6
   }
- ]
+ ],
+ "technologyFiles": [
+  "common/technology/000_documentation.txt",
+  "common/technology/00_ancient_relics_tech.txt",
+  "common/technology/00_apocalypse_tech.txt",
+  "common/technology/00_astral_planes_tech.txt",
+  "common/technology/00_biogenesis_tech.txt",
+  "common/technology/00_cosmic_storm_tech.txt",
+  "common/technology/00_distant_stars_tech.txt",
+  "common/technology/00_eng_tech.txt",
+  "common/technology/00_eng_tech_repeatable.txt",
+  "common/technology/00_eng_weapon_tech.txt",
+  "common/technology/00_extreme_frontiers_tech.txt",
+  "common/technology/00_fallen_empire_tech.txt",
+  "common/technology/00_first_contact_tech.txt",
+  "common/technology/00_grand_archive_tech.txt",
+  "common/technology/00_horizonsignal_tech.txt",
+  "common/technology/00_leviathans_tech.txt",
+  "common/technology/00_machine_age_tech.txt",
+  "common/technology/00_megacorp_tech.txt",
+  "common/technology/00_megastructures.txt",
+  "common/technology/00_nomads_dlc_tech.txt",
+  "common/technology/00_overlord_tech.txt",
+  "common/technology/00_phys_tech.txt",
+  "common/technology/00_phys_tech_repeatable.txt",
+  "common/technology/00_phys_weapon_tech.txt",
+  "common/technology/00_plantoids_tech.txt",
+  "common/technology/00_repeatable.txt",
+  "common/technology/00_shroud_tech.txt",
+  "common/technology/00_soc_tech.txt",
+  "common/technology/00_soc_tech_repeatable.txt",
+  "common/technology/00_soc_weapon_tech.txt",
+  "common/technology/00_strange_worlds_tech.txt",
+  "common/technology/00_strategic_resources_tech.txt",
+  "common/technology/00_synthetic_dawn_tech.txt"
+ ],
+ "unlocksAdded": {}
 }

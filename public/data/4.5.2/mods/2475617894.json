@@ -1,0 +1,1006 @@
+{
+ "source": {
+  "id": "2475617894",
+  "name": "Real Space - New Frontiers",
+  "version": "3.3.3",
+  "workshopId": "2475617894"
+ },
+ "technologies": [
+  {
+   "key": "tech_gravitational_flows_theory",
+   "name": "Theory of gravitational flows",
+   "description": "The study of new data on the nature of the curvature of spacetime under the influence of gravity and various energies will allow the development of control measures for the orbital motion of celestial bodies.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 50000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "dangerous",
+    "granted"
+   ],
+   "icon": "icons/2475617894/tech_gravitational_flows_theory.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Orbit stabilizer"
+    }
+   ],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_core_isostasia_theory",
+   "name": "Theory of core isostasis",
+   "description": "Studying the latest data on the isostatic equilibrium of the planet's crust and upper layers of the mantle, as well as the influence of the planet's core on these processes, will allow us to develop a number of practical solutions to reduce abnormal volcanic activity.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Computing",
+   "cost": 50000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "dangerous",
+    "granted"
+   ],
+   "icon": "icons/2475617894/tech_core_isostasia_theory.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Planetary core regulator"
+    }
+   ],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_stellar_process_control",
+   "name": "Control over star processes",
+   "description": "The latest data on the study of the internal processes of stellar evolution allows us to develop a device to control the processes occurring in the solar core. This device will allow us to adjust the course of thermonuclear reactions, so as to slow down the aging of the star.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Particles",
+   "cost": 50000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "dangerous",
+    "granted"
+   ],
+   "icon": "icons/2475617894/tech_stellar_process_control.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_blocked_tunnell",
+   "name": "Thermal Drilling",
+   "description": "The development of special mechanisms that heat the rock to a melting point will allow the formation of a network of underground tunnels efficiently and in a short time.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1250,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonization_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2475617894/tech_blocked_tunnell.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 95,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mastery of Nature ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_mastery_of_nature"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "Has deposit is Blocked Tunnel",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_planet = {\n    has_deposit = d_blocked_tunnell\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num owned planets is less than 2",
+         "details": []
+        }
+       ],
+       "script": "num_owned_planets < 2"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Blocked Tunnel"
+    }
+   ],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_ice_crust",
+   "name": "Ice Tunneling",
+   "description": "Creating effective methods for stabilizing glacier caves is a necessary measure for survival in extremely cold worlds.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1250,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonization_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2475617894/tech_ice_crust.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 95,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mastery of Nature ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_mastery_of_nature"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "Has deposit is Ice Crust",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_planet = {\n    has_deposit = d_ice_crust\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num owned planets is less than 2",
+         "details": []
+        }
+       ],
+       "script": "num_owned_planets < 2"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Ice Crust"
+    }
+   ],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_dune_sea",
+   "name": "Sandy Rotation",
+   "description": "Using heavy machinery for complex reclamation processes is the next step in terraforming unusable worlds. Autonomous Terrain Reclamation Stations are capable of stopping the movement of sands and transforming mobile soil into solid soil.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1250,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonization_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2475617894/tech_dune_sea.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 95,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mastery of Nature ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_mastery_of_nature"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "Has deposit is Dune Sea",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_planet = {\n    has_deposit = d_dune_sea\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num owned planets is less than 2",
+         "details": []
+        }
+       ],
+       "script": "num_owned_planets < 2"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has researched Soil Remediation",
+         "details": []
+        }
+       ],
+       "script": "has_technology = tech_quicksand_basin"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Dune Sea"
+    }
+   ],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_thick_forest",
+   "name": "Eco Infrastructure Mapping",
+   "description": "The use of artificial intelligence protocols in the planning of quarterly forest networks will allow the use of the planet's resources without upsetting the fragile ecological balance.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1250,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonization_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2475617894/tech_thick_forest.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 95,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mastery of Nature ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_mastery_of_nature"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "Has deposit is Thick Forest",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_planet = {\n    has_deposit = d_thick_forest\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num owned planets is less than 2",
+         "details": []
+        }
+       ],
+       "script": "num_owned_planets < 2"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has researched Soil Remediation",
+         "details": []
+        }
+       ],
+       "script": "has_technology = tech_quicksand_basin"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Thick Forest"
+    }
+   ],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_large_ice_ridge",
+   "name": "Regulation of Glacial Pressure",
+   "description": "The system of autonomous locks will allow regulating the movement of continental ice masses of cold planets.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1250,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonization_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2475617894/tech_large_ice_ridge.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 95,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mastery of Nature ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_mastery_of_nature"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "Has deposit is Large Ice Ridge",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_planet = {\n    has_deposit = d_large_ice_ridge\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num owned planets is less than 2",
+         "details": []
+        }
+       ],
+       "script": "num_owned_planets < 2"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has researched Soil Remediation",
+         "details": []
+        }
+       ],
+       "script": "has_technology = tech_quicksand_basin"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Large Ice Ridge"
+    }
+   ],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_igneous_traps",
+   "name": "Stabilization of Effusive Processes",
+   "description": "Sufficient knowledge of the internal processes in the planet's crust will open up opportunities for large-scale geological operations. Complex technological measures will make it possible to localize the centers of strong magmatism and cool areas of effusive and intrusive rocks.",
+   "area": "society",
+   "tier": 2,
+   "category": "New Worlds",
+   "cost": 2500,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonization_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2475617894/tech_igneous_traps.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 75,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mastery of Nature ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_mastery_of_nature"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "Has deposit is Igneous Traps",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_planet = {\n    has_deposit = d_igneous_traps\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num owned planets is less than 2",
+         "details": []
+        }
+       ],
+       "script": "num_owned_planets < 2"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has researched Deep Crust Engineering",
+         "details": []
+        }
+       ],
+       "script": "has_technology = tech_volcano"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Igneous Traps"
+    }
+   ],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  },
+  {
+   "key": "tech_cloud_platform",
+   "name": "Cloud Platform Design",
+   "description": "The need to develop closed territories of poisonous worlds to access resources requires the development of special engineering solutions.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Industry",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mine_exotic_gases"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2475617894/tech_cloud_platform.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Any galaxy planet:",
+      "details": [
+       {
+        "text": "Has modifier is Noxious World",
+        "details": []
+       },
+       {
+        "text": "Is surveyed:",
+        "details": [
+         {
+          "text": "Who is ROOT",
+          "details": []
+         },
+         {
+          "text": "Status",
+          "details": []
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "script": "any_galaxy_planet = {\n  has_modifier = noxious_world\n  is_surveyed = {\n    who = ROOT\n    status = yes\n  }\n}"
+   },
+   "drawWeight": {
+    "base": 80,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2475617894",
+   "file": "common/technology/newfrontiers_tech.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/newfrontiers_tech.txt"
+ ],
+ "unlocksAdded": {
+  "tech_mountain_range": [
+   {
+    "kind": "Deposits",
+    "name": "Impassable Mountains"
+   }
+  ],
+  "tech_volcano": [
+   {
+    "kind": "Deposits",
+    "name": "Active Volcano"
+   }
+  ],
+  "tech_dangerous_wildlife": [
+   {
+    "kind": "Deposits",
+    "name": "Dangerous Wildlife"
+   }
+  ],
+  "tech_dense_jungle": [
+   {
+    "kind": "Deposits",
+    "name": "Dense Jungle"
+   }
+  ],
+  "tech_toxic_kelp": [
+   {
+    "kind": "Deposits",
+    "name": "Toxic Kelp"
+   }
+  ],
+  "tech_deep_sinkhole": [
+   {
+    "kind": "Deposits",
+    "name": "Deep Sinkhole"
+   }
+  ],
+  "tech_quicksand_basin": [
+   {
+    "kind": "Deposits",
+    "name": "Quicksand Basin"
+   }
+  ],
+  "tech_noxious_swamp": [
+   {
+    "kind": "Deposits",
+    "name": "Noxious Swamp"
+   }
+  ],
+  "tech_massive_glacier": [
+   {
+    "kind": "Deposits",
+    "name": "Massive Glacier"
+   }
+  ]
+ }
+}

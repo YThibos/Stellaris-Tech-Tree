@@ -1,0 +1,462 @@
+{
+ "source": {
+  "id": "1732437279",
+  "name": "Planetary Diversity - Exotic Worlds",
+  "version": "",
+  "workshopId": "1732437279"
+ },
+ "technologies": [
+  {
+   "key": "tech_pd_cryogenic_terraforming",
+   "name": "Cryogenic Terraforming",
+   "description": "Advances in cryogenic engineering and exotic-solvent chemistry allow geo-engineering at previously unthinkable temperatures and pressures. We can terraform a Cryogenic World into a temperate planet.",
+   "area": "society",
+   "tier": 2,
+   "category": "New Worlds",
+   "cost": 2500,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_terrestrial_sculpting"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1732437279/tech_pd_cryogenic_terraforming.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Any system within border:",
+      "details": [
+       {
+        "text": "Any system planet:",
+        "details": [
+         {
+          "text": "One of these",
+          "details": [
+           {
+            "text": "Is planet class is Ammonia World",
+            "details": []
+           },
+           {
+            "text": "Is planet class is Methane World",
+            "details": []
+           },
+           {
+            "text": "Is planet class is Nitrogen World",
+            "details": []
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "script": "any_system_within_border = {\n  any_system_planet = {\n    OR = {\n      is_planet_class = pc_pd_ammonia\n      is_planet_class = pc_pd_methane\n      is_planet_class = pc_pd_nitrogen\n    }\n  }\n}"
+   },
+   "drawWeight": {
+    "base": 70,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 3
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Any system within border:",
+         "details": [
+          {
+           "text": "Any system planet:",
+           "details": [
+            {
+             "text": "One of these",
+             "details": [
+              {
+               "text": "Is planet class is Ammonia World",
+               "details": []
+              },
+              {
+               "text": "Is planet class is Methane World",
+               "details": []
+              },
+              {
+               "text": "Is planet class is Nitrogen World",
+               "details": []
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "any_system_within_border = {\n  any_system_planet = {\n    OR = {\n      is_planet_class = pc_pd_ammonia\n      is_planet_class = pc_pd_methane\n      is_planet_class = pc_pd_nitrogen\n    }\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Feature: Cryogenic Terraforming"
+    }
+   ],
+   "source": "1732437279",
+   "file": "common/technology/00_pd_exotic_terraform_tech.txt"
+  },
+  {
+   "key": "tech_pd_pressure_suits",
+   "name": "Pressure Suits",
+   "description": "Hardened cold-vac suits and atmosphere-sealed habitats let our colonists endure the oxygen, pressure, and warmth of worlds beyond our own. Other species can in turn survive within our atmospheres.",
+   "area": "society",
+   "tier": 3,
+   "category": "New Worlds",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/1732437279/tech_pd_pressure_suits.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Habitability +0.3"
+    }
+   ],
+   "source": "1732437279",
+   "file": "common/technology/01_pd_exotic_pressure_suits.txt"
+  },
+  {
+   "key": "tech_pd_cryoforming",
+   "name": "Cryoforming",
+   "description": "Advances in cryogenic chemistry and atmospheric reformation give us the means to extend our biosphere onto worlds where it does not naturally form. A temperate planet can be reshaped into the cold, dense atmosphere our kind requires.",
+   "area": "society",
+   "tier": 4,
+   "category": "New Worlds",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_terrestrial_sculpting"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1732437279/tech_pd_cryoforming.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has trait is Cryophile",
+      "details": []
+     }
+    ],
+    "script": "has_trait = trait_cryophile"
+   },
+   "drawWeight": {
+    "base": 45,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 3
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Any system within border:",
+         "details": [
+          {
+           "text": "Any system planet:",
+           "details": [
+            {
+             "text": "One of these",
+             "details": [
+              {
+               "text": "Is planet class is Ammonia World",
+               "details": []
+              },
+              {
+               "text": "Is planet class is Methane World",
+               "details": []
+              },
+              {
+               "text": "Is planet class is Nitrogen World",
+               "details": []
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "any_system_within_border = {\n  any_system_planet = {\n    OR = {\n      is_planet_class = pc_pd_ammonia\n      is_planet_class = pc_pd_methane\n      is_planet_class = pc_pd_nitrogen\n    }\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Feature: Cryogenic Terraforming"
+    }
+   ],
+   "source": "1732437279",
+   "file": "common/technology/02_pd_exotic_cryoforming.txt"
+  },
+  {
+   "key": "tech_pd_cryo_toxic_mire",
+   "name": "Cryo-Mire Reclamation",
+   "description": "Chemical neutralization fluids and low-temperature scrubbers let us drain and decontaminate toxic mires on cryogenic worlds. The reclaimed land is then safe to develop.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1250,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonization_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/1732437279/tech_pd_cryo_toxic_mire.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 95,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mastery of Nature ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_mastery_of_nature"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "Has deposit is Toxic Cryo-Mire",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_planet = {\n    has_deposit = d_pd_cryo_toxic_mire\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num owned planets is less than 2",
+         "details": []
+        }
+       ],
+       "script": "num_owned_planets < 2"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Toxic Cryo-Mire"
+    }
+   ],
+   "source": "1732437279",
+   "file": "common/technology/03_pd_exotic_blocker_techs.txt"
+  },
+  {
+   "key": "tech_pd_cryo_glacier_wall",
+   "name": "Cryogenic Glacial Boring",
+   "description": "Heated boring rigs and shaped charges break through the dense ice walls that block colonial expansion on cryogenic worlds. Clearance crews can carve passable terrain in a fraction of the natural melt time.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1250,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonization_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/1732437279/tech_pd_cryo_glacier_wall.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 95,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mastery of Nature ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_mastery_of_nature"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "Has deposit is Frozen Glacial Wall",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_planet = {\n    has_deposit = d_pd_cryo_glacier_wall\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num owned planets is less than 2",
+         "details": []
+        }
+       ],
+       "script": "num_owned_planets < 2"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Frozen Glacial Wall"
+    }
+   ],
+   "source": "1732437279",
+   "file": "common/technology/03_pd_exotic_blocker_techs.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/00_pd_exotic_terraform_tech.txt",
+  "common/technology/01_pd_exotic_pressure_suits.txt",
+  "common/technology/02_pd_exotic_cryoforming.txt",
+  "common/technology/03_pd_exotic_blocker_techs.txt"
+ ],
+ "unlocksAdded": {}
+}

@@ -1,0 +1,281 @@
+{
+ "source": {
+  "id": "3032768344",
+  "name": "Real Terraforming",
+  "version": "1.2.5",
+  "workshopId": "3032768344"
+ },
+ "technologies": [
+  {
+   "key": "tech_impact_terraforming",
+   "name": "Impact Terraforming",
+   "description": "Using medium-sized asteroids, which are abundant in any system, is a relatively simple and cheap way to terraform new worlds. With the necessary calculations of the trajectory of such an asteroid, almost any result can be obtained. The main thing is to put the correct meaning into this word...",
+   "area": "society",
+   "tier": 2,
+   "category": "New Worlds",
+   "cost": 3000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_terrestrial_sculpting"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/3032768344/tech_impact_terraforming.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 70,
+    "factor": 1.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is a lithoid empire",
+         "details": []
+        },
+        {
+         "text": "Has the Devouring Swarm civic",
+         "details": []
+        }
+       ],
+       "script": "is_lithoid_empire = yes\nhas_valid_civic = civic_hive_devouring_swarm"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has trait is Aquatic",
+         "details": []
+        }
+       ],
+       "script": "has_trait = trait_aquatic"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Life-Seeded origin",
+         "details": []
+        }
+       ],
+       "script": "has_origin = origin_life_seeded"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "3032768344",
+   "file": "common/technology/realterraforming_tech.txt"
+  },
+  {
+   "key": "tech_atmospheric_manipulation",
+   "name": "Atmospheric Manipulation",
+   "description": "Humidity regulators and chemical dispersal units are the first step towards a fundamentally altered atmosphere.",
+   "area": "society",
+   "tier": 2,
+   "category": "New Worlds",
+   "cost": 3000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_terrestrial_sculpting"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/3032768344/tech_atmospheric_manipulation.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 70,
+    "factor": 1.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is a lithoid empire",
+         "details": []
+        },
+        {
+         "text": "Has the Devouring Swarm civic",
+         "details": []
+        }
+       ],
+       "script": "is_lithoid_empire = yes\nhas_valid_civic = civic_hive_devouring_swarm"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has trait is Aquatic",
+         "details": []
+        }
+       ],
+       "script": "has_trait = trait_aquatic"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Life-Seeded origin",
+         "details": []
+        }
+       ],
+       "script": "has_origin = origin_life_seeded"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Climate Control Tower"
+    }
+   ],
+   "source": "3032768344",
+   "file": "common/technology/realterraforming_tech.txt"
+  },
+  {
+   "key": "tech_ecological_adaptation",
+   "name": "Ecological Adaptation",
+   "description": "By adapting planetary ecosystems to large-scale environmental changes we can turn terraformation into a less disruptive process.",
+   "area": "society",
+   "tier": 3,
+   "category": "New Worlds",
+   "cost": 5000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_atmospheric_manipulation"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/3032768344/tech_ecological_adaptation.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 60,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Core Heat Convector"
+    },
+    {
+     "kind": "Building",
+     "name": "Cooling Mesh System"
+    },
+    {
+     "kind": "Building",
+     "name": "Hydrological Installation"
+    },
+    {
+     "kind": "Building",
+     "name": "Drying Station"
+    }
+   ],
+   "source": "3032768344",
+   "file": "common/technology/realterraforming_tech.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/realterraforming_tech.txt"
+ ],
+ "unlocksAdded": {
+  "tech_terrestrial_sculpting": [
+   {
+    "kind": "Building",
+    "name": "Geoengineering Complex"
+   },
+   {
+    "kind": "Building",
+    "name": "Soil Fertilizer Plants"
+   }
+  ],
+  "tech_climate_restoration": [
+   {
+    "kind": "Building",
+    "name": "Air Purification Plant"
+   }
+  ]
+ }
+}

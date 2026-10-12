@@ -1,0 +1,1407 @@
+{
+ "source": {
+  "id": "1740165239",
+  "name": "Planetary Diversity - Unique Worlds",
+  "version": "",
+  "workshopId": "1740165239"
+ },
+ "technologies": [
+  {
+   "key": "tech_eludium_research",
+   "name": "Eludium Refining",
+   "description": "Mining Eludium is straightforward, but it is much more complicated to understand its potential and refining process. Like all resources, unlocking its full potential will take time.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Industry",
+   "cost": 3000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_eludium_research.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have floating tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_floating_tech = yes"
+   },
+   "drawWeight": {
+    "base": 70,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have floating tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_floating_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks: Eludium Mining Unlocks: Eludium Edicts"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_eludium_floating_islands",
+   "name": "Artificial Island Formation",
+   "description": "While the islands infused with Eludium float naturally, buoyancy devices can be created under the islands of other worlds, allowing us to significantly expand living space on other planets.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Particles",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_eludium_research"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_eludium_floating_islands.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have floating tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_floating_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have floating tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_floating_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Decision: Create Artificial Floating Islands"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_eludium_floating_resort",
+   "name": "Floating Resort Construction",
+   "description": "Using Eludium to keep the structures aloft, we can create breathtaking resorts that offer spectacular views due to their sky-bound nature.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Particles",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_eludium_research"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_eludium_floating_resort.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Is a regular empire",
+      "details": []
+     },
+     {
+      "text": "Pd can have floating tech",
+      "details": []
+     }
+    ],
+    "script": "is_regular_empire = yes\npd_can_have_floating_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is a regular empire",
+         "details": []
+        },
+        {
+         "text": "Pd can have floating tech",
+         "details": []
+        }
+       ],
+       "script": "is_regular_empire = yes\npd_can_have_floating_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Floating Resort"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_eludium_floating_overseer",
+   "name": "Floating Overseer Stations",
+   "description": "Using Eludium to keep structures aloft, we can create floating overseer stations to watch over our drones.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Particles",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_eludium_research"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_eludium_floating_overseer.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Is a gestalt consciousness",
+      "details": []
+     },
+     {
+      "text": "Pd can have floating tech",
+      "details": []
+     }
+    ],
+    "script": "is_gestalt = yes\npd_can_have_floating_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is a gestalt consciousness",
+         "details": []
+        },
+        {
+         "text": "Pd can have floating tech",
+         "details": []
+        }
+       ],
+       "script": "is_gestalt = yes\npd_can_have_floating_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Floating Overseer Station"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_acean_research",
+   "name": "Acean Crystal Processing",
+   "description": "Mastering how to retain the Acean Crystal's powerful effects after harvest is no small feat and will take time to fully understand.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Industry",
+   "cost": 3000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_acean_research.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have crystal tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_crystal_tech = yes"
+   },
+   "drawWeight": {
+    "base": 70,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have crystal tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_crystal_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks: Acean Mining Unlocks: Acean Edicts"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_acean_superorganism_larva",
+   "name": "Acean Superorganism Larva",
+   "description": "Despite taking thousands of years to mature, we can transplant larval Acean Superorganisms onto other worlds. Though much weaker than the parent, it will enhance the growth of simple organic life, significantly boosting farming yields.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_acean_research"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_acean_superorganism_larva.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have crystal tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_crystal_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have crystal tech",
+         "details": []
+        },
+        {
+         "text": "Is a regular empire",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_crystal_tech = yes\nis_regular_empire = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Decision: Plant Acean Superorganism Larva"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_acean_medical_center",
+   "name": "Acean Medical Theory",
+   "description": "Acean Crystals promote growth and healing in biological lifeforms. We can greatly improve health outcomes by constructing a high-tech medical center with Acean crystals interlaced throughout.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_frontier_hospital",
+    "tech_acean_research"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_acean_medical_center.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have crystal tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_crystal_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have crystal tech",
+         "details": []
+        },
+        {
+         "text": "Is a hive mind",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_crystal_tech = yes\nis_hive_empire = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Acean Medical Center"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_acean_gestation_pools",
+   "name": "Acean Gestation Theory",
+   "description": "Interlacing Acean Crystal has significant potential to reduce gestation times for new drone spawning.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_acean_research"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_acean_medical_center.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have crystal tech",
+      "details": []
+     },
+     {
+      "text": "Is a hive mind",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_crystal_tech = yes\nis_hive_empire = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have crystal tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_crystal_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Acean Gestation Chamber"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_acean_resonators",
+   "name": "Acean Electric Resonators",
+   "description": "Though Acean's resonance primarily affects organic systems, its unique frequency offers numerous potential applications in robotic systems.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_acean_research"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_acean_resonators.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have crystal tech",
+      "details": []
+     },
+     {
+      "text": "One of these",
+      "details": [
+       {
+        "text": "Is synthetic empire",
+        "details": []
+       },
+       {
+        "text": "Has the Mechanist origin",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "pd_can_have_crystal_tech = yes\nOR = {\n  is_synthetic_empire = yes\n  has_origin = origin_mechanists\n}"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have crystal tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_crystal_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Trait: Acean Crystal Resonators"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_biosynth_canals",
+   "name": "Biosynthetic Canals",
+   "description": "By studying the canal system present on the Biosynthetic World, we may be able to replicate smaller versions on other planets to improve agricultural output.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mine_living_metal"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_biosynth_canals.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have biosynth tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_biosynth_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have biosynth tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_biosynth_tech = yes"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.01
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Is a machine intelligence",
+           "details": []
+          },
+          {
+           "text": "Is a lithoid empire",
+           "details": []
+          },
+          {
+           "text": "Is an individualist machine empire",
+           "details": []
+          },
+          {
+           "text": "Has the Synthetic Fertility origin",
+           "details": []
+          }
+         ]
+        },
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Has the empire flag non_lithoid_subspecies",
+           "details": []
+          },
+          {
+           "text": "Has the Rogue Servitor civic",
+           "details": []
+          },
+          {
+           "text": "Has the Driven Assimilator civic",
+           "details": []
+          },
+          {
+           "text": "Any owned planet:",
+           "details": [
+            {
+             "text": "One of these",
+             "details": [
+              {
+               "text": "Num districts:",
+               "details": [
+                {
+                 "text": "Type is Agriculture District",
+                 "details": []
+                },
+                {
+                 "text": "Value is more than 0",
+                 "details": []
+                }
+               ]
+              },
+              {
+               "text": "Num districts:",
+               "details": [
+                {
+                 "text": "Type is Agricultural Segment",
+                 "details": []
+                },
+                {
+                 "text": "Value is more than 0",
+                 "details": []
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  is_machine_empire = yes\n  is_lithoid_empire = yes\n  is_individual_machine = yes\n  has_origin = origin_synthetic_fertility\n}\nNOR = {\n  has_country_flag = non_lithoid_subspecies\n  has_valid_civic = civic_machine_servitor\n  has_valid_civic = civic_machine_assimilator\n  any_owned_planet = {\n    OR = {\n      num_districts = {\n        type = district_farming\n        value > 0\n      }\n      num_districts = {\n        type = district_rw_farming\n        value > 0\n      }\n    }\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Is a machine intelligence",
+           "details": []
+          },
+          {
+           "text": "Is a lithoid empire",
+           "details": []
+          },
+          {
+           "text": "All of these",
+           "details": [
+            {
+             "text": "Is an individualist machine empire",
+             "details": []
+            },
+            {
+             "text": "None of these",
+             "details": [
+              {
+               "text": "Has the empire flag non_lithoid_subspecies",
+               "details": []
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  is_machine_empire = yes\n  is_lithoid_empire = yes\n  AND = {\n    is_individual_machine = yes\n    NOT = {\n      has_country_flag = non_lithoid_subspecies\n    }\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Decision: Construct Biosynthetic Canal System"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_biosynth_cauldron",
+   "name": "Biosynthetic Cauldrons",
+   "description": "Inspired by the underground factories in the Biosynthetic World, we should be able to create adaptable factories built with living metal to significantly enhance industrial output.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Materials",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mine_living_metal"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_biosynth_cauldron.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have biosynth tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_biosynth_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have biosynth tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_biosynth_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Biosynthetic Cauldron"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_biosynth_edicts",
+   "name": "Living Metal Utilization",
+   "description": "Thanks to the intricate examples provided by Unit 04's underground Cauldron production lines, we have discovered several novel applications for Living Metal.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Materials",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mine_living_metal"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_biosynth_edicts.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have biosynth tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_biosynth_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have biosynth tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_biosynth_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks: Living Metal Edicts"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_biosynth_trait",
+   "name": "Biosynthetic Robotic System",
+   "description": "By integrating Unit 04's design principles, we can enhance our robotic population with biosynthetic systems, significantly improving both assembly speed and production output.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Materials",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_biosynth_trait.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Owner:",
+      "details": [
+       {
+        "text": "Has the empire flag saved_unit_04s_children",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "owner = {\n  has_country_flag = saved_unit_04s_children\n}"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Trait: Unit 04's Biosynthetic Frames"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_eludium_research_relay",
+   "name": "Eludium Wayline Relays",
+   "description": "By tuning a waystation's systems to the Floating World's Eludium veins, we can relay the ore's research potential to laboratories across our network.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Particles",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_eludium_research.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Is nomadic",
+      "details": []
+     },
+     {
+      "text": "Has the empire flag found_floating_planet",
+      "details": []
+     }
+    ],
+    "script": "is_nomadic = yes\nhas_country_flag = found_floating_planet"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is nomadic",
+         "details": []
+        },
+        {
+         "text": "Has the empire flag found_floating_planet",
+         "details": []
+        }
+       ],
+       "script": "is_nomadic = yes\nhas_country_flag = found_floating_planet"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks: Eludium Research Relay (Waystation Module)"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_acean_resonance_spire",
+   "name": "Acean Resonance Broadcasting",
+   "description": "Studying the Crystal World from orbit, we have learned to capture the Acean resonance and rebroadcast it along our waylines.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_acean_research.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Is nomadic",
+      "details": []
+     },
+     {
+      "text": "Has the empire flag found_crystal_planet",
+      "details": []
+     }
+    ],
+    "script": "is_nomadic = yes\nhas_country_flag = found_crystal_planet"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is nomadic",
+         "details": []
+        },
+        {
+         "text": "Has the empire flag found_crystal_planet",
+         "details": []
+        }
+       ],
+       "script": "is_nomadic = yes\nhas_country_flag = found_crystal_planet"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks: Resonance Broadcast Spire (Waystation Module)"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_biosynth_living_foundry",
+   "name": "Living Alloy Synthesis",
+   "description": "Surveying the Living Metal deposits of the Biosynthetic World, our engineers have learned to forge self-repairing alloys aboard a waystation.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Materials",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_biosynth_cauldron.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Is nomadic",
+      "details": []
+     },
+     {
+      "text": "Has the empire flag found_biosynth_planet",
+      "details": []
+     }
+    ],
+    "script": "is_nomadic = yes\nhas_country_flag = found_biosynth_planet"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is nomadic",
+         "details": []
+        },
+        {
+         "text": "Has the empire flag found_biosynth_planet",
+         "details": []
+        }
+       ],
+       "script": "is_nomadic = yes\nhas_country_flag = found_biosynth_planet"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks: Living Alloy Foundry (Waystation Module)"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_tiyanki_butchery",
+   "name": "Tiyanki Butchery",
+   "description": "Opening a Tiyanki carcass without venting the gases held inside it takes purpose-built tooling.",
+   "area": "society",
+   "tier": 2,
+   "category": "Biology",
+   "cost": 3000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_tiyanki_butchery.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have tiyanki tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_tiyanki_tech = yes"
+   },
+   "drawWeight": {
+    "base": 70,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have tiyanki tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_tiyanki_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Allows: Exotic Gases extraction from Fallen Giants, and unlocks the Tiyanki edicts"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_tiyanki_relic_beds",
+   "name": "Tiyanki Relic Beds",
+   "description": "Burying rendered Tiyanki matter deep enough that it keeps working takes bore equipment and a crew willing to dig.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_tiyanki_butchery"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_tiyanki_relic_beds.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have tiyanki tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_tiyanki_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have tiyanki tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_tiyanki_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Decision: Seed Tiyanki Relic Bed"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_tiyanki_observatory",
+   "name": "Tiyanki Observation Sciences",
+   "description": "Tracking the herds back along their migration reveals how far a Tiyanki travels before it turns toward the Bonefield.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_tiyanki_butchery"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_tiyanki_observatory.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have tiyanki tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_tiyanki_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have tiyanki tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_tiyanki_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Tiyanki Observatory"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_tiyanki_renderworks",
+   "name": "Tiyanki Rendering",
+   "description": "Industrial rendering separates a Tiyanki carcass into its useful fractions at a scale no butchery floor can match.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_tiyanki_butchery"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_tiyanki_renderworks.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Pd can have tiyanki tech",
+      "details": []
+     }
+    ],
+    "script": "pd_can_have_tiyanki_tech = yes"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Pd can have tiyanki tech",
+         "details": []
+        }
+       ],
+       "script": "pd_can_have_tiyanki_tech = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Tiyanki Renderworks"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  },
+  {
+   "key": "tech_tiyanki_beacon",
+   "name": "Tiyanki Migration Beacon",
+   "description": "A transmitter tuned to the signal the herds follow, mounted on a waystation and broadcast along the wayline.",
+   "area": "society",
+   "tier": 3,
+   "category": "Statecraft",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1740165239/tech_tiyanki_beacon.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Is nomadic",
+      "details": []
+     },
+     {
+      "text": "Has the empire flag found_pd_bonefield_planet",
+      "details": []
+     }
+    ],
+    "script": "is_nomadic = yes\nhas_country_flag = found_pd_bonefield_planet"
+   },
+   "drawWeight": {
+    "base": 50,
+    "factor": 0,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "add",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is nomadic",
+         "details": []
+        },
+        {
+         "text": "Has the empire flag found_pd_bonefield_planet",
+         "details": []
+        }
+       ],
+       "script": "is_nomadic = yes\nhas_country_flag = found_pd_bonefield_planet"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Waystation Module: Tiyanki Migration Beacon"
+    }
+   ],
+   "source": "1740165239",
+   "file": "common/technology/pd_unique_tech.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/pd_unique_tech.txt"
+ ],
+ "unlocksAdded": {}
+}

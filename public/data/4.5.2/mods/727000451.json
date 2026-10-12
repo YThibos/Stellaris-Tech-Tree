@@ -1,0 +1,2109 @@
+{
+ "source": {
+  "id": "727000451",
+  "name": "More Events Mod",
+  "version": "2.20.0",
+  "workshopId": "727000451"
+ },
+ "technologies": [
+  {
+   "key": "tech_mem_lex_armor",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Materials",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_armor.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor Adaptive Armor"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_shield",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_shield.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor Wave-Force Shield"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_power",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "physics",
+   "tier": 4,
+   "category": "Particles",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_power.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor Degeneracy Reactor"
+    },
+    {
+     "kind": "Component",
+     "name": "Not Visible"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_cpu",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "physics",
+   "tier": 4,
+   "category": "Computing",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_cpu.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor Union Core"
+    },
+    {
+     "kind": "Component",
+     "name": "Unlocks Component: Not Visible"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_thruster",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Propulsion",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_thruster.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor Reactionless Drive"
+    },
+    {
+     "kind": "Component",
+     "name": "Unlocks Component: Not Visible"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_drive",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_drive.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor FTL Core"
+    },
+    {
+     "kind": "Component",
+     "name": "Unlocks Component: Not Visible"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_sensor",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "physics",
+   "tier": 4,
+   "category": "Voidcraft",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_sensor.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor Sensor Array"
+    },
+    {
+     "kind": "Component",
+     "name": "Unlocks Component: Not Visible"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_hull_repair",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Materials",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_hull_repair.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor Automated Repair System"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_shield_repair",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_shield_repair.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Progenitor Wave-Force Modulator"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_lab",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "physics",
+   "tier": 4,
+   "category": "Computing",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_lab.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Unlocks Component: Not Visible"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_lex_artifact",
+   "name": "Not Visible",
+   "description": "Not Visible",
+   "area": "society",
+   "tier": 4,
+   "category": "Psionics",
+   "cost": 20000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "dangerous",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lex_artifact.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "727000451",
+   "file": "common/technology/00_mem_lex_tech.txt"
+  },
+  {
+   "key": "tech_mem_aevum_unlock_chronopalace",
+   "name": "Timeless Temple Blueprints",
+   "description": "The complex structure seems to have 3 rotating elements. It should not be too difficult to replicate. Still, something about this construct seems timeless and unnatural.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Archaeostudies",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_aevum_unlock_chronopalace.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the empire flag mem_aevum_allowedtogettemple",
+      "details": []
+     }
+    ],
+    "script": "has_country_flag = mem_aevum_allowedtogettemple"
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [],
+       "script": ""
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Megastructure",
+     "name": "Timeless Temple"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_aevum_tech.txt"
+  },
+  {
+   "key": "tech_mem_aevum_unlock_agenda",
+   "name": "Chrono Celebration",
+   "description": "A new method for using Zro. This will enhance our cultural delights and boost the moral of our people.",
+   "area": "society",
+   "tier": 3,
+   "category": "Archaeostudies",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_aevum_unlock_agenda.webp",
+   "availability": {
+    "narration": [],
+    "script": ""
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "727000451",
+   "file": "common/technology/mem_aevum_tech.txt"
+  },
+  {
+   "key": "tech_mem_aevum_unlock_time_components",
+   "name": "Chrono Components",
+   "description": "A new method for integrating Zro into our fleets. Specific alignment to the flow of time can increase the resistance of our ships to disruptive forces and give new options for objects to skip over large distances instantly.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Archaeostudies",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_aevum_unlock_time_components.webp",
+   "availability": {
+    "narration": [],
+    "script": ""
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Skip Particle Cannon"
+    },
+    {
+     "kind": "Component",
+     "name": "Temporal Shielding"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_aevum_tech.txt"
+  },
+  {
+   "key": "tech_mem_aevum_unlock_time_building",
+   "name": "Chrono Construction",
+   "description": "A new method for applying Zro over large areas. A perfectly timed, continuous pulse could increase our scientist's output significantly.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Archaeostudies",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_aevum_unlock_time_building.webp",
+   "availability": {
+    "narration": [],
+    "script": ""
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Pulsing Obelisks"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_aevum_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_robot_traits",
+   "name": "Rune Golem Mastery",
+   "description": "The final piece of lost knowledge our ancestors and makers once held. Now the time to remake ourselves has come.",
+   "area": "society",
+   "tier": 5,
+   "category": "Archaeostudies",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancestors_grudge_robot_traits.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Trait: - Rune-Forged Excellence - Runic Encryption - Rune Vision"
+    },
+    {
+     "kind": "Effect",
+     "name": "Machine Species Trait Picks +1"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_ancestors_grudge_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_dragon_lure",
+   "name": "Ancient Leviathan Incubation",
+   "description": "Specialised hatcheries for clones of the Hoarding Dragon.",
+   "area": "society",
+   "tier": 5,
+   "category": "Archaeostudies",
+   "cost": 16000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancestors_grudge_dragon_lure.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Space Fauna Ship Growth Rate +10%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_ancestors_grudge_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_zarkin_doctrin",
+   "name": "Zarkin Doctrine",
+   "description": "Indeed otherwise known as the Doctrine of Fear, the doctrine was rooted in Zarkin's theory of \"Rule by Fear\" the contention that overwhelming displays of force, rather than force itself, were the most effective means of maintaining internal security and the loyalty of vassal worlds.",
+   "area": "society",
+   "tier": 5,
+   "category": "Military Theory",
+   "cost": 16000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "dangerous",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancestors_grudge_zarkin_doctrin.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Battleship Hull Points +30%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Battleship Build Cost +15%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Large Slot Weapon Damage +15%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Extra Large Slot Weapon Damage +15%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_ancestors_grudge_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_forge_alt",
+   "name": "Sacred Apprenticeship",
+   "description": "Younger generation need to learn, before they can master the arts of runesmithing.",
+   "area": "engineering",
+   "tier": 5,
+   "category": "Materials",
+   "cost": 16000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancestors_grudge_forge_alt.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Smith Enclave"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_ancestors_grudge_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_dranir_spacelife",
+   "name": "Planetary Halo",
+   "description": "Massive structures in close orbit to the planet supporting local infrastructure and logistics.",
+   "area": "engineering",
+   "tier": 5,
+   "category": "Voidcraft",
+   "cost": 16000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancestors_grudge_dranir_spacelife.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Planetary Halo Spacelift"
+    },
+    {
+     "kind": "Effect",
+     "name": "Station Capacity +2"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_ancestors_grudge_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_dranir_flesh_shaping",
+   "name": "Bio-Shaping",
+   "description": "A twisted art to manipulate organic tissue into different shapes and forms.",
+   "area": "society",
+   "tier": 3,
+   "category": "Archaeostudies",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancestors_grudge_dranir_flesh_shaping.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "727000451",
+   "file": "common/technology/mem_ancestors_grudge_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_dranir_drg_crew_lure",
+   "name": "Mining Crews",
+   "description": "Mechanised space suits able to mine deep under the crust of lifeless planets and uncover new deposits.",
+   "area": "society",
+   "tier": 4,
+   "category": "Archaeostudies",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancestors_grudge_dranir_drg_crew_lure.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Starbase Building: Deep Space Mining Rig"
+    },
+    {
+     "kind": "Effect",
+     "name": "Resources Produced from Mining Stations +10%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_ancestors_grudge_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_dranir_necron_beam",
+   "name": "Null Fields",
+   "description": "Fields specialised in neutralising connections between real-space and the shroud.",
+   "area": "society",
+   "tier": 4,
+   "category": "Archaeostudies",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancestors_grudge_dranir_necron_beam.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Trait: - Extra Limb - Additional Eye - Hidden Tail"
+    },
+    {
+     "kind": "Effect",
+     "name": "Damage to Psionic Empires +15%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Damage vs Shroud Spirits +15%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Damage to the Unbidden +10%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_ancestors_grudge_tech.txt"
+  },
+  {
+   "key": "tech_mem_asp_geocentric_device",
+   "name": "Geo-Centralizer",
+   "description": "As a result of studying the Geocentric Device, we have caught glimpses of the potential to manipulate entire solar systems. It will turn the target planet into a barren world and make it the center of the system, rearranging all other bodies around it.",
+   "area": "physics",
+   "tier": 5,
+   "category": "Particles",
+   "cost": 0,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_asp_geocentric_device.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Geo-Centralizer"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_asp_scfe_technology.txt"
+  },
+  {
+   "key": "tech_mem_outsiders_weaponized_rift",
+   "name": "Weaponized Flux Projection",
+   "description": "By opening the rift to the Neertean universe, we can let some flux into our universe, and when focused in a tight beam, those particles can be utterly devastating when interacting with the matter of our universe.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_outsiders_weaponized_rift.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Flux Beam"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_outsiders_tech.txt"
+  },
+  {
+   "key": "tech_mem_outsiders_rift_impellers",
+   "name": "Flux Propulsion",
+   "description": "A small amount of Flux can be drawn from the Neertean universe and used as a surprisingly effective means of propulsion.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 12000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_outsiders_rift_impellers.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Sublight Speed +20%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Evasion Chance +5%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_outsiders_tech.txt"
+  },
+  {
+   "key": "tech_mem_outsiders_flux_campouphlage",
+   "name": "Flux Confounders",
+   "description": "A small amount of Flux, when thrown into the vacuum of space, will hopelessly confuse hostile targeting.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Field Manipulation",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_outsiders_flux_campouphlage.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Flux Confounder"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_outsiders_tech.txt"
+  },
+  {
+   "key": "tech_mem_outsiders_flux_power",
+   "name": "Rift Power Drawing",
+   "description": "When carefully contained, Flux drawn from the Neertean universe can be used as fuel in our power plants.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Field Manipulation",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_outsiders_flux_power.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Neertean Rift Power Plant"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_outsiders_tech.txt"
+  },
+  {
+   "key": "tech_planetary_shield_generator",
+   "name": "Planetary Shields",
+   "description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Field Manipulation",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_shields_3"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/727000451/tech_planetary_shield_generator.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 65,
+    "factor": 0.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "A council member has the Expertise: Field Manipulation trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait expertise field manipulation 2 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait expertise field manipulation 3 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Curator trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "NOR = {\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_field_manipulation\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_field_manipulation_2\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_field_manipulation_3\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_curator\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius_2\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Planetary Shields",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_planetary_shield_generator\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Planetary Shield Generator"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_planetary_shield_tech.txt"
+  },
+  {
+   "key": "tech_mem_planetary_shield_generator_heavy",
+   "name": "Advanced Barrier Shields",
+   "description": "Based on our own field manipulation research as well as our previous studies of precursor shield technology, a group of our scientists has put forward a promising design concept for an upgraded version of our own planetary shield generators.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_shields_5",
+    "tech_planetary_shield_generator"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/727000451/tech_mem_planetary_shield_generator_heavy.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 40,
+    "factor": 0.25,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "A council member has the Expertise: Field Manipulation trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait expertise field manipulation 2 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait expertise field manipulation 3 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Curator trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "NOR = {\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_field_manipulation\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_field_manipulation_2\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_field_manipulation_3\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_curator\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius_2\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 3
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the empire flag mem_planetary_shield_worlds_surveyed",
+         "details": []
+        }
+       ],
+       "script": "has_country_flag = mem_planetary_shield_worlds_surveyed"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Planetary Shields",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_planetary_shield_generator\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Planetary Barrier Shield Generator"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_planetary_shield_tech.txt"
+  },
+  {
+   "key": "tech_mem_planetary_shield_generator_orila",
+   "name": "Precursor Shield Maintenance",
+   "description": "The technology behind this shield generator is far beyond our capabilities to recreate. That said, with our rudimentary understanding of it we will be able to disassemble and reassemble it whereever we see fit.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_planetary_shield_generator_orila.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Planetary Precursor Shield Generator"
+    },
+    {
+     "kind": "Decision",
+     "name": "Restore Precursor Shield Generator"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_planetary_shield_tech.txt"
+  },
+  {
+   "key": "tech_mem_crystal_cultivation",
+   "name": "Crystal Cultivation",
+   "description": "Advances in ecological adaption will allow us to seed new crystal fields within controlled environments. This process degrades the host planet's ecosystem, but damages will remain within acceptable parameters.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mine_rare_crystals"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/727000451/tech_mem_crystal_cultivation.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the empire flag mem_crystal_fields",
+      "details": []
+     }
+    ],
+    "script": "has_country_flag = mem_crystal_fields"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait expertise biology 2 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait expertise biology 3 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Curator trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "NOR = {\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_biology\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_biology_2\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_biology_3\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_curator\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius_2\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Crystal Harvester"
+    },
+    {
+     "kind": "Decision",
+     "name": "Crystal Field Seeding"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_space_monster_attacks_tech.txt"
+  },
+  {
+   "key": "tech_mem_toxic_gaiaforming",
+   "name": "Toxic Gaiaforming",
+   "description": "Studying the samples secured from the ancient amoeba, which crashed on our colony, will give us insight into how to replicate its effect on the planet's biosphere.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mine_exotic_gases"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/727000451/tech_mem_toxic_gaiaforming.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the empire flag mem_giant_amoeba_sample",
+      "details": []
+     }
+    ],
+    "script": "has_country_flag = mem_giant_amoeba_sample"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait expertise biology 2 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait expertise biology 3 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Curator trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "NOR = {\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_biology\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_biology_2\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_biology_3\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_curator\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius_2\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Relic: Ancient Amoeba Sample"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_space_monster_attacks_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancient_weapon",
+   "name": "Ship Schematics - Ragnarok-Class",
+   "description": "Detailed schematics of an ancient weapon once used in the war against dawn.",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Voidcraft",
+   "cost": 20000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "dangerous",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_ancient_weapon.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Megastructure",
+     "name": "Ancient Weapon Site"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_tech.txt"
+  },
+  {
+   "key": "tech_mem_crawler_physiology",
+   "name": "Crawler Physiology",
+   "description": "The Crawler creature we picked up from an asteroid has very unusual physiology. But it should still be possible to conduct non-invasive studies without harming the creature and find out what makes it so unique.",
+   "area": "society",
+   "tier": 2,
+   "category": "Biology",
+   "cost": 3000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_cloning"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/727000451/tech_mem_crawler_physiology.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 85,
+    "factor": 1.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 3.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "A council member has the Pet Crawler trait",
+         "details": []
+        }
+       ],
+       "script": "has_trait_in_council = {\n  TRAIT = leader_trait_mem_crawler_pet_owner\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Any owned leader:",
+           "details": [
+            {
+             "text": "Has trait is Pet Crawler",
+             "details": []
+            }
+           ]
+          },
+          {
+           "text": "Has the empire flag mem_crawler_first_update",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  any_owned_leader = {\n    has_trait = leader_trait_mem_crawler_pet_owner\n  }\n  has_country_flag = mem_crawler_first_update\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Unlocks Possibility: Crawler repopulation."
+    },
+    {
+     "kind": "Effect",
+     "name": "Produced from [GetResearcherPluralWithIcon] +5%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_tech.txt"
+  },
+  {
+   "key": "tech_mem_lunatics_tidals",
+   "name": "Lunar Harnessing",
+   "description": "Rebuilding our power generators to actively harness power based on lunar phases might improve their output.",
+   "area": "engineering",
+   "tier": 1,
+   "category": "Voidcraft",
+   "cost": 1500,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_lunatics_tidals.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "727000451",
+   "file": "common/technology/mem_tech.txt"
+  },
+  {
+   "key": "tech_mem_mountain_scales",
+   "name": "Dragon Scale Hull Reinforcements",
+   "description": "By fusing the artificially grown extra-tough dragon scales with our ships' hulls, we can significantly increase their resilience.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_mountain_scales.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Dragon Scale Hull Reinforcements"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_tech.txt"
+  },
+  {
+   "key": "tech_mem_surveyor_alkree_secrets",
+   "name": "Secrets of the Alkree",
+   "description": "The Alkree put a lot of their advanced data processing tech into the Surveyor Probe's design. Now it's ours.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Computing",
+   "cost": 12000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_surveyor_alkree_secrets.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "All technology research speed +0.1"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_tech.txt"
+  },
+  {
+   "key": "tech_mem_voggo_cloning",
+   "name": "Magnificent Apparatus",
+   "description": "A giant labotary ready to produce Voggos en masse",
+   "area": "society",
+   "tier": 5,
+   "category": "Biology",
+   "cost": 16000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "dangerous",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_voggo_cloning.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Megastructure",
+     "name": "Magnificent Apparatus"
+    },
+    {
+     "kind": "Effect",
+     "name": "Species leader exp gain +0.1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Official Capacity +2"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_tech.txt"
+  },
+  {
+   "key": "tech_mem_ancestors_grudge_pls_never_roll_this",
+   "name": "Should not be seen",
+   "description": "Should not be seen",
+   "area": "society",
+   "tier": 5,
+   "category": "Archaeostudies",
+   "cost": 16000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "dangerous",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_vazuran_rift_stabilization.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Not: always",
+      "details": []
+     }
+    ],
+    "script": "always = no"
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Planet Consumer"
+    },
+    {
+     "kind": "Megastructure",
+     "name": "Planetary Halo"
+    },
+    {
+     "kind": "Megastructure",
+     "name": "Destroyed Planetary Halo"
+    },
+    {
+     "kind": "Megastructure",
+     "name": "Galactic Database"
+    },
+    {
+     "kind": "Section templates",
+     "name": "Charybdis Section"
+    },
+    {
+     "kind": "Effect",
+     "name": "Space Fauna Ship Upkeep +500%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_unusable_tech.txt"
+  },
+  {
+   "key": "tech_mem_vazuran_xentronium_armor",
+   "name": "Xentronium Armor",
+   "description": "This super dense material once provided Vazuran vessels with extreme durability. It is vastly superior to any other known armor types.",
+   "area": "engineering",
+   "tier": 5,
+   "category": "Materials",
+   "cost": 24000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/727000451/tech_mem_vazuran_xentronium_armor.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Large Xentronium Armor"
+    },
+    {
+     "kind": "Component",
+     "name": "Medium Xentronium Armor"
+    },
+    {
+     "kind": "Component",
+     "name": "Small Xentronium Armor"
+    },
+    {
+     "kind": "Component",
+     "name": "Small Xentronium Carapace"
+    },
+    {
+     "kind": "Component",
+     "name": "Medium Xentronium Carapace"
+    },
+    {
+     "kind": "Component",
+     "name": "Large Xentronium Carapace"
+    },
+    {
+     "kind": "Effect",
+     "name": "Space Fauna Ship Armor +25%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_vazuran_tech.txt"
+  },
+  {
+   "key": "tech_mem_scourge_damage_bonus",
+   "name": "Voidborn Carapace Weak Spots",
+   "description": "Facing the possibility of another swarm invasion, the only reasonable course of action is to prepare as well as we can. Having access to the collected specimens, our scientists will find whatever weakness these beasts might have - if they have one at all. We will need any edge we can get to protect what is rightfully ours should they ever return.",
+   "area": "society",
+   "tier": 5,
+   "category": "Biology",
+   "cost": 16000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/727000451/tech_mem_scourge_damage_bonus.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 30,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Damage to Prethoryn Creatures +10%"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_vazuran_tech.txt"
+  },
+  {
+   "key": "tech_mem_vazuran_xentronium_aura",
+   "name": "Xentronium Flux Space Manipulation",
+   "description": "The continued research of super dense alloy known as Xentronium has led to bewildering experiments with flux field generators. Results show potential application in our ship's defences against penetrating rounds.",
+   "area": "engineering",
+   "tier": 5,
+   "category": "Materials",
+   "cost": 24000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mem_vazuran_xentronium_armor"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/727000451/tech_mem_vazuran_xentronium_aura.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 30,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Large Energy Damper Field"
+    },
+    {
+     "kind": "Component",
+     "name": "Medium Energy Damper Field"
+    },
+    {
+     "kind": "Component",
+     "name": "Small Energy Damper Field"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_vazuran_tech.txt"
+  },
+  {
+   "key": "tech_mem_vazuran_xentronium_hangar",
+   "name": "Xentronium Drone Designs",
+   "description": "Drones supplied by Vazuran wreckages show a unique opportunity to incorparte state of the art drone technology and kinetic weaponry.",
+   "area": "engineering",
+   "tier": 5,
+   "category": "Materials",
+   "cost": 24000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mem_vazuran_xentronium_armor"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/727000451/tech_mem_vazuran_xentronium_hangar.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 30,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Drone Hangar"
+    },
+    {
+     "kind": "Component",
+     "name": "Point Defense Cannon"
+    }
+   ],
+   "source": "727000451",
+   "file": "common/technology/mem_vazuran_tech.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/00_mem_lex_tech.txt",
+  "common/technology/mem_aevum_tech.txt",
+  "common/technology/mem_albino_crystal_tech.txt",
+  "common/technology/mem_ancestors_grudge_tech.txt",
+  "common/technology/mem_asp_scfe_technology.txt",
+  "common/technology/mem_outsiders_tech.txt",
+  "common/technology/mem_planetary_shield_tech.txt",
+  "common/technology/mem_space_monster_attacks_tech.txt",
+  "common/technology/mem_tech.txt",
+  "common/technology/mem_unusable_tech.txt",
+  "common/technology/mem_vazuran_tech.txt"
+ ],
+ "unlocksAdded": {
+  "tech_wormhole_stabilization": [
+   {
+    "kind": "Bypass",
+    "name": "Mem ceaseless"
+   }
+  ],
+  "tech_toxic_kelp": [
+   {
+    "kind": "Deposits",
+    "name": "Vermillion Algae"
+   }
+  ],
+  "tech_deep_sinkhole": [
+   {
+    "kind": "Deposits",
+    "name": "Gutshrooms"
+   }
+  ],
+  "tech_dense_jungle": [
+   {
+    "kind": "Deposits",
+    "name": "Heart Fruits"
+   }
+  ],
+  "tech_mega_engineering": [
+   {
+    "kind": "Megastructure",
+    "name": "Galactic Database"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Galactic Database"
+   }
+  ],
+  "tech_starbase_1": [
+   {
+    "kind": "Ship",
+    "name": "Fortress"
+   }
+  ]
+ }
+}

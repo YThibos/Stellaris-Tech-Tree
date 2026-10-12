@@ -1,0 +1,739 @@
+{
+ "source": {
+  "id": "1455861246",
+  "name": "Technology Ascendant",
+  "version": "3.*.*",
+  "workshopId": "1455861246"
+ },
+ "technologies": [
+  {
+   "key": "tech_materials_breakthrough",
+   "name": "Breakthrough: Nanofabrication",
+   "description": "We can make tiny tiny robots that make other tiny tiny robots. It will be adorable, and could not at all create terrifying grey goo.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Materials",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_materials_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Armor Hardening +0.3"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_industry_breakthrough",
+   "name": "Breakthrough: Matter Replicators",
+   "description": "Anything and everything you can desire can be ready at your command. Welcome to the future. Earl Grey, Hot.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Industry",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_industry_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Pop Amenities Usage -30%"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_rocketry_breakthrough",
+   "name": "Breakthrough: Inertialess Drive",
+   "description": "Sure, for every force there is an equal and opposite reaction. But what if a localized hyperspace field could allow us to expel excess inertia into subspace, while maintaining a comfortable 1 G in transit? Yes. That makes sense. Take that, physics.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Propulsion",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_rocketry_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Sublight Speed +25%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Evasion Chance +10"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_particles_breakthrough",
+   "name": "Breakthrough: Predictive Quantum Mechanics",
+   "description": "You cannot know both a particles speed and location, but what if we just got really good at guessing one of them?",
+   "area": "physics",
+   "tier": 2,
+   "category": "Particles",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_particles_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetPhysicistSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Physics Research from Technician Jobs +0.25"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_voidcraft_breakthrough",
+   "name": "Breakthrough: Supersolid Starships",
+   "description": "Hulls were once bulky bubbles of safety against the uncompromising void. Supersolids blend that boundary with rigid materials that retain the properties of liquids. Decks and armor that can be poured or drained at will, but also resist a neutron torpedo, as long as they stay under the maximum stable lattice size.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Voidcraft",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_voidcraft_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Daily Hull Regen +1"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_field_manipulation_breakthrough",
+   "name": "Breakthrough: Temporal Shielding",
+   "description": "Time is a far more efficient shield than any energy barrier. Small-scale temporal displacement fields will ensure that attacks cannot hit what is no longer there.",
+   "area": "physics",
+   "tier": 2,
+   "category": "Field Manipulation",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_field_manipulation_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetPhysicistSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Shield Hardening +0.3"
+    },
+    {
+     "kind": "Effect",
+     "name": "Daily Shield Regen +0.05"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_computing_breakthrough",
+   "name": "Breakthrough: Contained Singularity",
+   "description": "Self optimizing AI does carry a risk of becoming exponentially more intelligent than its creators. But we have put this one in a very strong box, not to mention the 3 laws we hardcoded into its programming. Everything is perfectly safe, I assure you.",
+   "area": "physics",
+   "tier": 2,
+   "category": "Computing",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_computing_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Edict Fund +50"
+    },
+    {
+     "kind": "Effect",
+     "name": "Empire Size from Pops -20%"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_biology_breakthrough",
+   "name": "Breakthrough: Genetic Recoding",
+   "description": "Evolution is a powerful but slow process, even genetic manipulation takes a generation to take effect. Now, we can edit the entire genome of a living organism in real time.",
+   "area": "society",
+   "tier": 2,
+   "category": "Biology",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_biology_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Organic Species Modification Points +2"
+    },
+    {
+     "kind": "Effect",
+     "name": "Leader Lifespan +20"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_statecraft_breakthrough",
+   "name": "Breakthrough: Universal Translators",
+   "description": "Language is not only a barrier between different species, it separates various cultures within nearly every race. The universal translator has the potential to revolutionize both xeno-diplomacy and internal politics as well.",
+   "area": "society",
+   "tier": 2,
+   "category": "Statecraft",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_statecraft_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Universal Opinion and Trade boost"
+    },
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Diplomatic Weight +40%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Trust Cap +40"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_military_theory_breakthrough",
+   "name": "Breakthrough: Grand Strategy Simulations",
+   "description": "By training our command staff with computer simulations from what has become known as the 4X school, our leaders will be better equipped to explore, expand, exploit, or exterminate as needed.",
+   "area": "society",
+   "tier": 2,
+   "category": "Military Theory",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_military_theory_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Trait",
+     "name": "Grand Strategist"
+    },
+    {
+     "kind": "Trait",
+     "name": "Great Tactician"
+    },
+    {
+     "kind": "Custom",
+     "name": "Unlocks Grand Strategist and Great Tactician Traits"
+    },
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Fleet Command Limit +20%"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_psionics_breakthrough",
+   "name": "Breakthrough: Psychohistory",
+   "description": "Individuals are erratic, but mobs are predictable. Using a combination of history, sociology, and statistics we can predict the future of entire empires.",
+   "area": "society",
+   "tier": 2,
+   "category": "Psionics",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_psionics_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "The Foundation added to Capital: Psychohistorians +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Unity per 100 [biologist.GetIcon] [biologist.GetNamePlural] +1"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_new_worlds_breakthrough",
+   "name": "Breakthrough: The Final Frontier",
+   "description": "An ethos of discovery paired with efficient planning and efficient management will expediate new colonies on the frontier.",
+   "area": "society",
+   "tier": 2,
+   "category": "New Worlds",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_new_worlds_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Adds New Frontier modifier to new colonies"
+    },
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon] +1"
+    },
+    {
+     "kind": "Effect",
+     "name": "Official Capacity +2"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  },
+  {
+   "key": "tech_archeo_breakthrough",
+   "name": "Breakthrough: Deus Ex Machina",
+   "description": "Ancient algorithims can allow robots to pierce the shroud. Organic life no longer has a monopoly on the soul.",
+   "area": "society",
+   "tier": 2,
+   "category": "Archaeostudies",
+   "cost": 1,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1455861246/tech_archeo_breakthrough.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 1,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Always",
+         "details": []
+        }
+       ],
+       "script": "always = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Custom",
+     "name": "Mechanical and Machine pops can gain the Psionic trait."
+    },
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon] +0.5"
+    },
+    {
+     "kind": "Effect",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon] +0.5"
+    }
+   ],
+   "source": "1455861246",
+   "file": "common/technology/TechAscendant_tech.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/TechAscendant_tech.txt"
+ ],
+ "unlocksAdded": {}
+}

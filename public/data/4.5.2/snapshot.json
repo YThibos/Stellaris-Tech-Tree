@@ -6,6 +6,82 @@
   {
    "sourceId": "vanilla",
    "file": "vanilla.json"
+  },
+  {
+   "sourceId": "1121692237",
+   "file": "mods/1121692237.json"
+  },
+  {
+   "sourceId": "1419304439",
+   "file": "mods/1419304439.json"
+  },
+  {
+   "sourceId": "727000451",
+   "file": "mods/727000451.json"
+  },
+  {
+   "sourceId": "2717193796",
+   "file": "mods/2717193796.json"
+  },
+  {
+   "sourceId": "1067631798",
+   "file": "mods/1067631798.json"
+  },
+  {
+   "sourceId": "1793768254",
+   "file": "mods/1793768254.json"
+  },
+  {
+   "sourceId": "1455861246",
+   "file": "mods/1455861246.json"
+  },
+  {
+   "sourceId": "819148835",
+   "file": "mods/819148835.json"
+  },
+  {
+   "sourceId": "3241119393",
+   "file": "mods/3241119393.json"
+  },
+  {
+   "sourceId": "1732437279",
+   "file": "mods/1732437279.json"
+  },
+  {
+   "sourceId": "1732447147",
+   "file": "mods/1732447147.json"
+  },
+  {
+   "sourceId": "1740165239",
+   "file": "mods/1740165239.json"
+  },
+  {
+   "sourceId": "865040033",
+   "file": "mods/865040033.json"
+  },
+  {
+   "sourceId": "937289339",
+   "file": "mods/937289339.json"
+  },
+  {
+   "sourceId": "3032768344",
+   "file": "mods/3032768344.json"
+  },
+  {
+   "sourceId": "3082164342",
+   "file": "mods/3082164342.json"
+  },
+  {
+   "sourceId": "2475617894",
+   "file": "mods/2475617894.json"
+  },
+  {
+   "sourceId": "2775968897",
+   "file": "mods/2775968897.json"
+  },
+  {
+   "sourceId": "1890399946",
+   "file": "mods/1890399946.json"
   }
  ]
 }

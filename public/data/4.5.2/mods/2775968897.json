@@ -1,0 +1,289 @@
+{
+ "source": {
+  "id": "2775968897",
+  "name": "Real Space - Planetary Stations",
+  "version": "1.5.15",
+  "workshopId": "2775968897"
+ },
+ "technologies": [
+  {
+   "key": "tech_planetary_station_1",
+   "name": "Autonomous Life Support Systems",
+   "description": "A number of engineering solutions designed to provide permanent habitation in isolated complexes will allow the colonization of uninhabited worlds. Such colonies will be limited and expensive to maintain, but will open access to the resources of inaccessible planets.",
+   "area": "engineering",
+   "tier": 0,
+   "category": "Industry",
+   "cost": 0,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_basic_industry"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "starting",
+    "granted"
+   ],
+   "icon": "icons/2775968897/tech_planetary_station_1.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Not: is wilderness empire",
+      "details": []
+     }
+    ],
+    "script": "is_wilderness_empire = no"
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2775968897",
+   "file": "common/technology/planetarystations_tech.txt"
+  },
+  {
+   "key": "tech_planetary_station_2",
+   "name": "Heat Resistant Materials",
+   "description": "Creation of special industrial materials and thermoplastic alloys, will make it possible to take the next step in the development of uninhabited worlds. Heavy-duty and heat-resistant structures are necessary for colonization of planets with active volcanism and moving plate tectonics.",
+   "area": "engineering",
+   "tier": 1,
+   "category": "Industry",
+   "cost": 1000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_planetary_station_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2775968897/tech_planetary_station_2.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 100,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2775968897",
+   "file": "common/technology/planetarystations_tech.txt"
+  },
+  {
+   "key": "tech_extreme_mining_methods",
+   "name": "Extreme Mining Methods",
+   "description": "Implementing the idea of extensive mining by splitting lithospheric plates requires the development of a whole system of engineering solutions. This revolutionary step in the mining industry will enable cracking operations on uninhabitable planets for super-efficient resource extraction.",
+   "area": "engineering",
+   "tier": 1,
+   "category": "Industry",
+   "cost": 1500,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_planetary_station_2"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2775968897/tech_extreme_mining_methods.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 90,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2775968897",
+   "file": "common/technology/planetarystations_tech.txt"
+  },
+  {
+   "key": "tech_planetary_station_3",
+   "name": "Adaptive Coverage",
+   "description": "The development of advanced electroplating technologies for materials capable of adapting to extreme toxic conditions will make it possible to colonize planets with aggressive environments.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Industry",
+   "cost": 2000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_planetary_station_2"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2775968897/tech_planetary_station_3.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 85,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2775968897",
+   "file": "common/technology/planetarystations_tech.txt"
+  },
+  {
+   "key": "tech_planetary_station_4",
+   "name": "Antigravity Stabilizer",
+   "description": "The development of antigravity technologies opens up the possibility of creating stabilizing engines, working at the expense of the gravitational field of celestial bodies. Special propulsion systems capable of holding objects of enormous mass in the atmosphere of planets will make it possible to colonize gas giants and other planets where construction on the surface is impossible.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_housing_2",
+    "tech_planetary_station_3"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2775968897/tech_planetary_station_4.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 85,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2775968897",
+   "file": "common/technology/planetarystations_tech.txt"
+  },
+  {
+   "key": "tech_colonial_station_protocol",
+   "name": "Colonial Station Protocol",
+   "description": "The development of special infrastructure facilities and the reorganization of control services will allow us to expand planetary stations and take the first step toward full colony status in the future.",
+   "area": "society",
+   "tier": 3,
+   "category": "Statecraft",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_colonial_centralization"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2775968897/tech_colonial_station_protocol.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 60,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Building",
+     "name": "Station Capital-Complex"
+    },
+    {
+     "kind": "Building",
+     "name": "Prison System Capital"
+    }
+   ],
+   "source": "2775968897",
+   "file": "common/technology/planetarystations_tech.txt"
+  },
+  {
+   "key": "tech_planet_meltification",
+   "name": "Planet Meltification",
+   "description": "A range of integrated solutions for melting massive glaciers using the planet's geothermal resources opens up the possibility of terraforming even the coldest and most inhospitable worlds.",
+   "area": "society",
+   "tier": 4,
+   "category": "New Worlds",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_climate_restoration"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2775968897/tech_planet_meltification.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 40,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has trait is Ocean Preference",
+           "details": []
+          },
+          {
+           "text": "Has trait is Waterproof",
+           "details": []
+          },
+          {
+           "text": "Has trait is Mutagenic Habitability",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_trait = trait_pc_ocean_preference\n  has_trait = trait_robot_aquatic\n  has_trait = trait_auto_hab_preference\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "The galaxy has the flag has_real_terraforming_mod",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "NOT = {\n  has_global_flag = has_real_terraforming_mod\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "2775968897",
+   "file": "common/technology/planetarystations_tech.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/planetarystations_tech.txt"
+ ],
+ "unlocksAdded": {}
+}

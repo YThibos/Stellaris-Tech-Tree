@@ -1,0 +1,335 @@
+{
+ "source": {
+  "id": "3241119393",
+  "name": "Planetary Diversity - Ascension Worlds",
+  "version": "",
+  "workshopId": "3241119393"
+ },
+ "technologies": [
+  {
+   "key": "tech_pd_planetary_core_tap",
+   "name": "Planetary Superproject: Core Tap",
+   "description": "By creating a network of machines that burrow into the very core of a world, we will be able to generate an incredible amount of energy at the expense of the planet's ecosystem.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Field Manipulation",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_power_plant_4",
+    "tech_power_hub_2",
+    "tech_ecological_adaptation"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/3241119393/tech_pd_planetary_core_tap.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 2,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has the Environmentalist civic",
+           "details": []
+          },
+          {
+           "text": "Has the Agrarian Idyll civic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_civic = civic_environmentalist\n  has_civic = civic_agrarian_idyll\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Prosperity Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_prosperity_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "A council member has the Expertise: Field Manipulation trait",
+         "details": []
+        }
+       ],
+       "script": "has_trait_in_council = {\n  TRAIT = leader_trait_expertise_field_manipulation\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is a prospectorium specialist subject",
+         "details": []
+        }
+       ],
+       "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "3241119393",
+   "file": "common/technology/pd_aw_technology.txt"
+  },
+  {
+   "key": "tech_pd_planetary_agriworld",
+   "name": "Planetary Superproject: Agriworld",
+   "description": "By transforming a planet into an Agriworld, we will create vast fields of industrial farming, replacing the natural ecosystem with a bountiful, artificial agricultural expanse.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_nano_vitality_crops",
+    "tech_food_processing_2",
+    "tech_ecological_adaptation"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/3241119393/tech_pd_planetary_agriworld.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 2,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Not: country uses food",
+           "details": []
+          },
+          {
+           "text": "Has the Environmentalist civic",
+           "details": []
+          },
+          {
+           "text": "Has the Agrarian Idyll civic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  country_uses_food = no\n  has_civic = civic_environmentalist\n  has_civic = civic_agrarian_idyll\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Prosperity Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_prosperity_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "A council member has the Expertise: Biology trait",
+         "details": []
+        }
+       ],
+       "script": "has_trait_in_council = {\n  TRAIT = leader_trait_expertise_biology\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is a prospectorium specialist subject",
+         "details": []
+        }
+       ],
+       "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "3241119393",
+   "file": "common/technology/pd_aw_technology.txt"
+  },
+  {
+   "key": "tech_pd_planetary_stripmine",
+   "name": "Planetary Superproject: Stripmine",
+   "description": "We could collect resources from every inch of a planet's surface by constructing advanced industrial excavators and drill rigs. The natural ecosystem will significantly suffer from the process.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mining_3",
+    "tech_mineral_purification_2",
+    "tech_ecological_adaptation"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/3241119393/tech_pd_planetary_stripmine.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 2,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has the Environmentalist civic",
+           "details": []
+          },
+          {
+           "text": "Has the Agrarian Idyll civic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_civic = civic_environmentalist\n  has_civic = civic_agrarian_idyll\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Prosperity Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_prosperity_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "A council member has the Expertise: Industry trait",
+         "details": []
+        }
+       ],
+       "script": "has_trait_in_council = {\n  TRAIT = leader_trait_expertise_industry\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is a prospectorium specialist subject",
+         "details": []
+        }
+       ],
+       "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "3241119393",
+   "file": "common/technology/pd_aw_technology.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/pd_aw_technology.txt"
+ ],
+ "unlocksAdded": {
+  "tech_basic_industry": [
+   {
+    "kind": "Building",
+    "name": "Coordinated Fulfillment Center"
+   }
+  ],
+  "tech_global_production_strategy": [
+   {
+    "kind": "Building",
+    "name": "Universal Productivity Alignment Facility"
+   }
+  ]
+ }
+}

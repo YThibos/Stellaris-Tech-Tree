@@ -1,0 +1,172 @@
+{
+ "source": {
+  "id": "819148835",
+  "name": "Planetary Diversity",
+  "version": "",
+  "workshopId": "819148835"
+ },
+ "technologies": [
+  {
+   "key": "tech_pd_uncommon_necro_habitability",
+   "name": "Tomb World Habitability",
+   "description": "Navigating the intricacies of survival within a Necropolis is easily mastered by those who share the timeless embrace of the unliving.",
+   "area": "society",
+   "tier": 3,
+   "category": "New Worlds",
+   "cost": 1000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": "icons/819148835/tech_pd_uncommon_necro_habitability.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Ap pd necro worlds ascension perk",
+      "details": []
+     }
+    ],
+    "script": "has_ascension_perk = ap_pd_necro_worlds"
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Cavern Tomb World Habitability +0.6"
+    },
+    {
+     "kind": "Effect",
+     "name": "Superhabitable Tomb World Habitability +0.6"
+    },
+    {
+     "kind": "Effect",
+     "name": "Tidally Locked Tomb World Habitability +0.6"
+    }
+   ],
+   "source": "819148835",
+   "file": "common/technology/pd_technology.txt"
+  },
+  {
+   "key": "tech_pd_domed_colonies",
+   "name": "Domed Habitation",
+   "description": "Technological advancements make it feasible to establish domed colonies on previously inhospitable planetary frontiers.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Voidcraft",
+   "cost": 3000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/819148835/tech_pd_domed_colonies.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "None of these",
+      "details": [
+       {
+        "text": "Has the Wilderness origin",
+        "details": []
+       }
+      ]
+     },
+     {
+      "text": "Not: is nomadic",
+      "details": []
+     }
+    ],
+    "script": "NOT = {\n  has_origin = origin_wilderness\n}\nis_nomadic = no"
+   },
+   "drawWeight": {
+    "base": 70,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_adopt"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has adopted the Expansion Traditions Finished tradition",
+         "details": []
+        }
+       ],
+       "script": "has_tradition = tr_expansion_finish"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.25
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "A council member has the Expertise: Voidcraft trait",
+         "details": []
+        }
+       ],
+       "script": "has_trait_in_council = {\n  TRAIT = leader_trait_expertise_voidcraft\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Ship",
+     "name": "Unlocks Megastructures: Domed Colonies and Planetary Outposts"
+    }
+   ],
+   "source": "819148835",
+   "file": "common/technology/pd_technology.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/pd_technology.txt"
+ ],
+ "unlocksAdded": {
+  "tech_volcano": [
+   {
+    "kind": "Deposits",
+    "name": "Volcanic Crater"
+   },
+   {
+    "kind": "Deposits",
+    "name": "Raging Lavafalls"
+   },
+   {
+    "kind": "Deposits",
+    "name": "Rugged Landscape"
+   }
+  ]
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "source": {
+  "id": "937289339",
+  "name": "Real Space 4.0",
+  "version": "4.0.11",
+  "workshopId": "937289339"
+ },
+ "technologies": [],
+ "tierGates": [],
+ "technologyFiles": [],
+ "unlocksAdded": {
+  "tech_ring_world": [
+   {
+    "kind": "Megastructure",
+    "name": "​Ring World Site"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Ring World Frame"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Completed Ring World Section"
+   }
+  ],
+  "tech_dyson_sphere": [
+   {
+    "kind": "Megastructure",
+    "name": "​Dyson Sphere Site"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Dyson Sphere Frame"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Dyson Sphere: Initial"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Dyson Sphere: Medial"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Dyson Sphere: Penultimate"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Dyson Sphere"
+   }
+  ],
+  "tech_matter_decompressor": [
+   {
+    "kind": "Megastructure",
+    "name": "​Matter Decompressor Site"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Matter Decompressor: Anchor"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Matter Decompressor: Lensing"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Matter Decompressor: Boring"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Matter Decompressor"
+   }
+  ],
+  "tech_quantum_catapult": [
+   {
+    "kind": "Megastructure",
+    "name": "​Quantum Catapult Site"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Quantum Catapult Single Array"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Quantum Catapult Twin Arrays"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Quantum Catapult"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Quantum Catapult"
+   }
+  ],
+  "tech_dyson_swarm": [
+   {
+    "kind": "Megastructure",
+    "name": "​Dyson Swarm: Array"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Dyson Swarm: Constellation"
+   },
+   {
+    "kind": "Megastructure",
+    "name": "Dyson Swarm"
+   }
+  ]
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "source": {
+  "id": "1890399946",
+  "name": "UI Overhaul Dynamic - Ascension Slots",
+  "version": "4.4.*",
+  "workshopId": "1890399946"
+ },
+ "technologies": [
+  {
+   "key": "ui_tech_ascension_theory_repeatable",
+   "name": "Ascension Theory (Repeatable)",
+   "description": "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit.",
+   "area": "society",
+   "tier": 5,
+   "category": "Statecraft",
+   "cost": 50000,
+   "repeatability": {
+    "kind": "limited",
+    "levels": 92
+   },
+   "prerequisites": [
+    "tech_ascension_theory"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1890399946/ui_tech_ascension_theory_repeatable.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "The galaxy has the flag ui_overhaul_qhd_ascension_tech_popup",
+      "details": []
+     },
+     {
+      "text": "None of these",
+      "details": [
+       {
+        "text": "The galaxy has the flag ui_overhaul_qhd_ascension_tech_disabled",
+        "details": []
+       }
+      ]
+     },
+     {
+      "text": "Not: is pirate",
+      "details": []
+     },
+     {
+      "text": "Not: is primitive",
+      "details": []
+     }
+    ],
+    "script": "has_global_flag = ui_overhaul_qhd_ascension_tech_popup\nNOT = {\n  has_global_flag = ui_overhaul_qhd_ascension_tech_disabled\n}\nis_pirate = no\nis_primitive = no"
+   },
+   "drawWeight": {
+    "base": 15,
+    "factor": 0.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Event target:global event country:",
+         "details": [
+          {
+           "text": "Check variable:",
+           "details": [
+            {
+             "text": "Which is Uiod max ascension perk slots",
+             "details": []
+            },
+            {
+             "text": "Value is at most Prev.uiod current ascension perk slots",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "event_target:global_event_country = {\n  check_variable = {\n    which = uiod_max_ascension_perk_slots\n    value <= Prev.uiod_current_ascension_perk_slots\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "Has modifier is Curator Insight",
+           "details": []
+          },
+          {
+           "text": "A council member has the Curator trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Expertise: Statecraft trait",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "NOR = {\n  has_modifier = curator_insight\n  has_trait_in_council = {\n    TRAIT = leader_trait_curator\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_statecraft\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 7
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Ascension Theory",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_ascension_theory\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num ascension perk slots is more than 4",
+         "details": []
+        }
+       ],
+       "script": "num_ascension_perk_slots > 4"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 4
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num ascension perk slots is more than 8",
+         "details": []
+        }
+       ],
+       "script": "num_ascension_perk_slots > 8"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 8
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Num ascension perk slots is more than 16",
+         "details": []
+        }
+       ],
+       "script": "num_ascension_perk_slots > 16"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Ascension perks add +1"
+    }
+   ],
+   "source": "1890399946",
+   "file": "common/technology/ui_tech_ascension_theory_repeatable.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/ui_tech_ascension_theory_repeatable.txt"
+ ],
+ "unlocksAdded": {}
+}

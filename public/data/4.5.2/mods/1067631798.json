@@ -1,0 +1,2055 @@
+{
+ "source": {
+  "id": "1067631798",
+  "name": "Expanded Stellaris Ascension Perks",
+  "version": "11.0",
+  "workshopId": "1067631798"
+ },
+ "technologies": [
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_shield",
+   "name": "Dynamic Shield Technology",
+   "description": "By predicting incoming attacks and dynamically alter shield strength we can greatly increase the efficiency of our shields.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Field Manipulation",
+   "cost": 5000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_shields_5"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_shield.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Dynamic Shield Technology",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_shield\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Dynamic Shield Technology",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_shield\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Shield Hit Points +5%"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_phys_research",
+   "name": "Advanced String Theory",
+   "description": "Our advances into string theory will certainly prove applicable to many other fields of science.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Computing",
+   "cost": 5000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_phys_research.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Advanced String Theory",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_phys_research\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Advanced String Theory",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_phys_research\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Research Speed ( Physics) +0.025"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_laser",
+   "name": "Novel Light Synchronization Techniques",
+   "description": "New techniques allows us to better synchronize the light in lasers. This will increase the damage potential of our energy weapons.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Particles",
+   "cost": 12000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_lasers_5"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_laser.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 35,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Novel Light Synchronization Techniques",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_laser\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Novel Light Synchronization Techniques",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_laser\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Energy Weapon Damage +5%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Energy Weapon Fire Rate +5%"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_survey",
+   "name": "Parallel Scanner Structures",
+   "description": "New technologies allow us to coordinate several identical scanners on the same ship. These scanning clusters are able to survey planets at a much greater speed than previously.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Computing",
+   "cost": 12000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_survey.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 35,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Parallel Scanner Structures",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_survey\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Parallel Scanner Structures",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_survey\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Science ship survey speed +0.33"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_admin_cap",
+   "name": "Quantum Entanglement Communicatiors",
+   "description": "Through the use of quantum entanglement we have developed a new communication system, greatly simplifying communication throughout our empire.",
+   "area": "physics",
+   "tier": 5,
+   "category": "Particles",
+   "cost": 24000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_admin_cap.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 20,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Quantum Entanglement Communicatiors",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_admin_cap\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Quantum Entanglement Communicatiors",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_admin_cap\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Empire Size from Pops -10%"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_society_research",
+   "name": "Theoretical Psychology Research",
+   "description": "While theoretical psychology has no direct applications advancement in the field will have a positive impact on many other related fields.",
+   "area": "society",
+   "tier": 3,
+   "category": "Statecraft",
+   "cost": 5000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_society_research.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Theoretical Psychology Research",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_society_research\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Theoretical Psychology Research",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_society_research\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Research Speed ( Society) +0.025"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_army",
+   "name": "New Army Tactics",
+   "description": "We have developed new army tactics that better allows us to utilize small, elite, squads to efficiently support our larger armies.",
+   "area": "society",
+   "tier": 3,
+   "category": "Military Theory",
+   "cost": 5000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_army.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched New Army Tactics",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_army\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched New Army Tactics",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_army\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Army Damage +20%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Army Morale +0.2"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_lifespan",
+   "name": "Next-Generation Nutrients",
+   "description": "Large quantitative studies of various foods encountered tghroughout the galaxy have allowed us to ponpoint new nutritional mixtures. These so called next-generation nutrients provides great health benefits compared to previous ones.",
+   "area": "society",
+   "tier": 4,
+   "category": "Biology",
+   "cost": 12000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_lifespan.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 35,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Next-Generation Nutrients",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_lifespan\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Next-Generation Nutrients",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_lifespan\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Leader Lifespan +20"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_influence",
+   "name": "Advanced Political Research",
+   "description": "Our political system have developed fast since we reached the stars. In fact it has developed faster than we have been able to study it. It is time for this to change, we need to commission a throughout research of our current political structures.",
+   "area": "society",
+   "tier": 4,
+   "category": "Statecraft",
+   "cost": 12000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_influence.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 35,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Advanced Political Research",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_influence\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Advanced Political Research",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_influence\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Monthly Influence +0.5"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_envoy",
+   "name": "Research Foreign Customs",
+   "description": "We will research the customs of foreign empires. This knowledge will be well used when our diplomats meet with the other inhabitants of this galaxy.",
+   "area": "society",
+   "tier": 5,
+   "category": "Statecraft",
+   "cost": 24000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_envoy.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 20,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Research Foreign Customs",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_envoy\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Research Foreign Customs",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_envoy\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Envoys add +1"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_engineering_research",
+   "name": "Advanced Theoretical Chemistry",
+   "description": "The properties of atoms and molecules are vital to our engineering research. While theoretical research have no direct application advances in theoretical fields will eventually result in progress in the fields of more practical application.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 5000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_engineering_research.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Advanced Theoretical Chemistry",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_engineering_research\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Advanced Theoretical Chemistry",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_engineering_research\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Research Speed ( Engineering) +0.025"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_armor",
+   "name": "Subatomic Material Study",
+   "description": "By investigating the structure of material on a subatomic level we can increase the durability of our armor.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Materials",
+   "cost": 5000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_ship_armor_5"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_armor.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 50,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Subatomic Material Study",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_armor\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Subatomic Material Study",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_armor\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Armor Hit Points +5%"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_missiles",
+   "name": "Vacuum Explosion Study",
+   "description": "Explosive weapons are used in the vacuum of space, conditions which differ greatly from the atmospheric conditions in which explosive weapons first were developed. Advanced study of how explosions behave in space will greatly increase the efficiency of our explosive weapons.",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Propulsion",
+   "cost": 12000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_missiles_5"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_missiles.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 35,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Vacuum Explosion Study",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_missiles\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Vacuum Explosion Study",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_missiles\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Explosive Weapon Damage +5%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Explosive Weapon Fire Rate +5%"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_kinetic",
+   "name": "High Precision Aiming Systems",
+   "description": "Kinetic Weapons deliver a great amount of force to small regions of the enemy vessels. By correctly identifying spots of weaknesses on enemy ships we can ensure that the hits from our kinetic weapons are delivered with maximum damage.",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Materials",
+   "cost": 12000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_mass_drivers_5"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_kinetic.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 35,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched High Precision Aiming Systems",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_kinetic\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched High Precision Aiming Systems",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_kinetic\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Kinetic Weapon Damage +5%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Kinetic Weapon Fire Rate +5%"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  },
+  {
+   "key": "tech_esap_technological_ascendancy_bonus_1_stations",
+   "name": "Standardized Planetary Stations",
+   "description": "We have standardized the templates used for creating the stations from which planetary extraction and research is performed. This allows us to create new such station with much less effort.",
+   "area": "engineering",
+   "tier": 5,
+   "category": "Voidcraft",
+   "cost": 24000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_stations.webp",
+   "availability": null,
+   "drawWeight": {
+    "base": 20,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Not:",
+         "details": [
+          {
+           "text": "Has the Secrets of the Universe ascension perk",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "Not = {\n  has_ascension_perk = ap_esap_technological_ascendancy_bonus_1\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Standardized Planetary Stations",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_stations\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Standardized Planetary Stations",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_esap_technological_ascendancy_bonus_1_stations\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Mining Station Build Cost -10%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Resources Produced from Research Stations +10%"
+    }
+   ],
+   "source": "1067631798",
+   "file": "common/technology/esap_tech.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/esap_tech.txt"
+ ],
+ "unlocksAdded": {}
+}

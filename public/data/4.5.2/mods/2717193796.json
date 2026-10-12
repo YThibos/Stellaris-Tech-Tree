@@ -1,0 +1,1751 @@
+{
+ "source": {
+  "id": "2717193796",
+  "name": "[4.5] Empires Expanded",
+  "version": "1.7.2",
+  "workshopId": "2717193796"
+ },
+ "technologies": [
+  {
+   "key": "tech_mind_strengthening",
+   "name": "Neural Link Strengthening",
+   "description": "Many fear that our neural link with one another is weakening, so we must ensure that this does not happen, and we live on as one, united mind.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 5000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/2717193796/tech_mind_strengthening.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Seeded Evolution origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_shiva"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_tma_core_inhibitor",
+   "name": "Subspace Inhibition",
+   "description": "Our current inhibitors are unable to prevent subspace travel, but we must devise a way to stop escape into subspace if we are to destroy the Master AI.",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Voidcraft",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/2717193796/tech_emex_tma_core_inhibitor.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the empire flag tma_path_a",
+      "details": []
+     }
+    ],
+    "script": "has_country_flag = tma_path_a"
+   },
+   "drawWeight": {
+    "base": 45,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_tma_self_learning_algorithms",
+   "name": "Self-Learning Algorithms",
+   "description": "Our machines can think deeper and discord newer and better ways to go about their tasks by using advanced algorithms.",
+   "area": "physics",
+   "tier": 2,
+   "category": "Computing",
+   "cost": 2000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "granted"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [],
+    "script": ""
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "All technology research speed +0.025"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_tma_advanced_data_storage",
+   "name": "Advanced Data Storage",
+   "description": "By using more advanced ways to save and store data and information, our machines and data systems will greatly benefit.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Industry",
+   "cost": 2000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "granted"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [],
+    "script": ""
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_tma_intelligent_neural_emulation",
+   "name": "Intelligent Neural Emulation",
+   "description": "Our recent breakthroughs in technology may allow us to devise emulations for extremely intelligent neural systems, smarter even than some of the greatest minds of our kind.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "granted"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [],
+    "script": ""
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_hyperintelligent_ai",
+   "name": "Hyperintelligent AI",
+   "description": "A hyperintelligence is a hypothetical agent that possesses intelligence far surpassing that of the brightest and most gifted organic minds. It can be a great boon to our empire.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Computing",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "dangerous",
+    "granted"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [],
+    "script": ""
+   },
+   "drawWeight": {
+    "base": 0,
+    "factor": 0,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Planet pops robotics produces mult +5%"
+    },
+    {
+     "kind": "Effect",
+     "name": "Research Speed (Computing) +15%"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_tma_lance",
+   "name": "The Transcendant Lance",
+   "description": "A lance made of ethereal light, seemingly impossible.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Particles",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [
+     {
+      "text": "One of these",
+      "details": [
+       {
+        "text": "Has the empire flag tma_ascended",
+        "details": []
+       },
+       {
+        "text": "Is a master ai country country",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
+   },
+   "drawWeight": {
+    "base": 45,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Transcendant Lance"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_tma_devourer",
+   "name": "The Matter Devourer",
+   "description": "Strange weaponry that seems to devour any form of matter when activated.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Particles",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [
+     {
+      "text": "One of these",
+      "details": [
+       {
+        "text": "Has the empire flag tma_ascended",
+        "details": []
+       },
+       {
+        "text": "Is a master ai country country",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
+   },
+   "drawWeight": {
+    "base": 45,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Matter Devourer"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_tma_missiles",
+   "name": "The Omega Missile",
+   "description": "Potent missiles with warheads of an unknown compound. It is highly lethal.",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Propulsion",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [
+     {
+      "text": "One of these",
+      "details": [
+       {
+        "text": "Has the empire flag tma_ascended",
+        "details": []
+       },
+       {
+        "text": "Is a master ai country country",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
+   },
+   "drawWeight": {
+    "base": 45,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Omega Missiles"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_tma_fulmination",
+   "name": "The Flaming Fulmination",
+   "description": "Almost uncontrollable bolts of concentrated lightning and sound, which can shatter most elements.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Field Manipulation",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [
+     {
+      "text": "One of these",
+      "details": [
+       {
+        "text": "Has the empire flag tma_ascended",
+        "details": []
+       },
+       {
+        "text": "Is a master ai country country",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
+   },
+   "drawWeight": {
+    "base": 45,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Flaming Fulmination"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_tma_pk_matter_corrupter",
+   "name": "The Matter Corrupter",
+   "description": "A truly arcane technology, with the ability of transforming any form of matter into a corrupted, ruined variant which has extremely volatile and unstable properties, as if its very existence is tearing apart the fabric of space.",
+   "area": "physics",
+   "tier": 5,
+   "category": "Particles",
+   "cost": 20000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/2717193796/tech_tma_pk_matter_corrupter.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "One of these",
+      "details": [
+       {
+        "text": "Has the empire flag tma_ascended",
+        "details": []
+       },
+       {
+        "text": "Is a master ai country country",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
+   },
+   "drawWeight": {
+    "base": 30,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Matter Corrupter"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/00_emex_tech.txt"
+  },
+  {
+   "key": "tech_esm_upgrade",
+   "name": "Advanced Sentinel Core",
+   "description": "Recent advances in research and engineering has allowed us to potentially create a more advanced and effective core to be placed into our military ships in case of emergency.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Voidcraft",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_afterburners_1",
+    "tech_shields_3"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": null,
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Emergency Ship Defenses civic",
+      "details": []
+     }
+    ],
+    "script": "has_valid_civic = civic_secure_ships"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Component",
+     "name": "Advanced Sentinel Core"
+    },
+    {
+     "kind": "Component",
+     "name": "Unlocks Component: Advanced Sentinel Core"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_mineral_composition_upgrade",
+   "name": "Sophisticated Drone Compositions",
+   "description": "The inner workings of our drones are from centuries past, relying largely on minerals. If we wish to thrive in the future of today, we need to make changes to our drone structures.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": null,
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Mineral Compositions civic",
+      "details": []
+     }
+    ],
+    "script": "has_valid_civic = civic_machine_mineral_compositions"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Minerals from Jobs +15%"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_bok_specialisation",
+   "name": "Megastructural Restructuring",
+   "description": "Our origin of the Stellar Cerebrum was given to us by our creators many centuries ago. Age and inefficiency has resulted in a less-than-ideal internal layout and structure.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Industry",
+   "cost": 2500,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_bok_specialisation.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Born of Knowledge origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_born_of_knowledge"
+   },
+   "drawWeight": {
+    "base": 85,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_bok_foundries",
+   "name": "Advanced Transmutation Processes",
+   "description": "If we are able to discover alternative and better methods of producing living metal, we can bolster our industry to greater heights.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Materials",
+   "cost": 2500,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_bok_specialisation"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_bok_foundries.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Born of Knowledge origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_born_of_knowledge"
+   },
+   "drawWeight": {
+    "base": 75,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_bok_support",
+   "name": "Expanded Custodianship",
+   "description": "Our network of custodians of our cerebrums can and will do more to improve the efficiency of the intelligence.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Materials",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_bok_specialisation"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_bok_support.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Born of Knowledge origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_born_of_knowledge"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_bok_cerebrum_1",
+   "name": "Stellar Cerebrum",
+   "description": "A structure powered by a star-like power source. Built with arcane technology and strange shapeshifting metals, its purpose is to learn about the secrets of universe and adapt itself as it evolves.",
+   "area": "physics",
+   "tier": 1,
+   "category": "Computing",
+   "cost": 1000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_bok_cerebrum_1.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Born of Knowledge origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_born_of_knowledge"
+   },
+   "drawWeight": {
+    "base": 95,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Megastructure",
+     "name": "Stellar Cerebrum v1"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_bok_cerebrum_2",
+   "name": "Stellar Cerebrum: Tier II",
+   "description": "A structure powered by a star-like power source. Built with arcane technology and strange shapeshifting metals, its purpose is to learn about the secrets of universe and adapt itself as it evolves.",
+   "area": "physics",
+   "tier": 2,
+   "category": "Computing",
+   "cost": 2000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_bok_cerebrum_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_bok_cerebrum_2.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Born of Knowledge origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_born_of_knowledge"
+   },
+   "drawWeight": {
+    "base": 75,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Megastructure",
+     "name": "Stellar Cerebrum v2"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_bok_cerebrum_3",
+   "name": "Stellar Cerebrum: Tier III",
+   "description": "A structure powered by a star-like power source. Built with arcane technology and strange shapeshifting metals, its purpose is to learn about the secrets of universe and adapt itself as it evolves.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Computing",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_bok_cerebrum_2"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_bok_cerebrum_3.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Born of Knowledge origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_born_of_knowledge"
+   },
+   "drawWeight": {
+    "base": 60,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Megastructure",
+     "name": "Stellar Cerebrum v3"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_bok_cerebrum_4",
+   "name": "Stellar Cerebrum: Tier IV",
+   "description": "A structure powered by a star-like power source. Built with arcane technology and strange shapeshifting metals, its purpose is to learn about the secrets of universe and adapt itself as it evolves.",
+   "area": "physics",
+   "tier": 4,
+   "category": "Computing",
+   "cost": 8000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_bok_cerebrum_3"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/2717193796/tech_emex_bok_cerebrum_4.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Born of Knowledge origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_born_of_knowledge"
+   },
+   "drawWeight": {
+    "base": 40,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Megastructure",
+     "name": "Stellar Cerebrum"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_cerebrum_cap_increase",
+   "name": "Cerebral Growth",
+   "description": "Stellar Cerebrums act as crucial parts of our being, but creating more will be difficult to maintain. We must devote development into our capacity.",
+   "area": "physics",
+   "tier": 3,
+   "category": "Computing",
+   "cost": 1500,
+   "repeatability": {
+    "kind": "unlimited"
+   },
+   "prerequisites": [
+    "tech_emex_bok_cerebrum_1"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_cerebrum_cap_increase.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Born of Knowledge origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_born_of_knowledge"
+   },
+   "drawWeight": {
+    "base": 40,
+    "factor": 1,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_viral_structual_mapping",
+   "name": "Viral Structural Mapping",
+   "description": "Firstly, we must understand the structure and makeup of the plague which destroyed our ancestors. This is necessary for any progress.",
+   "area": "society",
+   "tier": 1,
+   "category": "Biology",
+   "cost": 1000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_gene_tailoring"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_viral_structual_mapping.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 100,
+    "factor": 2,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Leader Lifespan +5"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_deoxyribose_sampling",
+   "name": "Deoxyribose Sampling",
+   "description": "With our developed understanding of our genetic makeup, we can begin to understand how our genes have been affected by the plague of the past. This will lead to greater developments in the future.",
+   "area": "society",
+   "tier": 1,
+   "category": "Biology",
+   "cost": 1250,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_viral_structual_mapping"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_deoxyribose_sampling.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 95,
+    "factor": 1.5,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Upkeep for [GetResearcherPluralWithIcon] -10%"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_plague_emulation_testing",
+   "name": "Plague Emulation Testing",
+   "description": "Our researchers are beginning clinical trials to develop some sort of inoculation or vaccination method to safeguard our species and restore our health.",
+   "area": "society",
+   "tier": 2,
+   "category": "Biology",
+   "cost": 2000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_viral_structual_mapping"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_plague_emulation_testing.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 85,
+    "factor": 1.5,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_finalised_vaccine_testing",
+   "name": "Finalised Vaccine Testing",
+   "description": "We are so close to developing an effective vaccine. Trials have shown great promise, and now we only need to ensure the safety of the solution.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_plague_emulation_testing",
+    "tech_emex_deoxyribose_sampling"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/2717193796/tech_emex_finalised_vaccine_testing.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 75,
+    "factor": 1.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Pop growth speed +0.05"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_contamination_removal",
+   "name": "Contamination Removal",
+   "description": "Our homeworld is covered in contagious organic substances and infected material. We must begin our restoration project with simple cleansing plans.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_gene_tailoring"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_contamination_removal.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 100,
+    "factor": 2.5,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_deep_core_excavation",
+   "name": "Deep-core Excavation",
+   "description": "Our homeworld's surface is not the only area ravaged by both the plague and the conflict of our past. We must reach the depths of our world to clear out the remains and rescue any survivors.",
+   "area": "society",
+   "tier": 1,
+   "category": "New Worlds",
+   "cost": 1500,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_contamination_removal"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_deep_core_excavation.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 90,
+    "factor": 2,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Deposits",
+     "name": "Obstructed Refuges"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_cleansing_chemicals",
+   "name": "Cleansing Chemicals",
+   "description": "Our work on restoration of our homeworld has been great, but the work has been arduous. To truly ensure our safety, we must use our knowledge to devise an effective way of cleansing.",
+   "area": "society",
+   "tier": 2,
+   "category": "New Worlds",
+   "cost": 2000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_contamination_removal"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_cleansing_chemicals.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 85,
+    "factor": 2,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Max Districts +2"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_rehabilitation_programs",
+   "name": "Rehabilitation Programs",
+   "description": "Hundreds of thousands of individuals have recently been reintegrated back into modern society, but there are many more. We most provide the necessary help.",
+   "area": "society",
+   "tier": 2,
+   "category": "Biology",
+   "cost": 2000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_deep_core_excavation",
+    "tech_emex_plague_emulation_testing"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_emex_rehabilitation_programs.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 85,
+    "factor": 1.5,
+    "modifiers": []
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Pop growth speed +0.05"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_emex_atmospheric_purification",
+   "name": "Atmospheric Purification",
+   "description": "There is but one more area of our home still remaining infected. The infectious air and fumes must be purified if we are to truly be free of the plague.",
+   "area": "society",
+   "tier": 3,
+   "category": "New Worlds",
+   "cost": 6000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_emex_cleansing_chemicals"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare"
+   ],
+   "icon": "icons/2717193796/tech_emex_atmospheric_purification.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Contagion Outbreak origin",
+      "details": []
+     }
+    ],
+    "script": "has_origin = origin_emex_contagion_outbreak"
+   },
+   "drawWeight": {
+    "base": 75,
+    "factor": 1.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 1
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Technological Ascendancy ascension perk",
+         "details": []
+        }
+       ],
+       "script": "has_ascension_perk = ap_technological_ascendancy"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/01_emex_tech.txt"
+  },
+  {
+   "key": "tech_robotic_workers",
+   "name": "Artificial Workforce",
+   "description": "These artificial work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.",
+   "area": "engineering",
+   "tier": 1,
+   "category": "Industry",
+   "cost": 1500,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_powered_exoskeletons"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_robotic_workers.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "None of these",
+      "details": [
+       {
+        "text": "Has the Gestalt Consciousness ethic",
+        "details": []
+       },
+       {
+        "text": "Is an individualist machine empire",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  is_individual_machine = yes\n}"
+   },
+   "drawWeight": {
+    "base": 90,
+    "factor": 1.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the policy Robots outlawed",
+         "details": []
+        }
+       ],
+       "script": "has_policy_flag = robots_outlawed"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has the Spiritualist ethic",
+           "details": []
+          },
+          {
+           "text": "Has the Fanatic Spiritualist ethic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_ethic = ethic_spiritualist\n  has_ethic = ethic_fanatic_spiritualist\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has the Materialist ethic",
+           "details": []
+          },
+          {
+           "text": "Has the Fanatic Materialist ethic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_ethic = ethic_materialist\n  has_ethic = ethic_fanatic_materialist\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is machine cult emex",
+         "details": []
+        }
+       ],
+       "script": "is_machine_cult_emex = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/zzz_emex_technology_overwrite.txt"
+  },
+  {
+   "key": "tech_droid_workers",
+   "name": "Artificial Specialists",
+   "description": "Upgraded artificial units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.",
+   "area": "engineering",
+   "tier": 2,
+   "category": "Industry",
+   "cost": 3000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_robotic_workers",
+    "tech_colonial_centralization"
+   ],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/2717193796/tech_droid_workers.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "None of these",
+      "details": [
+       {
+        "text": "Has the Gestalt Consciousness ethic",
+        "details": []
+       },
+       {
+        "text": "Is an individualist machine empire",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  is_individual_machine = yes\n}"
+   },
+   "drawWeight": {
+    "base": 70,
+    "factor": 1,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the policy Robots outlawed",
+         "details": []
+        }
+       ],
+       "script": "has_policy_flag = robots_outlawed"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has the Spiritualist ethic",
+           "details": []
+          },
+          {
+           "text": "Has the Fanatic Spiritualist ethic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_ethic = ethic_spiritualist\n  has_ethic = ethic_fanatic_spiritualist\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has the Materialist ethic",
+           "details": []
+          },
+          {
+           "text": "Has the Fanatic Materialist ethic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_ethic = ethic_materialist\n  has_ethic = ethic_fanatic_materialist\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mechanist origin",
+         "details": []
+        }
+       ],
+       "script": "has_origin = origin_mechanists"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is machine cult emex",
+         "details": []
+        }
+       ],
+       "script": "is_machine_cult_emex = yes"
+      }
+     }
+    ]
+   },
+   "unlocks": [],
+   "source": "2717193796",
+   "file": "common/technology/zzz_emex_technology_overwrite.txt"
+  },
+  {
+   "key": "tech_synthetic_workers",
+   "name": "Artificial Administration",
+   "description": "Highly advanced units that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
+   "area": "engineering",
+   "tier": 4,
+   "category": "Industry",
+   "cost": 10000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [
+    "tech_droid_workers",
+    "tech_galactic_administration",
+    "tech_sapient_ai"
+   ],
+   "requiresOneOf": [],
+   "traits": [
+    "rare",
+    "dangerous"
+   ],
+   "icon": "icons/2717193796/tech_synthetic_workers.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "None of these",
+      "details": [
+       {
+        "text": "Has the Gestalt Consciousness ethic",
+        "details": []
+       },
+       {
+        "text": "Is an individualist machine empire",
+        "details": []
+       }
+      ]
+     }
+    ],
+    "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  is_individual_machine = yes\n}"
+   },
+   "drawWeight": {
+    "base": 40,
+    "factor": 0.5,
+    "modifiers": [
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the policy Robots outlawed",
+         "details": []
+        }
+       ],
+       "script": "has_policy_flag = robots_outlawed"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.5
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has the Spiritualist ethic",
+           "details": []
+          },
+          {
+           "text": "Has the Fanatic Spiritualist ethic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_ethic = ethic_spiritualist\n  has_ethic = ethic_fanatic_spiritualist\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "One of these",
+         "details": [
+          {
+           "text": "Has the Materialist ethic",
+           "details": []
+          },
+          {
+           "text": "Has the Fanatic Materialist ethic",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "OR = {\n  has_ethic = ethic_materialist\n  has_ethic = ethic_fanatic_materialist\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 10
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Is machine cult emex",
+         "details": []
+        }
+       ],
+       "script": "is_machine_cult_emex = yes"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has federation",
+         "details": []
+        },
+        {
+         "text": "Federation:",
+         "details": [
+          {
+           "text": "Has federation perk is Scientific Inspiration",
+           "details": []
+          },
+          {
+           "text": "Any member:",
+           "details": [
+            {
+             "text": "Has researched Artificial Administration",
+             "details": []
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "script": "has_federation = yes\nfederation = {\n  has_federation_perk = rare_tech_boost\n  any_member = {\n    has_technology = tech_synthetic_workers\n  }\n}"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "Has the Mechanist origin",
+         "details": []
+        }
+       ],
+       "script": "has_origin = origin_mechanists"
+      }
+     },
+     {
+      "effect": {
+       "kind": "factor",
+       "value": 0.2
+      },
+      "condition": {
+       "narration": [
+        {
+         "text": "None of these",
+         "details": [
+          {
+           "text": "A council member has the Maniacal trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Maniacal II trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Curator trait",
+           "details": []
+          },
+          {
+           "text": "A council member has the Expertise: Industry trait",
+           "details": []
+          }
+         ]
+        }
+       ],
+       "script": "NOR = {\n  has_trait_in_council = {\n    TRAIT = leader_trait_maniacal\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_maniacal_2\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_maniacal_3\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_spark_of_genius_2\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_curator\n  }\n  has_trait_in_council = {\n    TRAIT = leader_trait_expertise_industry\n  }\n}"
+      }
+     }
+    ]
+   },
+   "unlocks": [
+    {
+     "kind": "Effect",
+     "name": "Planet pops robotics produces mult +10%"
+    }
+   ],
+   "source": "2717193796",
+   "file": "common/technology/zzz_emex_technology_overwrite.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/00_emex_tech.txt",
+  "common/technology/01_emex_tech.txt",
+  "common/technology/zzz_emex_technology_overwrite.txt"
+ ],
+ "unlocksAdded": {
+  "tech_housing_1": [
+   {
+    "kind": "Deposits",
+    "name": "Gargantuan Ruins"
+   }
+  ],
+  "tech_housing_2": [
+   {
+    "kind": "Deposits",
+    "name": "Crumbling Arcologies"
+   }
+  ]
+ }
+}

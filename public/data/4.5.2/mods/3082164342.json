@@ -1,0 +1,184 @@
+{
+ "source": {
+  "id": "3082164342",
+  "name": "Real Space - New Arcologies",
+  "version": "1.1.4",
+  "workshopId": "3082164342"
+ },
+ "technologies": [
+  {
+   "key": "tech_heavy_engineering_arcology",
+   "name": "Heavy Engineering Arcology",
+   "description": "The development of complex automated production systems opens up the possibility of a new stage of infrastructural industrialization on a planetary scale.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/3082164342/tech_heavy_engineering_arcology.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Arcology Project ascension perk",
+      "details": []
+     },
+     {
+      "text": "Is not a machine intelligence",
+      "details": []
+     }
+    ],
+    "script": "has_ascension_perk = ap_arcology_project\nis_machine_empire = no"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1.5,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "3082164342",
+   "file": "common/technology/newarcologies_tech.txt"
+  },
+  {
+   "key": "tech_eco_arcology",
+   "name": "Ecoarcology",
+   "description": "One of the main problems of rapidly developing megacities and manufacturing enterprises is maintaining sustainable ecosystems for agricultural and recreational purposes.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/3082164342/tech_eco_arcology.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Arcology Project ascension perk",
+      "details": []
+     }
+    ],
+    "script": "has_ascension_perk = ap_arcology_project"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1.5,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "3082164342",
+   "file": "common/technology/newarcologies_tech.txt"
+  },
+  {
+   "key": "tech_military_arcology",
+   "name": "Military Arcology",
+   "description": "The standard architectural and urban planning concept is completely unsuitable for the tasks of effective planetary defense, where practicality and survivability come first.",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/3082164342/tech_military_arcology.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Arcology Project ascension perk",
+      "details": []
+     }
+    ],
+    "script": "has_ascension_perk = ap_arcology_project"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1.5,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "3082164342",
+   "file": "common/technology/newarcologies_tech.txt"
+  },
+  {
+   "key": "tech_assembly_world",
+   "name": "Assembly World",
+   "description": "The synergy of defense developments and super-heavy engineering projects will allow the creation of protected planetary assembly lines specializing in military production on the basis of the world of Machines",
+   "area": "engineering",
+   "tier": 3,
+   "category": "Industry",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/3082164342/tech_assembly_world.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Machine Worlds ascension perk",
+      "details": []
+     }
+    ],
+    "script": "has_ascension_perk = ap_machine_worlds"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1.5,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "3082164342",
+   "file": "common/technology/newarcologies_tech.txt"
+  },
+  {
+   "key": "tech_genetic_farm",
+   "name": "Genetic Farms",
+   "description": "Intensive research in the field of active genetic transformation and supermutations will allow the creation of a more advanced planetary organism based on the hiveworld, capable of growing food, new individuals and even rare resources.",
+   "area": "society",
+   "tier": 3,
+   "category": "Biology",
+   "cost": 4000,
+   "repeatability": {
+    "kind": "once"
+   },
+   "prerequisites": [],
+   "requiresOneOf": [],
+   "traits": [],
+   "icon": "icons/3082164342/tech_genetic_farm.webp",
+   "availability": {
+    "narration": [
+     {
+      "text": "Has the Hive Worlds ascension perk",
+      "details": []
+     }
+    ],
+    "script": "has_ascension_perk = ap_hive_worlds"
+   },
+   "drawWeight": {
+    "base": 65,
+    "factor": 1.5,
+    "modifiers": []
+   },
+   "unlocks": [],
+   "source": "3082164342",
+   "file": "common/technology/newarcologies_tech.txt"
+  }
+ ],
+ "tierGates": [],
+ "technologyFiles": [
+  "common/technology/newarcologies_tech.txt"
+ ],
+ "unlocksAdded": {}
+}

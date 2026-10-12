@@ -1,0 +1,41 @@
+{
+ "source": {
+  "id": "1732447147",
+  "name": "Planetary Diversity - More Arcologies",
+  "version": "",
+  "workshopId": "1732447147"
+ },
+ "technologies": [],
+ "tierGates": [],
+ "technologyFiles": [],
+ "unlocksAdded": {
+  "tech_planetary_defenses": [
+   {
+    "kind": "Building",
+    "name": "Naval Office"
+   }
+  ],
+  "tech_global_defense_grid": [
+   {
+    "kind": "Building",
+    "name": "Naval Command Center"
+   }
+  ],
+  "tech_archaeostudies": [
+   {
+    "kind": "Building",
+    "name": "Faculty of Archaeostudies"
+   }
+  ],
+  "tech_basic_industry": [
+   {
+    "kind": "District",
+    "name": "Prison Industrial District"
+   },
+   {
+    "kind": "District",
+    "name": "Battle Thrall District"
+   }
+  ]
+ }
+}
