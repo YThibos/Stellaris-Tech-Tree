@@ -124,7 +124,7 @@ Anything not recognised falls back to the raw script; nothing is dropped.
 - Several campaigns can exist; one is active and switchable.
 - Campaigns can be exported to a file and imported on another device.
 - Bulk marking:
-  - Mark with prerequisites: marking a tech marks its whole requirement path.
+  - Mark with prerequisites: marking a tech marks its whole prerequisite path; "one of" groups are left for the player to choose.
   - Mark a tier: marks an entire tier, optionally limited to one research area.
   - Import a save: see 5.8.
 - Unmarking a tech also unmarks every marked tech that depends on it, so a campaign never contradicts the tree.
@@ -136,7 +136,7 @@ Anything not recognised falls back to the raw script; nothing is dropped.
 
 - Drop a `.sav` file onto the page; it is read only in the browser and never uploaded.
 - The player's empire is found from the save, and its researched techs and repeatable levels become a new campaign or update the active one.
-- Large late-game saves are parsed off the main thread with visible progress.
+- Large late-game saves are read off the main thread with visible progress; only the player empire's research block is parsed, found by its position in the save's text layout.
 - Techs in the save that are absent from the current data (a mod not enabled) are reported, not lost.
 
 ### 5.9 Versions

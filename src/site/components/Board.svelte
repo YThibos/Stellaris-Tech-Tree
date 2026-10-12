@@ -97,7 +97,7 @@
         </span>
         <span class="title">{columnTitle(column.column)}</span>
         {#if column.column.kind === 'tier'}
-          <TierGateNote gate={view.tree.tierGate(column.column.tier)} />
+          <TierGateNote gate={view.tree.tierGate(column.column.tier)} {view} />
         {/if}
       </div>
     {/each}

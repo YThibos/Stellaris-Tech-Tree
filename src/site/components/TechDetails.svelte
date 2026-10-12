@@ -1,6 +1,7 @@
 <script lang="ts">
   import {
     hasTrait,
+    isRepeatable,
     type Technology,
     type TechnologyKey,
     type Unlock,
@@ -27,6 +28,7 @@
   const requirementCount = $derived(
     technology ? view.tree.requirementPath(technology.key).size : 0,
   );
+  const level = $derived(technology ? view.researchedLevel(technology.key) : 0);
   const missing = $derived(technology ? view.tree.missingRequirements(technology) : []);
   const source = $derived(technology ? view.sourceOf(technology) : undefined);
   const unlockSources = $derived(technology ? view.unlockSourcesOf(technology.key) : []);
@@ -80,6 +82,32 @@
         ? 'Switch off its lit path'
         : `Light its path (${requirementCount} techs)`}
     </button>
+
+    {#if view.campaigns.active}
+      <div class="research">
+        {#if isRepeatable(technology)}
+          <span>Researched levels</span>
+          <button
+            onclick={() => view.setResearchedLevel(technology.key, level - 1)}
+            disabled={level === 0}
+            aria-label="One level fewer">−</button
+          >
+          <span class="level">{level}</span>
+          <button
+            onclick={() => view.setResearchedLevel(technology.key, level + 1)}
+            aria-label="One level more">+</button
+          >
+        {:else}
+          <button
+            class="mark"
+            class:done={level > 0}
+            onclick={() => view.toggleResearched(technology.key)}
+          >
+            {level > 0 ? '✓ Researched - unmark' : 'Mark researched, with everything it requires'}
+          </button>
+        {/if}
+      </div>
+    {/if}
 
     <dl class="facts">
       <dt>Cost</dt>
@@ -280,6 +308,37 @@
   .mod-list {
     display: flex;
     flex-direction: column;
+  }
+
+  .research {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .research button {
+    padding: 0.35rem 0.6rem;
+    border: 1px solid #6fd88966;
+    border-radius: var(--radius);
+    background: #6fd88912;
+    color: var(--researched);
+    cursor: pointer;
+  }
+
+  .research .mark {
+    width: 100%;
+  }
+
+  .research .mark.done {
+    background: #6fd88930;
+  }
+
+  .research .level {
+    min-width: 2ch;
+    text-align: center;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
   }
 
   .facts {

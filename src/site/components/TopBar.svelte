@@ -1,19 +1,30 @@
 <script lang="ts">
   import type { SnapshotManifest } from '../../domain/snapshot.ts';
   import type { TreeView } from '../state/tree-view.svelte.ts';
+  import type { SaveImport } from '../state/save-import-status.svelte.ts';
+  import type { TopBarPanel } from '../state/top-bar-panel.ts';
+  import CampaignPanel from './CampaignPanel.svelte';
   import Legend from './Legend.svelte';
   import ModPanel from './ModPanel.svelte';
 
   let {
     view,
     manifest,
+    saveImport,
     search = $bindable(),
-  }: { view: TreeView; manifest: SnapshotManifest; search: HTMLInputElement | null } = $props();
+    openPanel = $bindable(),
+  }: {
+    view: TreeView;
+    manifest: SnapshotManifest;
+    saveImport: SaveImport;
+    search: HTMLInputElement | null;
+    openPanel: TopBarPanel | null;
+  } = $props();
 
-  let openPanel = $state<'legend' | 'mods' | null>(null);
   const shownCount = $derived(view.visible.size);
+  const campaign = $derived(view.campaigns.active);
 
-  function toggle(panel: 'legend' | 'mods'): void {
+  function toggle(panel: TopBarPanel): void {
     openPanel = openPanel === panel ? null : panel;
   }
   const totalCount = $derived(view.tree.technologies.length);
@@ -48,6 +59,15 @@
         <span class="lit-dot"></span>{view.lit.size} lit · Clear
       </button>
     {/if}
+    {#if campaign}
+      <label class="hide-researched">
+        <input type="checkbox" bind:checked={view.campaigns.hideResearched} />
+        Hide researched
+      </label>
+    {/if}
+    <button onclick={() => toggle('campaigns')} aria-expanded={openPanel === 'campaigns'}>
+      {campaign ? campaign.name : 'Campaign'}
+    </button>
     {#if view.mods().length > 0}
       <button onclick={() => toggle('mods')} aria-expanded={openPanel === 'mods'}>
         Mods {view.enabledMods.size}/{view.mods().length}
@@ -61,6 +81,8 @@
   <Legend onclose={() => (openPanel = null)} />
 {:else if openPanel === 'mods'}
   <ModPanel {view} onclose={() => (openPanel = null)} />
+{:else if openPanel === 'campaigns'}
+  <CampaignPanel {view} {saveImport} onclose={() => (openPanel = null)} />
 {/if}
 
 <style>
@@ -143,6 +165,20 @@
 
   button:hover {
     border-color: var(--text-faint);
+  }
+
+  .hide-researched {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    gap: 0.35rem;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+
+  .hide-researched input {
+    accent-color: var(--researched);
   }
 
   .lit-summary {

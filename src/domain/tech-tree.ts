@@ -63,6 +63,21 @@ export class TechTree {
     return path;
   }
 
+  /**
+   * The techs that must be researched before `key` through its prerequisites alone, leaving out
+   * "one of" groups, where the player chooses which option to take.
+   */
+  prerequisitePath(key: TechnologyKey): Set<TechnologyKey> {
+    const path = new Set<TechnologyKey>();
+    const pending = [...(this.byKey.get(key)?.prerequisites ?? [])];
+    for (let next = pending.pop(); next !== undefined; next = pending.pop()) {
+      if (path.has(next) || next === key || !this.byKey.has(next)) continue;
+      path.add(next);
+      pending.push(...(this.byKey.get(next)?.prerequisites ?? []));
+    }
+    return path;
+  }
+
   /** The techs that list `key` directly as a prerequisite. */
   leadsTo(key: TechnologyKey): readonly TechnologyKey[] {
     return this.dependants.get(key) ?? [];

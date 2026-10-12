@@ -1,9 +1,20 @@
 import { SvelteSet } from 'svelte/reactivity';
+import {
+  isResearched,
+  markResearched,
+  markTier,
+  setLevel,
+  tierGateProgress,
+  unmarkResearched,
+  type TierGateProgress,
+} from '../../domain/campaign.ts';
+import type { ResearchArea } from '../../domain/research-area.ts';
 import { mergeLayers, type MergedContent } from '../../domain/content-merge.ts';
 import type { ContentLayer, ContentSource } from '../../domain/snapshot.ts';
 import { TechTree } from '../../domain/tech-tree.ts';
 import { matchesSearch } from '../../domain/technology-search.ts';
 import { allRequirements, type Technology, type TechnologyKey } from '../../domain/technology.ts';
+import type { CampaignBook } from './campaign-book.svelte.ts';
 
 /** How strongly a card stands out, strongest first. */
 export type Emphasis = 'lit' | 'on-lit-path' | 'none';
@@ -21,6 +32,7 @@ export interface Link {
  */
 export class TreeView {
   readonly layers: readonly ContentLayer[];
+  readonly campaigns: CampaignBook;
   readonly enabledMods: SvelteSet<string>;
   query = $state('');
   inspected = $state<TechnologyKey | null>(null);
@@ -33,8 +45,13 @@ export class TreeView {
   readonly links: Link[];
   private readonly sources: Map<string, ContentSource>;
 
-  constructor(layers: readonly ContentLayer[], modsOff: readonly string[]) {
+  constructor(
+    layers: readonly ContentLayer[],
+    modsOff: readonly string[],
+    campaigns: CampaignBook,
+  ) {
     this.layers = layers;
+    this.campaigns = campaigns;
     this.sources = new Map(layers.map((layer) => [layer.source.id, layer.source]));
     this.enabledMods = new SvelteSet(
       this.mods()
@@ -92,6 +109,37 @@ export class TreeView {
       .filter((id) => !this.enabledMods.has(id));
   }
 
+  /** Levels researched in the active campaign; 0 when not researched or no campaign is active. */
+  researchedLevel(key: TechnologyKey): number {
+    return this.campaigns.active?.researched[key] ?? 0;
+  }
+
+  isResearched(key: TechnologyKey): boolean {
+    return this.campaigns.active !== null && isResearched(this.campaigns.active, key);
+  }
+
+  /** Marks a tech with everything before it, or unmarks it with everything that needed it. */
+  toggleResearched(key: TechnologyKey): void {
+    this.campaigns.updateActive((campaign) =>
+      isResearched(campaign, key)
+        ? unmarkResearched(campaign, key, this.tree)
+        : markResearched(campaign, key, this.tree),
+    );
+  }
+
+  setResearchedLevel(key: TechnologyKey, level: number): void {
+    this.campaigns.updateActive((campaign) => setLevel(campaign, key, level, this.tree));
+  }
+
+  markWholeTier(tier: number, area: ResearchArea | null): void {
+    this.campaigns.updateActive((campaign) => markTier(campaign, tier, area, this.tree));
+  }
+
+  tierGateProgress(tier: number, area: ResearchArea): TierGateProgress | undefined {
+    const campaign = this.campaigns.active;
+    return campaign ? tierGateProgress(campaign, this.tree, tier, area) : undefined;
+  }
+
   emphasisOf(key: TechnologyKey): Emphasis {
     if (this.lit.has(key)) return 'lit';
     return this.litPath.has(key) ? 'on-lit-path' : 'none';
@@ -115,12 +163,15 @@ export class TreeView {
     this.lit.clear();
   }
 
+  /** Lit techs always stay on the board; others must match the search and, if asked, be unresearched. */
   private techsMatchingSearch(): Set<TechnologyKey> {
+    const hideResearched = this.campaigns.hideResearched && this.campaigns.active !== null;
     const matching = this.tree.technologies
       .filter(
         (technology) =>
           this.lit.has(technology.key) ||
-          matchesSearch(technology, this.query, this.sourceOf(technology)?.name),
+          (!(hideResearched && this.isResearched(technology.key)) &&
+            matchesSearch(technology, this.query, this.sourceOf(technology)?.name)),
       )
       .map((technology) => technology.key);
     return new Set(matching);

@@ -34,12 +34,30 @@ This version is built around the questions you actually ask mid-campaign:
 | Read a tech's details                 | Click the ⓘ on its card                                             |
 | Find a tech                           | Type in the search box, or press `/`                                |
 | Clear search, details, then lit paths | Press `Esc`                                                         |
+| Track a campaign                      | Click **Campaign**, create one or drop a save file onto the page    |
+| Mark a tech researched                | Click the ✓ on its card; everything it requires is marked too       |
+| Declutter                             | Tick **Hide researched**                                            |
 | Switch mods on or off                 | Click **Mods**, find a mod by name and tick or untick it            |
 | Find every tech from one mod          | Type part of the mod's name in the search box                       |
 | Share exactly what you're looking at  | Copy the page address; it remembers your search, lit techs and mods |
 
 Purple cards are rare techs and red cards dangerous ones, as in the game.
 Markers on a card: ★ starting tech, ✦ never drawn (granted by events and similar), ∞ repeatable, ⇇ more than one requirement, MOD added by a mod or given new unlocks by one, ✎ changed by a mod, ! needs a tech that is not loaded (for example from a mod you switched off).
+
+## Your campaign
+
+Keep track of what you have researched in one or more campaigns, stored in your own browser.
+
+- **Import a save:** drop a `.sav` file onto the page, or choose one under **Campaign**.
+  The save is read in your browser and never uploaded.
+  Importing a later save of the same empire updates its campaign.
+- **Mark as you go:** the ✓ on a card marks the tech researched together with everything it requires.
+  Unmarking a tech also unmarks everything that needed it, so a campaign never contradicts the tree.
+- **Mark a whole tier** at once, in one research area or all three, from the **Campaign** panel.
+- **Repeatables** keep their level; set it in the tech's details.
+- **Hide researched** clears done techs away, so a lit path shows only what is left to research.
+- Tier headers count your progress towards each tier's requirement, per research area.
+- Export a campaign to a file to move it to another browser or computer, and import it there.
 
 ## Mods
 
@@ -54,8 +72,8 @@ The game decides conflicts the same way here as in game: a mod file with the sam
 
 ## Coming next
 
-1. **Your campaign** - mark what you have researched, by importing a save file, by marking a tech with everything before it, or a whole tier at once, then hide what's done.
-2. **Older versions** - pick an earlier game patch.
+1. **Older versions** - pick an earlier game patch.
+2. **Empire capacities** - a tab listing capacity bonuses such as Arc Furnace and Dyson Swarm capacity, what you have and which techs raise them.
 
 ## Updating the data for your own game
 

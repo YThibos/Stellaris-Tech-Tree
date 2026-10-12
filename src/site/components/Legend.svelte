@@ -14,6 +14,10 @@
       techs can be lit at once.
     </li>
     <li><b>ⓘ</b> on a card opens that tech's details.</li>
+    <li>
+      <b>✓</b> on a card, once a campaign is chosen, marks the tech researched with everything it requires;
+      clicking it again unmarks it and everything that needed it.
+    </li>
     <li><b>/</b> jumps to search; <b>Esc</b> clears search, then details, then lit paths.</li>
   </ul>
   <h3>Lines</h3>

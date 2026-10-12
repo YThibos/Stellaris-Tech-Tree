@@ -32,6 +32,7 @@
   );
   const missing = $derived(view.tree.missingRequirements(technology));
   const mods = $derived(view.modsInvolvedIn(technology));
+  const level = $derived(view.researchedLevel(technology.key));
 </script>
 
 <div
@@ -40,6 +41,7 @@
   class:rare={hasTrait(technology, 'rare')}
   class:dangerous={hasTrait(technology, 'dangerous')}
   class:inspected={view.inspected === technology.key}
+  class:researched={level > 0}
   hidden={!view.visible.has(technology.key)}
   use:register={technology.key}
 >
@@ -58,6 +60,7 @@
       <span class="name">{technology.name}</span>
       <span class="meta">
         <span class="cost">{researchCost(technology.cost)}</span>
+        {#if level > 1}<span class="level" title="Researched {level} times">Lv {level}</span>{/if}
         {#if isRepeatable(technology)}<span class="repeatable" title="Repeatable">∞</span>{/if}
         {#each badgedTraitsOf(technology.traits) as trait (trait)}
           <span class="trait {trait}" title={traitTitle(trait)}>{traitGlyph(trait)}</span>
@@ -79,12 +82,25 @@
       </span>
     </span>
   </button>
-  <button
-    class="info"
-    onclick={() => (view.inspected = technology.key)}
-    aria-label="Details of {technology.name}"
-    title="Details">ⓘ</button
-  >
+  <div class="side">
+    <button
+      class="info"
+      onclick={() => (view.inspected = technology.key)}
+      aria-label="Details of {technology.name}"
+      title="Details">ⓘ</button
+    >
+    {#if view.campaigns.active}
+      <button
+        class="research"
+        onclick={() => view.toggleResearched(technology.key)}
+        aria-pressed={level > 0}
+        aria-label="{level > 0 ? 'Unmark' : 'Mark'} {technology.name} researched"
+        title={level > 0
+          ? 'Researched - click to unmark it and everything that needs it'
+          : 'Mark researched, with everything it requires'}>✓</button
+      >
+    {/if}
+  </div>
 </div>
 
 <style>
@@ -245,18 +261,48 @@
     color: var(--warning);
   }
 
-  .info {
+  .side {
+    display: flex;
     flex: none;
+    flex-direction: column;
     width: 22px;
-    border: none;
     border-left: 1px solid var(--line);
+  }
+
+  .side button {
+    flex: 1;
+    padding: 0;
+    border: none;
     background: none;
     color: var(--text-faint);
     cursor: pointer;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
-  .info:hover {
+  .side button:hover {
     color: var(--text);
+  }
+
+  .research {
+    border-top: 1px solid var(--line) !important;
+  }
+
+  .card.researched {
+    opacity: 0.6;
+  }
+
+  .card.researched .research {
+    background: var(--researched);
+    color: #08140c;
+    font-weight: 700;
+  }
+
+  .card.researched .research:hover {
+    color: #08140c;
+  }
+
+  .level {
+    color: var(--researched);
+    font-weight: 700;
   }
 </style>
