@@ -39,13 +39,14 @@ This version is built around the questions you actually ask mid-campaign:
 | Share exactly what you're looking at  | Copy the page address; it remembers your search, lit techs and mods |
 
 Purple cards are rare techs and red cards dangerous ones, as in the game.
-Markers on a card: ★ starting tech, ✦ never drawn (granted by events and similar), ∞ repeatable, ⇇ more than one requirement, ✎ changed by a mod, ! needs a tech that is not loaded (for example from a mod you switched off).
+Markers on a card: ★ starting tech, ✦ never drawn (granted by events and similar), ∞ repeatable, ⇇ more than one requirement, MOD added by a mod or given new unlocks by one, ✎ changed by a mod, ! needs a tech that is not loaded (for example from a mod you switched off).
 
 ## Mods
 
 The tree includes every mod in your playset that touches technology: mods that add techs, like Gigastructural Engineering, Ancient Cache of Technologies or Guilli's Technologies, mods that change the game's techs, and mods that give existing techs new unlocks.
 Each one can be switched off in the **Mods** list, and the tree rebuilds itself as the game would load it.
-When a mod changes a tech, the tech's details say which mod and what changed, such as a new requirement or a higher cost.
+Every tech a mod adds, changes or gives new unlocks carries a small MOD tag, and its details link to the Workshop page of each mod involved.
+When a mod changes a tech, the details also say what changed, such as a new requirement or a higher cost.
 
 The game decides conflicts the same way here as in game: a mod file with the same name as an earlier one replaces it, and when two files define the same tech, the file whose name sorts last wins.
 

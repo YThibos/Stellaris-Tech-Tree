@@ -33,6 +33,10 @@
     {/each}
     <li><span class="glyph repeatable">∞</span>Repeatable</li>
     <li><span class="glyph multi">⇇</span>Number of requirements, when more than one</li>
+    <li>
+      <span class="glyph"><span class="mod">MOD</span></span>Added by a mod, or given new unlocks by
+      one
+    </li>
     <li><span class="glyph changed">✎</span>Changed by a mod</li>
     <li>
       <span class="glyph missing">!</span>Needs a tech that is not loaded, such as one from a mod
@@ -107,6 +111,16 @@
   .glyph.repeatable {
     color: var(--hover);
     font-weight: 700;
+  }
+
+  .mod {
+    padding: 0 0.25rem;
+    border: 1px solid #4ea5ff88;
+    border-radius: 3px;
+    color: var(--physics);
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
   }
 
   .glyph.changed {

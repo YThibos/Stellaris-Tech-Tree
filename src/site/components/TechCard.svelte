@@ -31,6 +31,7 @@
     view.replacedDefinitionOf(technology.key) ? view.sourceOf(technology)?.name : undefined,
   );
   const missing = $derived(view.tree.missingRequirements(technology));
+  const mods = $derived(view.modsInvolvedIn(technology));
 </script>
 
 <div
@@ -61,6 +62,9 @@
         {#each badgedTraitsOf(technology.traits) as trait (trait)}
           <span class="trait {trait}" title={traitTitle(trait)}>{traitGlyph(trait)}</span>
         {/each}
+        {#if mods.length > 0}
+          <span class="mod" title="From mods: {mods.map(({ name }) => name).join(', ')}">MOD</span>
+        {/if}
         {#if changedBy}
           <span class="changed" title="Changed by {changedBy}">✎</span>
         {/if}
@@ -215,6 +219,17 @@
 
   .trait.granted {
     color: var(--hover);
+  }
+
+  .mod {
+    padding: 0 0.25rem;
+    border: 1px solid #4ea5ff88;
+    border-radius: 3px;
+    color: var(--physics);
+    font-size: 0.58rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.3;
   }
 
   .changed {

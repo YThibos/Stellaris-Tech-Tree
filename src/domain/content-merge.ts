@@ -8,6 +8,8 @@ export interface MergedContent {
   tierGates: TierGate[];
   /** For each tech a mod changed, the definition it replaced. */
   replaced: Map<TechnologyKey, Technology>;
+  /** For each tech, the other sources that gave it new unlocks, in load order. */
+  unlockSources: Map<TechnologyKey, string[]>;
 }
 
 interface LoadedFile {
@@ -40,6 +42,7 @@ export function mergeLayers(
     technologies,
     tierGates: tierGatesOf(active),
     replaced: keptReplacements(replaced, definitions),
+    unlockSources: unlockSourcesOf(technologies, active),
   };
 }
 
@@ -87,6 +90,22 @@ function withAddedUnlocks(technologies: Technology[], layers: ContentLayer[]): T
       ? { ...technology, unlocks: [...technology.unlocks, ...added] }
       : technology;
   });
+}
+
+function unlockSourcesOf(
+  technologies: Technology[],
+  layers: ContentLayer[],
+): Map<TechnologyKey, string[]> {
+  const sources = new Map<TechnologyKey, string[]>();
+  for (const technology of technologies) {
+    const contributors = layers
+      .filter(
+        (layer) => layer.source.id !== technology.source && layer.unlocksAdded[technology.key],
+      )
+      .map((layer) => layer.source.id);
+    if (contributors.length > 0) sources.set(technology.key, contributors);
+  }
+  return sources;
 }
 
 /** A later source's definition of a tier replaces an earlier one. */

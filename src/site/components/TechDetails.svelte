@@ -19,6 +19,7 @@
   import type { TreeView } from '../state/tree-view.svelte.ts';
   import { changesBetween } from '../../domain/technology-changes.ts';
   import ConditionBlock from './ConditionBlock.svelte';
+  import ModLink from './ModLink.svelte';
 
   let { view, assetBase }: { view: TreeView; assetBase: string } = $props();
 
@@ -28,6 +29,7 @@
   );
   const missing = $derived(technology ? view.tree.missingRequirements(technology) : []);
   const source = $derived(technology ? view.sourceOf(technology) : undefined);
+  const unlockSources = $derived(technology ? view.unlockSourcesOf(technology.key) : []);
   const replaced = $derived(technology ? view.replacedDefinitionOf(technology.key) : undefined);
   const changes = $derived(technology && replaced ? changesBetween(replaced, technology) : []);
 
@@ -39,7 +41,7 @@
     const kinds = new Map<string, string[]>();
     for (const unlock of unlocks)
       kinds.set(unlock.kind, [...(kinds.get(unlock.kind) ?? []), unlock.name]);
-    return [...kinds.entries()];
+    return [...kinds.entries()].map(([kind, names]) => [kind, [...new Set(names)]]);
   }
 
   function existing(keys: readonly TechnologyKey[]): Technology[] {
@@ -86,18 +88,16 @@
         <dt>Repeats</dt>
         <dd>{repeatabilityText(technology.repeatability)}</dd>
       {/if}
-      <dt>{replaced ? 'Changed by' : 'Source'}</dt>
+      <dt>{replaced ? 'Changed by' : source && source.id !== 'vanilla' ? 'Added by' : 'Source'}</dt>
       <dd>
-        {#if source?.workshopId}
-          <a
-            href="https://steamcommunity.com/sharedfiles/filedetails/?id={source.workshopId}"
-            target="_blank"
-            rel="noopener noreferrer">{source.name}</a
-          >
-        {:else}
-          {source?.name ?? technology.source}
-        {/if}
+        {#if source}<ModLink mod={source} />{:else}{technology.source}{/if}
       </dd>
+      {#if unlockSources.length > 0}
+        <dt>New unlocks from</dt>
+        <dd class="mod-list">
+          {#each unlockSources as mod (mod.id)}<ModLink {mod} />{/each}
+        </dd>
+      {/if}
     </dl>
 
     {#if technology.traits.length > 0}
@@ -277,8 +277,9 @@
     background: #ffd16630;
   }
 
-  .facts a {
-    color: var(--physics);
+  .mod-list {
+    display: flex;
+    flex-direction: column;
   }
 
   .facts {

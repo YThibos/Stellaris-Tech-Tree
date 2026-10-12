@@ -112,7 +112,9 @@ Anything not recognised falls back to the raw script; nothing is dropped.
 
 ### 5.6 Mod changes to vanilla
 
-- A tech changed by a mod shows a "changed by <mod>" badge.
+- Every tech a mod adds, changes or gives new unlocks carries one small MOD tag, the same for every mod.
+- Its details name each mod involved, with a link to its Workshop page.
+- A tech changed by a mod also shows a "changed" marker.
 - The details panel lists what changed against the definition it overrides: prerequisites, tier, cost, availability, draw weight, unlocks.
 - Override rules follow the game's own (file replacement by path, then duplicate keys by load order) and live in one tested module.
 

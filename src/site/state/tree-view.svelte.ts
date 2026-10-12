@@ -57,6 +57,18 @@ export class TreeView {
     return this.sources.get(technology.source);
   }
 
+  /** Mods that gave this tech new unlocks without defining it. */
+  unlockSourcesOf(key: TechnologyKey): ContentSource[] {
+    return (this.merged.unlockSources.get(key) ?? []).flatMap((id) => this.sources.get(id) ?? []);
+  }
+
+  /** Every mod with a hand in this tech: the one that defines it, and any that add unlocks to it. */
+  modsInvolvedIn(technology: Technology): ContentSource[] {
+    const definer = this.sourceOf(technology);
+    const definedByMod = definer && definer.id !== this.layers[0]?.source.id ? [definer] : [];
+    return [...definedByMod, ...this.unlockSourcesOf(technology.key)];
+  }
+
   /** The definition a mod replaced, when the tech on the board is a mod's version of it. */
   replacedDefinitionOf(key: TechnologyKey): Technology | undefined {
     return this.merged.replaced.get(key);

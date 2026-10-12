@@ -70,7 +70,7 @@ export class TechTree {
 
   /** Requirements named by a tech that do not exist in this snapshot. */
   missingRequirements(technology: Technology): TechnologyKey[] {
-    return allRequirements(technology).filter((key) => !this.byKey.has(key));
+    return [...new Set(allRequirements(technology))].filter((key) => !this.byKey.has(key));
   }
 
   tierGate(tier: number): TierGate | undefined {

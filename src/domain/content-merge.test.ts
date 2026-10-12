@@ -113,6 +113,7 @@ describe('mergeLayers', () => {
     );
     const mega = merged.technologies.find(({ key }) => key === 'tech_mega_engineering');
     expect(mega?.unlocks).toEqual([{ kind: 'Building', name: 'Birch World Hub' }]);
+    expect(merged.unlockSources.get('tech_mega_engineering')).toEqual(['giga']);
     expect(merged.tierGates).toEqual([{ tier: 5, previouslyUnlocked: 8 }]);
   });
 });
