@@ -70,12 +70,13 @@ Each milestone ships on its own and is useful on its own.
 ### 5.2 Prerequisites and requirement paths
 
 - Every prerequisite is a link, including the second and third ones.
-- Requirements the game hides in a tech's availability conditions (Mega-Engineering needs Battleships or Stingers) are links too, drawn dashed and listed as "and one of", because the player must research them all the same.
-- Hovering a tech previews its links: its requirement path and the techs it leads to.
+- Requirements the game hides in a tech's availability conditions (in 4.5.2, Synaptic Cogitator needs Scalable Reservoir Computing; in 4.3.7, Mega-Engineering needed Battleships or Stingers) are links too, drawn dashed and listed as "and one of", because the player must research them all the same.
 - Clicking a tech locks its requirement path lit until that tech is clicked again.
 - Several techs can be locked lit at once; the lit set is the union of their requirement paths.
 - A "clear all" control removes every lock.
-- Links are drawn only for hovered or lit techs, so the default view stays uncluttered.
+- Clicking the body of a card lights it; only the ⓘ on a card opens its details.
+- There is no hover preview: in a board this packed it got in the way.
+- Links are drawn only for lit techs, so the default view stays uncluttered.
 - When researched techs are hidden (5.7), a lit path shows only what remains to be researched.
 - A lit path also lists its tier gates that are not yet met.
 
@@ -250,10 +251,15 @@ The captain's craftsmanship rules are acceptance criteria for every change:
 
 ## 11. Facts to verify during the build
 
-- Exact tier-gate numbers in 4.5 (`common/technology/tier`).
+Settled by the first extraction of 4.5.2:
+
+- Tiers 2 to 5 each need 6 techs of the previous tier in the same area; tiers 0 and 1 need none.
+- Mega-Engineering needs only Zero Point Power in 4.5.2; the Citadel and Battleships requirements of earlier versions are gone.
+
+Still open:
+
 - The game's duplicate-key rule for technologies across mods (first or last loaded wins), verified against real mod pairs before the override module is final.
 - That Ironman saves are plain text like normal saves.
-- Whether Battleships is still a prerequisite anywhere on the Mega-Engineering path in 4.5 (it was in older versions; it is not in 4.3.7).
 - How Technology Ascendant changes research, since it may alter costs or tiers across the board rather than add techs.
 
 ## 12. Mod inventory (from the captain's Steam library, 52 subscriptions)
@@ -299,4 +305,3 @@ This project stands on the work of the original Stellaris Tech Tree and owes it 
 - [BloodStainedCrow/stellaris-tech-tree](https://github.com/BloodStainedCrow/stellaris-tech-tree) and [BloodStainedCrow/stellaris-technology](https://github.com/BloodStainedCrow/stellaris-technology), which kept the tree current through Stellaris 4.3.
 
 The README carries these credits prominently, not only in a footnote.
-Until the first extraction of 4.5 lands, the preview build uses their MIT-licensed 4.3.7 data, with the licence notice kept in `THIRD-PARTY-NOTICES.md`.

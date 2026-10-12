@@ -9,19 +9,17 @@
   <h2>Reading the tree</h2>
   <ul>
     <li><b>Columns</b> are the game's tech tiers; repeatables sit in the last column (∞).</li>
-    <li><b>Hover</b> a tech to preview what it needs and what it leads to.</li>
     <li>
       <b>Click</b> a tech to keep its full requirement path lit; click it again to switch it off. Several
       techs can be lit at once.
     </li>
-    <li><b>ⓘ</b> opens a tech's details without lighting it.</li>
+    <li><b>ⓘ</b> on a card opens that tech's details.</li>
     <li><b>/</b> jumps to search; <b>Esc</b> clears search, then details, then lit paths.</li>
   </ul>
   <h3>Lines</h3>
   <ul class="swatches">
-    <li><span class="swatch lit"></span>Lit requirement path</li>
-    <li><span class="swatch hover"></span>Hovered tech's requirements</li>
-    <li><span class="swatch leads-to"></span>What the hovered tech leads to</li>
+    <li><span class="swatch lit"></span>Prerequisite of a lit tech</li>
+    <li><span class="swatch lit one-of"></span>One of several options the tech needs</li>
   </ul>
   <h3>Cards</h3>
   <ul class="swatches">
@@ -92,12 +90,8 @@
     background: var(--lit);
   }
 
-  .swatch.hover {
-    background: var(--hover);
-  }
-
-  .swatch.leads-to {
-    background: var(--leads-to);
+  .swatch.one-of {
+    background: repeating-linear-gradient(90deg, var(--lit) 0 6px, transparent 6px 9px);
   }
 
   .glyph {

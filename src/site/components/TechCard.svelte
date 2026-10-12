@@ -27,10 +27,6 @@
     technology.prerequisites.length + technology.requiresOneOf.length,
   );
   const dimmed = $derived(view.isFaded(technology.key));
-
-  function onLeave(): void {
-    if (view.hovered === technology.key) view.hovered = null;
-  }
 </script>
 
 <div
@@ -45,8 +41,6 @@
   <button
     class="body"
     onclick={() => view.toggleLit(technology.key)}
-    onmouseenter={() => (view.hovered = technology.key)}
-    onmouseleave={onLeave}
     aria-pressed={view.lit.has(technology.key)}
     title={technology.name}
   >
@@ -130,13 +124,6 @@
     opacity: 0.32;
   }
 
-  .card.emphasis-hovered {
-    border-color: var(--hover);
-    box-shadow:
-      0 0 0 1px var(--hover),
-      0 0 14px #7fe3ff55;
-  }
-
   .card.emphasis-lit {
     border-color: var(--lit);
     background: #2a2512;
@@ -148,14 +135,6 @@
   .card.emphasis-on-lit-path {
     border-color: #ffd166aa;
     box-shadow: 0 0 10px #ffd16633;
-  }
-
-  .card.emphasis-on-hover-path {
-    border-color: #7fe3ffaa;
-  }
-
-  .card.emphasis-leads-to {
-    border-color: var(--leads-to);
   }
 
   .card.inspected {

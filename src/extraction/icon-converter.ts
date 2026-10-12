@@ -67,22 +67,68 @@ function compressed(
   return { width, height, rgba: decodeDxt(data, width, height, format) };
 }
 
-/** Plain 32-bit pixels, in whichever channel order the header's bit masks declare. */
+/**
+ * Uncompressed pixels of 8 to 32 bits, laid out however the header's channel bit masks declare,
+ * including greyscale textures that store a single luminance channel.
+ */
 function uncompressed(dds: Buffer, view: DataView, width: number, height: number): Texture {
-  const bitCount = view.getUint32(88, true);
-  if (bitCount !== 32) throw new Error(`Unsupported ${bitCount}-bit uncompressed texture.`);
-  const redMask = view.getUint32(92, true);
-  const alphaMask = view.getUint32(104, true);
-  const pixels = slice(dds, HEADER_SIZE, width, height);
-  if (alphaMask === 0) makeOpaque(pixels);
-  return redMask === 0x00ff0000
-    ? swapRedAndBlue(pixels, width, height)
-    : { width, height, rgba: pixels };
+  const layout = pixelLayoutOf(view);
+  const bytesPerPixel = layout.bitCount / 8;
+  if (![1, 2, 3, 4].includes(bytesPerPixel)) {
+    throw new Error(`Unsupported ${layout.bitCount}-bit uncompressed texture.`);
+  }
+  const rgba = new Uint8Array(width * height * 4);
+  for (let pixel = 0; pixel < width * height; pixel++) {
+    const value = readPixel(dds, HEADER_SIZE + pixel * bytesPerPixel, bytesPerPixel);
+    rgba.set(colourOf(value, layout), pixel * 4);
+  }
+  return { width, height, rgba };
 }
 
-/** A texture without an alpha channel leaves that byte unused; it must not read as transparent. */
-function makeOpaque(pixels: Uint8Array): void {
-  for (let index = 3; index < pixels.length; index += 4) pixels[index] = 255;
+interface PixelLayout {
+  bitCount: number;
+  red: number;
+  green: number;
+  blue: number;
+  alpha: number;
+  luminance: boolean;
+}
+
+const PIXEL_FORMAT_HAS_ALPHA = 0x1;
+const PIXEL_FORMAT_LUMINANCE = 0x20000;
+
+function pixelLayoutOf(view: DataView): PixelLayout {
+  const flags = view.getUint32(80, true);
+  return {
+    bitCount: view.getUint32(88, true),
+    red: view.getUint32(92, true),
+    green: view.getUint32(96, true),
+    blue: view.getUint32(100, true),
+    alpha: flags & PIXEL_FORMAT_HAS_ALPHA ? view.getUint32(104, true) : 0,
+    luminance: (flags & PIXEL_FORMAT_LUMINANCE) !== 0,
+  };
+}
+
+function readPixel(dds: Buffer, offset: number, bytes: number): number {
+  let value = 0;
+  for (let byte = bytes - 1; byte >= 0; byte--) value = value * 256 + (dds[offset + byte] ?? 0);
+  return value;
+}
+
+/** A channel missing from the texture reads as full: opaque alpha, or grey from luminance. */
+function colourOf(value: number, layout: PixelLayout): [number, number, number, number] {
+  const red = channel(value, layout.red);
+  const alpha = layout.alpha ? channel(value, layout.alpha) : 255;
+  if (layout.luminance) return [red, red, red, alpha];
+  return [red, channel(value, layout.green), channel(value, layout.blue), alpha];
+}
+
+/** Extracts the bits a mask selects and scales them to the 0 to 255 range. */
+function channel(value: number, mask: number): number {
+  if (mask === 0) return 0;
+  const shift = Math.log2(mask & -mask);
+  const maximum = mask / 2 ** shift;
+  return Math.round(((Math.floor(value / 2 ** shift) & maximum) * 255) / maximum);
 }
 
 function slice(dds: Buffer, offset: number, width: number, height: number): Uint8Array {

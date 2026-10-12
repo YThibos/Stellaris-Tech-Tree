@@ -23,6 +23,7 @@ const COMPARISONS: Record<string, string> = {
 };
 
 type TriggerPhrase = (subject: string) => string;
+type ParameterPhrase = (parameters: Map<string, string>) => string;
 
 /** Empire traits the game tests with `<trigger> = yes`, told as what the empire is. */
 const EMPIRE_KINDS: Record<string, string> = {
@@ -50,6 +51,7 @@ const EMPIRE_KINDS: Record<string, string> = {
  */
 export class ConditionNarrator {
   private readonly phrases: Record<string, TriggerPhrase>;
+  private readonly parameterPhrases: Record<string, ParameterPhrase>;
 
   constructor(
     private readonly localisation: Localisation,
@@ -74,6 +76,12 @@ export class ConditionNarrator {
       has_megastructure: (key) => `Has a ${this.name(key)}`,
       has_policy_flag: (flag) => `Has the policy ${this.name(flag)}`,
     };
+    this.parameterPhrases = {
+      has_trait_in_council: (parameters) =>
+        `A council member has the ${this.name(parameters.get('TRAIT') ?? '')} trait`,
+      is_specialist_subject_type: (parameters) =>
+        `Is a ${this.name(parameters.get('TYPE') ?? '').toLowerCase()} specialist subject`,
+    };
   }
 
   describe(block: ScriptBlock): ConditionText {
@@ -91,8 +99,18 @@ export class ConditionNarrator {
   }
 
   private narrateBlock(key: string, block: ScriptBlock): Narration {
+    const parameters = parametersOf(block);
+    if (parameters) return { text: this.narrateParameterised(key, parameters), details: [] };
     const heading = LOGIC[key] ?? `${humanise(key)}:`;
     return { text: heading, details: this.narrate(block) };
+  }
+
+  /** Triggers such as `has_trait_in_council = { TRAIT = leader_trait_curator }`. */
+  private narrateParameterised(key: string, parameters: Map<string, string>): string {
+    const phrase = this.parameterPhrases[key];
+    if (phrase) return phrase(parameters);
+    const values = [...parameters.values()].map((value) => this.name(value));
+    return `${humanise(key)}: ${values.join(', ')}`;
   }
 
   private narrateTrigger(key: string, operator: string, value: string): string {
@@ -110,6 +128,14 @@ export class ConditionNarrator {
   private name(key: string): string {
     return this.localisation.text(key) ?? humanise(key);
   }
+}
+
+/** A block whose every entry is an upper-case `PARAMETER = value`, or nothing if it is not one. */
+function parametersOf(block: ScriptBlock): Map<string, string> | undefined {
+  const isParameter = (entry: ScriptEntry) =>
+    entry.key !== null && /^[A-Z_]+$/.test(entry.key) && typeof entry.value === 'string';
+  if (block.entries.length === 0 || !block.entries.every(isParameter)) return undefined;
+  return new Map(block.entries.map((entry) => [entry.key ?? '', entry.value as string]));
 }
 
 export function humanise(key: string): string {

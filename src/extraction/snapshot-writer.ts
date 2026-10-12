@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import type { SnapshotManifest, VersionCatalogue } from '../domain/snapshot.ts';
 import { ddsToWebp } from './icon-converter.ts';
-import type { LayerExtraction } from './layer-extraction.ts';
+import type { IconCopy, LayerExtraction } from './layer-extraction.ts';
 
 export interface SnapshotWrite {
   folder: string;
@@ -22,13 +22,17 @@ export async function writeSnapshot(
   const folder = path.join(dataRoot, gameVersion);
   await mkdir(folder, { recursive: true });
   const iconFailures = await writeIcons(folder, extractions);
-  await writeLayers(folder, extractions);
+  const unconverted = new Set(iconFailures.map((failure) => failure.icon.to));
+  await writeLayers(folder, extractions, unconverted);
   await writeJson(
     path.join(folder, 'snapshot.json'),
     manifestOf(gameVersion, extractedOn, extractions),
   );
   await listVersion(dataRoot, gameVersion);
-  return { folder, iconFailures };
+  return {
+    folder,
+    iconFailures: iconFailures.map(({ icon, reason }) => `${icon.from}: ${reason}`),
+  };
 }
 
 function manifestOf(
@@ -47,9 +51,19 @@ function manifestOf(
   };
 }
 
-async function writeLayers(folder: string, extractions: LayerExtraction[]): Promise<void> {
+/** Techs whose icon could not be converted show no icon rather than a broken image. */
+async function writeLayers(
+  folder: string,
+  extractions: LayerExtraction[],
+  unconverted: Set<string>,
+): Promise<void> {
   for (const { layer } of extractions) {
-    await writeJson(path.join(folder, layerFile(layer.source.id)), layer);
+    const technologies = layer.technologies.map((technology) =>
+      technology.icon && unconverted.has(technology.icon)
+        ? { ...technology, icon: null }
+        : technology,
+    );
+    await writeJson(path.join(folder, layerFile(layer.source.id)), { ...layer, technologies });
   }
 }
 
@@ -57,15 +71,20 @@ function layerFile(sourceId: string): string {
   return sourceId === 'vanilla' ? 'vanilla.json' : `mods/${sourceId}.json`;
 }
 
-async function writeIcons(folder: string, extractions: LayerExtraction[]): Promise<string[]> {
-  const failures: string[] = [];
+interface IconFailure {
+  icon: IconCopy;
+  reason: string;
+}
+
+async function writeIcons(folder: string, extractions: LayerExtraction[]): Promise<IconFailure[]> {
+  const failures: IconFailure[] = [];
   for (const icon of extractions.flatMap((extraction) => extraction.icons)) {
     try {
       const target = path.join(folder, icon.to);
       await mkdir(path.dirname(target), { recursive: true });
       await writeFile(target, await ddsToWebp(await icon.folder.bytes(icon.from)));
     } catch (error) {
-      failures.push(`${icon.from}: ${error instanceof Error ? error.message : String(error)}`);
+      failures.push({ icon, reason: error instanceof Error ? error.message : String(error) });
     }
   }
   return failures;

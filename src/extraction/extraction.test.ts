@@ -174,11 +174,28 @@ describe('writing a snapshot', () => {
     expect(dxtIcon[0]).toBeGreaterThan(240);
   });
 
+  it('leaves out icons that cannot be converted instead of linking a missing file', async () => {
+    const broken = path.join(gameFolder, ICONS, 'tech_battleships.dds');
+    await writeFile(broken, Buffer.from('not a texture'));
+    const withBrokenIcon = await extractLayer(
+      { id: 'vanilla', name: 'Stellaris', version: '4.5.2', workshopId: null },
+      [new ContentFolder(gameFolder)],
+    );
+    const written = await writeSnapshot(dataRoot, '4.5.3', '2026-10-12', [withBrokenIcon]);
+    expect(written.iconFailures).toEqual([`${ICONS}/tech_battleships.dds: Not a DDS texture.`]);
+    const layer = await readJson<ContentLayer>(path.join(dataRoot, '4.5.3', 'vanilla.json'));
+    expect(layer.technologies.find(({ key }) => key === 'tech_battleships')?.icon).toBeNull();
+  });
+
   it('lists versions newest first and replaces a re-extracted version', async () => {
     await writeSnapshot(dataRoot, '4.3.7', '2026-10-12', [extraction]);
     await writeSnapshot(dataRoot, '4.5.2', '2026-10-13', [extraction]);
     const catalogue = await readJson<VersionCatalogue>(path.join(dataRoot, 'versions.json'));
-    expect(catalogue.versions.map(({ gameVersion }) => gameVersion)).toEqual(['4.5.2', '4.3.7']);
+    expect(catalogue.versions.map(({ gameVersion }) => gameVersion)).toEqual([
+      '4.5.3',
+      '4.5.2',
+      '4.3.7',
+    ]);
   });
 });
 

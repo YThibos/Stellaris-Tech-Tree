@@ -39,3 +39,21 @@ function ddsHeader(width: number, height: number): Buffer {
   header.writeUInt32LE(32, 76);
   return header;
 }
+
+/** An uncompressed texture of any bit layout, every pixel set to the same raw value. */
+export function maskedDds(
+  width: number,
+  height: number,
+  layout: { bitCount: number; flags: number; masks: [number, number, number, number] },
+  pixel: number,
+): Buffer {
+  const header = ddsHeader(width, height);
+  header.writeUInt32LE(layout.flags, 80);
+  header.writeUInt32LE(layout.bitCount, 88);
+  layout.masks.forEach((mask, index) => header.writeUInt32LE(mask, 92 + index * 4));
+  const bytes = layout.bitCount / 8;
+  const pixels = Buffer.alloc(width * height * bytes);
+  for (let offset = 0; offset < pixels.length; offset += bytes)
+    pixels.writeUIntLE(pixel, offset, bytes);
+  return Buffer.concat([header, pixels]);
+}

@@ -12,7 +12,6 @@
 
   interface DrawnLink {
     id: string;
-    kind: Link['kind'];
     oneOf: boolean;
     path: string;
   }
@@ -50,8 +49,7 @@
     if (!from || !to) return [];
     const start = { x: from.right - origin.left, y: from.top + from.height / 2 - origin.top };
     const end = { x: to.left - origin.left, y: to.top + to.height / 2 - origin.top };
-    const id = `${link.kind}:${link.from}>${link.to}`;
-    return [{ id, kind: link.kind, oneOf: link.oneOf, path: curve(start, end) }];
+    return [{ id: `${link.from}>${link.to}`, oneOf: link.oneOf, path: curve(start, end) }];
   }
 
   /** A smooth curve from the right edge of a prerequisite to the left edge of what it unlocks. */
@@ -63,7 +61,7 @@
 
 <svg class="links" width={size.width} height={size.height} aria-hidden="true">
   {#each drawn as link (link.id)}
-    <path class={link.kind} class:one-of={link.oneOf} d={link.path} />
+    <path class:one-of={link.oneOf} d={link.path} />
   {/each}
 </svg>
 
@@ -78,23 +76,10 @@
 
   path {
     fill: none;
+    stroke: var(--lit);
     stroke-width: 2;
     stroke-linecap: round;
-  }
-
-  .lit {
-    stroke: var(--lit);
     filter: drop-shadow(0 0 3px #ffd16699);
-  }
-
-  .hover {
-    stroke: var(--hover);
-    stroke-dasharray: 6 4;
-  }
-
-  .leads-to {
-    stroke: var(--leads-to);
-    stroke-dasharray: 2 4;
   }
 
   .one-of {

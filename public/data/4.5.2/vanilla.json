@@ -13355,7 +13355,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_wilderness_terraform.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -16016,7 +16016,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_solar_panel_network.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -19327,7 +19327,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_space_defense_station_improvement.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -19463,7 +19463,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_strike_craft_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -19510,7 +19510,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_strike_craft_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -19549,7 +19549,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_strike_craft_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -19635,7 +19635,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_assault_armies.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -19687,7 +19687,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_ship_armor_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -19766,7 +19766,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_ship_armor_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -19870,7 +19870,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_ship_armor_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -19974,7 +19974,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_ship_armor_4.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -20078,7 +20078,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_ship_armor_5.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -20180,7 +20180,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_crystal_armor_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -20240,7 +20240,7 @@
     "rare",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_crystal_armor_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -20356,7 +20356,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_thrusters_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -20395,7 +20395,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_thrusters_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -20463,7 +20463,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_thrusters_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -20531,7 +20531,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_thrusters_4.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -20602,7 +20602,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_space_defense_station_1.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -20848,7 +20848,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_powered_exoskeletons.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 100,
@@ -21143,7 +21143,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mineral_purification_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -21299,7 +21299,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mineral_purification_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -22189,7 +22189,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_robotic_workers.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -22293,7 +22293,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_droid_workers.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -22416,7 +22416,7 @@
     "rare",
     "dangerous"
    ],
-   "icon": "icons/vanilla/tech_synthetic_workers.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -22661,7 +22661,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_synthetic_leaders.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -23010,7 +23010,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_space_construction.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -23342,7 +23342,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_housing_1.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -23376,7 +23376,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_housing_2.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -23470,7 +23470,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_tile_mineral_output.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23501,7 +23501,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_military_station_damage.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23532,7 +23532,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_military_station_health.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23563,7 +23563,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_armor_output.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23592,7 +23592,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_weapon_type_explosive_damage.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23621,7 +23621,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_weapon_type_explosive_fire_rate.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23652,7 +23652,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_weapon_type_kinetic_damage.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23683,7 +23683,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_weapon_type_kinetic_fire_rate.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23715,7 +23715,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_reduced_building_time.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23747,7 +23747,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_mass_drivers_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -23802,7 +23802,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mass_drivers_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -23892,7 +23892,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mass_drivers_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -23982,7 +23982,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mass_drivers_4.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -24072,7 +24072,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mass_drivers_5.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -24162,7 +24162,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_kinetic_artillery_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -24229,7 +24229,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_kinetic_artillery_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -24432,7 +24432,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_autocannons_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -24542,7 +24542,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_autocannons_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -24632,7 +24632,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_autocannons_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -24723,7 +24723,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_flak_batteries_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -24758,7 +24758,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_flak_batteries_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -24891,7 +24891,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_missiles_1.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -24960,7 +24960,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_missiles_2.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -25034,7 +25034,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_missiles_3.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -25108,7 +25108,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_missiles_4.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -25186,7 +25186,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_missiles_5.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -25254,7 +25254,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_swarmer_missiles_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -25324,7 +25324,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_swarmer_missiles_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -25394,7 +25394,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_torpedoes_1.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -25545,7 +25545,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_torpedoes_2.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -25619,7 +25619,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_torpedoes_3.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -34468,7 +34468,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_akx_worm_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -34515,7 +34515,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_akx_worm_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -34566,7 +34566,7 @@
     "rare",
     "dangerous"
    ],
-   "icon": "icons/vanilla/tech_akx_worm_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -36905,7 +36905,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_mega_engineering.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 20,
@@ -42305,7 +42305,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_basic_science_lab_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -42352,7 +42352,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_basic_science_lab_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -42449,7 +42449,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_basic_science_lab_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -42510,7 +42510,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_global_research_initiative.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -43448,7 +43448,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_administrative_ai.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 100,
@@ -43505,7 +43505,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_cryostasis_1.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -43545,7 +43545,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_cryostasis_2.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -43584,7 +43584,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_self_aware_logic.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -43812,7 +43812,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_sapient_ai.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -43900,7 +43900,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_positronic_implants.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -44799,7 +44799,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_synchronized_defences.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -45597,7 +45597,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_fission_power.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -45636,7 +45636,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_fusion_power.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -45708,7 +45708,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_cold_fusion_power.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -45772,7 +45772,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_antimatter_power.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -45844,7 +45844,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_zero_point_power.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -46007,7 +46007,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_shields_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -46062,7 +46062,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_shields_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -46142,7 +46142,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_shields_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -46222,7 +46222,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_shields_4.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -46302,7 +46302,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_shields_5.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 35,
@@ -46382,7 +46382,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_shield_rechargers_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -46487,7 +46487,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_planetary_shield_generator.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -46606,7 +46606,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_sensors_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -46733,7 +46733,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_sensors_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -46860,7 +46860,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_sensors_4.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -47196,7 +47196,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_power_hub_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -47348,7 +47348,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_power_hub_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -47448,7 +47448,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_hyper_drive_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -47487,7 +47487,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_hyper_drive_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -47599,7 +47599,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_hyper_drive_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -47698,7 +47698,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_wormhole_stabilization.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -47965,7 +47965,7 @@
     "rare",
     "dangerous"
    ],
-   "icon": "icons/vanilla/tech_jump_drive_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 30,
@@ -48221,7 +48221,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_tile_energy_output.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48252,7 +48252,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_shield_output.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48283,7 +48283,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_weapon_type_energy_damage.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48314,7 +48314,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_weapon_type_energy_fire_rate.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48344,7 +48344,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_reduced_building_cost.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48924,7 +48924,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_plasma_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -49034,7 +49034,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_plasma_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -49124,7 +49124,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_plasma_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -49214,7 +49214,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_arc_emitter_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -49280,7 +49280,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_arc_emitter_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 35,
@@ -49346,7 +49346,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_disruptors_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -49436,7 +49436,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_disruptors_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -49506,7 +49506,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_disruptors_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -49576,7 +49576,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_energy_torpedoes_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -49662,7 +49662,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_energy_torpedoes_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -49729,7 +49729,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_pd_tracking_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -49768,7 +49768,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_pd_tracking_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -49807,7 +49807,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_pd_tracking_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -49847,7 +49847,7 @@
     "rare",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_extradimensional_weapon_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -49944,7 +49944,7 @@
    "traits": [
     "granted"
    ],
-   "icon": "icons/vanilla/tech_mining_drone_weapon_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -49992,7 +49992,7 @@
     "rare",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_space_cloud_weapon_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -50839,7 +50839,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_galactic_markets.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -51765,7 +51765,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_nutrient_replication.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -52054,7 +52054,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_hydroponics.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -53173,7 +53173,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_alien_life_studies.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -53378,7 +53378,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_colonization_1.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -53437,7 +53437,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_colonization_2.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -53468,7 +53468,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_colonization_3.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -53735,7 +53735,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_frontier_health.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -53825,7 +53825,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_frontier_hospital.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -54197,7 +54197,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_dangerous_wildlife.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -54317,7 +54317,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_dense_jungle.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -54437,7 +54437,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_quicksand_basin.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -54557,7 +54557,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_noxious_swamp.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -54677,7 +54677,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_massive_glacier.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -54917,7 +54917,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_deep_sinkhole.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -55035,7 +55035,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_terrestrial_sculpting.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -55397,7 +55397,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_genome_mapping.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -55720,7 +55720,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_epigenetic_triggers.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -55986,7 +55986,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_cloning.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -56149,7 +56149,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_gene_banks.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -56352,7 +56352,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_gene_seed_purification.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -56621,7 +56621,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_morphogenetic_field_mastery.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -56882,7 +56882,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_gene_tailoring.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -57199,7 +57199,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_gene_expressions.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -57391,7 +57391,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_selected_lineages.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -57597,7 +57597,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_capacity_boosters.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -57790,7 +57790,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_regenerative_hull_tissue.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -58056,7 +58056,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_interstellar_fleet_traditions.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -58098,7 +58098,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_refit_standards.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -58149,7 +58149,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_command_matrix.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -58384,7 +58384,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_centralized_command.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -58435,7 +58435,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_combat_training.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -58486,7 +58486,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_ground_defense_planning.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -58608,7 +58608,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_psionic_theory.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -59064,7 +59064,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_telepathy.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -59839,7 +59839,7 @@
     "dangerous",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_psi_jump_drive_1.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -59902,7 +59902,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_galactic_ambitions.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -59994,7 +59994,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_manifest_destiny.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -60513,7 +60513,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_planetary_government.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -60604,7 +60604,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_planetary_unification.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 100,
@@ -60656,7 +60656,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_colonial_centralization.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -60719,7 +60719,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_galactic_administration.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -61095,7 +61095,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_global_production_strategy.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -61199,7 +61199,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_adaptive_bureaucracy.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -61603,7 +61603,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_living_state.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -61723,7 +61723,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_collective_self.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -61859,7 +61859,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_autonomous_agents.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -61963,7 +61963,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_embodied_dynamism.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62077,7 +62077,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_neural_implants.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62241,7 +62241,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_artificial_moral_codes.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62293,7 +62293,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_synthetic_thought_patterns.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62330,7 +62330,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_unity_of_purpose.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62377,7 +62377,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_collective_production_methods.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62416,7 +62416,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_resource_processing_algorithms.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62456,7 +62456,7 @@
     "starting",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_holo_entertainment.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62495,7 +62495,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_hyper_entertainment_forum.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -62563,7 +62563,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_paradise_dome.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -64096,7 +64096,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_slave_colonies.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -64268,7 +64268,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_federation_code.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -66118,7 +66118,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_bio_reactor.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -66225,7 +66225,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_bio_reactor_2.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -66330,7 +66330,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_tile_food_output.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -66369,7 +66369,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_core_system_cap.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66400,7 +66400,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_army_damage.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66431,7 +66431,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_army_health.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66462,7 +66462,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_leader_life_span.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66558,7 +66558,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_improved_starbase_capacity.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66589,7 +66589,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_weapon_type_strike_craft_fire_damage.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66620,7 +66620,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_repeatable_weapon_type_strike_craft_fire_rate.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66651,7 +66651,7 @@
    "traits": [
     "granted"
    ],
-   "icon": "icons/vanilla/tech_amoeba_strike_craft_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -66687,7 +66687,7 @@
     "rare",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_swarm_strike_craft_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -66723,7 +66723,7 @@
     "rare",
     "granted"
    ],
-   "icon": "icons/vanilla/tech_scourge_missile_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -66758,7 +66758,7 @@
    "traits": [
     "granted"
    ],
-   "icon": "icons/vanilla/tech_space_whale_weapon_1.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -66856,7 +66856,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mine_living_metal.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 30,
@@ -66941,7 +66941,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mine_betharian.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -66998,7 +66998,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_volatile_motes.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -67113,7 +67113,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_volatile_motes.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -67204,7 +67204,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_exotic_gases.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -67319,7 +67319,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_exotic_gases.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -67637,7 +67637,7 @@
    "traits": [
     "rare"
    ],
-   "icon": "icons/vanilla/tech_mine_zro.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -67858,7 +67858,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_mine_dark_matter.webp",
+   "icon": null,
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -69133,7 +69133,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_micro_replicators.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {
@@ -69189,7 +69189,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": "icons/vanilla/tech_self_assembling_components.webp",
+   "icon": null,
    "availability": {
     "narration": [
      {

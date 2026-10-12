@@ -4,7 +4,7 @@ An interactive Stellaris technology tree that finally shows the whole picture: e
 
 **Live site:** https://ythibos.github.io/Stellaris-Tech-Tree/ (goes live with the first public release)
 
-![Mega-Engineering lit up with its full requirement path, including the Battleships requirement the game hides in its availability conditions](docs/images/lit-path.png)
+![Orbital Rings lit up, with a line to each of its three prerequisites](docs/images/lit-path.png)
 
 ## Why another tech tree?
 
@@ -15,7 +15,8 @@ This version is built around the questions you actually ask mid-campaign:
 
 - **What do I need for this?**
   Every prerequisite is drawn, not just the first.
-  Requirements the game tucks away in a tech's availability conditions count too: Mega-Engineering needs Citadel and Zero Point Power, and also Battleships or Stingers.
+  Orbital Rings needs Starhold, Galactic Administration and Ceramo-Metal Infrastructure, and all three are drawn.
+  Requirements the game tucks away in a tech's availability conditions count too: Synaptic Cogitator also needs Scalable Reservoir Computing, which no prerequisite list mentions.
 - **When can it even show up?**
   Techs sit in columns by their real tier, T0 to T5, with repeatables in their own column.
   Each tier shows how many techs of the previous tier the game wants first.
@@ -26,17 +27,17 @@ This version is built around the questions you actually ask mid-campaign:
 
 ## Using the tree
 
-| To                                     | Do this                                                       |
-| -------------------------------------- | ------------------------------------------------------------- |
-| Preview what a tech needs and leads to | Hover over it                                                 |
-| Keep its whole requirement path lit    | Click it; click it again to switch it off                     |
-| Plan towards several goals at once     | Click several techs; their paths combine                      |
-| Read a tech's details                  | Click the ⓘ on its card                                       |
-| Find a tech                            | Type in the search box, or press `/`                          |
-| Clear search, details, then lit paths  | Press `Esc`                                                   |
-| Share exactly what you're looking at   | Copy the page address; it remembers your search and lit techs |
+| To                                    | Do this                                                       |
+| ------------------------------------- | ------------------------------------------------------------- |
+| Keep its whole requirement path lit   | Click it; click it again to switch it off                     |
+| Plan towards several goals at once    | Click several techs; their paths combine                      |
+| Read a tech's details                 | Click the ⓘ on its card                                       |
+| Find a tech                           | Type in the search box, or press `/`                          |
+| Clear search, details, then lit paths | Press `Esc`                                                   |
+| Share exactly what you're looking at  | Copy the page address; it remembers your search and lit techs |
 
-Markers on a card: ◆ rare, ⚠ dangerous, ★ starting tech, ✦ never drawn (granted by events and similar), ∞ repeatable, ⇇ more than one requirement.
+Purple cards are rare techs and red cards dangerous ones, as in the game.
+Markers on a card: ★ starting tech, ✦ never drawn (granted by events and similar), ∞ repeatable, ⇇ more than one requirement.
 
 ![Searching for lasers hides every other tech and narrows the columns](docs/images/search.png)
 
@@ -93,7 +94,6 @@ A big thank you to:
 
 - **turanar** (Richard Simões) for [the original Stellaris Tech Tree](https://github.com/turanar/stellaris-tech-tree) and its extraction tool, which showed how useful a browsable tree is and inspired this one.
 - **BloodStainedCrow** for [keeping that tree up to date](https://github.com/BloodStainedCrow/stellaris-tech-tree) through Stellaris 4.3 with [its extractor](https://github.com/BloodStainedCrow/stellaris-technology).
-  Until the first extraction of the current patch is published, this site previews their Stellaris 4.3.7 data, used under the MIT licence (see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)).
 
 Stellaris and all of its text and icons belong to Paradox Interactive.
 This is an unofficial fan project, not affiliated with or endorsed by Paradox Interactive.
