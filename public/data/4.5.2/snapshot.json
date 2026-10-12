@@ -1,0 +1,11 @@
+{
+ "gameVersion": "4.5.2",
+ "extractedOn": "2026-10-12",
+ "notice": null,
+ "layers": [
+  {
+   "sourceId": "vanilla",
+   "file": "vanilla.json"
+  }
+ ]
+}
