@@ -122,13 +122,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -225,13 +220,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -248,13 +238,8 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
            "text": "Has modifier is Curator Insight",
@@ -7611,49 +7596,24 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -7751,49 +7711,24 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Field Manipulation",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Field Manipulation trait",
+           "details": []
           }
          ]
         }
@@ -7928,49 +7863,24 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Particles",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Particles trait",
+           "details": []
           }
          ]
         }
@@ -8091,49 +8001,24 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Psionics",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Psionics trait",
+           "details": []
           }
          ]
         }
@@ -8235,49 +8120,24 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -8426,49 +8286,24 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -13149,31 +12984,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -13192,22 +13012,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -13355,7 +13165,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_wilderness_terraform.webp",
    "availability": {
     "narration": [
      {
@@ -16016,7 +15826,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_solar_panel_network.webp",
    "availability": {
     "narration": [
      {
@@ -16757,40 +16567,20 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -17001,40 +16791,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -17242,40 +17012,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -17494,40 +17244,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -17746,40 +17476,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -17884,40 +17594,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -18018,40 +17708,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           }
          ]
         }
@@ -19238,22 +18908,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -19327,7 +18987,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_space_defense_station_improvement.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -19344,22 +19004,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Voidcraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Voidcraft trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -19375,13 +19025,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -19463,7 +19108,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_strike_craft_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -19510,7 +19155,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_strike_craft_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -19549,7 +19194,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_strike_craft_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -19635,7 +19280,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_assault_armies.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -19687,7 +19332,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_ship_armor_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -19766,7 +19411,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_ship_armor_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -19780,13 +19425,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -19870,7 +19510,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_ship_armor_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -19884,13 +19524,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -19974,7 +19609,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_ship_armor_4.webp",
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -19988,13 +19623,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -20078,7 +19708,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_ship_armor_5.webp",
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -20092,13 +19722,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -20180,7 +19805,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_crystal_armor_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -20240,7 +19865,7 @@
     "rare",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_crystal_armor_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -20356,7 +19981,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_thrusters_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -20395,7 +20020,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_thrusters_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -20463,7 +20088,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_thrusters_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -20531,7 +20156,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_thrusters_4.webp",
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -20602,7 +20227,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_space_defense_station_1.webp",
    "availability": {
     "narration": [
      {
@@ -20690,13 +20315,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -20848,7 +20468,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_powered_exoskeletons.webp",
    "availability": null,
    "drawWeight": {
     "base": 100,
@@ -21143,7 +20763,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mineral_purification_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -21172,13 +20792,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -21299,7 +20914,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mineral_purification_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -21313,13 +20928,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -21425,13 +21035,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -21486,13 +21091,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -21647,13 +21247,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -21712,13 +21307,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -21855,13 +21445,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -22003,13 +21588,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -22151,13 +21731,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -22189,7 +21764,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_robotic_workers.webp",
    "availability": {
     "narration": [
      {
@@ -22293,7 +21868,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_droid_workers.webp",
    "availability": {
     "narration": [
      {
@@ -22416,7 +21991,7 @@
     "rare",
     "dangerous"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_synthetic_workers.webp",
    "availability": {
     "narration": [
      {
@@ -22552,67 +22127,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Industry",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Industry trait",
+           "details": []
           }
          ]
         }
@@ -22661,7 +22201,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_synthetic_leaders.webp",
    "availability": {
     "narration": [
      {
@@ -22787,67 +22327,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Industry",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Industry trait",
+           "details": []
           }
          ]
         }
@@ -23010,7 +22515,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_space_construction.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -23231,22 +22736,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Industry",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Industry trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -23342,7 +22837,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_housing_1.webp",
    "availability": {
     "narration": [
      {
@@ -23376,7 +22871,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_housing_2.webp",
    "availability": {
     "narration": [
      {
@@ -23470,7 +22965,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_tile_mineral_output.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23501,7 +22996,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_military_station_damage.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23532,7 +23027,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_military_station_health.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23563,7 +23058,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_armor_output.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23592,7 +23087,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_weapon_type_explosive_damage.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23621,7 +23116,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_weapon_type_explosive_fire_rate.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23652,7 +23147,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_weapon_type_kinetic_damage.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23683,7 +23178,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_weapon_type_kinetic_fire_rate.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23715,7 +23210,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_reduced_building_time.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -23747,7 +23242,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mass_drivers_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -23802,7 +23297,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mass_drivers_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -23892,7 +23387,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mass_drivers_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -23982,7 +23477,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mass_drivers_4.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -24072,7 +23567,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mass_drivers_5.webp",
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -24162,7 +23657,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_kinetic_artillery_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -24229,7 +23724,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_kinetic_artillery_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -24432,7 +23927,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_autocannons_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -24542,7 +24037,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_autocannons_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -24632,7 +24127,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_autocannons_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -24723,7 +24218,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_flak_batteries_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -24758,7 +24253,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_flak_batteries_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -24891,7 +24386,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_missiles_1.webp",
    "availability": {
     "narration": [
      {
@@ -24960,7 +24455,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_missiles_2.webp",
    "availability": {
     "narration": [
      {
@@ -25034,7 +24529,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_missiles_3.webp",
    "availability": {
     "narration": [
      {
@@ -25108,7 +24603,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_missiles_4.webp",
    "availability": {
     "narration": [
      {
@@ -25186,7 +24681,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_missiles_5.webp",
    "availability": {
     "narration": [
      {
@@ -25254,7 +24749,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_swarmer_missiles_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -25324,7 +24819,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_swarmer_missiles_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -25394,7 +24889,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_torpedoes_1.webp",
    "availability": {
     "narration": [
      {
@@ -25545,7 +25040,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_torpedoes_2.webp",
    "availability": {
     "narration": [
      {
@@ -25619,7 +25114,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_torpedoes_3.webp",
    "availability": {
     "narration": [
      {
@@ -30941,13 +30436,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -30961,13 +30451,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Cunning",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Cunning trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_fotd_scientist\n}"
@@ -31139,13 +30624,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -31159,13 +30639,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Cunning",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Cunning trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_fotd_scientist\n}"
@@ -31293,13 +30768,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -31313,13 +30783,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Cunning",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Cunning trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_fotd_scientist\n}"
@@ -31440,13 +30905,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -31594,67 +31054,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Psionics",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Psionics trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -31783,13 +31208,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -31803,13 +31223,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Cunning",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Cunning trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_fotd_scientist\n}"
@@ -31909,13 +31324,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -31929,13 +31339,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Cunning",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Cunning trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_fotd_scientist\n}"
@@ -32034,13 +31439,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -32054,13 +31454,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Cunning",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Cunning trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_fotd_scientist\n}"
@@ -32812,13 +32207,8 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
            "text": "Has modifier is Curator Insight",
@@ -32968,13 +32358,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -33067,13 +32452,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -33167,13 +32547,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -34468,7 +33843,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_akx_worm_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -34515,7 +33890,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_akx_worm_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -34566,7 +33941,7 @@
     "rare",
     "dangerous"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_akx_worm_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -36411,67 +35786,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Materials",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Materials trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -36582,67 +35922,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Computing",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Computing trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -36905,7 +36210,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mega_engineering.webp",
    "availability": null,
    "drawWeight": {
     "base": 20,
@@ -36922,40 +36227,20 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -37605,31 +36890,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -37648,22 +36918,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -37818,31 +37078,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -37861,22 +37106,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -38065,31 +37300,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -38108,22 +37328,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -38308,31 +37518,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -38351,22 +37546,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -38540,31 +37725,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -38583,22 +37753,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -38745,67 +37905,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Particles",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Particles trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -39011,67 +38136,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Particles",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Particles trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -39429,31 +38519,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -39472,22 +38547,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -40094,58 +39159,28 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -40280,58 +39315,28 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -40427,58 +39432,28 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -40618,58 +39593,28 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -41303,67 +40248,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Materials",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Materials trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -41550,31 +40460,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -41593,22 +40488,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -42043,67 +40928,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Particles",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Particles trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
            "text": "Has seen any bypass is Relay bypass",
@@ -42305,7 +41155,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_basic_science_lab_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -42352,7 +41202,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_basic_science_lab_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -42394,13 +41244,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -42449,7 +41294,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_basic_science_lab_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -42463,13 +41308,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -42510,7 +41350,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_global_research_initiative.webp",
    "availability": {
     "narration": [
      {
@@ -42535,22 +41375,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Computing",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Computing trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -42566,13 +41396,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -42641,13 +41466,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -42697,13 +41517,8 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
            "text": "Has modifier is Curator Insight",
@@ -42782,13 +41597,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Curator",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Curator trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_curator\n}"
@@ -42805,13 +41615,8 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
            "text": "Has modifier is Curator Insight",
@@ -43142,13 +41947,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -43290,13 +42090,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -43410,13 +42205,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -43448,7 +42238,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_administrative_ai.webp",
    "availability": null,
    "drawWeight": {
     "base": 100,
@@ -43462,13 +42252,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -43505,7 +42290,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_cryostasis_1.webp",
    "availability": {
     "narration": [
      {
@@ -43545,7 +42330,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_cryostasis_2.webp",
    "availability": {
     "narration": [
      {
@@ -43584,7 +42369,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_self_aware_logic.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -43812,7 +42597,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_sapient_ai.webp",
    "availability": {
     "narration": [
      {
@@ -43839,13 +42624,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -43900,7 +42680,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_positronic_implants.webp",
    "availability": {
     "narration": [
      {
@@ -43922,13 +42702,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -44326,49 +43101,24 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Computing",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Computing trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -44565,49 +43315,24 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Computing",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Computing trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -44799,7 +43524,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_synchronized_defences.webp",
    "availability": {
     "narration": [
      {
@@ -44824,22 +43549,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Computing",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Computing trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -45109,22 +43824,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Computing",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Computing trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -45597,7 +44302,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_fission_power.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -45636,7 +44341,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_fusion_power.webp",
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -45708,7 +44413,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_cold_fusion_power.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -45772,7 +44477,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_antimatter_power.webp",
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -45844,7 +44549,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_zero_point_power.webp",
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -46007,7 +44712,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_shields_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -46062,7 +44767,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_shields_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -46076,13 +44781,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -46142,7 +44842,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_shields_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -46156,13 +44856,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -46222,7 +44917,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_shields_4.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -46236,13 +44931,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -46302,7 +44992,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_shields_5.webp",
    "availability": null,
    "drawWeight": {
     "base": 35,
@@ -46316,13 +45006,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -46382,7 +45067,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_shield_rechargers_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -46487,7 +45172,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_planetary_shield_generator.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -46504,40 +45189,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Field Manipulation",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Field Manipulation trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -46606,7 +45271,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_sensors_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -46733,7 +45398,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_sensors_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -46860,7 +45525,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_sensors_4.webp",
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -47196,7 +45861,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_power_hub_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -47225,13 +45890,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -47348,7 +46008,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_power_hub_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -47405,13 +46065,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -47448,7 +46103,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_hyper_drive_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -47487,7 +46142,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_hyper_drive_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -47599,7 +46254,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_hyper_drive_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -47698,7 +46353,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_wormhole_stabilization.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -47715,67 +46370,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Particles",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Particles trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -47965,7 +46585,7 @@
     "rare",
     "dangerous"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_jump_drive_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 30,
@@ -47982,67 +46602,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Particles",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Particles trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -48221,7 +46806,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_tile_energy_output.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48252,7 +46837,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_shield_output.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48283,7 +46868,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_weapon_type_energy_damage.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48314,7 +46899,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_weapon_type_energy_fire_rate.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48344,7 +46929,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_reduced_building_cost.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -48924,7 +47509,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_plasma_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -49034,7 +47619,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_plasma_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -49124,7 +47709,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_plasma_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -49214,7 +47799,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_arc_emitter_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -49280,7 +47865,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_arc_emitter_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 35,
@@ -49346,7 +47931,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_disruptors_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -49436,7 +48021,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_disruptors_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -49506,7 +48091,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_disruptors_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -49576,7 +48161,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_energy_torpedoes_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -49662,7 +48247,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_energy_torpedoes_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -49729,7 +48314,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_pd_tracking_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -49768,7 +48353,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_pd_tracking_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -49807,7 +48392,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_pd_tracking_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 45,
@@ -49847,7 +48432,7 @@
     "rare",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_extradimensional_weapon_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -49944,7 +48529,7 @@
    "traits": [
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mining_drone_weapon_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -49992,7 +48577,7 @@
     "rare",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_space_cloud_weapon_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -50839,7 +49424,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_galactic_markets.webp",
    "availability": {
     "narration": [
      {
@@ -50864,22 +49449,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Statecraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Statecraft trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -51765,7 +50340,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_nutrient_replication.webp",
    "availability": {
     "narration": [
      {
@@ -51911,22 +50486,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Biology",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -52054,7 +50619,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_hydroponics.webp",
    "availability": {
     "narration": [
      {
@@ -52796,13 +51361,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -52959,13 +51519,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -53122,13 +51677,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Scholarium",
-           "details": []
-          }
-         ]
+         "text": "Is a scholarium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = scholarium\n}"
@@ -53173,7 +51723,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_alien_life_studies.webp",
    "availability": {
     "narration": [
      {
@@ -53378,7 +51928,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_colonization_1.webp",
    "availability": {
     "narration": [
      {
@@ -53437,7 +51987,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_colonization_2.webp",
    "availability": null,
    "drawWeight": {
     "base": 90,
@@ -53468,7 +52018,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_colonization_3.webp",
    "availability": null,
    "drawWeight": {
     "base": 70,
@@ -53588,22 +52138,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: New Worlds",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: New Worlds trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -53735,7 +52275,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_frontier_health.webp",
    "availability": {
     "narration": [
      {
@@ -53825,7 +52365,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_frontier_hospital.webp",
    "availability": {
     "narration": [
      {
@@ -54197,7 +52737,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_dangerous_wildlife.webp",
    "availability": {
     "narration": [
      {
@@ -54317,7 +52857,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_dense_jungle.webp",
    "availability": {
     "narration": [
      {
@@ -54437,7 +52977,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_quicksand_basin.webp",
    "availability": {
     "narration": [
      {
@@ -54557,7 +53097,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_noxious_swamp.webp",
    "availability": {
     "narration": [
      {
@@ -54677,7 +53217,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_massive_glacier.webp",
    "availability": {
     "narration": [
      {
@@ -54917,7 +53457,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_deep_sinkhole.webp",
    "availability": {
     "narration": [
      {
@@ -55035,7 +53575,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_terrestrial_sculpting.webp",
    "availability": {
     "narration": [
      {
@@ -55397,7 +53937,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_genome_mapping.webp",
    "availability": {
     "narration": [
      {
@@ -55720,7 +54260,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_epigenetic_triggers.webp",
    "availability": {
     "narration": [
      {
@@ -55986,7 +54526,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_cloning.webp",
    "availability": {
     "narration": [
      {
@@ -56149,7 +54689,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_gene_banks.webp",
    "availability": {
     "narration": [
      {
@@ -56250,40 +54790,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Biology",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -56352,7 +54872,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_gene_seed_purification.webp",
    "availability": {
     "narration": [
      {
@@ -56459,22 +54979,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Biology",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -56526,22 +55036,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -56621,7 +55121,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_morphogenetic_field_mastery.webp",
    "availability": {
     "narration": [
      {
@@ -56723,22 +55223,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Biology",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -56790,31 +55280,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -56833,22 +55308,12 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -56882,7 +55347,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_gene_tailoring.webp",
    "availability": {
     "narration": [
      {
@@ -57199,7 +55664,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_gene_expressions.webp",
    "availability": {
     "narration": [
      {
@@ -57274,40 +55739,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Biology",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -57391,7 +55836,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_selected_lineages.webp",
    "availability": {
     "narration": [
      {
@@ -57416,40 +55861,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Biology",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -57597,7 +56022,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_capacity_boosters.webp",
    "availability": {
     "narration": [
      {
@@ -57626,40 +56051,20 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Biology",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           }
          ]
         }
@@ -57790,7 +56195,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_regenerative_hull_tissue.webp",
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -58056,7 +56461,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_interstellar_fleet_traditions.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -58098,7 +56503,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_refit_standards.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -58149,7 +56554,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_command_matrix.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -58384,7 +56789,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_centralized_command.webp",
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -58435,7 +56840,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_combat_training.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -58486,7 +56891,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_ground_defense_planning.webp",
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -58562,13 +56967,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Bulwark",
-           "details": []
-          }
-         ]
+         "text": "Is a bulwark specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = bulwark\n}"
@@ -58608,7 +57008,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_psionic_theory.webp",
    "availability": {
     "narration": [
      {
@@ -58742,31 +57142,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -58785,49 +57170,24 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Psychic",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Psychic trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is [GetChosenName]",
-             "details": []
-            }
-           ]
+           "text": "A council member has the [GetChosenName] trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Chosen of the Composer",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Chosen of the Composer trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Chosen of the Instrument",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Chosen of the Instrument trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Chosen of the Whisperers",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Chosen of the Whisperers trait",
+           "details": []
           }
          ]
         }
@@ -58964,22 +57324,12 @@
            "text": "None of these",
            "details": [
             {
-             "text": "Has tier1or2or3 in council:",
-             "details": [
-              {
-               "text": "TRAIT is Expertise: Psionics",
-               "details": []
-              }
-             ]
+             "text": "Has tier1or2or3 in council: Expertise: Psionics",
+             "details": []
             },
             {
-             "text": "Has councilor:",
-             "details": [
-              {
-               "text": "COUNCILOR is Shroudwalker Teacher",
-               "details": []
-              }
-             ]
+             "text": "Has councilor: Shroudwalker Teacher",
+             "details": []
             },
             {
              "text": "Any owned pop group:",
@@ -59064,7 +57414,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_telepathy.webp",
    "availability": {
     "narration": [
      {
@@ -59118,13 +57468,8 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Psionics",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Psionics trait",
+           "details": []
           }
          ]
         }
@@ -59230,31 +57575,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -59329,13 +57659,8 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Psionics",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Psionics trait",
+           "details": []
           }
          ]
         }
@@ -59441,31 +57766,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -59619,13 +57929,8 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Psionics",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Psionics trait",
+           "details": []
           }
          ]
         }
@@ -59754,31 +58059,16 @@
          "text": "One of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           }
          ]
         }
@@ -59839,7 +58129,7 @@
     "dangerous",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_psi_jump_drive_1.webp",
    "availability": {
     "narration": [
      {
@@ -59902,7 +58192,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_galactic_ambitions.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -59994,7 +58284,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_manifest_destiny.webp",
    "availability": null,
    "drawWeight": {
     "base": 40,
@@ -60513,7 +58803,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_planetary_government.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -60604,7 +58894,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_planetary_unification.webp",
    "availability": null,
    "drawWeight": {
     "base": 100,
@@ -60656,7 +58946,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_colonial_centralization.webp",
    "availability": null,
    "drawWeight": {
     "base": 75,
@@ -60719,7 +59009,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_galactic_administration.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -60993,22 +59283,12 @@
            "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Statecraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Statecraft trait",
+           "details": []
           }
          ]
         }
@@ -61095,7 +59375,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_global_production_strategy.webp",
    "availability": null,
    "drawWeight": {
     "base": 65,
@@ -61133,13 +59413,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Is specialist subject type:",
-         "details": [
-          {
-           "text": "TYPE is Prospectorium",
-           "details": []
-          }
-         ]
+         "text": "Is a prospectorium specialist subject",
+         "details": []
         }
        ],
        "script": "is_specialist_subject_type = {\n  TYPE = prospectorium\n}"
@@ -61199,7 +59474,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_adaptive_bureaucracy.webp",
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -61603,7 +59878,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_living_state.webp",
    "availability": {
     "narration": [
      {
@@ -61723,7 +59998,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_collective_self.webp",
    "availability": {
     "narration": [
      {
@@ -61859,7 +60134,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_autonomous_agents.webp",
    "availability": {
     "narration": [
      {
@@ -61963,7 +60238,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_embodied_dynamism.webp",
    "availability": {
     "narration": [
      {
@@ -62077,7 +60352,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_neural_implants.webp",
    "availability": {
     "narration": [
      {
@@ -62241,7 +60516,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_artificial_moral_codes.webp",
    "availability": {
     "narration": [
      {
@@ -62293,7 +60568,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_synthetic_thought_patterns.webp",
    "availability": {
     "narration": [
      {
@@ -62330,7 +60605,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_unity_of_purpose.webp",
    "availability": {
     "narration": [
      {
@@ -62377,7 +60652,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_collective_production_methods.webp",
    "availability": {
     "narration": [
      {
@@ -62416,7 +60691,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_resource_processing_algorithms.webp",
    "availability": {
     "narration": [
      {
@@ -62456,7 +60731,7 @@
     "starting",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_holo_entertainment.webp",
    "availability": {
     "narration": [
      {
@@ -62495,7 +60770,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_hyper_entertainment_forum.webp",
    "availability": {
     "narration": [
      {
@@ -62563,7 +60838,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_paradise_dome.webp",
    "availability": {
     "narration": [
      {
@@ -63681,22 +61956,12 @@
            "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Statecraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Statecraft trait",
+           "details": []
           }
          ]
         }
@@ -63925,22 +62190,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Statecraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Statecraft trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -64096,7 +62351,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_slave_colonies.webp",
    "availability": {
     "narration": [
      {
@@ -64125,22 +62380,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Statecraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Statecraft trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -64268,7 +62513,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_federation_code.webp",
    "availability": {
     "narration": [
      {
@@ -65482,22 +63727,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Statecraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Statecraft trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -66030,22 +64265,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Statecraft",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Statecraft trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -66118,7 +64343,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_bio_reactor.webp",
    "availability": {
     "narration": [
      {
@@ -66225,7 +64450,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_bio_reactor_2.webp",
    "availability": {
     "narration": [
      {
@@ -66330,7 +64555,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_tile_food_output.webp",
    "availability": {
     "narration": [
      {
@@ -66369,7 +64594,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_core_system_cap.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66400,7 +64625,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_army_damage.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66431,7 +64656,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_army_health.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66462,7 +64687,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_leader_life_span.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66558,7 +64783,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_improved_starbase_capacity.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66589,7 +64814,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_weapon_type_strike_craft_fire_damage.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66620,7 +64845,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_repeatable_weapon_type_strike_craft_fire_rate.webp",
    "availability": null,
    "drawWeight": {
     "base": 15,
@@ -66651,7 +64876,7 @@
    "traits": [
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_amoeba_strike_craft_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -66687,7 +64912,7 @@
     "rare",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_swarm_strike_craft_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -66723,7 +64948,7 @@
     "rare",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_scourge_missile_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -66758,7 +64983,7 @@
    "traits": [
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_space_whale_weapon_1.webp",
    "availability": null,
    "drawWeight": {
     "base": 0,
@@ -66856,7 +65081,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mine_living_metal.webp",
    "availability": null,
    "drawWeight": {
     "base": 30,
@@ -66941,7 +65166,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mine_betharian.webp",
    "availability": null,
    "drawWeight": {
     "base": 95,
@@ -66998,7 +65223,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_volatile_motes.webp",
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -67113,7 +65338,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_volatile_motes.webp",
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -67204,7 +65429,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_exotic_gases.webp",
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -67319,7 +65544,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_exotic_gases.webp",
    "availability": null,
    "drawWeight": {
     "base": 85,
@@ -67637,7 +65862,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mine_zro.webp",
    "availability": null,
    "drawWeight": {
     "base": 60,
@@ -67654,22 +65879,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Psionics",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Psionics trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -67816,13 +66031,8 @@
       "condition": {
        "narration": [
         {
-         "text": "Has trait in council:",
-         "details": [
-          {
-           "text": "TRAIT is Expertise: Psionics",
-           "details": []
-          }
-         ]
+         "text": "A council member has the Expertise: Psionics trait",
+         "details": []
         }
        ],
        "script": "has_trait_in_council = {\n  TRAIT = leader_trait_expertise_psionics\n}"
@@ -67858,7 +66068,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_mine_dark_matter.webp",
    "availability": null,
    "drawWeight": {
     "base": 50,
@@ -68468,67 +66678,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Industry",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Industry trait",
+           "details": []
           }
          ]
         }
@@ -68664,67 +66839,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Industry",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Industry trait",
+           "details": []
           }
          ]
         }
@@ -68836,67 +66976,32 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Maniacal II",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Maniacal II trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait maniacal 3",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait maniacal 3 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Spark of Genius",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Spark of Genius trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Leader trait spark of genius 2",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Leader trait spark of genius 2 trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Industry",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Industry trait",
+           "details": []
           }
          ]
         }
@@ -69049,22 +67154,12 @@
          "text": "None of these",
          "details": [
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Expertise: Biology",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Expertise: Biology trait",
+           "details": []
           },
           {
-           "text": "Has trait in council:",
-           "details": [
-            {
-             "text": "TRAIT is Curator",
-             "details": []
-            }
-           ]
+           "text": "A council member has the Curator trait",
+           "details": []
           }
          ]
         }
@@ -69133,7 +67228,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_micro_replicators.webp",
    "availability": {
     "narration": [
      {
@@ -69189,7 +67284,7 @@
    ],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/vanilla/tech_self_assembling_components.webp",
    "availability": {
     "narration": [
      {
