@@ -64,7 +64,7 @@
     {#each shown as summary (summary.key)}
       <li>
         <div class="heading">
-          <span class="name">{summary.name}</span>
+          <span class="name">{summary.name}{summary.percentage ? ' (%)' : ''}</span>
           {#if campaign}
             <span class="total" class:none={summary.total === 0}
               >{summary.total === 0 ? '0' : amountFor(summary, summary.total)}</span
