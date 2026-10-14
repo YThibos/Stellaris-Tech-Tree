@@ -53,6 +53,13 @@ describe('extracting a playset', () => {
     });
   });
 
+  it('reads variables from mods later in the load order, as the game loads them all first', () => {
+    const late = snapshot.layers[1]?.layer.technologies.find(
+      ({ key }) => key === 'giga_tech_late_variable',
+    );
+    expect(late?.cost).toBe(4321);
+  });
+
   it('combines into what the game loads, and back to vanilla when the mod is off', () => {
     const layers = snapshot.layers.map(({ layer }) => layer);
     const withGiga = mergeLayers(layers, new Set([GIGASTRUCTURES]));

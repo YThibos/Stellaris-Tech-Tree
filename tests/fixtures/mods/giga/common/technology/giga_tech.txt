@@ -7,3 +7,12 @@ giga_tech_birch_world = {
 	is_rare = yes
 	weight = @tier5weight1
 }
+
+# Costs a variable that only a mod later in the load order defines.
+giga_tech_late_variable = {
+	cost = @ui_overhaul_cost
+	area = physics
+	tier = 2
+	category = { particles }
+	weight = 10
+}

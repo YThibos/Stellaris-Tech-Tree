@@ -78,10 +78,15 @@ function categoryOf(block: ScriptBlock, localisation: Localisation): string {
   return localisation.text(category) ?? humanise(category);
 }
 
-/** A tech's base cost; costs scaled by conditions keep their starting value. */
+/**
+ * A tech's base cost. A cost that conditions can scale is a block whose starting value the game
+ * writes as `base`, `value` or, as the cosmic storm techs do, `factor`; the scaling is left out.
+ */
 function costOf(block: ScriptBlock, variables: ScriptedVariables): number {
   const cost = blockOf(block, 'cost');
-  const base = cost ? (textOf(cost, 'base') ?? textOf(cost, 'value')) : textOf(block, 'cost');
+  const base = cost
+    ? (textOf(cost, 'base') ?? textOf(cost, 'value') ?? textOf(cost, 'factor'))
+    : textOf(block, 'cost');
   return variables.numberOf(base ?? '0') ?? 0;
 }
 

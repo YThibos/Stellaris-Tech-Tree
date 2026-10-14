@@ -10,8 +10,9 @@ export interface SnapshotExtraction {
 }
 
 /**
- * Reads the game and then every mod in load order. Each mod is read against everything loaded
- * before it, as the game reads it, and becomes its own layer so the site can switch it off.
+ * Reads the game and then every mod in load order. The base game is read on its own, so it stays
+ * correct with every mod switched off; each mod is read against the whole playset, as the game
+ * reads it, and becomes its own layer so the site can switch it off.
  */
 export async function extractSnapshot(
   gameFolder: string,
@@ -20,18 +21,19 @@ export async function extractSnapshot(
 ): Promise<SnapshotExtraction> {
   const library = new ContentLibrary();
   const game = new ContentFolder(gameFolder);
+  const modFolders = mods.map((mod) => new ContentFolder(mod.folder));
+  const playset = [game, ...modFolders];
   const vanilla = await extractLayer(
     { id: 'vanilla', name: 'Stellaris', version: gameVersion, workshopId: null },
+    game,
     [game],
     library,
   );
   const layers = [vanilla];
   const modsWithoutTechContent: string[] = [];
-  const loaded = [game];
-  for (const mod of mods) {
-    loaded.push(new ContentFolder(mod.folder));
+  for (const [index, mod] of mods.entries()) {
     const source = { id: mod.id, name: mod.name, version: mod.version, workshopId: mod.workshopId };
-    const extraction = await extractLayer(source, [...loaded], library);
+    const extraction = await extractLayer(source, playset[index + 1] ?? game, playset, library);
     if (contributesToTree(extraction.layer)) layers.push(extraction);
     else modsWithoutTechContent.push(mod.name);
   }

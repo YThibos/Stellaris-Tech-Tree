@@ -44,15 +44,16 @@ export interface ExtractionFindings {
 
 /**
  * Reads one content source - the game, or one mod - into a snapshot layer.
- * `folders` lists every folder loaded up to the source, in load order, ending with the source itself.
+ * The game loads every source's variables, text, inline scripts and icons before any tech, so a
+ * mod's techs are read against the whole playset (`loaded`, in load order), not just what precedes it.
  */
 export async function extractLayer(
   source: ContentSource,
-  folders: ContentFolder[],
+  own: ContentFolder,
+  loaded: ContentFolder[],
   library: ContentLibrary,
 ): Promise<LayerExtraction> {
-  const own = folders.at(-1);
-  if (!own) throw new Error(`No folder given for ${source.name}.`);
+  const folders = loaded.includes(own) ? loaded : [...loaded, own];
   const { variables, inlineScripts, localisation } = await library.contextFor(folders);
   const { definitions, files } = await readDefinitions(own, variables, inlineScripts);
   const narrator = new ConditionNarrator(localisation, (key) => technologyName(key, localisation));
@@ -86,7 +87,7 @@ export async function extractLayer(
         .filter((technology) => !icons.has(technology.icon))
         .map(({ key }) => key),
       unreadableTechnologies: unreadable,
-      technologiesWithoutCost: costlessTechnologies(technologies, definitions),
+      technologiesWithoutCost: costlessTechnologies(technologies, definitions, variables),
     },
   };
 }
@@ -94,17 +95,23 @@ export async function extractLayer(
 function costlessTechnologies(
   technologies: Technology[],
   definitions: TechnologyDefinition[],
+  variables: ScriptedVariables,
 ): string[] {
   const blocks = new Map(definitions.map(({ key, block }) => [key, block]));
   return technologies
     .filter((technology) => technology.cost === 0 && !hasTrait(technology, 'starting'))
-    .map((technology) => `${technology.key}: ${costAsWritten(blocks.get(technology.key))}`);
+    .map(
+      (technology) => `${technology.key}: ${costAsWritten(blocks.get(technology.key), variables)}`,
+    );
 }
 
-function costAsWritten(block: ScriptBlock | undefined): string {
+/** The cost as the file writes it, and what a variable in it turned into, to explain a zero. */
+function costAsWritten(block: ScriptBlock | undefined, variables: ScriptedVariables): string {
   const cost = block && valueOf(block, 'cost');
   if (cost === undefined) return 'no cost given';
-  return isBlock(cost) ? `cost = { ${writeScript(cost).replace(/\s+/g, ' ')} }` : `cost = ${cost}`;
+  if (isBlock(cost)) return `cost = { ${writeScript(cost).replace(/\s+/g, ' ')} }`;
+  const resolved = variables.resolve(cost);
+  return resolved === cost ? `cost = ${cost}` : `cost = ${cost} (resolves to "${resolved}")`;
 }
 
 /** Whether a layer gives the tech tree anything at all; mods that do not are left out. */

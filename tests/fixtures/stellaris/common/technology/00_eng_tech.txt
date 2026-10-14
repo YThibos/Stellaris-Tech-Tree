@@ -10,7 +10,10 @@ tech_starbase_5 = {
 }
 
 tech_battleships = {
-	cost = @tier4cost1
+	cost = {
+		factor = @tier4cost1
+		modifier = { factor = 0.5 is_galactic_community_member = yes }
+	}
 	area = engineering
 	tier = 4
 	category = { voidcraft }

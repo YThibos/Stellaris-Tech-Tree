@@ -32,7 +32,8 @@ beforeAll(async () => {
   await writeFile(path.join(gameFolder, ICONS, 'tech_starbase_5.dds'), redDxt1Dds());
   extraction = await extractLayer(
     { id: 'vanilla', name: 'Stellaris', version: '4.5.2', workshopId: null },
-    [new ContentFolder(gameFolder)],
+    new ContentFolder(gameFolder),
+    [],
     new ContentLibrary(),
   );
 });
@@ -60,6 +61,10 @@ describe('extracting a game folder', () => {
       cost: 24000,
       traits: ['rare'],
     });
+  });
+
+  it('reads a cost that conditions scale from its starting factor', () => {
+    expect(technology('tech_battleships').cost).toBe(8000);
   });
 
   it('lets replacement localisation win', () => {
@@ -198,7 +203,8 @@ describe('writing a snapshot', () => {
     await writeFile(broken, Buffer.from('not a texture'));
     const withBrokenIcon = await extractLayer(
       { id: 'vanilla', name: 'Stellaris', version: '4.5.2', workshopId: null },
-      [new ContentFolder(gameFolder)],
+      new ContentFolder(gameFolder),
+      [],
       new ContentLibrary(),
     );
     const written = await writeSnapshot(dataRoot, '4.5.3', '2026-10-12', [withBrokenIcon]);
