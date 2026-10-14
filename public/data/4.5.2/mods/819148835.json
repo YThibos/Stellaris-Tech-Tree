@@ -52,6 +52,23 @@
      "name": "Tidally Locked Tomb World Habitability +0.6"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_pd_nuked_cave_habitability",
+     "name": "Cavern Tomb World Habitability",
+     "amount": 0.6
+    },
+    {
+     "key": "pc_pd_nuked_superhabitable_habitability",
+     "name": "Superhabitable Tomb World Habitability",
+     "amount": 0.6
+    },
+    {
+     "key": "pc_pd_nuked_tidally_locked_habitability",
+     "name": "Tidally Locked Tomb World Habitability",
+     "amount": 0.6
+    }
+   ],
    "source": "819148835",
    "file": "common/technology/pd_technology.txt"
   },
@@ -145,6 +162,7 @@
      "name": "Unlocks Megastructures: Domed Colonies and Planetary Outposts"
     }
    ],
+   "modifiers": [],
    "source": "819148835",
    "file": "common/technology/pd_technology.txt"
   }

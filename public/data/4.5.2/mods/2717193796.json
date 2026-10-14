@@ -38,6 +38,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -73,6 +74,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -92,7 +94,7 @@
    "traits": [
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_emex_tma_self_learning_algorithms.webp",
    "availability": {
     "narration": [],
     "script": ""
@@ -106,6 +108,13 @@
     {
      "kind": "Effect",
      "name": "All technology research speed +0.025"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "all_technology_research_speed",
+     "name": "All technology research speed",
+     "amount": 0.025
     }
    ],
    "source": "2717193796",
@@ -127,7 +136,7 @@
    "traits": [
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_emex_tma_advanced_data_storage.webp",
    "availability": {
     "narration": [],
     "script": ""
@@ -138,6 +147,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -158,7 +168,7 @@
     "rare",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_emex_tma_intelligent_neural_emulation.webp",
    "availability": {
     "narration": [],
     "script": ""
@@ -169,6 +179,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -190,7 +201,7 @@
     "dangerous",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_hyperintelligent_ai.webp",
    "availability": {
     "narration": [],
     "script": ""
@@ -208,6 +219,18 @@
     {
      "kind": "Effect",
      "name": "Research Speed (Computing) +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_pops_robotics_produces_mult",
+     "name": "Planet pops robotics produces mult",
+     "amount": 0.05
+    },
+    {
+     "key": "category_computing_research_speed_mult",
+     "name": "Research Speed (Computing)",
+     "amount": 0.15
     }
    ],
    "source": "2717193796",
@@ -229,7 +252,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_tma_lance.webp",
    "availability": {
     "narration": [
      {
@@ -259,6 +282,7 @@
      "name": "Transcendant Lance"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -278,7 +302,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_tma_devourer.webp",
    "availability": {
     "narration": [
      {
@@ -308,6 +332,7 @@
      "name": "Matter Devourer"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -327,7 +352,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_tma_missiles.webp",
    "availability": {
     "narration": [
      {
@@ -357,6 +382,7 @@
      "name": "Omega Missiles"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -376,7 +402,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_tma_fulmination.webp",
    "availability": {
     "narration": [
      {
@@ -406,6 +432,7 @@
      "name": "Flaming Fulmination"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -455,6 +482,7 @@
      "name": "Matter Corrupter"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/00_emex_tech.txt"
   },
@@ -477,7 +505,7 @@
    "traits": [
     "rare"
    ],
-   "icon": null,
+   "icon": "icons/2717193796/tech_esm_upgrade.webp",
    "availability": {
     "narration": [
      {
@@ -518,6 +546,7 @@
      "name": "Unlocks Component: Advanced Sentinel Core"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -535,7 +564,7 @@
    "prerequisites": [],
    "requiresOneOf": [],
    "traits": [],
-   "icon": null,
+   "icon": "icons/2717193796/tech_emex_mineral_composition_upgrade.webp",
    "availability": {
     "narration": [
      {
@@ -554,6 +583,13 @@
     {
      "kind": "Effect",
      "name": "Minerals from Jobs +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_minerals_produces_mult",
+     "name": "Minerals from Jobs",
+     "amount": 0.15
     }
    ],
    "source": "2717193796",
@@ -589,6 +625,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -624,6 +661,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -659,6 +697,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -697,6 +736,7 @@
      "name": "Stellar Cerebrum v1"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -737,6 +777,7 @@
      "name": "Stellar Cerebrum v2"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -777,6 +818,7 @@
      "name": "Stellar Cerebrum v3"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -819,6 +861,7 @@
      "name": "Stellar Cerebrum"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -854,6 +897,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -892,6 +936,13 @@
     {
      "kind": "Effect",
      "name": "Leader Lifespan +5"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "leader_lifespan_add",
+     "name": "Leader Lifespan",
+     "amount": 5
     }
    ],
    "source": "2717193796",
@@ -934,6 +985,13 @@
      "name": "Upkeep for [GetResearcherPluralWithIcon] -10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_researchers_upkeep_mult",
+     "name": "Upkeep for [GetResearcherPluralWithIcon]",
+     "amount": -0.1
+    }
+   ],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -969,6 +1027,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -1028,6 +1087,13 @@
      "name": "Pop growth speed +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pop_growth_speed",
+     "name": "Pop growth speed",
+     "amount": 0.05
+    }
+   ],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -1063,6 +1129,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -1103,6 +1170,7 @@
      "name": "Obstructed Refuges"
     }
    ],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -1141,6 +1209,13 @@
     {
      "kind": "Effect",
      "name": "Max Districts +2"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_max_districts_add",
+     "name": "Max Districts",
+     "amount": 2
     }
    ],
    "source": "2717193796",
@@ -1182,6 +1257,13 @@
     {
      "kind": "Effect",
      "name": "Pop growth speed +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pop_growth_speed",
+     "name": "Pop growth speed",
+     "amount": 0.05
     }
    ],
    "source": "2717193796",
@@ -1237,6 +1319,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/01_emex_tech.txt"
   },
@@ -1360,6 +1443,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/zzz_emex_technology_overwrite.txt"
   },
@@ -1499,6 +1583,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2717193796",
    "file": "common/technology/zzz_emex_technology_overwrite.txt"
   },
@@ -1722,6 +1807,13 @@
     {
      "kind": "Effect",
      "name": "Planet pops robotics produces mult +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_pops_robotics_produces_mult",
+     "name": "Planet pops robotics produces mult",
+     "amount": 0.1
     }
    ],
    "source": "2717193796",

@@ -53,6 +53,7 @@
      "name": "Orbit stabilizer"
     }
    ],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -103,6 +104,7 @@
      "name": "Planetary core regulator"
     }
    ],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -148,6 +150,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -261,6 +264,7 @@
      "name": "Blocked Tunnel"
     }
    ],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -374,6 +378,7 @@
      "name": "Ice Crust"
     }
    ],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -502,6 +507,7 @@
      "name": "Dune Sea"
     }
    ],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -630,6 +636,7 @@
      "name": "Thick Forest"
     }
    ],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -758,6 +765,7 @@
      "name": "Large Ice Ridge"
     }
    ],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -886,6 +894,7 @@
      "name": "Igneous Traps"
     }
    ],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   },
@@ -939,6 +948,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2475617894",
    "file": "common/technology/newfrontiers_tech.txt"
   }

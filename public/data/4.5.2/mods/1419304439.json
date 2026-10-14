@@ -68,6 +68,13 @@
      "name": "Army Morale +0.5"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.5
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -131,6 +138,13 @@
     {
      "kind": "Effect",
      "name": "Army Morale +0.5"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.5
     }
    ],
    "source": "1419304439",
@@ -198,6 +212,13 @@
      "name": "Army Morale +0.5"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.5
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -251,6 +272,13 @@
      "name": "Army Health +0.1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -302,6 +330,18 @@
     {
      "kind": "Effect",
      "name": "Army Build Speed +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.1
+    },
+    {
+     "key": "planet_army_build_speed_mult",
+     "name": "Army Build Speed",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -388,6 +428,7 @@
      "name": "Delta Special Force Squad"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -468,6 +509,7 @@
      "name": "Black Guard"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -534,6 +576,7 @@
      "name": "Sigma Special Force Squad"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -615,6 +658,7 @@
      "name": "Stellar Striker"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -717,6 +761,7 @@
      "name": "Repair Damaged Machines"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -811,6 +856,7 @@
      "name": "Alpha Siege Warmech"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -900,6 +946,7 @@
      "name": "Sigma Siege Warmech"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -980,6 +1027,7 @@
      "name": "Sigma Heavy Mobile Infantry"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1056,6 +1104,7 @@
      "name": "God of War"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1136,6 +1185,7 @@
      "name": "Sigma Peacekeeper"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1212,6 +1262,7 @@
      "name": "Captain Pacifist"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1292,6 +1343,7 @@
      "name": "Sigma Ghost Agent"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1368,6 +1420,7 @@
      "name": "Black Widow"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1448,6 +1501,7 @@
      "name": "Sigma Deathbringer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1524,6 +1578,7 @@
      "name": "Apocalypse Tri-Cannon Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1602,6 +1657,7 @@
      "name": "Sigma Liberty Landcruiser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1678,6 +1734,7 @@
      "name": "Liberty Prime"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1758,6 +1815,7 @@
      "name": "Sigma Cerberus Enforcer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1834,6 +1892,7 @@
      "name": "Commissar Lord"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1914,6 +1973,7 @@
      "name": "Sigma Devastator Tank Division"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -1990,6 +2050,7 @@
      "name": "Martellus Landcruiser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2070,6 +2131,7 @@
      "name": "Sigma Inquisitor Army"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2146,6 +2208,7 @@
      "name": "Living Saint"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2199,6 +2262,13 @@
      "name": "Army Health +0.5"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.5
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2246,6 +2316,13 @@
     {
      "kind": "Effect",
      "name": "Army Morale Damage +100%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_morale_damage_mult",
+     "name": "Army Morale Damage",
+     "amount": 1
     }
    ],
    "source": "1419304439",
@@ -2314,6 +2391,7 @@
      "name": "Delta Hive Destroyer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2376,6 +2454,7 @@
      "name": "Alpha Hive Destroyer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2438,6 +2517,7 @@
      "name": "Sigma Hive Destroyer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2518,6 +2598,7 @@
      "name": "Sigma Mastermind"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2594,6 +2675,7 @@
      "name": "Terror From Beyond"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2647,6 +2729,13 @@
      "name": "Army Damage +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.05
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2698,6 +2787,18 @@
     {
      "kind": "Effect",
      "name": "Army Morale Damage +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.1
+    },
+    {
+     "key": "army_morale_damage_mult",
+     "name": "Army Morale Damage",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -2791,6 +2892,7 @@
      "name": "Delta Machine Cyborg Regiment"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2882,6 +2984,7 @@
      "name": "Additional Sentinel Units"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -2969,6 +3072,7 @@
      "name": "Sigma Machine Cyborg Regiment"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3047,6 +3151,7 @@
      "name": "Sigma War Frame Unit"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3123,6 +3228,7 @@
      "name": "Paradox Engine"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3201,6 +3307,7 @@
      "name": "Sigma Adaptive Force Unit"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3277,6 +3384,7 @@
      "name": "Eradicator God-Machine"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3333,6 +3441,7 @@
      "name": "Elite Clone Army"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3418,6 +3527,7 @@
      "name": "Sigma Essence Collector"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3473,6 +3583,7 @@
      "name": "Zenith Warrior"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3533,6 +3644,7 @@
      "name": "Sigma Dark Disciple"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3600,6 +3712,7 @@
      "name": "Dark Psion"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3686,6 +3799,7 @@
      "name": "Sigma Cyberman"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3768,6 +3882,7 @@
      "name": "Cyborg Commando"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3858,6 +3973,7 @@
      "name": "Damaged Sigma SCP"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -3940,6 +4056,7 @@
      "name": "Synth Reaper"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -4014,6 +4131,18 @@
     {
      "kind": "Effect",
      "name": "Army Damage +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.25
+    },
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.15
     }
    ],
    "source": "1419304439",
@@ -4111,6 +4240,18 @@
      "name": "Army Upkeep -50%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "armies_cost_mult",
+     "name": "Army Cost",
+     "amount": -0.25
+    },
+    {
+     "key": "armies_upkeep_mult",
+     "name": "Army Upkeep",
+     "amount": -0.5
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -4163,6 +4304,18 @@
     {
      "kind": "Effect",
      "name": "Army Morale Damage +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.5
+    },
+    {
+     "key": "army_morale_damage_mult",
+     "name": "Army Morale Damage",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -4225,6 +4378,13 @@
     {
      "kind": "Effect",
      "name": "Army Health +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 1
     }
    ],
    "source": "1419304439",
@@ -4291,6 +4451,18 @@
     {
      "kind": "Effect",
      "name": "Army Cost -25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.5
+    },
+    {
+     "key": "armies_cost_mult",
+     "name": "Army Cost",
+     "amount": -0.25
     }
    ],
    "source": "1419304439",
@@ -4375,6 +4547,28 @@
      "name": "Landing Time -25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.25
+    },
+    {
+     "key": "army_experience_gain_mult",
+     "name": "Army Experience Gain",
+     "amount": 0.25
+    },
+    {
+     "key": "army_attack_damage_mult",
+     "name": "Assault Army Damage",
+     "amount": 0.05
+    },
+    {
+     "key": "ship_landing_time_mult",
+     "name": "Landing Time",
+     "amount": -0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -4449,6 +4643,13 @@
      "name": "Ship Fire Rate +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_fire_rate_mult",
+     "name": "Ship Fire Rate",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -4500,6 +4701,13 @@
     {
      "kind": "Effect",
      "name": "Ship Upkeep -5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ships_upkeep_mult",
+     "name": "Ship Upkeep",
+     "amount": -0.05
     }
    ],
    "source": "1419304439",
@@ -4557,6 +4765,18 @@
     {
      "kind": "Effect",
      "name": "Daily Shield Regen +10"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_shield_mult",
+     "name": "Shield Hit Points",
+     "amount": 0.15
+    },
+    {
+     "key": "ship_shield_regen_add_static",
+     "name": "Daily Shield Regen",
+     "amount": 10
     }
    ],
    "source": "1419304439",
@@ -4630,6 +4850,28 @@
     {
      "kind": "Effect",
      "name": "Defensive war influence gain add +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_defense_morale_mult",
+     "name": "Defense Army Morale",
+     "amount": 0.5
+    },
+    {
+     "key": "army_defense_damage_mult",
+     "name": "Defense Army Damage",
+     "amount": 0.1
+    },
+    {
+     "key": "country_war_exhaustion_mult",
+     "name": "War Exhaustion Gain",
+     "amount": -0.15
+    },
+    {
+     "key": "defensive_war_influence_gain_add",
+     "name": "Defensive war influence gain add",
+     "amount": 1
     }
    ],
    "source": "1419304439",
@@ -4720,6 +4962,23 @@
      "name": "Fleet Command Limit +50"
     }
    ],
+   "modifiers": [
+    {
+     "key": "commander_initial_skill",
+     "name": "Commander Starting Skill Level",
+     "amount": 2
+    },
+    {
+     "key": "country_commander_cap_add",
+     "name": "Commander Capacity",
+     "amount": 2
+    },
+    {
+     "key": "command_limit_add",
+     "name": "Fleet Command Limit",
+     "amount": 50
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -4806,6 +5065,28 @@
      "name": "Insult Efficiency +5"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_claim_influence_cost_mult",
+     "name": "Claim Influence Cost",
+     "amount": -0.3
+    },
+    {
+     "key": "max_rivalries",
+     "name": "Max rivalries",
+     "amount": 3
+    },
+    {
+     "key": "country_war_exhaustion_mult",
+     "name": "War Exhaustion Gain",
+     "amount": -0.2
+    },
+    {
+     "key": "country_insult_efficiency",
+     "name": "Insult Efficiency",
+     "amount": 5
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -4857,6 +5138,23 @@
     {
      "kind": "Effect",
      "name": "Tracking +10"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_weapon_range_mult",
+     "name": "Ship Weapons Range",
+     "amount": 0.1
+    },
+    {
+     "key": "ship_accuracy_add",
+     "name": "Accuracy",
+     "amount": 10
+    },
+    {
+     "key": "ship_tracking_add",
+     "name": "Tracking",
+     "amount": 10
     }
    ],
    "source": "1419304439",
@@ -4930,6 +5228,23 @@
     {
      "kind": "Effect",
      "name": "Army Damage +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_orbital_bombardment_mult",
+     "name": "Orbital Bombardment Damage",
+     "amount": 0.25
+    },
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.2
+    },
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.2
     }
    ],
    "source": "1419304439",
@@ -5014,6 +5329,28 @@
      "name": "Constructor Hullpoints +2000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_transport_hull_add",
+     "name": "Transport Hullpoints",
+     "amount": 6000
+    },
+    {
+     "key": "shipsize_science_hull_add",
+     "name": "Science Ship Hullpoints",
+     "amount": 2000
+    },
+    {
+     "key": "shipsize_colonizer_hull_add",
+     "name": "Colonizer Hullpoints",
+     "amount": 2000
+    },
+    {
+     "key": "shipsize_constructor_hull_add",
+     "name": "Constructor Hullpoints",
+     "amount": 2000
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -5071,6 +5408,23 @@
      "name": "Monthly Energy Credits +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_trade_attractiveness",
+     "name": "Trade Attractiveness",
+     "amount": 0.2
+    },
+    {
+     "key": "planet_districts_upkeep_mult",
+     "name": "District Upkeep",
+     "amount": -0.1
+    },
+    {
+     "key": "country_energy_produces_mult",
+     "name": "Monthly Energy Credits",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -5126,6 +5480,23 @@
     {
      "kind": "Effect",
      "name": "Empire Size from Branch Offices -10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "empire_size_penalty_mult",
+     "name": "Empire Size Effect",
+     "amount": -0.25
+    },
+    {
+     "key": "country_admin_cap_add",
+     "name": "Administrative Capacity",
+     "amount": 30
+    },
+    {
+     "key": "empire_size_branch_office_mult",
+     "name": "Empire Size from Branch Offices",
+     "amount": -0.1
     }
    ],
    "source": "1419304439",
@@ -5199,6 +5570,23 @@
     {
      "kind": "Effect",
      "name": "Governing Ethics Attraction +0.2"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "species_leader_exp_gain",
+     "name": "Species leader exp gain",
+     "amount": 0.2
+    },
+    {
+     "key": "biological_pop_happiness",
+     "name": "$MOD_BIOLOGICAL_POP_HAPPINESS$",
+     "amount": 0.2
+    },
+    {
+     "key": "pop_government_ethic_attraction",
+     "name": "Governing Ethics Attraction",
+     "amount": 0.2
     }
    ],
    "source": "1419304439",
@@ -5298,6 +5686,23 @@
     {
      "kind": "Effect",
      "name": "Subject tribute mult +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_subject_acceptance_add",
+     "name": "Subjugation Acceptance",
+     "amount": 30
+    },
+    {
+     "key": "country_subject_trust_cap_add",
+     "name": "Subject Trust Cap",
+     "amount": 50
+    },
+    {
+     "key": "subject_tribute_mult",
+     "name": "Subject tribute mult",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -5409,6 +5814,23 @@
      "name": "Pop Demotion Time -25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "edict_length_mult",
+     "name": "Edict length mult",
+     "amount": 0.3
+    },
+    {
+     "key": "planet_stability_add",
+     "name": "Stability",
+     "amount": 15
+    },
+    {
+     "key": "pop_demotion_time_mult",
+     "name": "Pop Demotion Time",
+     "amount": -0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -5476,6 +5898,18 @@
     {
      "kind": "Effect",
      "name": "Ship Fire Rate +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_weapon_damage",
+     "name": "Ship Weapons Damage",
+     "amount": 0.1
+    },
+    {
+     "key": "ship_fire_rate_mult",
+     "name": "Ship Fire Rate",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -5564,6 +5998,23 @@
     {
      "kind": "Effect",
      "name": "Market Fee -0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_trust_cap_add",
+     "name": "Trust Cap",
+     "amount": 50
+    },
+    {
+     "key": "country_trust_growth",
+     "name": "Trust Growth",
+     "amount": 0.5
+    },
+    {
+     "key": "country_trade_fee",
+     "name": "Market Fee",
+     "amount": -0.05
     }
    ],
    "source": "1419304439",
@@ -5665,6 +6116,18 @@
      "name": "Naval Capacity +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_border_friction_mult",
+     "name": "Border Friction",
+     "amount": -0.25
+    },
+    {
+     "key": "country_naval_cap_mult",
+     "name": "Naval Capacity",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -5753,6 +6216,23 @@
      "name": "Daily Hull Regen +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "BIOLOGICAL_species_trait_points_add",
+     "name": "Organic Species Modification Points",
+     "amount": 3
+    },
+    {
+     "key": "ship_armor_regen_add_perc",
+     "name": "Daily Armor Regen",
+     "amount": 0.05
+    },
+    {
+     "key": "ship_hull_regen_add_perc",
+     "name": "Daily Hull Regen",
+     "amount": 0.05
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -5822,6 +6302,18 @@
      "name": "Food from Jobs +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_pops_organics_food_upkeep_mult",
+     "name": "Pop Food Upkeep",
+     "amount": -0.25
+    },
+    {
+     "key": "planet_jobs_food_produces_mult",
+     "name": "Food from Jobs",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -5879,6 +6371,23 @@
      "name": "Minerals Storage Capacity +10000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.2
+    },
+    {
+     "key": "all_technology_research_speed",
+     "name": "All technology research speed",
+     "amount": 0.05
+    },
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 10000
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -5934,6 +6443,23 @@
     {
      "kind": "Effect",
      "name": "Building time mult -15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "job_replicator_add",
+     "name": "[replicator.GetName] Jobs",
+     "amount": 300
+    },
+    {
+     "key": "starbase_shipyard_build_speed_mult",
+     "name": "Ship Build Speed",
+     "amount": 0.15
+    },
+    {
+     "key": "building_time_mult",
+     "name": "Building time mult",
+     "amount": -0.15
     }
    ],
    "source": "1419304439",
@@ -6003,6 +6529,18 @@
     {
      "kind": "Effect",
      "name": "Monthly Energy Credits +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_organic_trust_cap_add",
+     "name": "Trust Cap for Organics",
+     "amount": 75
+    },
+    {
+     "key": "country_energy_produces_mult",
+     "name": "Monthly Energy Credits",
+     "amount": 0.15
     }
    ],
    "source": "1419304439",
@@ -6093,6 +6631,23 @@
      "name": "Species leader exp gain +0.15"
     }
    ],
+   "modifiers": [
+    {
+     "key": "num_tech_alternatives_add",
+     "name": "Num tech alternatives add",
+     "amount": 1
+    },
+    {
+     "key": "leader_skill_levels",
+     "name": "Leader Level Cap",
+     "amount": 2
+    },
+    {
+     "key": "species_leader_exp_gain",
+     "name": "Species leader exp gain",
+     "amount": 0.15
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_army_tech.txt"
   },
@@ -6144,6 +6699,23 @@
     {
      "kind": "Effect",
      "name": "Army Build Speed +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_weapon_damage",
+     "name": "Ship Weapons Damage",
+     "amount": 0.15
+    },
+    {
+     "key": "ship_hull_mult",
+     "name": "Ship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "planet_army_build_speed_mult",
+     "name": "Army Build Speed",
+     "amount": 0.15
     }
    ],
    "source": "1419304439",
@@ -6234,6 +6806,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6282,6 +6855,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6332,6 +6906,7 @@
      "name": "Crystalborn Mandibles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6386,6 +6961,7 @@
      "name": "Primal Mandibles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6448,6 +7024,7 @@
      "name": "Alpha Primal Mandibles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6511,6 +7088,7 @@
      "name": "Neophyte Ascendant Mandibles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6573,6 +7151,7 @@
      "name": "True Ascendant Mandibles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6623,6 +7202,7 @@
      "name": "Super-G Spore Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6677,6 +7257,7 @@
      "name": "Primal Spore Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6739,6 +7320,7 @@
      "name": "Alpha Primal Spore Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6788,6 +7370,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6841,6 +7424,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6902,6 +7486,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -6951,6 +7536,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7004,6 +7590,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7065,6 +7652,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7114,6 +7702,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7167,6 +7756,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7228,6 +7818,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7277,6 +7868,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7326,6 +7918,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7387,6 +7980,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7436,6 +8030,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7489,6 +8084,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7550,6 +8146,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7703,6 +8300,7 @@
      "name": "Unlocks Ship Type: Mature Conqueror"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7852,6 +8450,7 @@
      "name": "Unlocks Ship Type: Elder Conqueror"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -7925,6 +8524,7 @@
      "name": "Unlocks Component: Enhanced Growth Glands"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -8006,6 +8606,7 @@
      "name": "Unlocks Component: Enhanced Growth Glands"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -8054,6 +8655,13 @@
     {
      "kind": "Effect",
      "name": "Space Fauna Weapon Damage +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_space_fauna_weapon_damage_mult",
+     "name": "Space Fauna Weapon Damage",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -8108,6 +8716,18 @@
     {
      "kind": "Effect",
      "name": "Space Fauna Ship Shield +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "space_fauna_ship_shield_add",
+     "name": "Space Fauna Ship Shield",
+     "amount": 500
+    },
+    {
+     "key": "space_fauna_ship_shield_mult",
+     "name": "Space Fauna Ship Shield",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -8174,6 +8794,33 @@
     {
      "kind": "Effect",
      "name": "Huge Space Fauna Ship Hull +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "mutation_slots_add",
+     "name": "Mutation slots add",
+     "amount": 2
+    },
+    {
+     "key": "small_space_fauna_ship_hull_mult",
+     "name": "Small Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "medium_space_fauna_ship_hull_mult",
+     "name": "Medium Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "large_space_fauna_ship_hull_mult",
+     "name": "Large Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "extra_large_space_fauna_ship_hull_mult",
+     "name": "Huge Space Fauna Ship Hull",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -8254,6 +8901,48 @@
      "name": "Space Fauna Ship Damage +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "small_space_fauna_ship_hull_mult",
+     "name": "Small Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "medium_space_fauna_ship_hull_mult",
+     "name": "Medium Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "large_space_fauna_ship_hull_mult",
+     "name": "Large Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "extra_large_space_fauna_ship_hull_mult",
+     "name": "Huge Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "space_fauna_ship_armor_mult",
+     "name": "Space Fauna Ship Armor",
+     "amount": 0.1
+    },
+    {
+     "key": "space_fauna_ship_shield_add",
+     "name": "Space Fauna Ship Shield",
+     "amount": 1500
+    },
+    {
+     "key": "space_fauna_ship_shield_mult",
+     "name": "Space Fauna Ship Shield",
+     "amount": 0.1
+    },
+    {
+     "key": "space_fauna_ship_damage_mult",
+     "name": "Space Fauna Ship Damage",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -8318,6 +9007,33 @@
     {
      "kind": "Effect",
      "name": "Huge Space Fauna Ship Hull +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "mutation_slots_add",
+     "name": "Mutation slots add",
+     "amount": 2
+    },
+    {
+     "key": "small_space_fauna_ship_hull_mult",
+     "name": "Small Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "medium_space_fauna_ship_hull_mult",
+     "name": "Medium Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "large_space_fauna_ship_hull_mult",
+     "name": "Large Space Fauna Ship Hull",
+     "amount": 0.1
+    },
+    {
+     "key": "extra_large_space_fauna_ship_hull_mult",
+     "name": "Huge Space Fauna Ship Hull",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -8398,6 +9114,48 @@
      "name": "Space Fauna Ship Cloning Cost -20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "small_space_fauna_ship_hull_mult",
+     "name": "Small Space Fauna Ship Hull",
+     "amount": 0.2
+    },
+    {
+     "key": "medium_space_fauna_ship_hull_mult",
+     "name": "Medium Space Fauna Ship Hull",
+     "amount": 0.2
+    },
+    {
+     "key": "large_space_fauna_ship_hull_mult",
+     "name": "Large Space Fauna Ship Hull",
+     "amount": 0.2
+    },
+    {
+     "key": "extra_large_space_fauna_ship_hull_mult",
+     "name": "Huge Space Fauna Ship Hull",
+     "amount": 0.2
+    },
+    {
+     "key": "space_fauna_ship_armor_mult",
+     "name": "Space Fauna Ship Armor",
+     "amount": 0.2
+    },
+    {
+     "key": "space_fauna_ship_shield_add",
+     "name": "Space Fauna Ship Shield",
+     "amount": 2500
+    },
+    {
+     "key": "space_fauna_ship_shield_mult",
+     "name": "Space Fauna Ship Shield",
+     "amount": 0.2
+    },
+    {
+     "key": "space_fauna_ship_cost_mult",
+     "name": "Space Fauna Ship Cloning Cost",
+     "amount": -0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -8456,6 +9214,23 @@
      "name": "Space Fauna Ship Sublight Speed +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "space_fauna_ship_damage_mult",
+     "name": "Space Fauna Ship Damage",
+     "amount": 0.2
+    },
+    {
+     "key": "space_fauna_ship_fire_rate_mult",
+     "name": "Space Fauna Ship Fire Rate",
+     "amount": 0.2
+    },
+    {
+     "key": "space_fauna_ship_speed_mult",
+     "name": "Space Fauna Ship Sublight Speed",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -8487,6 +9262,28 @@
     {
      "kind": "Effect",
      "name": "Tiyanki Hull Points +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_space_whale_1_hull_mult",
+     "name": "Tiyanki Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_space_whale_2_hull_mult",
+     "name": "Tiyanki Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_space_whale_3_hull_mult",
+     "name": "Tiyanki Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_space_whale_4_hull_mult",
+     "name": "Tiyanki Hull Points",
+     "amount": 0.2
     }
    ],
    "source": "1419304439",
@@ -8522,6 +9319,7 @@
      "name": "Shadow Tiyanki"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -8555,6 +9353,7 @@
      "name": "Dire Tiyanki"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -8656,6 +9455,7 @@
      "name": "Kaiser Tiyanki"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_biofauna_tech.txt"
   },
@@ -8768,6 +9568,7 @@
      "name": "Superior Constructs"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -8871,6 +9672,7 @@
      "name": "Superior Designs"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -8974,6 +9776,7 @@
      "name": "Superior Evolutions"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9058,6 +9861,7 @@
      "name": "Void Palace"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9135,6 +9939,7 @@
      "name": "Void Nexus"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9212,6 +10017,7 @@
      "name": "Void Cluster"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9296,6 +10102,13 @@
     {
      "kind": "Effect",
      "name": "Colony Development Speed +50%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_colony_development_speed_mult",
+     "name": "Colony Development Speed",
+     "amount": 0.5
     }
    ],
    "source": "1419304439",
@@ -9392,6 +10205,7 @@
      "name": "Revitalization Center"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9478,6 +10292,7 @@
      "name": "Nano-Hypervitalization Complex"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9637,6 +10452,7 @@
      "name": "Hard-Light Machine Assembly"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9762,6 +10578,7 @@
      "name": "Built to last"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9845,6 +10662,7 @@
      "name": "Hive Spire"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -9935,6 +10753,7 @@
      "name": "Greater Hive Spire"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10056,6 +10875,13 @@
     {
      "kind": "Effect",
      "name": "Pop Growth Speed +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "logistic_growth_mult",
+     "name": "Pop Growth Speed",
+     "amount": 0.2
     }
    ],
    "source": "1419304439",
@@ -10180,6 +11006,13 @@
      "name": "Pop Growth Speed +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "logistic_growth_mult",
+     "name": "Pop Growth Speed",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10263,6 +11096,7 @@
      "name": "Altar of Psion"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10350,6 +11184,13 @@
      "name": "Pop Growth Speed +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "logistic_growth_mult",
+     "name": "Pop Growth Speed",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10435,6 +11276,7 @@
      "name": "Cyberweave Center"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10521,6 +11363,7 @@
      "name": "Cybersphere Matrix"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10598,6 +11441,7 @@
      "name": "Evolution Chamber"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10675,6 +11519,7 @@
      "name": "Cycle Propagator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10751,6 +11596,7 @@
      "name": "Personality Uplink"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10828,6 +11674,7 @@
      "name": "Infinity Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10874,6 +11721,7 @@
      "name": "Dark Matter Converter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10953,6 +11801,7 @@
      "name": "Dark Matter Mass Converter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -10999,6 +11848,7 @@
      "name": "Dark Energy Pylon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -11078,6 +11928,7 @@
      "name": "Dark Energy Spire"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -11179,6 +12030,7 @@
      "name": "Dimensional Harvester"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -11261,6 +12113,7 @@
      "name": "Auto-Nexus Nano Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -11511,6 +12364,7 @@
      "name": "Agri Super-Complex"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -11768,6 +12622,7 @@
      "name": "Agri Mega-Complex"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -11844,6 +12699,7 @@
      "name": "Dark Foundry"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -11926,6 +12782,7 @@
      "name": "Mega-Alloy Foundry"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12003,6 +12860,7 @@
      "name": "Enigmatic Transmutator Dome"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12085,6 +12943,7 @@
      "name": "Mega-Transmutator Sphere"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12159,6 +13018,7 @@
      "name": "Enigmatic Resource Purifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12241,6 +13101,7 @@
      "name": "Alpha Resource Purifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12316,6 +13177,7 @@
      "name": "Super Factorium"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12399,6 +13261,7 @@
      "name": "Mega Factorium"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12475,6 +13338,7 @@
      "name": "Crystal Synthesizer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12557,6 +13421,7 @@
      "name": "Crystal Diviner"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12633,6 +13498,7 @@
      "name": "Dark Energy Power Grid"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12715,6 +13581,7 @@
      "name": "Alpha Master Power Nexus"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12794,6 +13661,7 @@
      "name": "Hard-Light Materials Printer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12880,6 +13748,7 @@
      "name": "Advanced Hard-Light Materials Constructor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -12954,6 +13823,7 @@
      "name": "Delta Resource Silo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13036,6 +13906,7 @@
      "name": "Alpha Resource Silo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13110,6 +13981,7 @@
      "name": "Enigmatic Logistic Hub"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13185,6 +14057,7 @@
      "name": "Alpha Logistic Hub"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13260,6 +14133,7 @@
      "name": "Enigmatic Lab"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13339,6 +14213,7 @@
      "name": "Auto-Lab Nano Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13445,6 +14320,7 @@
      "name": "Delta Institute of Knowledge"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13557,6 +14433,7 @@
      "name": "Alpha Institute of Techno-Ascension"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13658,6 +14535,7 @@
      "name": "Dark Energy Planetary Shield Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13763,6 +14641,7 @@
      "name": "Auto-Skyshield Nano Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13872,6 +14751,13 @@
      "name": "Defense Army Health +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_defense_health_mult",
+     "name": "Defense Army Health",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -13979,6 +14865,13 @@
     {
      "kind": "Effect",
      "name": "Defense Army Health +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_defense_health_mult",
+     "name": "Defense Army Health",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -14107,6 +15000,7 @@
      "name": "Deployed Giga Fortress"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14186,6 +15080,7 @@
      "name": "Deluxe Mansion"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14272,6 +15167,7 @@
      "name": "Enigmatic Penthouse"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14369,6 +15265,7 @@
      "name": "Sanctuary of Enlightenment"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14473,6 +15370,7 @@
      "name": "Ecclesiarch Solace"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14561,6 +15459,7 @@
      "name": "Delta Maintenance Hub"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14656,6 +15555,7 @@
      "name": "Alpha Stasis Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14737,6 +15637,7 @@
      "name": "Stellarite Energy Conduit"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14839,6 +15740,7 @@
      "name": "Advanced Stellarite Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -14935,6 +15837,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15032,6 +15935,7 @@
      "name": "College of Inspiration"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15175,6 +16079,7 @@
      "name": "Agricultural Megacomplex"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15272,6 +16177,7 @@
      "name": "Dimensional Threshold Gate"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15408,6 +16314,7 @@
      "name": "Optimized Class-4 Singularity"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15505,6 +16412,7 @@
      "name": "Dimensional Forge"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15602,6 +16510,7 @@
      "name": "Grand Archive"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15699,6 +16608,7 @@
      "name": "Grand Cathedral"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15818,6 +16728,7 @@
      "name": "Star Dome"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -15938,6 +16849,7 @@
      "name": "Shifting Terrain"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -16058,6 +16970,7 @@
      "name": "Unstable Void Rifts"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -16178,6 +17091,7 @@
      "name": "Void Chasm"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -16264,6 +17178,23 @@
      "name": "Civilian Happiness +0.5"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_pops_produces_mult",
+     "name": "Planet pops produces mult",
+     "amount": 0.2
+    },
+    {
+     "key": "pop_unemployment_demotion_time_mult",
+     "name": "Pop unemployment demotion time mult",
+     "amount": -0.5
+    },
+    {
+     "key": "pop_cat_civilian_happiness",
+     "name": "Civilian Happiness",
+     "amount": 0.5
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_building_tech.txt"
   },
@@ -16341,6 +17272,23 @@
     {
      "kind": "Effect",
      "name": "Pop unemployment demotion time mult -50%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_pops_produces_mult",
+     "name": "Planet pops produces mult",
+     "amount": 0.1
+    },
+    {
+     "key": "planet_pops_upkeep_mult",
+     "name": "Pop Upkeep",
+     "amount": -0.1
+    },
+    {
+     "key": "pop_unemployment_demotion_time_mult",
+     "name": "Pop unemployment demotion time mult",
+     "amount": -0.5
     }
    ],
    "source": "1419304439",
@@ -16421,6 +17369,7 @@
      "name": "Unlocks Component: Enhanced Zero Point Reactor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -16540,6 +17489,18 @@
     {
      "kind": "Effect",
      "name": "Energy Weapon Fire Rate +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_energy_weapon_damage_mult",
+     "name": "Energy Weapon Damage",
+     "amount": 0.1
+    },
+    {
+     "key": "weapon_type_energy_weapon_fire_rate_mult",
+     "name": "Energy Weapon Fire Rate",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -16669,6 +17630,18 @@
      "name": "Kinetic Weapon Fire Rate +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_kinetic_weapon_damage_mult",
+     "name": "Kinetic Weapon Damage",
+     "amount": 0.1
+    },
+    {
+     "key": "weapon_type_kinetic_weapon_fire_rate_mult",
+     "name": "Kinetic Weapon Fire Rate",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -16792,6 +17765,18 @@
      "name": "Explosive Weapon Fire Rate +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_explosive_weapon_damage_mult",
+     "name": "Explosive Weapon Damage",
+     "amount": 0.1
+    },
+    {
+     "key": "weapon_type_explosive_weapon_fire_rate_mult",
+     "name": "Explosive Weapon Fire Rate",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -16888,6 +17873,18 @@
      "name": "Strike Craft Fire Rate +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_strike_craft_weapon_damage_mult",
+     "name": "Strike Craft Damage",
+     "amount": 0.1
+    },
+    {
+     "key": "weapon_type_strike_craft_weapon_fire_rate_mult",
+     "name": "Strike Craft Fire Rate",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -16962,6 +17959,7 @@
      "name": "Focused Gamma Laser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17036,6 +18034,7 @@
      "name": "Scorcher Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17110,6 +18109,7 @@
      "name": "Heavy Plasma Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17184,6 +18184,7 @@
      "name": "Focused Disruptor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17245,6 +18246,7 @@
      "name": "Disruptor Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17307,6 +18309,7 @@
      "name": "Energy Blaster Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17369,6 +18372,7 @@
      "name": "Neutron Energy Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17431,6 +18435,7 @@
      "name": "Aegis Point-Defense"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17477,6 +18482,7 @@
      "name": "Reforged Tachyon Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17523,6 +18529,7 @@
      "name": "Advanced Perdition Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17569,6 +18576,7 @@
      "name": "Overcharged Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17615,6 +18623,7 @@
      "name": "Titan Stabilized Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17689,6 +18698,7 @@
      "name": "Shock Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17763,6 +18773,7 @@
      "name": "Pulsefire Autocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17824,6 +18835,7 @@
      "name": "Macrocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17886,6 +18898,7 @@
      "name": "Volatile Kinetic Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17952,6 +18965,7 @@
      "name": "Volkite Kinetic Point-Defenses"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -17998,6 +19012,7 @@
      "name": "Heavy Mass Accelerator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18044,6 +19059,7 @@
      "name": "Titan Accelerator Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18127,6 +19143,7 @@
      "name": "Challenger Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18214,6 +19231,7 @@
      "name": "Eradicator Torpedoes"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18276,6 +19294,7 @@
      "name": "Typhoon Swarmer Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18337,6 +19356,7 @@
      "name": "Countermeasure Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18399,6 +19419,7 @@
      "name": "MMLS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18445,6 +19466,7 @@
      "name": "HSPM Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18491,6 +19513,7 @@
      "name": "Giga-Warhead Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18553,6 +19576,7 @@
      "name": "Interceptors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18615,6 +19639,7 @@
      "name": "Fighters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18677,6 +19702,7 @@
      "name": "Bombers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18739,6 +19765,7 @@
      "name": "Gunship"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18801,6 +19828,7 @@
      "name": "Acot edict sr shield"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18863,6 +19891,7 @@
      "name": "Acot edict sr armor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18933,6 +19962,7 @@
      "name": "Unlocks Component: Neo-Tachyon Sensors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -18991,6 +20021,7 @@
      "name": "Unlocks Component: Impulse X Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -19133,6 +20164,63 @@
      "name": "Juggernaut Hull Points +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_corvette_hull_mult",
+     "name": "Corvette Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_offspring_corvette_hull_mult",
+     "name": "Offspring Corvette Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_frigate_hull_mult",
+     "name": "Frigate Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_destroyer_hull_mult",
+     "name": "Destroyer Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_offspring_destroyer_hull_mult",
+     "name": "Offspring Destroyer Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_cruiser_hull_mult",
+     "name": "Cruiser Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_offspring_cruiser_hull_mult",
+     "name": "Offspring Cruiser Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_battleship_hull_mult",
+     "name": "Battleship Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_offspring_battleship_hull_mult",
+     "name": "Offspring Battleship Hull Points",
+     "amount": 0.105
+    },
+    {
+     "key": "shipsize_titan_hull_mult",
+     "name": "Titan Hull Points",
+     "amount": 0.05
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.05
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_enigmatic_components_tech.txt"
   },
@@ -19175,6 +20263,28 @@
     {
      "kind": "Effect",
      "name": "Urban Districts when establishing Colonies +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_colonizer_hull_add",
+     "name": "Colonizer Hullpoints",
+     "amount": 1500
+    },
+    {
+     "key": "shipsize_colonizer_speed_mult",
+     "name": "Colonizer Speed",
+     "amount": 0.5
+    },
+    {
+     "key": "planet_colony_development_speed_mult",
+     "name": "Colony Development Speed",
+     "amount": 0.5
+    },
+    {
+     "key": "colony_start_urban_districts_add",
+     "name": "Urban Districts when establishing Colonies",
+     "amount": 1
     }
    ],
    "source": "1419304439",
@@ -19247,6 +20357,13 @@
      "name": "Fractured World Survivability +0.6"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_dark_fractured_habitability",
+     "name": "Fractured World Survivability",
+     "amount": 0.6
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19283,6 +20400,13 @@
     {
      "kind": "Effect",
      "name": "Fractured World Survivability +0.6"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pc_dark_fractured_habitability",
+     "name": "Fractured World Survivability",
+     "amount": 0.6
     }
    ],
    "source": "1419304439",
@@ -19354,6 +20478,7 @@
      "name": "Dimensional Reconstitution"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19424,6 +20549,7 @@
      "name": "Void Sphere Creation"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19483,6 +20609,7 @@
      "name": "Dimensional Travel"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19535,6 +20662,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19588,6 +20716,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19665,6 +20794,7 @@
      "name": "Void Forge"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19722,6 +20852,7 @@
      "name": "Void Stellar Shard"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19776,6 +20907,7 @@
      "name": "Delta Shelter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19834,6 +20966,7 @@
      "name": "Alpha Spire"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19892,6 +21025,7 @@
      "name": "Alpha Fortress"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -19950,6 +21084,7 @@
      "name": "Alpha Observatory"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -20014,6 +21149,18 @@
     {
      "kind": "Effect",
      "name": "Enigmatic World Survivability +0.1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pc_dark_fractured_habitability",
+     "name": "Fractured World Survivability",
+     "amount": 0.1
+    },
+    {
+     "key": "pc_acot_enigmatic_habitability",
+     "name": "Enigmatic World Survivability",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -20083,6 +21230,18 @@
      "name": "Enigmatic World Survivability +0.1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_dark_fractured_habitability",
+     "name": "Fractured World Survivability",
+     "amount": 0.1
+    },
+    {
+     "key": "pc_acot_enigmatic_habitability",
+     "name": "Enigmatic World Survivability",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -20142,6 +21301,7 @@
      "name": "Activate Automated Production Systems"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -20196,6 +21356,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -20260,6 +21421,7 @@
      "name": "Deactivate Supercharged Reactor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -20324,6 +21486,7 @@
      "name": "Deactivate Supercharged Pylon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -20378,6 +21541,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -20417,6 +21581,7 @@
      "name": "Deauthorize Stellarite Overcharge"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_planets_tech.txt"
   },
@@ -20463,6 +21628,7 @@
      "name": "Unlocks Starbase Building: Shipyard Precursor Databank"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -20507,6 +21673,13 @@
     {
      "kind": "Effect",
      "name": "Monthly Engineering Research +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_engineering_research_produces_mult",
+     "name": "Monthly Engineering Research",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -20555,6 +21728,13 @@
      "name": "Monthly Society Research +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_society_research_produces_mult",
+     "name": "Monthly Society Research",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -20599,6 +21779,13 @@
     {
      "kind": "Effect",
      "name": "Monthly Physics Research +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_physics_research_produces_mult",
+     "name": "Monthly Physics Research",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -20660,6 +21847,7 @@
      "name": "Precursor Master Orbital Ring"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -20715,6 +21903,7 @@
      "name": "Alpha Precursor Nexus"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -20771,6 +21960,7 @@
      "name": "Sigma Precursor Nexus"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -20827,6 +22017,7 @@
      "name": "Runic Precursor Nexus"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -20874,6 +22065,7 @@
      "name": "Precursor Oracle"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -20933,6 +22125,7 @@
      "name": "Precursor Initializer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -20976,6 +22169,7 @@
      "name": "Precursor Emissary"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21019,6 +22213,7 @@
      "name": "Precursor Celestial Forger"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21066,6 +22261,7 @@
      "name": "Precursor Escort"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21113,6 +22309,7 @@
      "name": "Precursor Battlecruiser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21176,6 +22373,7 @@
      "name": "Precursor Assault Carrier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21219,6 +22417,7 @@
      "name": "Precursor Hyperion"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21260,6 +22459,7 @@
      "name": "Precursor Sentinel"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21301,6 +22501,7 @@
      "name": "Precursor Guardian"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21407,6 +22608,18 @@
      "name": "Minerals Storage Capacity +500000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_naval_cap_add",
+     "name": "Naval Capacity",
+     "amount": 250
+    },
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 500000
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21444,6 +22657,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21513,6 +22727,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Guardian Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_guardian_hull_mult",
+     "name": "Precursor Guardian Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -21595,6 +22816,13 @@
      "name": "Precursor Escort Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_escort_hull_mult",
+     "name": "Precursor Escort Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21673,6 +22901,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Battlecruiser Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_battlecruiser_hull_mult",
+     "name": "Precursor Battlecruiser Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -21771,6 +23006,13 @@
      "name": "Precursor Assault Carrier Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_assault_carrier_hull_mult",
+     "name": "Precursor Assault Carrier Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21851,6 +23093,13 @@
      "name": "Precursor Hyperion Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_titan_hull_mult",
+     "name": "Precursor Hyperion Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21922,6 +23171,13 @@
      "name": "Precursor Sentinel Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_sentinel_hull_mult",
+     "name": "Precursor Sentinel Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -21988,6 +23244,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Herculean Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_colossus_hull_mult",
+     "name": "Precursor Herculean Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -22086,6 +23349,13 @@
      "name": "Precursor Emissary Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_colonizer_hull_mult",
+     "name": "Precursor Emissary Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -22178,6 +23448,23 @@
      "name": "Precursor Instant Pylon Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_constructor_hull_mult",
+     "name": "Precursor Initializer Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_platform_m_hull_mult",
+     "name": "Precursor Instant Repeller Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_platform_l_hull_mult",
+     "name": "Precursor Instant Pylon Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -22236,6 +23523,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Oracle Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_science_hull_mult",
+     "name": "Precursor Oracle Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -22312,6 +23606,18 @@
     {
      "kind": "Effect",
      "name": "Precursor Guardian Build Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_guardian_hull_mult",
+     "name": "Precursor Guardian Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_guardian_build_speed_mult",
+     "name": "Precursor Guardian Build Speed",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -22399,6 +23705,18 @@
      "name": "Precursor Escort Build Speed +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_escort_hull_mult",
+     "name": "Precursor Escort Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_escort_build_speed_mult",
+     "name": "Precursor Escort Build Speed",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -22482,6 +23800,18 @@
     {
      "kind": "Effect",
      "name": "Precursor Battlecruiser Build Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_battlecruiser_hull_mult",
+     "name": "Precursor Battlecruiser Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_battlecruiser_build_speed_mult",
+     "name": "Precursor Battlecruiser Build Speed",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -22585,6 +23915,18 @@
      "name": "Precursor Assault Carrier Build Speed +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_assault_carrier_hull_mult",
+     "name": "Precursor Assault Carrier Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_assault_carrier_build_speed_mult",
+     "name": "Precursor Assault Carrier Build Speed",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -22670,6 +24012,18 @@
      "name": "Precursor Hyperion Build Speed +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_titan_hull_mult",
+     "name": "Precursor Hyperion Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_titan_build_speed_mult",
+     "name": "Precursor Hyperion Build Speed",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -22746,6 +24100,18 @@
      "name": "Precursor Sentinel Build Speed +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_sentinel_hull_mult",
+     "name": "Precursor Sentinel Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_sentinel_build_speed_mult",
+     "name": "Precursor Sentinel Build Speed",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -22813,6 +24179,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Herculean Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_colossus_hull_mult",
+     "name": "Precursor Herculean Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -22889,6 +24262,18 @@
     {
      "kind": "Effect",
      "name": "Precursor Guardian Build Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_guardian_hull_mult",
+     "name": "Precursor Guardian Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_guardian_build_speed_mult",
+     "name": "Precursor Guardian Build Speed",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -22971,6 +24356,13 @@
      "name": "Precursor Escort Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_escort_hull_mult",
+     "name": "Precursor Escort Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -23050,6 +24442,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Battlecruiser Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_battlecruiser_hull_mult",
+     "name": "Precursor Battlecruiser Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -23148,6 +24547,13 @@
      "name": "Precursor Assault Carrier Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_assault_carrier_hull_mult",
+     "name": "Precursor Assault Carrier Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -23228,6 +24634,13 @@
      "name": "Precursor Hyperion Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_titan_hull_mult",
+     "name": "Precursor Hyperion Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -23300,6 +24713,13 @@
      "name": "Precursor Sentinel Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_sentinel_hull_mult",
+     "name": "Precursor Sentinel Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -23368,6 +24788,13 @@
      "name": "Precursor Herculean Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_colossus_hull_mult",
+     "name": "Precursor Herculean Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -23430,6 +24857,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Emissary Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_colonizer_hull_mult",
+     "name": "Precursor Emissary Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -23520,6 +24954,23 @@
      "name": "Precursor Instant Pylon Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_constructor_hull_mult",
+     "name": "Precursor Initializer Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_platform_m_hull_mult",
+     "name": "Precursor Instant Repeller Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_platform_l_hull_mult",
+     "name": "Precursor Instant Pylon Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -23578,6 +25029,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Oracle Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_science_hull_mult",
+     "name": "Precursor Oracle Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -23658,6 +25116,18 @@
     {
      "kind": "Effect",
      "name": "Precursor Guardian Build Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_guardian_hull_mult",
+     "name": "Precursor Guardian Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_guardian_build_speed_mult",
+     "name": "Precursor Guardian Build Speed",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -23748,6 +25218,18 @@
      "name": "Precursor Escort Build Speed +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_escort_hull_mult",
+     "name": "Precursor Escort Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_escort_build_speed_mult",
+     "name": "Precursor Escort Build Speed",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -23834,6 +25316,18 @@
     {
      "kind": "Effect",
      "name": "Precursor Battlecruiser Build Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_battlecruiser_hull_mult",
+     "name": "Precursor Battlecruiser Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_battlecruiser_build_speed_mult",
+     "name": "Precursor Battlecruiser Build Speed",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -23924,6 +25418,18 @@
      "name": "Precursor Assault Carrier Build Speed +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_assault_carrier_hull_mult",
+     "name": "Precursor Assault Carrier Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_assault_carrier_build_speed_mult",
+     "name": "Precursor Assault Carrier Build Speed",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24011,6 +25517,18 @@
      "name": "Precursor Hyperion Build Speed +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_titan_hull_mult",
+     "name": "Precursor Hyperion Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_titan_build_speed_mult",
+     "name": "Precursor Hyperion Build Speed",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24091,6 +25609,18 @@
      "name": "Precursor Sentinel Build Speed +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_sentinel_hull_mult",
+     "name": "Precursor Sentinel Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_sentinel_build_speed_mult",
+     "name": "Precursor Sentinel Build Speed",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24159,6 +25689,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Herculean Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_colossus_hull_mult",
+     "name": "Precursor Herculean Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -24235,6 +25772,18 @@
     {
      "kind": "Effect",
      "name": "Precursor Guardian Build Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_guardian_hull_mult",
+     "name": "Precursor Guardian Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_guardian_build_speed_mult",
+     "name": "Precursor Guardian Build Speed",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -24317,6 +25866,13 @@
      "name": "Precursor Escort Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_escort_hull_mult",
+     "name": "Precursor Escort Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24397,6 +25953,13 @@
      "name": "Precursor Battlecruiser Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_battlecruiser_hull_mult",
+     "name": "Precursor Battlecruiser Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24467,6 +26030,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Sentinel Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_sentinel_hull_mult",
+     "name": "Precursor Sentinel Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -24547,6 +26117,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Hyperion Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_titan_hull_mult",
+     "name": "Precursor Hyperion Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -24646,6 +26223,13 @@
      "name": "Precursor Assault Carrier Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_assault_carrier_hull_mult",
+     "name": "Precursor Assault Carrier Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24718,6 +26302,13 @@
      "name": "Precursor Herculean Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_colossus_hull_mult",
+     "name": "Precursor Herculean Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24780,6 +26371,13 @@
     {
      "kind": "Effect",
      "name": "Precursor Emissary Hull Point +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_colonizer_hull_mult",
+     "name": "Precursor Emissary Hull Point",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -24870,6 +26468,23 @@
      "name": "Precursor Instant Pylon Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_constructor_hull_mult",
+     "name": "Precursor Initializer Hull Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_platform_m_hull_mult",
+     "name": "Precursor Instant Repeller Point",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_precursor_platform_l_hull_mult",
+     "name": "Precursor Instant Pylon Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24930,6 +26545,13 @@
      "name": "Precursor Oracle Hull Point +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_precursor_science_hull_mult",
+     "name": "Precursor Oracle Hull Point",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -24983,6 +26605,7 @@
      "name": "Unlocks Megastructure: Ancient Enigmalith"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25065,6 +26688,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25125,6 +26749,7 @@
      "name": "Unlocks Megastructure: Enigmalith Aetena Upgrade Megastructure: Ancient Enigmalith"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25185,6 +26810,7 @@
      "name": "Unlocks Megastructure: Enigmalith Shiva Upgrade Megastructure: Ancient Enigmalith Upgrade Megastructure: Enigmalith Aetena"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25249,6 +26875,7 @@
      "name": "Unlocks Megastructure: Enigmalith Osura"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25286,6 +26913,7 @@
      "name": "Precursor Star Relay"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25336,6 +26964,7 @@
      "name": "Precursor Master Studium"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25386,6 +27015,7 @@
      "name": "Precursor Master Observatory"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25436,6 +27066,7 @@
      "name": "Precursor Master Arsenal Beacon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25478,6 +27109,7 @@
      "name": "Precursor Enigmatic Sphere"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25520,6 +27152,7 @@
      "name": "Precursor Dimensional Starforge"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25568,6 +27201,7 @@
      "name": "A'merigo Aetena"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25612,6 +27246,7 @@
      "name": "A'merigo Shiva"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25660,6 +27295,7 @@
      "name": "A'merigo Osura"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25715,6 +27351,7 @@
      "name": "Herculean Idealized Super Driver"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25770,6 +27407,7 @@
      "name": "Herculean Stellar Super Driver"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25821,6 +27459,7 @@
      "name": "Herculean Escort Garrison"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25869,6 +27508,7 @@
      "name": "Runic Automated Escort"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25916,6 +27556,7 @@
      "name": "Sigma Automated Escort"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -25964,6 +27605,7 @@
      "name": "Mastercraft Automated Escort"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26019,6 +27661,7 @@
      "name": "Herculean Hyperion Garrison"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26067,6 +27710,7 @@
      "name": "Runic Automated Battlecruiser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26114,6 +27758,7 @@
      "name": "Sigma Automated Battlecruiser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26163,6 +27808,7 @@
      "name": "Mastercraft Automated Battlecruiser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26213,6 +27859,7 @@
      "name": "Herculean Tri-force Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26264,6 +27911,7 @@
      "name": "Herculean Stellar Tri-force Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26314,6 +27962,7 @@
      "name": "Herculean Tri-force Supercharged Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26366,6 +28015,7 @@
      "name": "Herculean Stellar Tri-force Supercharged Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26412,6 +28062,7 @@
      "name": "Herculean Unified Defense Matrix"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26459,6 +28110,7 @@
      "name": "Herculean Stellar Defense Matrix"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26505,6 +28157,7 @@
      "name": "Spectral Projection"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26552,6 +28205,7 @@
      "name": "Stellar Spectral Projection"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26602,6 +28256,7 @@
      "name": "Resonant Cascade"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26649,6 +28304,7 @@
      "name": "Supercharged Resonant Cascade"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26690,6 +28346,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26736,6 +28393,7 @@
      "name": "Herculean Auxiliary Fabricator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26783,6 +28441,7 @@
      "name": "Herculean Stellar Auxiliary Fabricator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26824,6 +28483,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26865,6 +28525,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26907,6 +28568,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26953,6 +28615,7 @@
      "name": "Rift Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -26999,6 +28662,7 @@
      "name": "Disruption Pulse Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_00_precursor_tech.txt"
   },
@@ -27120,6 +28784,13 @@
     {
      "kind": "Effect",
      "name": "Titan Hull Points +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_titan_hull_mult",
+     "name": "Titan Hull Points",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -27245,6 +28916,13 @@
      "name": "Titan Hull Points +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_titan_hull_mult",
+     "name": "Titan Hull Points",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_vanilla_starbase_tech.txt"
   },
@@ -27317,6 +28995,23 @@
     {
      "kind": "Effect",
      "name": "Fortress Hull Points +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_military_station_small_hull_mult",
+     "name": "Defense Platform Hull Points",
+     "amount": 0.25
+    },
+    {
+     "key": "shipsize_military_station_medium_hull_mult",
+     "name": "Defense Station Hull Points",
+     "amount": 0.25
+    },
+    {
+     "key": "shipsize_military_station_large_hull_mult",
+     "name": "Fortress Hull Points",
+     "amount": 0.25
     }
    ],
    "source": "1419304439",
@@ -27399,6 +29094,28 @@
      "name": "Ion Cannon Hull +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_military_station_small_hull_mult",
+     "name": "Defense Platform Hull Points",
+     "amount": 0.5
+    },
+    {
+     "key": "shipsize_military_station_medium_hull_mult",
+     "name": "Defense Station Hull Points",
+     "amount": 0.5
+    },
+    {
+     "key": "shipsize_military_station_large_hull_mult",
+     "name": "Fortress Hull Points",
+     "amount": 0.5
+    },
+    {
+     "key": "shipsize_ion_cannon_hull_mult",
+     "name": "Ion Cannon Hull",
+     "amount": 0.25
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_00_vanilla_starbase_tech.txt"
   },
@@ -27446,6 +29163,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27511,6 +29229,7 @@
      "name": "Dimensional Laser Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27569,6 +29288,7 @@
      "name": "Dimensional Titan Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27626,6 +29346,7 @@
      "name": "Medium Temporal Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27680,6 +29401,7 @@
      "name": "Temporal Mayhem"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27733,6 +29455,7 @@
      "name": "Horizon Defender"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27794,6 +29517,7 @@
      "name": "Large Perplex Armor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27847,6 +29571,7 @@
      "name": "Shadowdancer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27899,6 +29624,7 @@
      "name": "Temporal Booster"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_cosmocetana_components_tech.txt"
   },
@@ -27947,6 +29673,7 @@
      "name": "Dark Energy"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28004,6 +29731,7 @@
      "name": "Unlocks Component: Delta Reactor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28120,6 +29848,7 @@
      "name": "Energy Counter Distortion Manifold"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28236,6 +29965,7 @@
      "name": "Hard-light Kinetic Payload"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28352,6 +30082,7 @@
      "name": "High-Explosive Missile Payloads"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28468,6 +30199,7 @@
      "name": "High-Performance Hangar Support"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28546,6 +30278,7 @@
      "name": "Delta Laser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28624,6 +30357,7 @@
      "name": "Delta Scorcher Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28702,6 +30436,7 @@
      "name": "Delta Plasma Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28780,6 +30515,7 @@
      "name": "Delta Disruptor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28846,6 +30582,7 @@
      "name": "Delta Disruptor Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28912,6 +30649,7 @@
      "name": "Delta Energy Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -28978,6 +30716,7 @@
      "name": "Delta Energy Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29052,6 +30791,7 @@
      "name": "Focused Delta Point-Defense"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29102,6 +30842,7 @@
      "name": "Delta Energy Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29152,6 +30893,7 @@
      "name": "Delta Giga-Beam Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29202,6 +30944,7 @@
      "name": "Delta Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29252,6 +30995,7 @@
      "name": "Delta Titan Stabilized Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29330,6 +31074,7 @@
      "name": "Delta Kinetic Blaster"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29404,6 +31149,7 @@
      "name": "Large Delta Autocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29470,6 +31216,7 @@
      "name": "Delta Macrocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29536,6 +31283,7 @@
      "name": "Delta Kinetic Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29602,6 +31350,7 @@
      "name": "Delta KDS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29713,6 +31462,7 @@
      "name": "Delta Accelerator Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29824,6 +31574,7 @@
      "name": "Titan Delta Accelerator Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29890,6 +31641,7 @@
      "name": "Delta Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -29956,6 +31708,7 @@
      "name": "Delta Torpedoes"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30022,6 +31775,7 @@
      "name": "Delta Swarmer Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30088,6 +31842,7 @@
      "name": "Delta CMM"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30154,6 +31909,7 @@
      "name": "Delta MMLS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30204,6 +31960,7 @@
      "name": "Delta HSPM"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30254,6 +32011,7 @@
      "name": "Delta Giga-Warhead Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30320,6 +32078,7 @@
      "name": "Delta Interceptors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30386,6 +32145,7 @@
      "name": "Delta Fighters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30452,6 +32212,7 @@
      "name": "Delta Bombers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30518,6 +32279,7 @@
      "name": "Delta Gunships"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30576,6 +32338,7 @@
      "name": "Large Dark Energy Shields"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30638,6 +32401,7 @@
      "name": "Delta Kinetic Barriers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30700,6 +32464,7 @@
      "name": "Delta HLP Platings"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30754,6 +32519,7 @@
      "name": "Unlocks Component: Delta Sensors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30808,6 +32574,7 @@
      "name": "Unlocks Components: Delta Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -30903,6 +32670,7 @@
      "name": "Unlocks Component: Translocator Drive"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31022,6 +32790,7 @@
      "name": "Unlocks Component: Delphic Combat Computer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31141,6 +32910,18 @@
      "name": "Station Damage +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_starbase_hull_mult",
+     "name": "Station Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipclass_starbase_damage_mult",
+     "name": "Station Damage",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31195,6 +32976,7 @@
      "name": "Delta Subspace Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31248,6 +33030,7 @@
      "name": "Delta Supra Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31301,6 +33084,7 @@
      "name": "Delta Sentry Network"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31358,6 +33142,7 @@
      "name": "Unlocks Components: Delta Supercharged Shields"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31415,6 +33200,7 @@
      "name": "Unlocks Components: Delta Enhanced Kinetic Barriers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31472,6 +33258,7 @@
      "name": "Unlocks Components: Delta Reactive Countermeasure Drones"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31579,6 +33366,7 @@
      "name": "Delta Super Stealth Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -31975,6 +33763,63 @@
      "name": "Juggernaut Hull Points +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_corvette_hull_mult",
+     "name": "Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_corvette_hull_mult",
+     "name": "Offspring Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_frigate_hull_mult",
+     "name": "Frigate Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_destroyer_hull_mult",
+     "name": "Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_destroyer_hull_mult",
+     "name": "Offspring Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_cruiser_hull_mult",
+     "name": "Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_cruiser_hull_mult",
+     "name": "Offspring Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_battleship_hull_mult",
+     "name": "Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_battleship_hull_mult",
+     "name": "Offspring Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_titan_hull_mult",
+     "name": "Titan Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -32090,6 +33935,13 @@
      "name": "Juggernaut Hull Points +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -32178,6 +34030,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_01_delta_components_tech.txt"
   },
@@ -32265,6 +34118,7 @@
      "name": "Unlocks Component: Alpha Enigmatic Reactor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -32358,6 +34212,7 @@
      "name": "Hypermixed Weapon Calibrator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -32433,6 +34288,7 @@
      "name": "Energy Counter Distortion Manifold"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -32508,6 +34364,7 @@
      "name": "Hard-light Kinetic Payload"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -32583,6 +34440,7 @@
      "name": "High-Explosive Missile Payloads"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -32658,6 +34516,7 @@
      "name": "High-Performance Hangar Support"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -32764,6 +34623,7 @@
      "name": "Alpha Laser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -32870,6 +34730,7 @@
      "name": "Alpha Scorcher Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -32976,6 +34837,7 @@
      "name": "Alpha Plasma Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33082,6 +34944,7 @@
      "name": "Alpha Disruptor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33176,6 +35039,7 @@
      "name": "Alpha Disruptor Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33269,6 +35133,7 @@
      "name": "Alpha Energy Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33363,6 +35228,7 @@
      "name": "Alpha Energy Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33461,6 +35327,7 @@
      "name": "Medium Alpha Point-Defense"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33540,6 +35407,7 @@
      "name": "Alpha Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33620,6 +35488,7 @@
      "name": "Alpha Giga-Beam Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33699,6 +35568,7 @@
      "name": "Alpha Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33778,6 +35648,7 @@
      "name": "Alpha Titan Stabilized Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33884,6 +35755,7 @@
      "name": "Alpha Kinetic Blaster"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -33986,6 +35858,7 @@
      "name": "Large Alpha Autocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34080,6 +35953,7 @@
      "name": "Alpha Macrocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34174,6 +36048,7 @@
      "name": "Alpha Kinetic Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34272,6 +36147,7 @@
      "name": "Medium Alpha Defense Matrix"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34351,6 +36227,7 @@
      "name": "Alpha Mass Accelerator Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34430,6 +36307,7 @@
      "name": "Alpha Titan Accelerator Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34525,6 +36403,7 @@
      "name": "Alpha Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34618,6 +36497,7 @@
      "name": "Alpha Torpedoes"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34711,6 +36591,7 @@
      "name": "Alpha Swarmer Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34805,6 +36686,7 @@
      "name": "Alpha CMM"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34899,6 +36781,7 @@
      "name": "Alpha Missile Barrage System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -34978,6 +36861,7 @@
      "name": "Alpha SMBS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35057,6 +36941,7 @@
      "name": "Alpha Giga-Warhead Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35151,6 +37036,7 @@
      "name": "Alpha Interceptors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35245,6 +37131,7 @@
      "name": "Alpha Fighters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35339,6 +37226,7 @@
      "name": "Alpha Bombers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35433,6 +37321,7 @@
      "name": "Alpha Gunships"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35524,6 +37413,7 @@
      "name": "Alpha Energy Shields"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35615,6 +37505,7 @@
      "name": "Alpha Kinetic Barriers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35706,6 +37597,7 @@
      "name": "Alpha HLP Platings"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35789,6 +37681,7 @@
      "name": "Unlocks Component: Alpha Translocator Drive"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35876,6 +37769,7 @@
      "name": "Unlocks Component: Bionic Sensors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -35959,6 +37853,7 @@
      "name": "Unlocks Components: Alpha Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36042,6 +37937,7 @@
      "name": "Alpha Subspace Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36125,6 +38021,7 @@
      "name": "Alpha Sentry Network"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36212,6 +38109,7 @@
      "name": "Unlocks Components: Alpha Supercharged Barriers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36299,6 +38197,7 @@
      "name": "Unlocks Components: Alpha Enhanced Kinetic Barriers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36382,6 +38281,7 @@
      "name": "Alpha Supra Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36448,6 +38348,7 @@
      "name": "Unlocks Components: Alpha Reactive Countermeasure Drones"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36530,6 +38431,7 @@
      "name": "Jump Stabilizer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36653,6 +38555,7 @@
      "name": "Unlocks Component: Enigmatic Network Inhibitor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36758,6 +38661,7 @@
      "name": "Unlocks Component: Bionic Interface Combat Computer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -36882,6 +38786,7 @@
      "name": "Unlocks Component: Mentat Coordinator Chamber"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37006,6 +38911,7 @@
      "name": "Unlocks Component: Overlord Strategizer Den"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37093,6 +38999,7 @@
      "name": "Alpha Super Stealth Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37217,6 +39124,7 @@
      "name": "Dimensional Phase Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37287,6 +39195,18 @@
      "name": "Station Damage +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_starbase_hull_mult",
+     "name": "Station Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipclass_starbase_damage_mult",
+     "name": "Station Damage",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37344,6 +39264,7 @@
      "name": "Alpha World Cracker"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37397,6 +39318,7 @@
      "name": "Alpha Global Pacifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37458,6 +39380,7 @@
      "name": "Alpha Neutron Sweep"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37551,6 +39474,7 @@
      "name": "Alpha Divine Enforcer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37608,6 +39532,7 @@
      "name": "Alpha Nanobot Diffuser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37660,6 +39585,7 @@
      "name": "Herculean Deluge Machine"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37785,6 +39711,7 @@
      "name": "Herculean Devolutioner"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37879,6 +39806,63 @@
      "name": "Juggernaut Hull Points +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_corvette_hull_mult",
+     "name": "Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_corvette_hull_mult",
+     "name": "Offspring Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_frigate_hull_mult",
+     "name": "Frigate Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_destroyer_hull_mult",
+     "name": "Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_destroyer_hull_mult",
+     "name": "Offspring Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_cruiser_hull_mult",
+     "name": "Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_cruiser_hull_mult",
+     "name": "Offspring Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_battleship_hull_mult",
+     "name": "Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_battleship_hull_mult",
+     "name": "Offspring Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_titan_hull_mult",
+     "name": "Titan Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -37949,6 +39933,38 @@
      "name": "Juggernaut Hull Points +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_acot_mauler_stage_4_hull_mult",
+     "name": "Primal Mauler Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_acot_weaver_stage_4_hull_mult",
+     "name": "Primal Weaver Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_acot_harbinger_stage_4_hull_mult",
+     "name": "Primal Harbinger Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_acot_stinger_stage_4_hull_mult",
+     "name": "Primal Stinger Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_acot_bio_titan_stage_4_hull_mult",
+     "name": "Primal Conqueror Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -38009,6 +40025,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -38087,6 +40104,7 @@
      "name": "Declare Exterminatus"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_02_alpha_components_tech.txt"
   },
@@ -38147,6 +40165,18 @@
      "name": "Damage against Phanon Corps Retaliation Fleet +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_acot_phanon_base_mult",
+     "name": "Damage against Phanon Corps",
+     "amount": 0.2
+    },
+    {
+     "key": "damage_vs_country_type_acot_phanon_retaliator_mult",
+     "name": "Damage against Phanon Corps Retaliation Fleet",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -38198,6 +40228,18 @@
      "name": "Damage against Phanon Corps Retaliation Fleet +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_acot_phanon_base_mult",
+     "name": "Damage against Phanon Corps",
+     "amount": 0.3
+    },
+    {
+     "key": "damage_vs_country_type_acot_phanon_retaliator_mult",
+     "name": "Damage against Phanon Corps Retaliation Fleet",
+     "amount": 0.3
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -38247,6 +40289,18 @@
     {
      "kind": "Effect",
      "name": "Damage against Phanon Corps Retaliation Fleet +50%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_acot_phanon_base_mult",
+     "name": "Damage against Phanon Corps",
+     "amount": 0.5
+    },
+    {
+     "key": "damage_vs_country_type_acot_phanon_retaliator_mult",
+     "name": "Damage against Phanon Corps Retaliation Fleet",
+     "amount": 0.5
     }
    ],
    "source": "1419304439",
@@ -38369,6 +40423,7 @@
      "name": "Unlocks Phi-Tier Technologies."
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -38429,6 +40484,7 @@
      "name": "Unlocks Phanon Runic Technologies."
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -38550,6 +40606,7 @@
      "name": "Large Phi Laser Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -38666,6 +40723,7 @@
      "name": "Large Runic Laser Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -38787,6 +40845,7 @@
      "name": "Large Phi Scorcher Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -38903,6 +40962,7 @@
      "name": "Large Runic Scorcher Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39016,6 +41076,7 @@
      "name": "Phi Plasma Torpedo Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39124,6 +41185,7 @@
      "name": "Runic Energy Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39237,6 +41299,7 @@
      "name": "Phi Energy Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39345,6 +41408,7 @@
      "name": "Runic Energy Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39466,6 +41530,7 @@
      "name": "Large Phi Disruptor Ray"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39579,6 +41644,7 @@
      "name": "Phi Disruptor Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39695,6 +41761,7 @@
      "name": "Large Runic Desolator Ray"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39803,6 +41870,7 @@
      "name": "Runic Disruptor Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -39924,6 +41992,7 @@
      "name": "Large Phi Plasma Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40040,6 +42109,7 @@
      "name": "Large Runic Plasma Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40153,6 +42223,7 @@
      "name": "Phi PDS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40261,6 +42332,7 @@
      "name": "Runic PDS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40374,6 +42446,7 @@
      "name": "Phi Shock Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40482,6 +42555,7 @@
      "name": "Runic Shock Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40603,6 +42677,7 @@
      "name": "Large Phi Autocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40719,6 +42794,7 @@
      "name": "Large Runic Autocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40833,6 +42909,7 @@
      "name": "Phi Kinetic Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -40942,6 +43019,7 @@
      "name": "Runic Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41056,6 +43134,7 @@
      "name": "Phi Macrocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41165,6 +43244,7 @@
      "name": "Runic Macrocannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41282,6 +43362,7 @@
      "name": "Medium Phi KDS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41394,6 +43475,7 @@
      "name": "Medium Runic KDS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41509,6 +43591,7 @@
      "name": "Phi Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41619,6 +43702,7 @@
      "name": "Runic Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41734,6 +43818,7 @@
      "name": "Phi Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41844,6 +43929,7 @@
      "name": "Runic Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -41955,6 +44041,7 @@
      "name": "Phi Swarmer Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42062,6 +44149,7 @@
      "name": "Runic Swarmer Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42173,6 +44261,7 @@
      "name": "Phi CMM"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42280,6 +44369,7 @@
      "name": "Runic CMM"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42394,6 +44484,7 @@
      "name": "Phi Barrage System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42503,6 +44594,7 @@
      "name": "Runic Barrage System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42617,6 +44709,7 @@
      "name": "Phi Missile Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42726,6 +44819,7 @@
      "name": "Runic Missile Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42840,6 +44934,7 @@
      "name": "Phi Giga-Warhead Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -42949,6 +45044,7 @@
      "name": "Runic Giga-Warhead Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43062,6 +45158,7 @@
      "name": "Phi Interceptors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43170,6 +45267,7 @@
      "name": "Runic Interceptors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43283,6 +45381,7 @@
      "name": "Phi Fighters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43391,6 +45490,7 @@
      "name": "Runic Fighters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43504,6 +45604,7 @@
      "name": "Phi Bombers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43612,6 +45713,7 @@
      "name": "Runic Bombers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43725,6 +45827,7 @@
      "name": "Phi Gunships"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43833,6 +45936,7 @@
      "name": "Runic Gunships"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -43946,6 +46050,7 @@
      "name": "Phi Energy Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44054,6 +46159,7 @@
      "name": "Runic Energy Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44167,6 +46273,7 @@
      "name": "Phi Shock Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44275,6 +46382,7 @@
      "name": "Runic Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44388,6 +46496,7 @@
      "name": "Phi Mass Accelerator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44496,6 +46605,7 @@
      "name": "Runic Mass Accelerator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44610,6 +46720,7 @@
      "name": "Phi Perdition Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44719,6 +46830,7 @@
      "name": "Runic Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44833,6 +46945,7 @@
      "name": "Phi Titan Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -44942,6 +47055,7 @@
      "name": "Runic Titan Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45056,6 +47170,7 @@
      "name": "Titan Phi Accelerator Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45165,6 +47280,7 @@
      "name": "Titan Runic Accelerator Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45277,6 +47393,7 @@
      "name": "Phi Hypermixed Weapon Calibrator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45385,6 +47502,7 @@
      "name": "Runic Hypermixed Weapon Calibrator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45498,6 +47616,7 @@
      "name": "Phi Pepsis Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45606,6 +47725,7 @@
      "name": "Runic Pepsis Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45719,6 +47839,7 @@
      "name": "Phi Kinetic Enhancer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45827,6 +47948,7 @@
      "name": "Runic Kinetic Enhancer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -45940,6 +48062,7 @@
      "name": "Phi Explosive Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46048,6 +48171,7 @@
      "name": "Runic Explosive Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46161,6 +48285,7 @@
      "name": "Phi Enhanced Hangar Computer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46269,6 +48394,7 @@
      "name": "Runic Enhanced Hangar Computer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46373,6 +48499,7 @@
      "name": "Unlocks Component: Phi Translocator Drive"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46472,6 +48599,7 @@
      "name": "Unlocks Component: Runic Translocator Drive"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46576,6 +48704,7 @@
      "name": "Unlocks Component: Phi Bionic Sensors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46675,6 +48804,7 @@
      "name": "Unlocks Component: Runic Bionic Sensors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46779,6 +48909,7 @@
      "name": "Phi Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46878,6 +49009,7 @@
      "name": "Runic Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -46995,6 +49127,7 @@
      "name": "Large Phi Shields"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -47107,6 +49240,7 @@
      "name": "Large Runic Shields"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -47224,6 +49358,7 @@
      "name": "Large Phi Kinetic Barriers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -47336,6 +49471,7 @@
      "name": "Large Runic Kinetic Barriers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -47453,6 +49589,7 @@
      "name": "Large Phi HLP Platings"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -47565,6 +49702,7 @@
      "name": "Large Runic HLP Platings"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -47704,6 +49842,7 @@
      "name": "Large Cyrbros Hull"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -47821,6 +49960,7 @@
      "name": "Phi Subspace Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -47933,6 +50073,7 @@
      "name": "Runic Subspace Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48050,6 +50191,7 @@
      "name": "Phi Sentry Network"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48162,6 +50304,7 @@
      "name": "Runic Sentry Network"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48283,6 +50426,7 @@
      "name": "Unlocks Components: Phi Shield Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48399,6 +50543,7 @@
      "name": "Unlocks Components: Runic Shield Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48520,6 +50665,7 @@
      "name": "Unlocks Components: Phi Supercharged Armors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48636,6 +50782,7 @@
      "name": "Unlocks Components: Runic Supercharged Armors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48748,6 +50895,7 @@
      "name": "Phi Supra Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48855,6 +51003,7 @@
      "name": "Runic Supra Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -48976,6 +51125,7 @@
      "name": "Unlocks Components: Phi Reactive Countermeasures"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49092,6 +51242,7 @@
      "name": "Unlocks Components: Runic Reactive Countermeasures"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49180,6 +51331,7 @@
      "name": "Jump Stabilizer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49287,6 +51439,7 @@
      "name": "Jump Stabilizer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49375,6 +51528,7 @@
      "name": "Unlocks Component: Phi Network Inhibitor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49482,6 +51636,7 @@
      "name": "Unlocks Component: Runic Network Inhibitor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49598,6 +51753,7 @@
      "name": "Unlocks Component: Phi Combat Analysis Computer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49709,6 +51865,7 @@
      "name": "Unlocks Component: Runic Combat Analysis Computer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49849,6 +52006,7 @@
      "name": "Runic Super Stealth Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -49973,6 +52131,7 @@
      "name": "Ignem Aeternum"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -50097,6 +52256,7 @@
      "name": "Yamato Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -50462,6 +52622,63 @@
      "name": "Juggernaut Hull Points +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_corvette_hull_mult",
+     "name": "Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_corvette_hull_mult",
+     "name": "Offspring Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_frigate_hull_mult",
+     "name": "Frigate Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_destroyer_hull_mult",
+     "name": "Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_destroyer_hull_mult",
+     "name": "Offspring Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_cruiser_hull_mult",
+     "name": "Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_cruiser_hull_mult",
+     "name": "Offspring Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_battleship_hull_mult",
+     "name": "Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_battleship_hull_mult",
+     "name": "Offspring Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_titan_hull_mult",
+     "name": "Titan Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -50561,6 +52778,13 @@
     {
      "kind": "Effect",
      "name": "Juggernaut Hull Points +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.1
     }
    ],
    "source": "1419304439",
@@ -50694,6 +52918,63 @@
      "name": "Juggernaut Hull Points +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_corvette_hull_mult",
+     "name": "Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_corvette_hull_mult",
+     "name": "Offspring Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_frigate_hull_mult",
+     "name": "Frigate Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_destroyer_hull_mult",
+     "name": "Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_destroyer_hull_mult",
+     "name": "Offspring Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_cruiser_hull_mult",
+     "name": "Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_cruiser_hull_mult",
+     "name": "Offspring Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_battleship_hull_mult",
+     "name": "Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_battleship_hull_mult",
+     "name": "Offspring Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_titan_hull_mult",
+     "name": "Titan Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -50805,6 +53086,38 @@
     {
      "kind": "Effect",
      "name": "Juggernaut Hull Points +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_acot_mauler_stage_5_hull_mult",
+     "name": "Ascendant Mauler Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_acot_weaver_stage_5_hull_mult",
+     "name": "Ascendant Weaver Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_acot_harbinger_stage_5_hull_mult",
+     "name": "Ascendant Harbinger Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_acot_stinger_stage_5_hull_mult",
+     "name": "Ascendant Stinger Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_acot_bio_titan_stage_5_hull_mult",
+     "name": "Ascendant Conqueror Hull Points",
+     "amount": 0.2
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.2
     }
    ],
    "source": "1419304439",
@@ -50964,6 +53277,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -51116,6 +53430,7 @@
      "name": "Runic Precursor Adaptation"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -51244,6 +53559,7 @@
      "name": "Phanon Dutyman Sniper"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -51356,6 +53672,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -51485,6 +53802,7 @@
      "name": "Phanon Patriot Tank"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -51613,6 +53931,7 @@
      "name": "Phanon Terror Tusk"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -51725,6 +54044,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -51853,6 +54173,7 @@
      "name": "Phanon Field Operative Type B"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -51966,6 +54287,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -52086,6 +54408,7 @@
      "name": "Star Chaser Squadron"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -52206,6 +54529,7 @@
      "name": "Star Destroyer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -52327,6 +54651,7 @@
      "name": "Star Devastator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -52452,6 +54777,7 @@
      "name": "Star Dominator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -52573,6 +54899,7 @@
      "name": "Star Dominator II"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -52693,6 +55020,7 @@
      "name": "Star Overseer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -52814,6 +55142,7 @@
      "name": "Star Overwatch"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_phanon_components_tech.txt"
   },
@@ -52894,6 +55223,7 @@
      "name": "Shroud Swarm"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_psionic_tech.txt"
   },
@@ -52978,6 +55308,7 @@
      "name": "Psionic Thrall"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_psionic_tech.txt"
   },
@@ -53054,6 +55385,7 @@
      "name": "Shroud Storm"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_psionic_tech.txt"
   },
@@ -53141,6 +55473,13 @@
     {
      "kind": "Effect",
      "name": "Landing Time -100%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_landing_time_mult",
+     "name": "Landing Time",
+     "amount": -1
     }
    ],
    "source": "1419304439",
@@ -53245,6 +55584,7 @@
      "name": "Acot forced shroud barrier activation"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_psionic_tech.txt"
   },
@@ -53306,6 +55646,7 @@
      "name": "Large Sigma Laser Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53367,6 +55708,7 @@
      "name": "Large Sigma Scorcher Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53428,6 +55770,7 @@
      "name": "Large Sigma Disruptor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53482,6 +55825,7 @@
      "name": "Sigma Disruptor Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53543,6 +55887,7 @@
      "name": "Large Sigma Plasma Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53597,6 +55942,7 @@
      "name": "Sigma Energy Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53651,6 +55997,7 @@
      "name": "Sigma Energy Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53705,6 +56052,7 @@
      "name": "Sigma Point Defense System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53759,6 +56107,7 @@
      "name": "Sigma Prismatic Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53814,6 +56163,7 @@
      "name": "Sigma Energy Discharger"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53869,6 +56219,7 @@
      "name": "Sigma Titan Stabilized Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53923,6 +56274,7 @@
      "name": "Sigma Giga-Beam Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -53984,6 +56336,7 @@
      "name": "Large Sigma Kinetic Blaster"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54037,6 +56390,7 @@
      "name": "Sigma Pulse-Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54091,6 +56445,7 @@
      "name": "The absurdly high rate of fire of this weapon is matched only by its raw destructive power."
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54146,6 +56501,7 @@
      "name": "Sigma Hypervelocity Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54204,6 +56560,7 @@
      "name": "Medium Sigma Kinetic Defense System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54258,6 +56615,7 @@
      "name": "Sigma Warp Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54312,6 +56670,7 @@
      "name": "Titan Warp Stellarcannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54365,6 +56724,7 @@
      "name": "Sigma Missile"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54418,6 +56778,7 @@
      "name": "Sigma Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54471,6 +56832,7 @@
      "name": "Sigma Swarmer Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54524,6 +56886,7 @@
      "name": "Sigma CMM"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54578,6 +56941,7 @@
      "name": "Sigma Rocket Barrage System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54632,6 +56996,7 @@
      "name": "Sigma SMBS"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54686,6 +57051,7 @@
      "name": "Sigma Giga-Warhead Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54740,6 +57106,7 @@
      "name": "Sigma Interceptors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54794,6 +57161,7 @@
      "name": "Sigma Fighters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54848,6 +57216,7 @@
      "name": "Sigma Bombers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54902,6 +57271,7 @@
      "name": "Sigma Gunship"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -54967,6 +57337,7 @@
      "name": "Unlocks Component: Sigma Kinetic Barriers"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55032,6 +57403,7 @@
      "name": "Unlocks Component: Sigma HLP Platings"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55097,6 +57469,7 @@
      "name": "Unlocks Component: Stellarite Shield"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55154,6 +57527,7 @@
      "name": "Unlocks Component: Sigma Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55273,6 +57647,7 @@
      "name": "Unlocks Component: Stellarite Reactor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55331,6 +57706,7 @@
      "name": "Unlocks Component: Stellar Arrays"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55412,6 +57788,7 @@
      "name": "Unlocks Component: Stellar-Class Combat Analyzer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55466,6 +57843,7 @@
      "name": "Sigma Warp Drive"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55523,6 +57901,7 @@
      "name": "Sigma Supra Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55581,6 +57960,7 @@
      "name": "Sigma Subspace Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55639,6 +58019,7 @@
      "name": "Sigma Jump Stabilizer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55701,6 +58082,7 @@
      "name": "Unlocks Components: Sigma Reactive Countermeasure Drones"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55759,6 +58141,7 @@
      "name": "Unlocks Component: Dawnbringer Network Inhibitor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55821,6 +58204,7 @@
      "name": "Unlocks Components: Sigma Supercharged Barrier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55883,6 +58267,7 @@
      "name": "Unlocks Components: Sigma Supercharged Armor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -55942,6 +58327,7 @@
      "name": "Unlocks Component: Stellarite Forge Network"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56000,6 +58386,7 @@
      "name": "Super-focused Stellarite Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56058,6 +58445,7 @@
      "name": "Sigma Energy Counter Distortion Manifold"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56116,6 +58504,7 @@
      "name": "Sigma Hard-light Kinetic Payload"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56174,6 +58563,7 @@
      "name": "Sigma High-Explosive Missile Payloads"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56232,6 +58622,7 @@
      "name": "Sigma High-Performance Hangar Support"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56290,6 +58681,7 @@
      "name": "Sigma Sentry Network"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56414,6 +58806,7 @@
      "name": "Sigma Super Stealth Generator"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56465,6 +58858,7 @@
      "name": "Sigma World Cracker"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56528,6 +58922,7 @@
      "name": "Sigma Global Pacifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56599,6 +58994,7 @@
      "name": "Sigma Neutron Sweep"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56686,6 +59082,7 @@
      "name": "Sigma Divine Enforcer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56762,6 +59159,7 @@
      "name": "Sigma Nanobot Diffuser"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56813,6 +59211,7 @@
      "name": "Sigma Deluge Machine"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -56960,6 +59359,7 @@
      "name": "Sigma Devolutioner"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -57046,6 +59446,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -57093,6 +59494,18 @@
     {
      "kind": "Effect",
      "name": "Station Damage +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipclass_starbase_hull_mult",
+     "name": "Station Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipclass_starbase_damage_mult",
+     "name": "Station Damage",
+     "amount": 0.2
     }
    ],
    "source": "1419304439",
@@ -57229,6 +59642,63 @@
      "name": "Juggernaut Hull Points +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_corvette_hull_mult",
+     "name": "Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_corvette_hull_mult",
+     "name": "Offspring Corvette Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_frigate_hull_mult",
+     "name": "Frigate Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_destroyer_hull_mult",
+     "name": "Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_destroyer_hull_mult",
+     "name": "Offspring Destroyer Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_cruiser_hull_mult",
+     "name": "Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_cruiser_hull_mult",
+     "name": "Offspring Cruiser Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_battleship_hull_mult",
+     "name": "Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_offspring_battleship_hull_mult",
+     "name": "Offspring Battleship Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_titan_hull_mult",
+     "name": "Titan Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -57360,6 +59830,63 @@
      "name": "Juggernaut Hull Points +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_acot_mauler_stage_4_hull_mult",
+     "name": "Primal Mauler Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_mauler_stage_5_hull_mult",
+     "name": "Ascendant Mauler Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_weaver_stage_4_hull_mult",
+     "name": "Primal Weaver Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_weaver_stage_5_hull_mult",
+     "name": "Ascendant Weaver Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_harbinger_stage_4_hull_mult",
+     "name": "Primal Harbinger Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_harbinger_stage_5_hull_mult",
+     "name": "Ascendant Harbinger Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_stinger_stage_4_hull_mult",
+     "name": "Primal Stinger Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_stinger_stage_5_hull_mult",
+     "name": "Ascendant Stinger Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_bio_titan_stage_4_hull_mult",
+     "name": "Primal Conqueror Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_acot_bio_titan_stage_5_hull_mult",
+     "name": "Ascendant Conqueror Hull Points",
+     "amount": 0.1
+    },
+    {
+     "key": "shipsize_juggernaut_hull_mult",
+     "name": "Juggernaut Hull Points",
+     "amount": 0.1
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_03_stellarite_components_tech.txt"
   },
@@ -57414,6 +59941,7 @@
      "name": "Omega Laser Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57476,6 +60004,7 @@
      "name": "Large Omega Scorcher Beam"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57530,6 +60059,7 @@
      "name": "Light Energy Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57588,6 +60118,7 @@
      "name": "Stellarite Plasma Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57642,6 +60173,7 @@
      "name": "Supercharged Light Energy Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57696,6 +60228,7 @@
      "name": "Supercharged Light Energy Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57754,6 +60287,7 @@
      "name": "Omega Point Defense System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57808,6 +60342,7 @@
      "name": "Starbreaker Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57862,6 +60397,7 @@
      "name": "Omega Light Pulse-Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57915,6 +60451,7 @@
      "name": "Omega Sun Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -57969,6 +60506,7 @@
      "name": "Lightbound Hypervelocity Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58027,6 +60565,7 @@
      "name": "Medium Omega Kinetic Defense System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58081,6 +60620,7 @@
      "name": "Dual Lightbringer Blasters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58135,6 +60675,7 @@
      "name": "Omega Torpedo"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58189,6 +60730,7 @@
      "name": "Omega Swarmer Missiles"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58238,6 +60780,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58354,6 +60897,7 @@
      "name": "Helios Rocket Barrage System"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58471,6 +61015,7 @@
      "name": "Speedwagon Missile Battery"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58587,6 +61132,7 @@
      "name": "Megumin Giga-Warhead Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58641,6 +61187,7 @@
      "name": "Searing Prismatic Lance"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58695,6 +61242,7 @@
      "name": "Divine Storm Discharger"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58749,6 +61297,7 @@
      "name": "Gatecrasher Warp Cannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58803,6 +61352,7 @@
      "name": "Light of Pacification"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58857,6 +61407,7 @@
      "name": "Focused Divine Storm Discharger"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58905,6 +61456,7 @@
      "name": "Tidebringer Warp Stellarcannon"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -58959,6 +61511,7 @@
      "name": "Paladin Interceptor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59013,6 +61566,7 @@
      "name": "Paladin Interceptor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59067,6 +61621,7 @@
      "name": "Crusader Bomber"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59121,6 +61676,7 @@
      "name": "Tempest Gunship"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59187,6 +61743,7 @@
      "name": "Unlocks Component: Celestial Armor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59249,6 +61806,7 @@
      "name": "Large Omega HLP Platings"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59315,6 +61873,7 @@
      "name": "Unlocks Component: Divine Shield"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59373,6 +61932,7 @@
      "name": "Unlocks Component: Omega Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59440,6 +62000,7 @@
      "name": "Unlocks Component: Static Light Receiver"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59494,6 +62055,7 @@
      "name": "Dimensional Light Sensors"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59576,6 +62138,7 @@
      "name": "Unlocks Component: Omega-Class Combat Analyzer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59634,6 +62197,7 @@
      "name": "Unlocks Component: Omega Tidal Driver"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59692,6 +62256,7 @@
      "name": "Omega Subspace Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59746,6 +62311,7 @@
      "name": "Omega Power Amplifier"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59804,6 +62370,7 @@
      "name": "Omega Jump Stabilizer"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59862,6 +62429,7 @@
      "name": "Omega Fleet RCD"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59920,6 +62488,7 @@
      "name": "Omega Shield Swarm"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -59978,6 +62547,7 @@
      "name": "Omega Kinetic Barrier Swarm"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60036,6 +62606,7 @@
      "name": "Omega Sentry Network"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60094,6 +62665,7 @@
      "name": "Unlocks Component: Seraphim Network Inhibitor"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60148,6 +62720,7 @@
      "name": "Omega Auxiliary Core"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60206,6 +62779,7 @@
      "name": "Unlocks Component: Omega Forge Network"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60260,6 +62834,7 @@
      "name": "Omega Archive Database"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60296,6 +62871,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60332,6 +62908,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60368,6 +62945,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_04_omega_components_tech.txt"
   },
@@ -60497,6 +63075,13 @@
      "name": "Monthly Energy Credits +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_energy_produces_mult",
+     "name": "Monthly Energy Credits",
+     "amount": 0.05
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_dark_matter_techs.txt"
   },
@@ -60624,6 +63209,18 @@
     {
      "kind": "Effect",
      "name": "Station Upkeep -5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_districts_upkeep_mult",
+     "name": "District Upkeep",
+     "amount": -0.05
+    },
+    {
+     "key": "starbases_upkeep_mult",
+     "name": "Station Upkeep",
+     "amount": -0.05
     }
    ],
    "source": "1419304439",
@@ -60763,6 +63360,13 @@
      "name": "Monthly Influence +0.5"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_base_influence_produces_add",
+     "name": "Monthly Influence",
+     "amount": 0.5
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_dark_matter_techs.txt"
   },
@@ -60811,6 +63415,13 @@
      "name": "Army Transport Hullpoints +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_transport_hull_mult",
+     "name": "Army Transport Hullpoints",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_transport_tech.txt"
   },
@@ -60849,6 +63460,13 @@
      "name": "Army Transport Hullpoints +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_transport_hull_mult",
+     "name": "Army Transport Hullpoints",
+     "amount": 0.2
+    }
+   ],
    "source": "1419304439",
    "file": "common/technology/acot_transport_tech.txt"
   },
@@ -60881,6 +63499,7 @@
      "name": "Unlocks Army Doctrine: Extra Invasion Deployments"
     }
    ],
+   "modifiers": [],
    "source": "1419304439",
    "file": "common/technology/acot_transport_tech.txt"
   },
@@ -60936,6 +63555,13 @@
     {
      "kind": "Effect",
      "name": "Army Transport Hullpoints +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipclass_transport_hull_mult",
+     "name": "Army Transport Hullpoints",
+     "amount": 0.2
     }
    ],
    "source": "1419304439",

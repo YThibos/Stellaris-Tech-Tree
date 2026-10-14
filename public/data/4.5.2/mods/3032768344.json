@@ -95,6 +95,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "3032768344",
    "file": "common/technology/realterraforming_tech.txt"
   },
@@ -192,6 +193,7 @@
      "name": "Climate Control Tower"
     }
    ],
+   "modifiers": [],
    "source": "3032768344",
    "file": "common/technology/realterraforming_tech.txt"
   },
@@ -252,6 +254,7 @@
      "name": "Drying Station"
     }
    ],
+   "modifiers": [],
    "source": "3032768344",
    "file": "common/technology/realterraforming_tech.txt"
   }

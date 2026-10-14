@@ -104,6 +104,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "3241119393",
    "file": "common/technology/pd_aw_technology.txt"
   },
@@ -209,6 +210,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "3241119393",
    "file": "common/technology/pd_aw_technology.txt"
   },
@@ -310,6 +312,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "3241119393",
    "file": "common/technology/pd_aw_technology.txt"
   }

@@ -41,6 +41,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2775968897",
    "file": "common/technology/planetarystations_tech.txt"
   },
@@ -68,6 +69,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2775968897",
    "file": "common/technology/planetarystations_tech.txt"
   },
@@ -95,6 +97,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2775968897",
    "file": "common/technology/planetarystations_tech.txt"
   },
@@ -122,6 +125,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2775968897",
    "file": "common/technology/planetarystations_tech.txt"
   },
@@ -150,6 +154,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2775968897",
    "file": "common/technology/planetarystations_tech.txt"
   },
@@ -186,6 +191,7 @@
      "name": "Prison System Capital"
     }
    ],
+   "modifiers": [],
    "source": "2775968897",
    "file": "common/technology/planetarystations_tech.txt"
   },
@@ -277,6 +283,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "2775968897",
    "file": "common/technology/planetarystations_tech.txt"
   }

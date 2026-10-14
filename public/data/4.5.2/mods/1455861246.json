@@ -55,6 +55,18 @@
      "name": "Armor Hardening +0.3"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_engineering_research_produces_add",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "ship_armor_hardening_add",
+     "name": "Armor Hardening",
+     "amount": 0.3
+    }
+   ],
    "source": "1455861246",
    "file": "common/technology/TechAscendant_tech.txt"
   },
@@ -105,6 +117,18 @@
     {
      "kind": "Effect",
      "name": "Pop Amenities Usage -30%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_engineering_research_produces_add",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "pop_amenities_usage_mult",
+     "name": "Pop Amenities Usage",
+     "amount": -0.3
     }
    ],
    "source": "1455861246",
@@ -163,6 +187,23 @@
      "name": "Evasion Chance +10"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_engineering_research_produces_add",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "ship_speed_mult",
+     "name": "Sublight Speed",
+     "amount": 0.25
+    },
+    {
+     "key": "ship_evasion_add",
+     "name": "Evasion Chance",
+     "amount": 10
+    }
+   ],
    "source": "1455861246",
    "file": "common/technology/TechAscendant_tech.txt"
   },
@@ -215,6 +256,23 @@
      "name": "Physics Research from Technician Jobs +0.25"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_physicists_physics_research_produces_add",
+     "name": "Produced per 100 [GetPhysicistSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "planet_technician_physics_research_produces_add",
+     "name": "Physics Research from Technician Jobs",
+     "amount": 0.25
+    },
+    {
+     "key": "planet_physicists_energy_produces_add",
+     "name": "Produced per 100 [GetPhysicistSwapPluralWithIcon]",
+     "amount": 1
+    }
+   ],
    "source": "1455861246",
    "file": "common/technology/TechAscendant_tech.txt"
   },
@@ -265,6 +323,18 @@
     {
      "kind": "Effect",
      "name": "Daily Hull Regen +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_engineering_research_produces_add",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "ship_hull_regen_add_static",
+     "name": "Daily Hull Regen",
+     "amount": 1
     }
    ],
    "source": "1455861246",
@@ -323,6 +393,23 @@
      "name": "Daily Shield Regen +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_physicists_physics_research_produces_add",
+     "name": "Produced per 100 [GetPhysicistSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "ship_shield_hardening_add",
+     "name": "Shield Hardening",
+     "amount": 0.3
+    },
+    {
+     "key": "ship_shield_regen_add_perc",
+     "name": "Daily Shield Regen",
+     "amount": 0.05
+    }
+   ],
    "source": "1455861246",
    "file": "common/technology/TechAscendant_tech.txt"
   },
@@ -379,6 +466,23 @@
      "name": "Empire Size from Pops -20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "country_edict_fund_add",
+     "name": "Edict Fund",
+     "amount": 50
+    },
+    {
+     "key": "empire_size_pops_mult",
+     "name": "Empire Size from Pops",
+     "amount": -0.2
+    }
+   ],
    "source": "1455861246",
    "file": "common/technology/TechAscendant_tech.txt"
   },
@@ -433,6 +537,23 @@
     {
      "kind": "Effect",
      "name": "Leader Lifespan +20"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "BIOLOGICAL_species_trait_points_add",
+     "name": "Organic Species Modification Points",
+     "amount": 2
+    },
+    {
+     "key": "leader_lifespan_add",
+     "name": "Leader Lifespan",
+     "amount": 20
     }
    ],
    "source": "1455861246",
@@ -493,6 +614,23 @@
     {
      "kind": "Effect",
      "name": "Trust Cap +40"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "diplo_weight_mult",
+     "name": "Diplomatic Weight",
+     "amount": 0.4
+    },
+    {
+     "key": "country_trust_cap_add",
+     "name": "Trust Cap",
+     "amount": 40
     }
    ],
    "source": "1455861246",
@@ -559,6 +697,18 @@
      "name": "Fleet Command Limit +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "command_limit_mult",
+     "name": "Fleet Command Limit",
+     "amount": 0.2
+    }
+   ],
    "source": "1455861246",
    "file": "common/technology/TechAscendant_tech.txt"
   },
@@ -613,6 +763,18 @@
     {
      "kind": "Effect",
      "name": "Unity per 100 [biologist.GetIcon] [biologist.GetNamePlural] +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "planet_biologists_unity_produces_add",
+     "name": "Unity per 100 [biologist.GetIcon] [biologist.GetNamePlural]",
+     "amount": 1
     }
    ],
    "source": "1455861246",
@@ -671,6 +833,18 @@
      "name": "Official Capacity +2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "country_official_cap_add",
+     "name": "Official Capacity",
+     "amount": 2
+    }
+   ],
    "source": "1455861246",
    "file": "common/technology/TechAscendant_tech.txt"
   },
@@ -725,6 +899,18 @@
     {
      "kind": "Effect",
      "name": "Produced per 100 [GetEngineerSwapPluralWithIcon] +0.5"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.5
+    },
+    {
+     "key": "planet_engineers_engineering_research_produces_add",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.5
     }
    ],
    "source": "1455861246",

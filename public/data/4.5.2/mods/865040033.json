@@ -37,6 +37,18 @@
      "name": "Anomaly Fail Risk -0.1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_anomaly_research_speed_mult",
+     "name": "Ship anomaly research speed mult",
+     "amount": 0.6
+    },
+    {
+     "key": "ship_anomaly_fail_risk",
+     "name": "Anomaly Fail Risk",
+     "amount": -0.1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -69,6 +81,18 @@
     {
      "kind": "Effect",
      "name": "Anomaly Discovery Chance +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "science_ship_survey_speed",
+     "name": "Science ship survey speed",
+     "amount": 0.4
+    },
+    {
+     "key": "ship_anomaly_generation_chance_mult",
+     "name": "Anomaly Discovery Chance",
+     "amount": 0.05
     }
    ],
    "source": "865040033",
@@ -105,6 +129,18 @@
      "name": "Small Defensive Platform Upkeep -20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "stations_upkeep_mult",
+     "name": "Station Upkeep",
+     "amount": -0.2
+    },
+    {
+     "key": "ship_military_station_small_upkeep_mult",
+     "name": "Small Defensive Platform Upkeep",
+     "amount": -0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -137,6 +173,18 @@
     {
      "kind": "Effect",
      "name": "Max Energy Capacity Add +50000"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "stations_energy_produces_mult",
+     "name": "from Orbital Stations",
+     "amount": 0.3
+    },
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Max Energy Capacity Add",
+     "amount": 50000
     }
    ],
    "source": "865040033",
@@ -173,6 +221,18 @@
      "name": "Observation Stations Produces +200%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "add_base_country_intel",
+     "name": "Base Intel Level",
+     "amount": 10
+    },
+    {
+     "key": "station_observers_produces_mult",
+     "name": "Observation Stations Produces",
+     "amount": 2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -205,6 +265,18 @@
     {
      "kind": "Effect",
      "name": "Time Spent Missing In Action -25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "starbase_outpost_influence_cost_add",
+     "name": "Starbase Outpost Influence Cost",
+     "amount": -5
+    },
+    {
+     "key": "fleet_mia_time_mult",
+     "name": "Time Spent Missing In Action",
+     "amount": -0.25
     }
    ],
    "source": "865040033",
@@ -241,6 +313,18 @@
      "name": "Amenities +1000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_buildings_cost_mult",
+     "name": "Building Cost",
+     "amount": -0.2
+    },
+    {
+     "key": "planet_amenities_add",
+     "name": "Amenities",
+     "amount": 1000
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -273,6 +357,18 @@
     {
      "kind": "Effect",
      "name": "Build Queue Capacity +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_building_build_speed_mult",
+     "name": "Infrastructure Build Speed",
+     "amount": 0.15
+    },
+    {
+     "key": "planet_building_capacity_add",
+     "name": "Build Queue Capacity",
+     "amount": 1
     }
    ],
    "source": "865040033",
@@ -309,6 +405,18 @@
      "name": "Ship Components Minor Artifacts Cost -20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_components_alloys_cost_mult",
+     "name": "Ship Components Alloy Cost",
+     "amount": -0.1
+    },
+    {
+     "key": "ship_components_minor_artifacts_cost_mult",
+     "name": "Ship Components Minor Artifacts Cost",
+     "amount": -0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -341,6 +449,18 @@
     {
      "kind": "Effect",
      "name": "Docked Ship Upkeep -20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_upgrades_cost_mult",
+     "name": "Ship Upgrade Cost",
+     "amount": -0.2
+    },
+    {
+     "key": "ship_orbit_upkeep_mult",
+     "name": "Docked Ship Upkeep",
+     "amount": -0.2
     }
    ],
    "source": "865040033",
@@ -377,6 +497,18 @@
      "name": "Ship Engagement Range +12%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_weapon_range_mult",
+     "name": "Ship Weapons Range",
+     "amount": 0.12
+    },
+    {
+     "key": "ship_engagement_range_mult",
+     "name": "Ship Engagement Range",
+     "amount": 0.12
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -405,6 +537,13 @@
     {
      "kind": "Effect",
      "name": "Ship Fire Rate +12%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_fire_rate_mult",
+     "name": "Ship Fire Rate",
+     "amount": 0.12
     }
    ],
    "source": "865040033",
@@ -441,6 +580,18 @@
      "name": "Army Health +0.2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_soldiers_unity_produces_add",
+     "name": "Produced per 100 [GetSoldierSwapPluralWithIcon]",
+     "amount": 1
+    },
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -475,6 +626,18 @@
      "name": "Defense Army Damage +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_disengage_chance_mult",
+     "name": "Army Disengagement Chance",
+     "amount": 0.1
+    },
+    {
+     "key": "army_defense_damage_mult",
+     "name": "Defense Army Damage",
+     "amount": 0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -505,6 +668,13 @@
      "name": "Produced per 100 [GetMinerSwapPluralWithIcon] +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_miners_minerals_produces_add",
+     "name": "Produced per 100 [GetMinerSwapPluralWithIcon]",
+     "amount": 1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -533,6 +703,13 @@
     {
      "kind": "Effect",
      "name": "Kinetic Weapon Fire Rate +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_kinetic_weapon_fire_rate_mult",
+     "name": "Kinetic Weapon Fire Rate",
+     "amount": 0.2
     }
    ],
    "source": "865040033",
@@ -569,6 +746,18 @@
      "name": "Shield Hardening +0.15"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_shield_mult",
+     "name": "Shield Hit Points",
+     "amount": 0.15
+    },
+    {
+     "key": "ship_shield_hardening_add",
+     "name": "Shield Hardening",
+     "amount": 0.15
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -597,6 +786,13 @@
     {
      "kind": "Effect",
      "name": "Daily Shield Regen +0.25"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_shield_regen_add_perc",
+     "name": "Daily Shield Regen",
+     "amount": 0.25
     }
    ],
    "source": "865040033",
@@ -629,6 +825,13 @@
      "name": "Max Districts (Non-artificial planets only) +2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_non_artificial_max_districts_add",
+     "name": "Max Districts (Non-artificial planets only)",
+     "amount": 2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -657,6 +860,13 @@
     {
      "kind": "Effect",
      "name": "Housing +12%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_housing_mult",
+     "name": "Housing",
+     "amount": 0.12
     }
    ],
    "source": "865040033",
@@ -689,6 +899,13 @@
      "name": "Decision Enactment Speed +100%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_decision_enact_speed_mult",
+     "name": "Decision Enactment Speed",
+     "amount": 1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -717,6 +934,13 @@
     {
      "kind": "Effect",
      "name": "Border Friction -15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_border_friction_mult",
+     "name": "Border Friction",
+     "amount": -0.15
     }
    ],
    "source": "865040033",
@@ -757,6 +981,23 @@
      "name": "Research Cost ( Engineering) -5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "physics_tech_cost_mult",
+     "name": "Research Cost ( Physics)",
+     "amount": -0.05
+    },
+    {
+     "key": "society_tech_cost_mult",
+     "name": "Research Cost ( Society)",
+     "amount": -0.05
+    },
+    {
+     "key": "engineering_tech_cost_mult",
+     "name": "Research Cost ( Engineering)",
+     "amount": -0.05
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -791,6 +1032,18 @@
      "name": "Time Spent Missing In Action -50%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_colony_development_speed_mult",
+     "name": "Colony Development Speed",
+     "amount": 1
+    },
+    {
+     "key": "fleet_mia_time_mult",
+     "name": "Time Spent Missing In Action",
+     "amount": -0.5
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -819,6 +1072,13 @@
     {
      "kind": "Effect",
      "name": "Civic Slots +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_government_civic_points_add",
+     "name": "Civic Slots",
+     "amount": 1
     }
    ],
    "source": "865040033",
@@ -855,6 +1115,18 @@
      "name": "Species leader exp gain +0.3"
     }
    ],
+   "modifiers": [
+    {
+     "key": "leaders_upkeep_mult",
+     "name": "Leader Upkeep",
+     "amount": -0.1
+    },
+    {
+     "key": "species_leader_exp_gain",
+     "name": "Species leader exp gain",
+     "amount": 0.3
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -883,6 +1155,13 @@
     {
      "kind": "Effect",
      "name": "Orbital Bombardment Damage -0.3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_orbital_bombardment_damage",
+     "name": "Orbital Bombardment Damage",
+     "amount": -0.3
     }
    ],
    "source": "865040033",
@@ -919,6 +1198,18 @@
      "name": "Defense Army Health +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_defense_damage_mult",
+     "name": "Defense Army Damage",
+     "amount": 0.3
+    },
+    {
+     "key": "army_defense_health_mult",
+     "name": "Defense Army Health",
+     "amount": 0.3
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -951,6 +1242,18 @@
     {
      "kind": "Effect",
      "name": "Stability +5"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_crime_mult",
+     "name": "[GetCrimeDeviancy]",
+     "amount": -0.2
+    },
+    {
+     "key": "planet_stability_add",
+     "name": "Stability",
+     "amount": 5
     }
    ],
    "source": "865040033",
@@ -991,6 +1294,13 @@
      "name": "Unity from Factions +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pop_factions_unity_produces_mult",
+     "name": "Unity from Factions",
+     "amount": 0.3
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1019,6 +1329,13 @@
     {
      "kind": "Effect",
      "name": "Produced from [GetMinerSwapPluralWithIcon] +30%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_miners_minerals_produces_mult",
+     "name": "Produced from [GetMinerSwapPluralWithIcon]",
+     "amount": 0.3
     }
    ],
    "source": "865040033",
@@ -1055,6 +1372,7 @@
      "name": "Mineral Nanite Nexus"
     }
    ],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1087,6 +1405,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep per 100 [GetFoundrySwapPluralWithIcon] +2"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_metallurgists_alloys_produces_add",
+     "name": "Alloys per 100 Metallurgists",
+     "amount": 1
+    },
+    {
+     "key": "planet_metallurgists_minerals_upkeep_add",
+     "name": "Upkeep per 100 [GetFoundrySwapPluralWithIcon]",
+     "amount": 2
     }
    ],
    "source": "865040033",
@@ -1123,6 +1453,18 @@
      "name": "Upkeep per 100 [GetFactorySwapPluralWithIcon] +2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_artisans_consumer_goods_produces_add",
+     "name": "Consumer Goods per 100 Artisans",
+     "amount": 1
+    },
+    {
+     "key": "planet_artisans_minerals_upkeep_add",
+     "name": "Upkeep per 100 [GetFactorySwapPluralWithIcon]",
+     "amount": 2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1155,6 +1497,18 @@
     {
      "kind": "Effect",
      "name": "Archaeotech Weapon Damage +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_base_minor_artifacts_produces_add",
+     "name": "Monthly Minor Artifacts",
+     "amount": 2
+    },
+    {
+     "key": "weapon_archaeotech_weapon_damage_mult",
+     "name": "Archaeotech Weapon Damage",
+     "amount": 0.2
     }
    ],
    "source": "865040033",
@@ -1195,6 +1549,23 @@
      "name": "Monthly Zro +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_base_sr_dark_matter_produces_add",
+     "name": "Monthly Dark Matter",
+     "amount": 1
+    },
+    {
+     "key": "country_base_sr_living_metal_produces_add",
+     "name": "Monthly Living Metal",
+     "amount": 1
+    },
+    {
+     "key": "country_base_sr_zro_produces_add",
+     "name": "Monthly Zro",
+     "amount": 1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1231,6 +1602,23 @@
     {
      "kind": "Effect",
      "name": "Defense Platform Build Cost -20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "starbase_modules_cost_mult",
+     "name": "Station Module Cost",
+     "amount": -0.2
+    },
+    {
+     "key": "starbase_buildings_cost_mult",
+     "name": "Station Building Cost",
+     "amount": -0.2
+    },
+    {
+     "key": "ship_military_station_small_cost_mult",
+     "name": "Defense Platform Build Cost",
+     "amount": -0.2
     }
    ],
    "source": "865040033",
@@ -1271,6 +1659,23 @@
      "name": "Minerals from Starbase Constructions +100%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "starbase_constructions_food_produces_mult",
+     "name": "Food from Starbase Constructions",
+     "amount": 1
+    },
+    {
+     "key": "starbase_constructions_energy_produces_mult",
+     "name": "Energy from Starbase Constructions",
+     "amount": 1
+    },
+    {
+     "key": "starbase_constructions_minerals_produces_mult",
+     "name": "Minerals from Starbase Constructions",
+     "amount": 1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1301,6 +1706,13 @@
      "name": "Army Damage +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.25
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1329,6 +1741,13 @@
     {
      "kind": "Effect",
      "name": "Army Morale Damage +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_morale_damage_mult",
+     "name": "Army Morale Damage",
+     "amount": 0.25
     }
    ],
    "source": "865040033",
@@ -1365,6 +1784,18 @@
      "name": "Detection Strength +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_hyperlane_range_add",
+     "name": "Ship Hyperlane Detection Range",
+     "amount": 3
+    },
+    {
+     "key": "ship_cloaking_detection_add",
+     "name": "Detection Strength",
+     "amount": 1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1393,6 +1824,13 @@
     {
      "kind": "Effect",
      "name": "Naval Capacity +50"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_naval_cap_add",
+     "name": "Naval Capacity",
+     "amount": 50
     }
    ],
    "source": "865040033",
@@ -1437,6 +1875,18 @@
      "name": "Continental Habitability +0.1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_ocean_habitability",
+     "name": "Ocean Habitability",
+     "amount": 0.1
+    },
+    {
+     "key": "pc_continental_habitability",
+     "name": "Continental Habitability",
+     "amount": 0.1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1465,6 +1915,13 @@
     {
      "kind": "Effect",
      "name": "Pop Amenities Usage -12%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pop_amenities_usage_mult",
+     "name": "Pop Amenities Usage",
+     "amount": -0.12
     }
    ],
    "source": "865040033",
@@ -1501,6 +1958,18 @@
      "name": "Archaeology Excavation Speed +33%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_archaeological_site_clues_add",
+     "name": "Archaeology Skill",
+     "amount": 2
+    },
+    {
+     "key": "ship_archaeological_site_excavation_speed_mult",
+     "name": "Archaeology Excavation Speed",
+     "amount": 0.33
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1529,6 +1998,13 @@
     {
      "kind": "Effect",
      "name": "Archaeology Excavation Speed +100%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_archaeological_site_excavation_speed_mult",
+     "name": "Archaeology Excavation Speed",
+     "amount": 1
     }
    ],
    "source": "865040033",
@@ -1565,6 +2041,18 @@
      "name": "Terraforming Cost -30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.5
+    },
+    {
+     "key": "terraforming_cost_mult",
+     "name": "Terraforming Cost",
+     "amount": -0.3
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1599,6 +2087,18 @@
      "name": "Additional Leader Trait Options +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_upkeep_mult",
+     "name": "Upkeep from Jobs",
+     "amount": -0.05
+    },
+    {
+     "key": "leader_trait_selection_options_add",
+     "name": "Additional Leader Trait Options",
+     "amount": 1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1627,6 +2127,13 @@
     {
      "kind": "Effect",
      "name": "Terraform speed mult +50%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.5
     }
    ],
    "source": "865040033",
@@ -1661,6 +2168,13 @@
      "name": "Terraforming Cost -20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "terraforming_cost_mult",
+     "name": "Terraforming Cost",
+     "amount": -0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1689,6 +2203,13 @@
     {
      "kind": "Effect",
      "name": "Habitability +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pop_environment_tolerance",
+     "name": "Habitability",
+     "amount": 0.05
     }
    ],
    "source": "865040033",
@@ -1731,6 +2252,13 @@
      "name": "Food from Jobs +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_food_produces_mult",
+     "name": "Food from Jobs",
+     "amount": 0.3
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1759,6 +2287,13 @@
     {
      "kind": "Effect",
      "name": "All technology research speed +0.07"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "all_technology_research_speed",
+     "name": "All technology research speed",
+     "amount": 0.07
     }
    ],
    "source": "865040033",
@@ -1791,6 +2326,13 @@
     {
      "kind": "Effect",
      "name": "Monthly Unity +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_unity_produces_mult",
+     "name": "Monthly Unity",
+     "amount": 0.15
     }
    ],
    "source": "865040033",
@@ -1827,6 +2369,18 @@
      "name": "Housing +1000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_non_artificial_max_districts_add",
+     "name": "Max Districts (Non-artificial planets only)",
+     "amount": 1
+    },
+    {
+     "key": "planet_housing_add",
+     "name": "Housing",
+     "amount": 1000
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1859,6 +2413,13 @@
      "name": "Kinetic Weapon Damage +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_kinetic_weapon_damage_mult",
+     "name": "Kinetic Weapon Damage",
+     "amount": 0.15
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1887,6 +2448,13 @@
     {
      "kind": "Effect",
      "name": "Army Morale +0.2"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.2
     }
    ],
    "source": "865040033",
@@ -1921,6 +2489,13 @@
      "name": "Army Morale Damage +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_morale_damage_mult",
+     "name": "Army Morale Damage",
+     "amount": 0.25
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -1949,6 +2524,13 @@
     {
      "kind": "Effect",
      "name": "Ship Section Alloy Cost -20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_sections_alloys_cost_mult",
+     "name": "Ship Section Alloy Cost",
+     "amount": -0.2
     }
    ],
    "source": "865040033",
@@ -1983,6 +2565,13 @@
      "name": "Ship Hull Points +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_hull_mult",
+     "name": "Ship Hull Points",
+     "amount": 0.3
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2011,6 +2600,13 @@
     {
      "kind": "Effect",
      "name": "Produced per 100 [GetEngineerSwapPluralWithIcon] +0.02"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_nanites_produces_add",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.02
     }
    ],
    "source": "865040033",
@@ -2043,6 +2639,13 @@
     {
      "kind": "Effect",
      "name": "Foundry jobs bonus workforce mult +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "foundry_jobs_bonus_workforce_mult",
+     "name": "Foundry jobs bonus workforce mult",
+     "amount": 0.1
     }
    ],
    "source": "865040033",
@@ -2083,6 +2686,13 @@
      "name": "$MOD_BIOLOGICAL_POP_HAPPINESS$ +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "biological_pop_happiness",
+     "name": "$MOD_BIOLOGICAL_POP_HAPPINESS$",
+     "amount": 0.05
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2115,6 +2725,13 @@
      "name": "Pop Amenities Usage -10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pop_amenities_usage_mult",
+     "name": "Pop Amenities Usage",
+     "amount": -0.1
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2143,6 +2760,13 @@
     {
      "kind": "Effect",
      "name": "Archaeology Excavation Speed +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_archaeological_site_excavation_speed_mult",
+     "name": "Archaeology Excavation Speed",
+     "amount": 0.2
     }
    ],
    "source": "865040033",
@@ -2177,6 +2801,13 @@
      "name": "Archaeology Skill +2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_archaeological_site_clues_add",
+     "name": "Archaeology Skill",
+     "amount": 2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2205,6 +2836,13 @@
     {
      "kind": "Effect",
      "name": "Produced per 100 [GetFoundrySwapPluralWithIcon] +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_metallurgists_rare_crystals_produces_add",
+     "name": "Produced per 100 [GetFoundrySwapPluralWithIcon]",
+     "amount": 0.05
     }
    ],
    "source": "865040033",
@@ -2239,6 +2877,13 @@
      "name": "Energy Weapon Damage +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_energy_weapon_damage_mult",
+     "name": "Energy Weapon Damage",
+     "amount": 0.15
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2267,6 +2912,13 @@
     {
      "kind": "Effect",
      "name": "Energy from Starbase Constructions +50%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "starbase_constructions_energy_produces_mult",
+     "name": "Energy from Starbase Constructions",
+     "amount": 0.5
     }
    ],
    "source": "865040033",
@@ -2301,6 +2953,13 @@
      "name": "Produced per 100 [GetFoundrySwapPluralWithIcon] +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_metallurgists_volatile_motes_produces_add",
+     "name": "Produced per 100 [GetFoundrySwapPluralWithIcon]",
+     "amount": 0.05
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2329,6 +2988,13 @@
     {
      "kind": "Effect",
      "name": "All technology research speed +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "all_technology_research_speed",
+     "name": "All technology research speed",
+     "amount": 0.05
     }
    ],
    "source": "865040033",
@@ -2361,6 +3027,13 @@
     {
      "kind": "Effect",
      "name": "Leader Lifespan +30"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "leader_lifespan_add",
+     "name": "Leader Lifespan",
+     "amount": 30
     }
    ],
    "source": "865040033",
@@ -2399,6 +3072,13 @@
     {
      "kind": "Effect",
      "name": "Produced per 100 [GetFarmerSwapPluralWithIcon] +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_farmers_food_produces_add",
+     "name": "Produced per 100 [GetFarmerSwapPluralWithIcon]",
+     "amount": 1
     }
    ],
    "source": "865040033",
@@ -2445,6 +3125,18 @@
      "name": "Job Efficiency for [healthcare.GetNamePlural] +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_doctors_unity_produces_add",
+     "name": "Produced per 100 [GetHealthcareSwapPluralWithIcon]",
+     "amount": 2
+    },
+    {
+     "key": "pop_healthcare_bonus_workforce_mult",
+     "name": "Job Efficiency for [healthcare.GetNamePlural]",
+     "amount": 0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2473,6 +3165,13 @@
     {
      "kind": "Effect",
      "name": "Daily Hull Regen +0.5"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_hull_regen_add_perc",
+     "name": "Daily Hull Regen",
+     "amount": 0.5
     }
    ],
    "source": "865040033",
@@ -2507,6 +3206,13 @@
      "name": "Produced per 100 [GetFoundrySwapPluralWithIcon] +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_metallurgists_exotic_gases_produces_add",
+     "name": "Produced per 100 [GetFoundrySwapPluralWithIcon]",
+     "amount": 0.05
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2532,6 +3238,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2562,6 +3269,13 @@
     {
      "kind": "Effect",
      "name": "Produced per 100 [GetBiologistSwapPluralWithIcon] +0.5"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.5
     }
    ],
    "source": "865040033",
@@ -2598,6 +3312,18 @@
      "name": "Armor Hardening +0.2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_armor_mult",
+     "name": "Armor Hit Points",
+     "amount": 0.2
+    },
+    {
+     "key": "ship_armor_hardening_add",
+     "name": "Armor Hardening",
+     "amount": 0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2628,6 +3354,13 @@
     {
      "kind": "Effect",
      "name": "Produced per 100 [GetMinerSwapPluralWithIcon] +0.75"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_miners_minerals_produces_add",
+     "name": "Produced per 100 [GetMinerSwapPluralWithIcon]",
+     "amount": 0.75
     }
    ],
    "source": "865040033",
@@ -2670,6 +3403,13 @@
      "name": "Governing Ethics Attraction +0.2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pop_government_ethic_attraction",
+     "name": "Governing Ethics Attraction",
+     "amount": 0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2706,6 +3446,18 @@
      "name": "Army Damage +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_collateral_damage_mult",
+     "name": "Army Collateral Damage",
+     "amount": -0.2
+    },
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2731,6 +3483,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2761,6 +3514,13 @@
     {
      "kind": "Effect",
      "name": "Archaeology Excavation Speed +40%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_archaeological_site_excavation_speed_mult",
+     "name": "Archaeology Excavation Speed",
+     "amount": 0.4
     }
    ],
    "source": "865040033",
@@ -2799,6 +3559,13 @@
     {
      "kind": "Effect",
      "name": "Produced from [GetFarmerSwapPluralWithIcon] +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_farmers_food_produces_mult",
+     "name": "Produced from [GetFarmerSwapPluralWithIcon]",
+     "amount": 0.2
     }
    ],
    "source": "865040033",
@@ -2841,6 +3608,13 @@
      "name": "Biological Pop Growth Speed +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "BIOLOGICAL_logistic_growth_mult",
+     "name": "Biological Pop Growth Speed",
+     "amount": 0.15
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2875,6 +3649,13 @@
      "name": "Defense Platform Build Cost -20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_military_station_small_cost_mult",
+     "name": "Defense Platform Build Cost",
+     "amount": -0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2905,6 +3686,7 @@
      "name": "Manufactorium Hub"
     }
    ],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2939,6 +3721,13 @@
      "name": "Small Defensive Platform Upkeep -20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_military_station_small_upkeep_mult",
+     "name": "Small Defensive Platform Upkeep",
+     "amount": -0.2
+    }
+   ],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -2969,6 +3758,7 @@
      "name": "Singularity Matrix"
     }
    ],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_discovery_techs.txt"
   },
@@ -3105,6 +3895,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_ringworld_descisions_techs.txt"
   },
@@ -3207,6 +3998,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_ringworld_descisions_techs.txt"
   },
@@ -3302,6 +4094,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_ringworld_descisions_techs.txt"
   },
@@ -3398,6 +4191,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_ringworld_descisions_techs.txt"
   },
@@ -3500,6 +4294,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_ringworld_descisions_techs.txt"
   },
@@ -3572,6 +4367,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_ringworld_descisions_techs.txt"
   },
@@ -3644,6 +4440,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_ringworld_descisions_techs.txt"
   },
@@ -3757,6 +4554,7 @@
      "name": "Floodplains"
     }
    ],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_tech.txt"
   },
@@ -3870,6 +4668,7 @@
      "name": "Ravaging Insects"
     }
    ],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_tech.txt"
   },
@@ -3983,6 +4782,7 @@
      "name": "Toxic Gas"
     }
    ],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_tech.txt"
   },
@@ -4065,6 +4865,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_tech.txt"
   },
@@ -4095,6 +4896,7 @@
      "name": "Autonomous Maintanance Bay"
     }
    ],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_tech_hangar.txt"
   },
@@ -4125,6 +4927,7 @@
      "name": "Chrono-Refractive Matrix"
     }
    ],
+   "modifiers": [],
    "source": "865040033",
    "file": "common/technology/gpm_tech_targetting_matrix.txt"
   }

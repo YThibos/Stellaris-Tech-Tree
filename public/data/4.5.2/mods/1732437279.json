@@ -107,6 +107,7 @@
      "name": "Unlocks Feature: Cryogenic Terraforming"
     }
    ],
+   "modifiers": [],
    "source": "1732437279",
    "file": "common/technology/00_pd_exotic_terraform_tech.txt"
   },
@@ -138,6 +139,13 @@
     {
      "kind": "Effect",
      "name": "Habitability +0.3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pop_environment_tolerance",
+     "name": "Habitability",
+     "amount": 0.3
     }
    ],
    "source": "1732437279",
@@ -221,6 +229,7 @@
      "name": "Unlocks Feature: Cryogenic Terraforming"
     }
    ],
+   "modifiers": [],
    "source": "1732437279",
    "file": "common/technology/02_pd_exotic_cryoforming.txt"
   },
@@ -334,6 +343,7 @@
      "name": "Toxic Cryo-Mire"
     }
    ],
+   "modifiers": [],
    "source": "1732437279",
    "file": "common/technology/03_pd_exotic_blocker_techs.txt"
   },
@@ -447,6 +457,7 @@
      "name": "Frozen Glacial Wall"
     }
    ],
+   "modifiers": [],
    "source": "1732437279",
    "file": "common/technology/03_pd_exotic_blocker_techs.txt"
   }

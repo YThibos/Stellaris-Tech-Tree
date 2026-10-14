@@ -59,6 +59,7 @@
      "name": "Unlocks: Eludium Mining Unlocks: Eludium Edicts"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -117,6 +118,7 @@
      "name": "Unlocks Decision: Create Artificial Floating Islands"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -183,6 +185,7 @@
      "name": "Floating Resort"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -249,6 +252,7 @@
      "name": "Floating Overseer Station"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -305,6 +309,7 @@
      "name": "Unlocks: Acean Mining Unlocks: Acean Edicts"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -367,6 +372,7 @@
      "name": "Unlocks Decision: Plant Acean Superorganism Larva"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -430,6 +436,7 @@
      "name": "Acean Medical Center"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -492,6 +499,7 @@
      "name": "Acean Gestation Chamber"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -563,6 +571,7 @@
      "name": "Unlocks Trait: Acean Crystal Resonators"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -748,6 +757,7 @@
      "name": "Unlocks Decision: Construct Biosynthetic Canal System"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -806,6 +816,7 @@
      "name": "Biosynthetic Cauldron"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -864,6 +875,7 @@
      "name": "Unlocks: Living Metal Edicts"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -909,6 +921,7 @@
      "name": "Unlocks Trait: Unit 04's Biosynthetic Frames"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -973,6 +986,7 @@
      "name": "Unlocks: Eludium Research Relay (Waystation Module)"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -1037,6 +1051,7 @@
      "name": "Unlocks: Resonance Broadcast Spire (Waystation Module)"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -1101,6 +1116,7 @@
      "name": "Unlocks: Living Alloy Foundry (Waystation Module)"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -1157,6 +1173,7 @@
      "name": "Allows: Exotic Gases extraction from Fallen Giants, and unlocks the Tiyanki edicts"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -1215,6 +1232,7 @@
      "name": "Unlocks Decision: Seed Tiyanki Relic Bed"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -1273,6 +1291,7 @@
      "name": "Tiyanki Observatory"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -1331,6 +1350,7 @@
      "name": "Tiyanki Renderworks"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   },
@@ -1395,6 +1415,7 @@
      "name": "Unlocks Waystation Module: Tiyanki Migration Beacon"
     }
    ],
+   "modifiers": [],
    "source": "1740165239",
    "file": "common/technology/pd_unique_tech.txt"
   }

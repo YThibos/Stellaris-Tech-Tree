@@ -263,6 +263,7 @@
      "name": "Attack Moon Specialization: BOMBARDIER"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -339,6 +340,7 @@
      "name": "Unlocks Megastructure: Quasi-Stellar Obliterator Phase 3: Hypercomputers"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -611,6 +613,23 @@
     {
      "kind": "Effect",
      "name": "Atmospheric Storm Observatory Capacity +3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 2500
+    },
+    {
+     "key": "ship_shield_mult",
+     "name": "Shield Hit Points",
+     "amount": 0.05
+    },
+    {
+     "key": "giga_storm_observatory_limit_add",
+     "name": "Atmospheric Storm Observatory Capacity",
+     "amount": 3
     }
    ],
    "source": "1121692237",
@@ -941,6 +960,13 @@
      "name": "Megastructure Build Speed +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -1021,6 +1047,7 @@
      "name": "Unlocks Megastructure: Quasi-Stellar Obliterator Phase 1: Accretion Compressor"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -1097,6 +1124,7 @@
      "name": "Unlocks Megastructure: Quasi-Stellar Obliterator Phase 2: Relativistic Deflectors"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -1165,6 +1193,7 @@
      "name": "Unlocks Megastructure: Stellar Systemcraft Phase 3: Lunar Supports"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -1346,6 +1375,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -1769,6 +1799,13 @@
     {
      "kind": "Effect",
      "name": "Energy Weapon Damage +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_energy_weapon_damage_mult",
+     "name": "Energy Weapon Damage",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -2426,6 +2463,7 @@
      "name": "Unlocks Megastructure: Nicoll-Dyson Beam Phase 1: Magneto-Collector"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -2900,6 +2938,7 @@
      "name": "Unlocks Megastructure: Nicoll-Dyson Beam Phase 2: Stellar Redirector"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -3374,6 +3413,7 @@
      "name": "Unlocks Megastructure: Nicoll-Dyson Beam Phase 3: Hyperscale Stabilizers"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -3850,6 +3890,7 @@
      "name": "Unlocks Megastructure: Nicoll-Dyson Beam"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -4020,6 +4061,18 @@
     {
      "kind": "Effect",
      "name": "Kugelblitz Containment Silo Capacity +3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 5000
+    },
+    {
+     "key": "giga_kugel_limit_add",
+     "name": "Kugelblitz Containment Silo Capacity",
+     "amount": 3
     }
    ],
    "source": "1121692237",
@@ -4203,6 +4256,13 @@
      "name": "Energy Credits from Jobs +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_energy_produces_mult",
+     "name": "Energy Credits from Jobs",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -4292,6 +4352,13 @@
     {
      "kind": "Effect",
      "name": "Energy Credits from Jobs +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_energy_produces_mult",
+     "name": "Energy Credits from Jobs",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -4385,6 +4452,13 @@
     {
      "kind": "Effect",
      "name": "Minerals Storage Capacity +10000"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 10000
     }
    ],
    "source": "1121692237",
@@ -4714,6 +4788,18 @@
     {
      "kind": "Effect",
      "name": "Habitability +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.05
+    },
+    {
+     "key": "pop_environment_tolerance",
+     "name": "Habitability",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -5143,6 +5229,7 @@
      "name": "Unlocks Megastructure: Macroatmospheric Stabilizer"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -5733,6 +5820,13 @@
      "name": "Amenities +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_amenities_mult",
+     "name": "Amenities",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -6203,6 +6297,7 @@
      "name": "Unlocks Megastructure: Quasi-Stellar Obliterator Phase 4: Teracapacitors"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -6644,6 +6739,7 @@
      "name": "Unlocks Megastructure: Quasi-Stellar Obliterator"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -7106,6 +7202,7 @@
      "name": "Unlocks Megastructure: Stellar Systemcraft Phase 1: Solar Compressor"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -7568,6 +7665,7 @@
      "name": "Unlocks Megastructure: Stellar Systemcraft Phase 2: Synchronized Planetary Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -8042,6 +8140,7 @@
      "name": "Unlocks Megastructure: Stellar Systemcraft Phase 4: Celestial Erasers"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -8168,6 +8267,13 @@
     {
      "kind": "Effect",
      "name": "Megastructure Build Speed +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -8332,6 +8438,13 @@
      "name": "Megastructure Build Speed +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -8431,6 +8544,7 @@
      "name": "Unlocks Feature: O-Class Dyson Sphere"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -8530,6 +8644,7 @@
      "name": "Unlocks Feature: O-Class Star Lifter"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -8772,6 +8887,7 @@
      "name": "Unlocks Feature: O-Class Matrioshka Brain"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_01_physics.txt"
   },
@@ -9259,6 +9375,18 @@
      "name": "Orbital Naval Logistics Office Capacity +3"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_naval_cap_add",
+     "name": "Naval Capacity",
+     "amount": 100
+    },
+    {
+     "key": "giga_orbital_naval_logistics_limit_add",
+     "name": "Orbital Naval Logistics Office Capacity",
+     "amount": 3
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -9562,6 +9690,7 @@
      "name": "Unlocks Megastructure: Orbital Elysium"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -9724,6 +9853,7 @@
      "name": "Nexus Megacluster"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -10218,6 +10348,23 @@
     {
      "kind": "Effect",
      "name": "Orbital Artificial Ecosystem Capacity +3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 2500
+    },
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.05
+    },
+    {
+     "key": "giga_orbital_artificial_eco_limit_add",
+     "name": "Orbital Artificial Ecosystem Capacity",
+     "amount": 3
     }
    ],
    "source": "1121692237",
@@ -10751,6 +10898,23 @@
      "name": "Planetary Seeder Nexus Capacity +3"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 2500
+    },
+    {
+     "key": "country_food_produces_mult",
+     "name": "Monthly Food",
+     "amount": 0.05
+    },
+    {
+     "key": "giga_planetary_seeder_nexus_limit_add",
+     "name": "Planetary Seeder Nexus Capacity",
+     "amount": 3
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -11234,6 +11398,13 @@
     {
      "kind": "Effect",
      "name": "Food from Jobs +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_food_produces_mult",
+     "name": "Food from Jobs",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -11939,6 +12110,13 @@
      "name": "Food from Jobs +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_food_produces_mult",
+     "name": "Food from Jobs",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -12397,6 +12575,13 @@
      "name": "Asteroid Industrial Site Capacity +3"
     }
    ],
+   "modifiers": [
+    {
+     "key": "giga_asteroid_manufactory_limit_add",
+     "name": "Asteroid Industrial Site Capacity",
+     "amount": 3
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -12850,6 +13035,13 @@
      "name": "Terraform speed mult +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -13218,6 +13410,13 @@
      "name": "Terraform speed mult +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -13578,6 +13777,13 @@
      "name": "Terraform speed mult +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -13918,6 +14124,13 @@
      "name": "Terraform speed mult +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -14163,6 +14376,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep for [GetResearcherPluralWithIcon] +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_researchers_produces_mult",
+     "name": "Resources Produced from [GetResearcherPluralWithIcon]",
+     "amount": 0.05
+    },
+    {
+     "key": "planet_researchers_upkeep_mult",
+     "name": "Upkeep for [GetResearcherPluralWithIcon]",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -14503,6 +14728,7 @@
      "name": "Unlocks Megastructure: Stellar Ring Habitat"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -15161,6 +15387,7 @@
      "name": "Shroud Conduit"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -15686,6 +15913,7 @@
      "name": "Unlocks Feature: Boosted Shroud Conduit"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_02_society.txt"
   },
@@ -15772,6 +16000,13 @@
     {
      "kind": "Effect",
      "name": "Monthly Minerals +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_minerals_produces_mult",
+     "name": "Monthly Minerals",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -16261,6 +16496,23 @@
      "name": "Macroengineering Testing Station Capacity +3"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 2500
+    },
+    {
+     "key": "ship_armor_mult",
+     "name": "Armor Hit Points",
+     "amount": 0.05
+    },
+    {
+     "key": "giga_megabase_limit_add",
+     "name": "Macroengineering Testing Station Capacity",
+     "amount": 3
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -16587,6 +16839,18 @@
     {
      "kind": "Effect",
      "name": "Automated Strip Mine Capacity +3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "station_gatherers_volatile_motes_produces_mult",
+     "name": "Produced from Mining Stations",
+     "amount": 0.1
+    },
+    {
+     "key": "giga_drill_limit_add",
+     "name": "Automated Strip Mine Capacity",
+     "amount": 3
     }
    ],
    "source": "1121692237",
@@ -16922,6 +17186,18 @@
      "name": "Minerals from Jobs +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 10000
+    },
+    {
+     "key": "planet_jobs_minerals_produces_mult",
+     "name": "Minerals from Jobs",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -17248,6 +17524,18 @@
     {
      "kind": "Effect",
      "name": "Crystal Megabore Capacity +3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "station_gatherers_rare_crystals_produces_mult",
+     "name": "Produced from Mining Stations",
+     "amount": 0.1
+    },
+    {
+     "key": "giga_crystal_limit_add",
+     "name": "Crystal Megabore Capacity",
+     "amount": 3
     }
    ],
    "source": "1121692237",
@@ -17806,6 +18094,7 @@
      "name": "Unlocks Megastructure: Hyperstructural Assembly Yard"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -18377,6 +18666,13 @@
      "name": "Alloys from Jobs +2.5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_alloys_produces_mult",
+     "name": "Alloys from Jobs",
+     "amount": 0.025
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -18525,6 +18821,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -18618,6 +18915,7 @@
      "name": "Unlocks Megastructure: Nidavellir Hyperforge"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -18725,6 +19023,18 @@
      "name": "Armor Hit Points +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 10000
+    },
+    {
+     "key": "ship_armor_mult",
+     "name": "Armor Hit Points",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -18821,6 +19131,13 @@
     {
      "kind": "Effect",
      "name": "All technology research speed +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "all_technology_research_speed",
+     "name": "All technology research speed",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -19017,6 +19334,13 @@
      "name": "Megastructure Build Speed +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -19126,6 +19450,13 @@
      "name": "Megastructure Build Speed +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -19211,6 +19542,7 @@
      "name": "Gigastructural Constructs"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -19305,6 +19637,7 @@
      "name": "Unlocks Megastructure: Gargantuan Ringworld"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -19493,6 +19826,7 @@
      "name": "Unlocks Megastructure: Alderson Disk"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -19681,6 +20015,13 @@
      "name": "Megastructure Build Speed +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -19841,6 +20182,13 @@
     {
      "kind": "Effect",
      "name": "All technology research speed +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "all_technology_research_speed",
+     "name": "All technology research speed",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -20339,6 +20687,13 @@
     {
      "kind": "Effect",
      "name": "Base Ship Speed +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_base_speed_mult",
+     "name": "Base Ship Speed",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -20849,6 +21204,13 @@
      "name": "Fleet Command Limit +100"
     }
    ],
+   "modifiers": [
+    {
+     "key": "command_limit_add",
+     "name": "Fleet Command Limit",
+     "amount": 100
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -21336,6 +21698,7 @@
      "name": "Unlocks Section: Self-Propelled Artillery Bow"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -21859,6 +22222,7 @@
      "name": "Unlocks Section: Specialized Attack Moons"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -22380,6 +22744,13 @@
      "name": "Fleet Command Limit +120"
     }
    ],
+   "modifiers": [
+    {
+     "key": "command_limit_add",
+     "name": "Fleet Command Limit",
+     "amount": 120
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -22551,6 +22922,13 @@
     {
      "kind": "Effect",
      "name": "Max Districts (Non-artificial planets only) +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_non_artificial_max_districts_add",
+     "name": "Max Districts (Non-artificial planets only)",
+     "amount": 1
     }
    ],
    "source": "1121692237",
@@ -22879,6 +23257,18 @@
     {
      "kind": "Effect",
      "name": "S.U.C.C. Capacity +3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "station_gatherers_exotic_gases_produces_mult",
+     "name": "Produced from Mining Stations",
+     "amount": 0.1
+    },
+    {
+     "key": "giga_succ_limit_add",
+     "name": "S.U.C.C. Capacity",
+     "amount": 3
     }
    ],
    "source": "1121692237",
@@ -23384,6 +23774,7 @@
      "name": "Unlocks Megastructure: Stellar Systemcraft"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -23936,6 +24327,13 @@
      "name": "Ship Build Speed +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "starbase_shipyard_build_speed_mult",
+     "name": "Ship Build Speed",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -24417,6 +24815,18 @@
     {
      "kind": "Effect",
      "name": "Defense Army Damage +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_defense_health_mult",
+     "name": "Defense Army Health",
+     "amount": 0.15
+    },
+    {
+     "key": "army_defense_damage_mult",
+     "name": "Defense Army Damage",
+     "amount": 0.15
     }
    ],
    "source": "1121692237",
@@ -24967,6 +25377,13 @@
      "name": "Ship Build Cost -5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "starbase_shipyard_build_cost_mult",
+     "name": "Ship Build Cost",
+     "amount": -0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_03_engineering.txt"
   },
@@ -24997,6 +25414,13 @@
     {
      "kind": "Effect",
      "name": "Minerals Storage Capacity +5000"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 5000
     }
    ],
    "source": "1121692237",
@@ -25030,6 +25454,13 @@
     {
      "kind": "Effect",
      "name": "Megastructure Build Speed +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -25098,6 +25529,13 @@
      "name": "Fleet Command Limit +250"
     }
    ],
+   "modifiers": [
+    {
+     "key": "command_limit_add",
+     "name": "Fleet Command Limit",
+     "amount": 250
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_05_weightless.txt"
   },
@@ -25156,6 +25594,7 @@
      "name": "Unlocks Megastructure: HRAE-MC"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_05_weightless.txt"
   },
@@ -25282,6 +25721,7 @@
      "name": "Unlocks Megastructure: Matrioshka Brain"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_05_weightless.txt"
   },
@@ -25342,6 +25782,13 @@
     {
      "kind": "Effect",
      "name": "Shield Hit Points +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_shield_mult",
+     "name": "Shield Hit Points",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -25412,6 +25859,18 @@
     {
      "kind": "Effect",
      "name": "Jump Drive Cooldown -5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_ftl_jumpdrive_range_mult",
+     "name": "Jump Drive Range",
+     "amount": 0.1
+    },
+    {
+     "key": "ship_jumpdrive_cooldown_mult",
+     "name": "Jump Drive Cooldown",
+     "amount": -0.05
     }
    ],
    "source": "1121692237",
@@ -25500,6 +25959,7 @@
      "name": "Unlocks Megastructure: Birch World"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_05_weightless.txt"
   },
@@ -25564,6 +26024,7 @@
      "name": "Unlocks Megastructure: Behemoth Ringworld"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_05_weightless.txt"
   },
@@ -25614,6 +26075,7 @@
      "name": "Unlocks Megastructure: Supermassive E.H.O.F."
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_05_weightless.txt"
   },
@@ -25661,6 +26123,23 @@
     {
      "kind": "Effect",
      "name": "Physics Research from Jobs +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.05
+    },
+    {
+     "key": "ship_windup_mult",
+     "name": "Hyper Jump Charge Time",
+     "amount": -0.1
+    },
+    {
+     "key": "planet_jobs_physics_research_produces_mult",
+     "name": "Physics Research from Jobs",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -25721,6 +26200,23 @@
      "name": "Ship Fire Rate +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_admin_cap_add",
+     "name": "Administrative Capacity",
+     "amount": 30
+    },
+    {
+     "key": "ship_evasion_mult",
+     "name": "Evasion Chance",
+     "amount": 0.15
+    },
+    {
+     "key": "ship_fire_rate_mult",
+     "name": "Ship Fire Rate",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_06_special_project_tech.txt"
   },
@@ -25760,6 +26256,13 @@
     {
      "kind": "Effect",
      "name": "Leader Lifespan +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "leader_lifespan_mult",
+     "name": "Leader Lifespan",
+     "amount": 0.2
     }
    ],
    "source": "1121692237",
@@ -25805,6 +26308,18 @@
     {
      "kind": "Effect",
      "name": "Terraform speed mult +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "terraforming_cost_mult",
+     "name": "Terraforming Cost",
+     "amount": -0.1
+    },
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -25854,6 +26369,18 @@
     {
      "kind": "Effect",
      "name": "Orbital Bombardment Damage +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_explosive_weapon_damage_mult",
+     "name": "Explosive Weapon Damage",
+     "amount": 0.15
+    },
+    {
+     "key": "ship_orbital_bombardment_mult",
+     "name": "Orbital Bombardment Damage",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -25909,6 +26436,18 @@
      "name": "Monthly Living Metal +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.1
+    },
+    {
+     "key": "country_base_sr_living_metal_produces_add",
+     "name": "Monthly Living Metal",
+     "amount": 1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_06_special_project_tech.txt"
   },
@@ -25954,6 +26493,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_06_special_project_tech.txt"
   },
@@ -26035,6 +26575,18 @@
      "name": "Upkeep for [GetEngineerSwapPluralWithIcon] +2.5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_produces_mult",
+     "name": "Resources Produced from [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_engineers_upkeep_mult",
+     "name": "Upkeep for [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_06_special_project_tech.txt"
   },
@@ -26106,6 +26658,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep for [GetEngineerSwapPluralWithIcon] +2.5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_produces_mult",
+     "name": "Resources Produced from [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_engineers_upkeep_mult",
+     "name": "Upkeep for [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
     }
    ],
    "source": "1121692237",
@@ -26193,6 +26757,18 @@
      "name": "Upkeep for [GetEngineerSwapPluralWithIcon] +2.5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_produces_mult",
+     "name": "Resources Produced from [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_engineers_upkeep_mult",
+     "name": "Upkeep for [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_06_special_project_tech.txt"
   },
@@ -26268,6 +26844,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep for [GetEngineerSwapPluralWithIcon] +2.5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_produces_mult",
+     "name": "Resources Produced from [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_engineers_upkeep_mult",
+     "name": "Upkeep for [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
     }
    ],
    "source": "1121692237",
@@ -26365,6 +26953,18 @@
      "name": "Upkeep for [GetEngineerSwapPluralWithIcon] +2.5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_produces_mult",
+     "name": "Resources Produced from [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_engineers_upkeep_mult",
+     "name": "Upkeep for [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_06_special_project_tech.txt"
   },
@@ -26458,6 +27058,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep for [GetEngineerSwapPluralWithIcon] +2.5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_produces_mult",
+     "name": "Resources Produced from [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_engineers_upkeep_mult",
+     "name": "Upkeep for [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
     }
    ],
    "source": "1121692237",
@@ -26555,6 +27167,18 @@
      "name": "Upkeep for [GetEngineerSwapPluralWithIcon] +2.5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_produces_mult",
+     "name": "Resources Produced from [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_engineers_upkeep_mult",
+     "name": "Upkeep for [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.025
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_06_special_project_tech.txt"
   },
@@ -26629,6 +27253,7 @@
      "name": "Dyson Sphere capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -26703,6 +27328,7 @@
      "name": "Sentry Array capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -26777,6 +27403,7 @@
      "name": "Matter Decompressor capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -26851,6 +27478,7 @@
      "name": "Interstellar Assembly capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -26925,6 +27553,7 @@
      "name": "Mega Art Installation capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -26999,6 +27628,7 @@
      "name": "Mega Shipyard capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27073,6 +27703,7 @@
      "name": "Ringworld capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27147,6 +27778,7 @@
      "name": "Science Nexus capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27221,6 +27853,7 @@
      "name": "Strategic Coordination Center capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27295,6 +27928,7 @@
      "name": "Alderson Disk capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27369,6 +28003,7 @@
      "name": "Atmospheric Purifier capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27443,6 +28078,7 @@
      "name": "Attack Moon capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27517,6 +28153,7 @@
      "name": "Automated Stripmine capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27591,6 +28228,7 @@
      "name": "Behemoth Planetcraft capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27665,6 +28303,7 @@
      "name": "Crystal Megabore capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27739,6 +28378,7 @@
      "name": "Dynamic Core Ignitor capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27813,6 +28453,7 @@
      "name": "Equatorial Shipyard capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27887,6 +28528,7 @@
      "name": "Fusion Suppressor capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -27961,6 +28603,7 @@
      "name": "Geothermal Stabilizer capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28035,6 +28678,7 @@
      "name": "G.L.U.E. capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28109,6 +28753,7 @@
      "name": "HRAE-MC capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28183,6 +28828,7 @@
      "name": "Hyperstructural Assembly Yard capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28257,6 +28903,7 @@
      "name": "Interstellar Habitat capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28331,6 +28978,7 @@
      "name": "Kugelblitz Containment Silo capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28405,6 +29053,7 @@
      "name": "Lunar Speculorefractor capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28479,6 +29128,7 @@
      "name": "Macroatmospheric Stabilizer capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28553,6 +29203,7 @@
      "name": "Macroengineering Testing Station capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28627,6 +29278,7 @@
      "name": "Matrioshka Brain capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28701,6 +29353,7 @@
      "name": "Neutronium Gigaforge capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28775,6 +29428,7 @@
      "name": "Nidavellir Hyperforge capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28849,6 +29503,7 @@
      "name": "Orbital Arcology capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28923,6 +29578,7 @@
      "name": "Planetary Seeder Nexus capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -28997,6 +29653,7 @@
      "name": "Orbital Artificial Ecosystem capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29071,6 +29728,7 @@
      "name": "Orbital Naval Logistics Office capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29145,6 +29803,7 @@
      "name": "Penrose Sphere capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29219,6 +29878,7 @@
      "name": "Planetary Computing Complex capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29293,6 +29953,7 @@
      "name": "Psychic Hypersiphon capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29367,6 +30028,7 @@
      "name": "Star Lifter capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29441,6 +30103,7 @@
      "name": "Stellar Systemcraft capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29515,6 +30178,7 @@
      "name": "Substellar Compressor capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29589,6 +30253,7 @@
      "name": "S.U.C.C. capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29663,6 +30328,7 @@
      "name": "Yggdrasil Orchid capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29737,6 +30403,7 @@
      "name": "The Vat capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29811,6 +30478,7 @@
      "name": "Asteroid Industrial Site capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29885,6 +30553,7 @@
      "name": "Asteroid Artillery capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -29959,6 +30628,7 @@
      "name": "Planetary Dockyard capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -30033,6 +30703,7 @@
      "name": "Maginot World capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -30107,6 +30778,7 @@
      "name": "Atmospheric Storm Observatory capacity: +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -30185,6 +30857,13 @@
      "name": "Arc Furnace Capacity +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "arc_furnace_limit_add",
+     "name": "Arc Furnace Capacity",
+     "amount": 1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_07_repeatables_megastructures.txt"
   },
@@ -30261,6 +30940,13 @@
     {
      "kind": "Effect",
      "name": "Dyson Swarm Capacity +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "dyson_swarm_limit_add",
+     "name": "Dyson Swarm Capacity",
+     "amount": 1
     }
    ],
    "source": "1121692237",
@@ -30368,6 +31054,7 @@
      "name": "Unlocks Component: Sentient Metal Intellect"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -30456,6 +31143,7 @@
      "name": "Unlocks Component: Negative Mass Sensors"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -30533,6 +31221,13 @@
      "name": "Army Health +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -30601,6 +31296,7 @@
      "name": "Sentient Metal Hull Regeneration"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -30678,6 +31374,13 @@
      "name": "Army Health +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -30751,6 +31454,7 @@
      "name": "Unlocks Component: Negative Mass Thrusters"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -30839,6 +31543,7 @@
      "name": "Unlocks Component: Negative Mass Reactors"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -30912,6 +31617,7 @@
      "name": "Unlocks Component: Negative Mass Jump Drive Enhancements"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -30976,6 +31682,7 @@
      "name": "Sentient Metal Flak Battery"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31074,6 +31781,7 @@
      "name": "Sentient Metal Ripper"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31138,6 +31846,7 @@
      "name": "Sentient Metal Railgun"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31202,6 +31911,7 @@
      "name": "Sentient Metal Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31266,6 +31976,7 @@
      "name": "Sentient Metal Absorber"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31330,6 +32041,7 @@
      "name": "Sentient Metal Devourer"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31394,6 +32106,7 @@
      "name": "Negative Mass Point Defense"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31458,6 +32171,7 @@
      "name": "Negative Mass Laser"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31522,6 +32236,7 @@
      "name": "Negative Mass Pseudoplasma Launcher"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31620,6 +32335,7 @@
      "name": "Negative Mass Disruptor"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31684,6 +32400,7 @@
      "name": "Negative Mass Torpedoes"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31748,6 +32465,7 @@
      "name": "Negative Mass Lance"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31812,6 +32530,7 @@
      "name": "Negative Mass Emitter"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -31876,6 +32595,7 @@
      "name": "Negative Mass Beam"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_08_ehof_components.txt"
   },
@@ -32145,6 +32865,18 @@
      "name": "Upkeep for [GetPhysicistSwapPluralWithIcon] +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_physicists_produces_mult",
+     "name": "Resources Produced from [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.05
+    },
+    {
+     "key": "planet_physicists_upkeep_mult",
+     "name": "Upkeep for [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -32297,6 +33029,13 @@
      "name": "Monthly Influence +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_influence_produces_mult",
+     "name": "Monthly Influence",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -32443,6 +33182,18 @@
      "name": "Upkeep for [GetPhysicistSwapPluralWithIcon] +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_physicists_produces_mult",
+     "name": "Resources Produced from [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.05
+    },
+    {
+     "key": "planet_physicists_upkeep_mult",
+     "name": "Upkeep for [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -32536,6 +33287,7 @@
      "name": "Giga photonic matter sb"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -32629,6 +33381,7 @@
      "name": "Giga negative pressure ti"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -32751,6 +33504,13 @@
      "name": "Monthly Influence +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_influence_produces_mult",
+     "name": "Monthly Influence",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -32864,6 +33624,13 @@
     {
      "kind": "Effect",
      "name": "Monthly Influence +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_influence_produces_mult",
+     "name": "Monthly Influence",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -32998,6 +33765,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep for [GetPhysicistSwapPluralWithIcon] +7.5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_physicists_produces_mult",
+     "name": "Resources Produced from [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.075
+    },
+    {
+     "key": "planet_physicists_upkeep_mult",
+     "name": "Upkeep for [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.075
     }
    ],
    "source": "1121692237",
@@ -33146,6 +33925,7 @@
      "name": "Abstract Supercomputer"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -33348,6 +34128,7 @@
      "name": "Quasi-Negative Mass"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -33443,6 +34224,7 @@
      "name": "Giga sterile hyper neutrino d s"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -33542,6 +34324,23 @@
     {
      "kind": "Effect",
      "name": "Megastructure Build Speed +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_building_build_speed_mult",
+     "name": "Infrastructure Build Speed",
+     "amount": 0.2
+    },
+    {
+     "key": "starbase_upgrade_speed_mult",
+     "name": "Station Upgrade Speed",
+     "amount": 0.2
+    },
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -33674,6 +34473,7 @@
      "name": "Prototype Energy Anti-Transmuter"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -33805,6 +34605,13 @@
      "name": "Monthly Influence +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_influence_produces_mult",
+     "name": "Monthly Influence",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -33843,6 +34650,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep for [GetPhysicistSwapPluralWithIcon] +7.5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_physicists_produces_mult",
+     "name": "Resources Produced from [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.075
+    },
+    {
+     "key": "planet_physicists_upkeep_mult",
+     "name": "Upkeep for [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.075
     }
    ],
    "source": "1121692237",
@@ -33886,6 +34705,7 @@
      "name": "Abstract Hypercomputer"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -33960,6 +34780,7 @@
      "name": "Negative Mass Transmuter District"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34001,6 +34822,7 @@
      "name": "Future Glimpse: E.H.O.F. Ultima"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34042,6 +34864,7 @@
      "name": "Future Glimpse: E.H.O.F. Ultima"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34147,6 +34970,13 @@
      "name": "Monthly Influence +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_influence_produces_mult",
+     "name": "Monthly Influence",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34228,6 +35058,7 @@
      "name": "Unlocks Megastructure: Sentient Metal Forge"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34280,6 +35111,18 @@
     {
      "kind": "Effect",
      "name": "Energy from Starbase Constructions +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_technician_energy_produces_mult",
+     "name": "Produced from [GetTechnicianSwapPluralWithIcon]",
+     "amount": 0.05
+    },
+    {
+     "key": "starbase_constructions_energy_produces_mult",
+     "name": "Energy from Starbase Constructions",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -34336,6 +35179,18 @@
      "name": "Energy from Starbase Constructions +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_technician_energy_produces_mult",
+     "name": "Produced from [GetTechnicianSwapPluralWithIcon]",
+     "amount": 0.05
+    },
+    {
+     "key": "starbase_constructions_energy_produces_mult",
+     "name": "Energy from Starbase Constructions",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34389,6 +35244,18 @@
      "name": "Energy from Starbase Constructions +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_technician_energy_produces_mult",
+     "name": "Produced from [GetTechnicianSwapPluralWithIcon]",
+     "amount": 0.05
+    },
+    {
+     "key": "starbase_constructions_energy_produces_mult",
+     "name": "Energy from Starbase Constructions",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34438,6 +35305,7 @@
      "name": "Laser Conduction Energy Distributor"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34487,6 +35355,7 @@
      "name": "Hyperlane Power Transmitter"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34537,6 +35406,7 @@
      "name": "Transstellar Field Entangler"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34634,6 +35504,7 @@
      "name": "Negative Mass Protector"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_09_ehof_other.txt"
   },
@@ -34691,6 +35562,7 @@
      "name": "Unlocks Section: Kaiser Moon Sections"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_10_katzen.txt"
   },
@@ -34732,6 +35604,7 @@
      "name": "Unlocks Megastructure: Stellarite Kaiser Moon"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_10_katzen.txt"
   },
@@ -34752,7 +35625,7 @@
     "rare",
     "granted"
    ],
-   "icon": null,
+   "icon": "icons/1121692237/giga_tech_improbable_kaiser_moon.webp",
    "availability": {
     "narration": [
      {
@@ -34773,6 +35646,7 @@
      "name": "Unlocks Megastructure: Improbable Kaiser Moon"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_10_katzen.txt"
   },
@@ -35273,6 +36147,13 @@
      "name": "Damage to the Katzenartig Imperium +7.5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_katzenartig_imperium_mult",
+     "name": "Damage to the Katzenartig Imperium",
+     "amount": 0.075
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_10_katzen.txt"
   },
@@ -35314,6 +36195,7 @@
      "name": "Riesigerkatzenpanzer Division"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_10_katzen.txt"
   },
@@ -35367,6 +36249,7 @@
      "name": "Core"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_11_aeternum.txt"
   },
@@ -35410,6 +36293,13 @@
     {
      "kind": "Effect",
      "name": "Megastructure Build Speed +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.15
     }
    ],
    "source": "1121692237",
@@ -35459,6 +36349,18 @@
     {
      "kind": "Effect",
      "name": "Shield Hit Points +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_armor_mult",
+     "name": "Armor Hit Points",
+     "amount": 0.1
+    },
+    {
+     "key": "ship_shield_mult",
+     "name": "Shield Hit Points",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -35957,6 +36859,7 @@
      "name": "Unlocks Megastructure: Asteroid Artillery Pursuing further research into this field will lead to increasingly large warships."
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_12_asteroid_artillery.txt"
   },
@@ -36412,6 +37315,7 @@
      "name": "Unlocks Asteroid Artillery Upgrade: Regenerative Hull"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_12_asteroid_artillery.txt"
   },
@@ -36867,6 +37771,7 @@
      "name": "Asteroid Artillery Shield HP: +25% Asteroid Artillery Shield Regen: +2% Asteroid Artillery Upgrade Points: +2"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_12_asteroid_artillery.txt"
   },
@@ -37322,6 +38227,7 @@
      "name": "Asteroid Artillery Weapons Damage: +35% Asteroid Artillery Weapons Range: +20% Asteroid Artillery Upgrade Points: +3"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_12_asteroid_artillery.txt"
   },
@@ -37778,6 +38684,7 @@
      "name": "Asteroid Artillery Hull/Armor HP: +40% Asteroid Artillery Fire Rate: +40% Asteroid Artillery Upgrade Points: +3"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_12_asteroid_artillery.txt"
   },
@@ -37837,6 +38744,7 @@
      "name": "Asteroid Artillery Upgrade Points +1"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_12_asteroid_artillery.txt"
   },
@@ -37880,6 +38788,13 @@
     {
      "kind": "Effect",
      "name": "Research Speed ( Society) +0.1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_society_tech_research_speed",
+     "name": "Research Speed ( Society)",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -37937,6 +38852,13 @@
      "name": "Monthly Unity +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_unity_produces_mult",
+     "name": "Monthly Unity",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -37980,6 +38902,13 @@
     {
      "kind": "Effect",
      "name": "Research Speed ( Society) +0.1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_society_tech_research_speed",
+     "name": "Research Speed ( Society)",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -38037,6 +38966,13 @@
      "name": "Megastructure Build Speed +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38080,6 +39016,13 @@
     {
      "kind": "Effect",
      "name": "Ship Hull Points +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_hull_mult",
+     "name": "Ship Hull Points",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -38137,6 +39080,13 @@
      "name": "Infrastructure Build Speed +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_building_build_speed_mult",
+     "name": "Infrastructure Build Speed",
+     "amount": 0.15
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38180,6 +39130,13 @@
     {
      "kind": "Effect",
      "name": "Ship Weapons Damage +0.1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_weapon_damage",
+     "name": "Ship Weapons Damage",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -38243,6 +39200,18 @@
      "name": "Blokkats Research Speed +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "all_technology_research_speed",
+     "name": "All technology research speed",
+     "amount": 0.05
+    },
+    {
+     "key": "category_blokkats_research_speed_mult",
+     "name": "Blokkats Research Speed",
+     "amount": 0.15
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38304,6 +39273,18 @@
      "name": "Damage to Blokkats +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_weapon_damage",
+     "name": "Ship Weapons Damage",
+     "amount": 0.05
+    },
+    {
+     "key": "damage_vs_country_type_blokkat_stripminers_mult",
+     "name": "Damage to Blokkats",
+     "amount": 0.15
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38357,6 +39338,18 @@
      "name": "Army Damage +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_energy_weapon_damage_mult",
+     "name": "Energy Weapon Damage",
+     "amount": 0.15
+    },
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.05
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38404,6 +39397,13 @@
     {
      "kind": "Effect",
      "name": "Explosive Weapon Damage +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_explosive_weapon_damage_mult",
+     "name": "Explosive Weapon Damage",
+     "amount": 0.15
     }
    ],
    "source": "1121692237",
@@ -38455,6 +39455,13 @@
      "name": "Strike Craft Damage +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_strike_craft_weapon_damage_mult",
+     "name": "Strike Craft Damage",
+     "amount": 0.2
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38504,6 +39511,13 @@
      "name": "Armor Hit Points +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_armor_mult",
+     "name": "Armor Hit Points",
+     "amount": 0.2
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38551,6 +39565,13 @@
     {
      "kind": "Effect",
      "name": "Shield Hit Points +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_shield_mult",
+     "name": "Shield Hit Points",
+     "amount": 0.2
     }
    ],
    "source": "1121692237",
@@ -38606,6 +39627,18 @@
      "name": "Point Defense Fire Rate +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_point_defense_weapon_damage_mult",
+     "name": "Point Defense Damage",
+     "amount": 0.2
+    },
+    {
+     "key": "weapon_type_point_defense_weapon_fire_rate_mult",
+     "name": "Point Defense Fire Rate",
+     "amount": 0.2
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38653,6 +39686,13 @@
     {
      "kind": "Effect",
      "name": "Energy Weapon Fire Rate +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_energy_weapon_fire_rate_mult",
+     "name": "Energy Weapon Fire Rate",
+     "amount": 0.15
     }
    ],
    "source": "1121692237",
@@ -38704,6 +39744,13 @@
      "name": "Armor Penetration +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_armor_penetration_mult",
+     "name": "Armor Penetration",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38751,6 +39798,13 @@
     {
      "kind": "Effect",
      "name": "Ship Weapons Range +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_weapon_range_mult",
+     "name": "Ship Weapons Range",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -38806,6 +39860,18 @@
      "name": "Megastructures Energy Upkeep -10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_energy_produces_mult",
+     "name": "Monthly Energy Credits",
+     "amount": 0.15
+    },
+    {
+     "key": "megastructures_energy_upkeep_mult",
+     "name": "Megastructures Energy Upkeep",
+     "amount": -0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38855,6 +39921,13 @@
      "name": "Sublight Speed +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_speed_mult",
+     "name": "Sublight Speed",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -38902,6 +39975,13 @@
     {
      "kind": "Effect",
      "name": "Ship Hull Points +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_hull_mult",
+     "name": "Ship Hull Points",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -38959,6 +40039,18 @@
     {
      "kind": "Effect",
      "name": "Evasion Chance +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_windup_mult",
+     "name": "Hyper Jump Charge Time",
+     "amount": -0.15
+    },
+    {
+     "key": "ship_evasion_mult",
+     "name": "Evasion Chance",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -39022,6 +40114,18 @@
      "name": "Ships Energy Upkeep -10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_windup_mult",
+     "name": "Hyper Jump Charge Time",
+     "amount": -0.15
+    },
+    {
+     "key": "ships_energy_upkeep_mult",
+     "name": "Ships Energy Upkeep",
+     "amount": -0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39079,6 +40183,18 @@
      "name": "All technology research speed +0.1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_accuracy_mult",
+     "name": "Accuracy",
+     "amount": 0.1
+    },
+    {
+     "key": "all_technology_research_speed",
+     "name": "All technology research speed",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39132,6 +40248,18 @@
      "name": "Tracking +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_engagement_range_mult",
+     "name": "Ship Engagement Range",
+     "amount": 0.1
+    },
+    {
+     "key": "ship_tracking_mult",
+     "name": "Tracking",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39177,6 +40305,7 @@
      "name": "Unlocks Megastructure: Hyperdimensional Destabilizer Construction Site"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39220,6 +40349,13 @@
     {
      "kind": "Effect",
      "name": "Monthly Energy Credits +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_energy_produces_mult",
+     "name": "Monthly Energy Credits",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -39271,6 +40407,18 @@
      "name": "Energy Storage Capacity +400000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_alloys_add",
+     "name": "Alloys Storage Capacity",
+     "amount": 200000
+    },
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 400000
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39318,6 +40466,18 @@
     {
      "kind": "Effect",
      "name": "Megastructures Energy Upkeep -10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 1000000
+    },
+    {
+     "key": "megastructures_energy_upkeep_mult",
+     "name": "Megastructures Energy Upkeep",
+     "amount": -0.1
     }
    ],
    "source": "1121692237",
@@ -39369,6 +40529,18 @@
      "name": "Ship Weapons Damage +0.2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 5000000
+    },
+    {
+     "key": "ship_weapon_damage",
+     "name": "Ship Weapons Damage",
+     "amount": 0.2
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39414,6 +40586,7 @@
      "name": "Unlocks Feature: Blokkat Capture Unlocks Megastructure: Blokkat Containment Nexus"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39457,6 +40630,13 @@
     {
      "kind": "Effect",
      "name": "Leader Level Cap +2"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "leader_skill_levels",
+     "name": "Leader Level Cap",
+     "amount": 2
     }
    ],
    "source": "1121692237",
@@ -39508,6 +40688,18 @@
      "name": "Blokkats Research Speed +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_blokkat_stripminers_mult",
+     "name": "Damage to Blokkats",
+     "amount": 0.1
+    },
+    {
+     "key": "category_blokkats_research_speed_mult",
+     "name": "Blokkats Research Speed",
+     "amount": 0.2
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39555,6 +40747,18 @@
     {
      "kind": "Effect",
      "name": "Megastructure Build Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "category_blokkats_research_speed_mult",
+     "name": "Blokkats Research Speed",
+     "amount": 0.3
+    },
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.25
     }
    ],
    "source": "1121692237",
@@ -39610,6 +40814,18 @@
      "name": "Energy Storage Capacity +10000000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_jobs_produces_mult",
+     "name": "Resources from Jobs",
+     "amount": 0.25
+    },
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 10000000
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39653,6 +40869,13 @@
     {
      "kind": "Effect",
      "name": "Envoys add +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "envoys_add",
+     "name": "Envoys add",
+     "amount": 1
     }
    ],
    "source": "1121692237",
@@ -39704,6 +40927,18 @@
      "name": "Energy Storage Capacity +5000000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructures_energy_produces_mult",
+     "name": "Megastructures Energy produces",
+     "amount": 0.3
+    },
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 5000000
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39751,6 +40986,18 @@
     {
      "kind": "Effect",
      "name": "Energy Storage Capacity +5000000"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ships_upkeep_mult",
+     "name": "Ship Upkeep",
+     "amount": -0.3
+    },
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 5000000
     }
    ],
    "source": "1121692237",
@@ -39802,6 +41049,18 @@
      "name": "Energy Storage Capacity +5000000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.6
+    },
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 5000000
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -39849,6 +41108,18 @@
     {
      "kind": "Effect",
      "name": "Energy Storage Capacity +5000000"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_energy_produces_mult",
+     "name": "Monthly Energy Credits",
+     "amount": 0.1
+    },
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 5000000
     }
    ],
    "source": "1121692237",
@@ -39899,6 +41170,18 @@
     {
      "kind": "Effect",
      "name": "Alloys Storage Capacity +500000"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 10000000
+    },
+    {
+     "key": "country_resource_max_alloys_add",
+     "name": "Alloys Storage Capacity",
+     "amount": 500000
     }
    ],
    "source": "1121692237",
@@ -39955,6 +41238,18 @@
      "name": "Energy Storage Capacity +10000000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.2
+    },
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 10000000
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_13_blokkat.txt"
   },
@@ -40002,6 +41297,18 @@
     {
      "kind": "Effect",
      "name": "Ship Weapons Damage +0.2"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_energy_add",
+     "name": "Energy Storage Capacity",
+     "amount": 5000000
+    },
+    {
+     "key": "ship_weapon_damage",
+     "name": "Ship Weapons Damage",
+     "amount": 0.2
     }
    ],
    "source": "1121692237",
@@ -40112,6 +41419,13 @@
      "name": "Strike Craft Speed +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_strike_craft_speed_mult",
+     "name": "Strike Craft Speed",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_14_defense_nexus_repeatables.txt"
   },
@@ -40218,6 +41532,13 @@
     {
      "kind": "Effect",
      "name": "Ship Build Speed +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "starbase_shipyard_build_speed_mult",
+     "name": "Ship Build Speed",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -40329,6 +41650,13 @@
      "name": "Strike Craft Damage +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_strike_craft_weapon_damage_mult",
+     "name": "Strike Craft Damage",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_14_defense_nexus_repeatables.txt"
   },
@@ -40437,6 +41765,13 @@
      "name": "Strike Craft Speed +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_strike_craft_speed_mult",
+     "name": "Strike Craft Speed",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_14_defense_nexus_repeatables.txt"
   },
@@ -40543,6 +41878,13 @@
     {
      "kind": "Effect",
      "name": "Strike Craft Damage +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_strike_craft_weapon_damage_mult",
+     "name": "Strike Craft Damage",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -40654,6 +41996,13 @@
      "name": "Ship Build Speed +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "starbase_shipyard_build_speed_mult",
+     "name": "Ship Build Speed",
+     "amount": 0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_14_defense_nexus_repeatables.txt"
   },
@@ -40726,6 +42075,7 @@
      "name": "Strike Corvette Capacity: +15%"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_14_defense_nexus_repeatables.txt"
   },
@@ -41359,6 +42709,23 @@
      "name": "Defense Army Morale +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_naval_cap_add",
+     "name": "Naval Capacity",
+     "amount": 150
+    },
+    {
+     "key": "army_defense_health_mult",
+     "name": "Defense Army Health",
+     "amount": 0.25
+    },
+    {
+     "key": "army_defense_morale_mult",
+     "name": "Defense Army Morale",
+     "amount": 0.25
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_15_maginot.txt"
   },
@@ -41456,6 +42823,7 @@
      "name": "Maginot Weapons Damage: +25% Maginot Weapons Fire Rate: +10% Maginot Weapons Range: +20%"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_15_maginot.txt"
   },
@@ -41579,6 +42947,7 @@
      "name": "Unlocks Platform Section: Upgraded Maginot Strategic Defense Platform Maginot Weapons Damage: +50% Maginot Hull: +500 000 Maginot Armour: +200 000 Maginot Shields: +200 000"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_15_maginot.txt"
   },
@@ -41702,6 +43071,7 @@
      "name": "Unlocks Platform Section: Systemcraft-level Maginot Strategic Defense Platform Maginot Weapons Damage: +250% Maginot Weapons Fire Rate: +100% Maginot Accuracy: +20 Maginot Tracking: +10 Maginot Hull: +5 000 000 Maginot Armour: +2 000 000 Maginot Shields: +2 000 000"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_15_maginot.txt"
   },
@@ -41740,6 +43110,13 @@
     {
      "kind": "Effect",
      "name": "Asteroid Harvesting Cost -10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "deposit_blockers_frameworld_cost_mult",
+     "name": "Asteroid Harvesting Cost",
+     "amount": -0.1
     }
    ],
    "source": "1121692237",
@@ -41783,6 +43160,13 @@
      "name": "Asteroid Harvesting Cost -10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "deposit_blockers_frameworld_cost_mult",
+     "name": "Asteroid Harvesting Cost",
+     "amount": -0.1
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_16_frameworld.txt"
   },
@@ -41822,6 +43206,13 @@
     {
      "kind": "Effect",
      "name": "Asteroid Harvesting Cost -10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "deposit_blockers_frameworld_cost_mult",
+     "name": "Asteroid Harvesting Cost",
+     "amount": -0.1
     }
    ],
    "source": "1121692237",
@@ -41872,6 +43263,7 @@
      "name": "Unlocks Feature: Defense Station Starhold Upgrade"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_16_frameworld.txt"
   },
@@ -41920,6 +43312,7 @@
      "name": "Unlocks Feature: Defense Station Star Fortress Upgrade"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_16_frameworld.txt"
   },
@@ -41968,6 +43361,7 @@
      "name": "Unlocks Feature: Defense Station Citadel Upgrade"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_16_frameworld.txt"
   },
@@ -42016,6 +43410,7 @@
      "name": "Unlocks Feature: Defense Station Maginot Upgrade"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_16_frameworld.txt"
   },
@@ -42054,6 +43449,13 @@
     {
      "kind": "Effect",
      "name": "Planetary Outpost Resource Output +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "frameworld_outposts_produces_mult",
+     "name": "Planetary Outpost Resource Output",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -42175,6 +43577,13 @@
     {
      "kind": "Effect",
      "name": "Monthly Supertensile Materials +10"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_base_giga_sr_amb_megaconstruction_produces_add",
+     "name": "Monthly Supertensile Materials",
+     "amount": 10
     }
    ],
    "source": "1121692237",
@@ -42302,6 +43711,7 @@
      "name": "Living Metal Infusion Plant"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -42427,6 +43837,7 @@
      "name": "Giga amb sentient metal supertensiles"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -42543,6 +43954,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -42638,6 +44050,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -42675,6 +44088,7 @@
     "modifiers": []
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -42754,6 +44168,7 @@
      "name": "Delta Megaconstruction Logistics Hub"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -42841,6 +44256,7 @@
      "name": "Alpha Megaconstruction Logistics Hub"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -42932,6 +44348,7 @@
      "name": "Runic Megaconstruction Logistics Hub"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -43023,6 +44440,7 @@
      "name": "Sigma Megaconstruction Logistics Hub"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_17_alternative_mega_build.txt"
   },
@@ -43072,6 +44490,7 @@
      "name": "Giga eawaf thaumaturgic weaponry"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43107,6 +44526,13 @@
     {
      "kind": "Effect",
      "name": "Monthly Energy Credits +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_energy_produces_mult",
+     "name": "Monthly Energy Credits",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -43158,6 +44584,7 @@
      "name": "Giga eawaf sirens secret gestalt"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43205,6 +44632,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep for [GetBiologistSwapPluralWithIcon] +2.5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_produces_mult",
+     "name": "Resources Produced from [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_biologists_upkeep_mult",
+     "name": "Upkeep for [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.025
     }
    ],
    "source": "1121692237",
@@ -43258,6 +44697,18 @@
     {
      "kind": "Effect",
      "name": "Upkeep for [GetBiologistSwapPluralWithIcon] +2.5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_produces_mult",
+     "name": "Resources Produced from [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_biologists_upkeep_mult",
+     "name": "Upkeep for [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.025
     }
    ],
    "source": "1121692237",
@@ -43317,6 +44768,18 @@
      "name": "Upkeep for [GetBiologistSwapPluralWithIcon] +2.5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_produces_mult",
+     "name": "Resources Produced from [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_biologists_upkeep_mult",
+     "name": "Upkeep for [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.025
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43374,6 +44837,18 @@
      "name": "Upkeep for [GetBiologistSwapPluralWithIcon] +2.5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_produces_mult",
+     "name": "Resources Produced from [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.025
+    },
+    {
+     "key": "planet_biologists_upkeep_mult",
+     "name": "Upkeep for [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.025
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43407,6 +44882,7 @@
      "name": "Harass Decoys"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43440,6 +44916,7 @@
      "name": "Crystalline Autocannon"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43473,6 +44950,7 @@
      "name": "Crystalline Artillery"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43506,6 +44984,7 @@
      "name": "Thaumaturgic Charge"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43539,6 +45018,7 @@
      "name": "Crystalline Impactor"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43572,6 +45052,7 @@
      "name": "Grand Void Beam"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43612,6 +45093,7 @@
      "name": "['concept_giga_eawaf_thaumaturgic_weapons', Thaumaturgic Weapons] Damage: +10% ['concept_giga_eawaf_thaumaturgic_weapons', Thaumaturgic Weapons] Upkeep: +5%"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/giga_18_eawaf.txt"
   },
@@ -43707,6 +45189,18 @@
     {
      "kind": "Effect",
      "name": "Armor Hit Points +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 10000
+    },
+    {
+     "key": "ship_armor_mult",
+     "name": "Armor Hit Points",
+     "amount": 0.05
     }
    ],
    "source": "1121692237",
@@ -44201,6 +45695,13 @@
     {
      "kind": "Effect",
      "name": "Base Ship Speed +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_base_speed_mult",
+     "name": "Base Ship Speed",
+     "amount": 0.1
     }
    ],
    "source": "1121692237",
@@ -44703,6 +46204,13 @@
      "name": "Fleet Command Limit +100"
     }
    ],
+   "modifiers": [
+    {
+     "key": "command_limit_add",
+     "name": "Fleet Command Limit",
+     "amount": 100
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_19_nomad.txt"
   },
@@ -45203,6 +46711,13 @@
      "name": "Fleet Command Limit +120"
     }
    ],
+   "modifiers": [
+    {
+     "key": "command_limit_add",
+     "name": "Fleet Command Limit",
+     "amount": 120
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_19_nomad.txt"
   },
@@ -45287,6 +46802,13 @@
      "name": "Minerals Storage Capacity +5000"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 5000
+    }
+   ],
    "source": "1121692237",
    "file": "common/technology/giga_19_nomad.txt"
   },
@@ -45353,6 +46875,7 @@
      "name": "Bulk Matter"
     }
    ],
+   "modifiers": [],
    "source": "1121692237",
    "file": "common/technology/zz_giga_tech_overwrites.txt"
   },
@@ -46011,6 +47534,28 @@
     {
      "kind": "Effect",
      "name": "Station Capacity +3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resource_max_add",
+     "name": "Minerals Storage Capacity",
+     "amount": 20000
+    },
+    {
+     "key": "arc_furnace_limit_add",
+     "name": "Arc Furnace Capacity",
+     "amount": 2
+    },
+    {
+     "key": "dyson_swarm_limit_add",
+     "name": "Dyson Swarm Capacity",
+     "amount": 2
+    },
+    {
+     "key": "country_starbase_capacity_add",
+     "name": "Station Capacity",
+     "amount": 3
     }
    ],
    "source": "1121692237",

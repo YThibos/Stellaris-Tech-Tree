@@ -214,6 +214,13 @@
      "name": "Ascension perks add +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ascension_perks_add",
+     "name": "Ascension perks add",
+     "amount": 1
+    }
+   ],
    "source": "1890399946",
    "file": "common/technology/ui_tech_ascension_theory_repeatable.txt"
   }

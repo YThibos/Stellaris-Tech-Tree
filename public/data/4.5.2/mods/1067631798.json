@@ -139,6 +139,13 @@
      "name": "Shield Hit Points +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_shield_mult",
+     "name": "Shield Hit Points",
+     "amount": 0.05
+    }
+   ],
    "source": "1067631798",
    "file": "common/technology/esap_tech.txt"
   },
@@ -271,6 +278,13 @@
     {
      "kind": "Effect",
      "name": "Research Speed ( Physics) +0.025"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_physics_tech_research_speed",
+     "name": "Research Speed ( Physics)",
+     "amount": 0.025
     }
    ],
    "source": "1067631798",
@@ -413,6 +427,18 @@
      "name": "Energy Weapon Fire Rate +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_energy_weapon_damage_mult",
+     "name": "Energy Weapon Damage",
+     "amount": 0.05
+    },
+    {
+     "key": "weapon_type_energy_weapon_fire_rate_mult",
+     "name": "Energy Weapon Fire Rate",
+     "amount": 0.05
+    }
+   ],
    "source": "1067631798",
    "file": "common/technology/esap_tech.txt"
   },
@@ -545,6 +571,13 @@
     {
      "kind": "Effect",
      "name": "Science ship survey speed +0.33"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "science_ship_survey_speed",
+     "name": "Science ship survey speed",
+     "amount": 0.33
     }
    ],
    "source": "1067631798",
@@ -681,6 +714,13 @@
      "name": "Empire Size from Pops -10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "empire_size_pops_mult",
+     "name": "Empire Size from Pops",
+     "amount": -0.1
+    }
+   ],
    "source": "1067631798",
    "file": "common/technology/esap_tech.txt"
   },
@@ -813,6 +853,13 @@
     {
      "kind": "Effect",
      "name": "Research Speed ( Society) +0.025"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_society_tech_research_speed",
+     "name": "Research Speed ( Society)",
+     "amount": 0.025
     }
    ],
    "source": "1067631798",
@@ -953,6 +1000,18 @@
      "name": "Army Morale +0.2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.2
+    },
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.2
+    }
+   ],
    "source": "1067631798",
    "file": "common/technology/esap_tech.txt"
   },
@@ -1085,6 +1144,13 @@
     {
      "kind": "Effect",
      "name": "Leader Lifespan +20"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "leader_lifespan_add",
+     "name": "Leader Lifespan",
+     "amount": 20
     }
    ],
    "source": "1067631798",
@@ -1221,6 +1287,13 @@
      "name": "Monthly Influence +0.5"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_tech_influence_produces_add",
+     "name": "Monthly Influence",
+     "amount": 0.5
+    }
+   ],
    "source": "1067631798",
    "file": "common/technology/esap_tech.txt"
   },
@@ -1353,6 +1426,13 @@
     {
      "kind": "Effect",
      "name": "Envoys add +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "envoys_add",
+     "name": "Envoys add",
+     "amount": 1
     }
    ],
    "source": "1067631798",
@@ -1489,6 +1569,13 @@
      "name": "Research Speed ( Engineering) +0.025"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_engineering_tech_research_speed",
+     "name": "Research Speed ( Engineering)",
+     "amount": 0.025
+    }
+   ],
    "source": "1067631798",
    "file": "common/technology/esap_tech.txt"
   },
@@ -1623,6 +1710,13 @@
     {
      "kind": "Effect",
      "name": "Armor Hit Points +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_armor_mult",
+     "name": "Armor Hit Points",
+     "amount": 0.05
     }
    ],
    "source": "1067631798",
@@ -1765,6 +1859,18 @@
      "name": "Explosive Weapon Fire Rate +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_explosive_weapon_damage_mult",
+     "name": "Explosive Weapon Damage",
+     "amount": 0.05
+    },
+    {
+     "key": "weapon_type_explosive_weapon_fire_rate_mult",
+     "name": "Explosive Weapon Fire Rate",
+     "amount": 0.05
+    }
+   ],
    "source": "1067631798",
    "file": "common/technology/esap_tech.txt"
   },
@@ -1905,6 +2011,18 @@
      "name": "Kinetic Weapon Fire Rate +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_kinetic_weapon_damage_mult",
+     "name": "Kinetic Weapon Damage",
+     "amount": 0.05
+    },
+    {
+     "key": "weapon_type_kinetic_weapon_fire_rate_mult",
+     "name": "Kinetic Weapon Fire Rate",
+     "amount": 0.05
+    }
+   ],
    "source": "1067631798",
    "file": "common/technology/esap_tech.txt"
   },
@@ -2041,6 +2159,18 @@
     {
      "kind": "Effect",
      "name": "Resources Produced from Research Stations +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "station_gatherers_cost_mult",
+     "name": "Mining Station Build Cost",
+     "amount": -0.1
+    },
+    {
+     "key": "station_researchers_produces_mult",
+     "name": "Resources Produced from Research Stations",
+     "amount": 0.1
     }
    ],
    "source": "1067631798",

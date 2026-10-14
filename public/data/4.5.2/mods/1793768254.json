@@ -85,6 +85,13 @@
      "name": "Construction Ship Build Cost -75%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_constructor_build_cost_mult",
+     "name": "Construction Ship Build Cost",
+     "amount": -0.75
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -171,6 +178,18 @@
      "name": "Mining Station Build Speed +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_research_station_build_speed_mult",
+     "name": "Research Station Build Speed",
+     "amount": 0.2
+    },
+    {
+     "key": "shipclass_mining_station_build_speed_mult",
+     "name": "Mining Station Build Speed",
+     "amount": 0.2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -251,6 +270,13 @@
     {
      "kind": "Effect",
      "name": "Science Ship Build Cost -33%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipclass_science_ship_build_cost_mult",
+     "name": "Science Ship Build Cost",
+     "amount": -0.33
     }
    ],
    "source": "1793768254",
@@ -335,6 +361,13 @@
      "name": "Science Ship Hullpoints +500"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_science_hull_add",
+     "name": "Science Ship Hullpoints",
+     "amount": 500
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -392,6 +425,13 @@
      "name": "Building Minerals Cost -40"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_buildings_minerals_cost_add",
+     "name": "Building Minerals Cost",
+     "amount": -40
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -444,6 +484,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -606,6 +647,13 @@
     {
      "kind": "Effect",
      "name": "Minerals from Starbase Constructions +40%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "starbase_constructions_minerals_produces_mult",
+     "name": "Minerals from Starbase Constructions",
+     "amount": 0.4
     }
    ],
    "source": "1793768254",
@@ -772,6 +820,13 @@
      "name": "Monthly Engineering Research +10"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_base_engineering_research_produces_add",
+     "name": "Monthly Engineering Research",
+     "amount": 10
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -831,6 +886,18 @@
     {
      "kind": "Effect",
      "name": "Emergency FTL Jump Cooldown -10"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_interstellar_speed_mult",
+     "name": "FTL Speed",
+     "amount": 0.25
+    },
+    {
+     "key": "ship_emergency_ftl_min_days_add",
+     "name": "Emergency FTL Jump Cooldown",
+     "amount": -10
     }
    ],
    "source": "1793768254",
@@ -898,6 +965,13 @@
      "name": "Science ship survey speed +0.2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "science_ship_survey_speed",
+     "name": "Science ship survey speed",
+     "amount": 0.2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -953,6 +1027,13 @@
     {
      "kind": "Effect",
      "name": "Mining Station Build Speed +40%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipclass_mining_station_build_speed_mult",
+     "name": "Mining Station Build Speed",
+     "amount": 0.4
     }
    ],
    "source": "1793768254",
@@ -1012,6 +1093,13 @@
      "name": "Research Station Build Speed +40%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_research_station_build_speed_mult",
+     "name": "Research Station Build Speed",
+     "amount": 0.4
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -1069,6 +1157,13 @@
      "name": "Research Cost ( Engineering) -5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "engineering_tech_cost_mult",
+     "name": "Research Cost ( Engineering)",
+     "amount": -0.05
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -1124,6 +1219,13 @@
     {
      "kind": "Effect",
      "name": "Ship Build Speed +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "starbase_shipyard_build_speed_mult",
+     "name": "Ship Build Speed",
+     "amount": 0.1
     }
    ],
    "source": "1793768254",
@@ -1196,6 +1298,13 @@
     {
      "kind": "Effect",
      "name": "Defense Army Health +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_defense_health_mult",
+     "name": "Defense Army Health",
+     "amount": 0.2
     }
    ],
    "source": "1793768254",
@@ -1285,6 +1394,13 @@
      "name": "Kinetic Weapon Fire Rate +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_kinetic_weapon_fire_rate_mult",
+     "name": "Kinetic Weapon Fire Rate",
+     "amount": 0.1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -1359,6 +1475,13 @@
      "name": "Corvette Alloy Cost -15"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_corvette_alloys_cost_add",
+     "name": "Corvette Alloy Cost",
+     "amount": -15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -1418,6 +1541,18 @@
     {
      "kind": "Effect",
      "name": "Infrastructure Build Speed +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_building_capacity_add",
+     "name": "Build Queue Capacity",
+     "amount": 1
+    },
+    {
+     "key": "planet_building_build_speed_mult",
+     "name": "Infrastructure Build Speed",
+     "amount": 0.2
     }
    ],
    "source": "1793768254",
@@ -1480,6 +1615,18 @@
     {
      "kind": "Effect",
      "name": "Resources Produced from Research Stations +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_engineering_research_produces_add",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.5
+    },
+    {
+     "key": "station_researchers_produces_mult",
+     "name": "Resources Produced from Research Stations",
+     "amount": 0.05
     }
    ],
    "source": "1793768254",
@@ -1563,6 +1710,23 @@
      "name": "Defense Platforms Cap +10"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_military_station_small_cost_mult",
+     "name": "Defense Platform Build Cost",
+     "amount": -0.2
+    },
+    {
+     "key": "ship_military_station_small_upkeep_mult",
+     "name": "Small Defensive Platform Upkeep",
+     "amount": -0.2
+    },
+    {
+     "key": "starbase_defense_platform_capacity_add",
+     "name": "Defense Platforms Cap",
+     "amount": 10
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -1618,6 +1782,13 @@
     {
      "kind": "Effect",
      "name": "Army Health +0.2"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_health",
+     "name": "Army Health",
+     "amount": 0.2
     }
    ],
    "source": "1793768254",
@@ -1707,6 +1878,13 @@
      "name": "Explosive Weapon Fire Rate +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_explosive_weapon_fire_rate_mult",
+     "name": "Explosive Weapon Fire Rate",
+     "amount": 0.2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -1762,6 +1940,13 @@
     {
      "kind": "Effect",
      "name": "Missile Speed +50%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_explosive_speed_mult",
+     "name": "Missile Speed",
+     "amount": 0.5
     }
    ],
    "source": "1793768254",
@@ -1849,6 +2034,13 @@
     {
      "kind": "Effect",
      "name": "Energy Weapon Fire Rate +10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_type_energy_weapon_fire_rate_mult",
+     "name": "Energy Weapon Fire Rate",
+     "amount": 0.1
     }
    ],
    "source": "1793768254",
@@ -1953,6 +2145,13 @@
      "name": "Orbital Bombardment Damage +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_orbital_bombardment_mult",
+     "name": "Orbital Bombardment Damage",
+     "amount": 0.15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -2025,6 +2224,13 @@
     {
      "kind": "Effect",
      "name": "Destroyer Alloy Cost -50"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_destroyer_alloys_cost_add",
+     "name": "Destroyer Alloy Cost",
+     "amount": -50
     }
    ],
    "source": "1793768254",
@@ -2106,6 +2312,18 @@
      "name": "Resources Produced from Research Stations +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_engineers_engineering_research_produces_add",
+     "name": "Produced per 100 [GetEngineerSwapPluralWithIcon]",
+     "amount": 0.5
+    },
+    {
+     "key": "station_researchers_produces_mult",
+     "name": "Resources Produced from Research Stations",
+     "amount": 0.1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -2163,6 +2381,13 @@
      "name": "Starbase Building Alloys Cost -25"
     }
    ],
+   "modifiers": [
+    {
+     "key": "starbase_buildings_alloys_cost_add",
+     "name": "Starbase Building Alloys Cost",
+     "amount": -25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -2218,6 +2443,13 @@
     {
      "kind": "Effect",
      "name": "Starbase Modules Alloys Cost -25"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "starbase_modules_alloys_cost_add",
+     "name": "Starbase Modules Alloys Cost",
+     "amount": -25
     }
    ],
    "source": "1793768254",
@@ -2311,6 +2543,18 @@
      "name": "Defense Platform Damage +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_starbase_damage_mult",
+     "name": "Station Damage",
+     "amount": 0.25
+    },
+    {
+     "key": "shipclass_military_station_damage_mult",
+     "name": "Defense Platform Damage",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -2385,6 +2629,13 @@
      "name": "Cruiser Alloy Cost -100"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_cruiser_alloys_cost_add",
+     "name": "Cruiser Alloy Cost",
+     "amount": -100
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -2415,6 +2666,13 @@
     {
      "kind": "Effect",
      "name": "FTL Speed +50%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_interstellar_speed_mult",
+     "name": "FTL Speed",
+     "amount": 0.5
     }
    ],
    "source": "1793768254",
@@ -2508,6 +2766,18 @@
      "name": "Defense Platform Damage +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_starbase_damage_mult",
+     "name": "Station Damage",
+     "amount": 0.25
+    },
+    {
+     "key": "shipclass_military_station_damage_mult",
+     "name": "Defense Platform Damage",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -2563,6 +2833,13 @@
     {
      "kind": "Effect",
      "name": "Ship Upgrade Cost -20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_ship_upgrade_cost_mult",
+     "name": "Ship Upgrade Cost",
+     "amount": -0.2
     }
    ],
    "source": "1793768254",
@@ -2639,6 +2916,13 @@
      "name": "Battleship Alloy Cost -150"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_battleship_alloys_cost_add",
+     "name": "Battleship Alloy Cost",
+     "amount": -150
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -2713,6 +2997,13 @@
      "name": "Max Districts (Non-artificial planets only) +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_non_artificial_max_districts_add",
+     "name": "Max Districts (Non-artificial planets only)",
+     "amount": 1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -2785,6 +3076,13 @@
     {
      "kind": "Effect",
      "name": "Terraforming Cost -20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "terraforming_cost_mult",
+     "name": "Terraforming Cost",
+     "amount": -0.2
     }
    ],
    "source": "1793768254",
@@ -2879,6 +3177,13 @@
     {
      "kind": "Effect",
      "name": "Megastructure Build Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "megastructure_build_speed_mult",
+     "name": "Megastructure Build Speed",
+     "amount": 0.25
     }
    ],
    "source": "1793768254",
@@ -2979,6 +3284,13 @@
      "name": "Megastructure Minerals Output +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructures_minerals_produces_mult",
+     "name": "Megastructure Minerals Output",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -3077,6 +3389,13 @@
      "name": "Megastructure Engineering Research Output +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructures_engineering_research_produces_mult",
+     "name": "Megastructure Engineering Research Output",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -3171,6 +3490,13 @@
      "name": "Megastructure Alloys Cost -10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructures_alloys_cost_mult",
+     "name": "Megastructure Alloys Cost",
+     "amount": -0.1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_eng_tech.txt"
   },
@@ -3257,6 +3583,18 @@
      "name": "Science Ship Hyper Jump Cooldown -50%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipsize_science_windup_mult",
+     "name": "Science Ship Hyper Jump Charge Time",
+     "amount": -0.5
+    },
+    {
+     "key": "shipsize_science_winddown_mult",
+     "name": "Science Ship Hyper Jump Cooldown",
+     "amount": -0.5
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -3337,6 +3675,13 @@
     {
      "kind": "Effect",
      "name": "Standard Science Ship Build Speed +100%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_science_build_speed_mult",
+     "name": "Standard Science Ship Build Speed",
+     "amount": 1
     }
    ],
    "source": "1793768254",
@@ -3443,6 +3788,13 @@
      "name": "Ship Weapons Range +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_weapon_range_mult",
+     "name": "Ship Weapons Range",
+     "amount": 0.1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -3530,6 +3882,13 @@
      "name": "Energy Weapon Damage +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_energy_weapon_damage_mult",
+     "name": "Energy Weapon Damage",
+     "amount": 0.15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -3615,6 +3974,13 @@
     {
      "kind": "Effect",
      "name": "Point Defense Weapon Fire Rate +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "weapon_role_point_defense_weapon_fire_rate_mult",
+     "name": "Point Defense Weapon Fire Rate",
+     "amount": 0.2
     }
    ],
    "source": "1793768254",
@@ -3726,6 +4092,13 @@
      "name": "Damage to Space Amoebas +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_amoeba_mult",
+     "name": "Damage to Space Amoebas",
+     "amount": 0.3
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -3835,6 +4208,13 @@
      "name": "Damage to Crystalline Entities +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_crystal_mult",
+     "name": "Damage to Crystalline Entities",
+     "amount": 0.3
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -3929,6 +4309,13 @@
      "name": "Damage to Ancient Mining Drones +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_drone_mult",
+     "name": "Damage to Ancient Mining Drones",
+     "amount": 0.3
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -4021,6 +4408,13 @@
     {
      "kind": "Effect",
      "name": "Damage to Void Clouds +30%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_cloud_mult",
+     "name": "Damage to Void Clouds",
+     "amount": 0.3
     }
    ],
    "source": "1793768254",
@@ -4187,6 +4581,13 @@
      "name": "Energy from Starbase Constructions +40%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "starbase_constructions_energy_produces_mult",
+     "name": "Energy from Starbase Constructions",
+     "amount": 0.4
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -4351,6 +4752,13 @@
      "name": "Monthly Physics Research +10"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_base_physics_research_produces_add",
+     "name": "Monthly Physics Research",
+     "amount": 10
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -4442,6 +4850,13 @@
     {
      "kind": "Effect",
      "name": "Mining Station Hull +200%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipclass_mining_station_hull_mult",
+     "name": "Mining Station Hull",
+     "amount": 2
     }
    ],
    "source": "1793768254",
@@ -4537,6 +4952,13 @@
      "name": "Research Station Hull +200%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_research_station_hull_mult",
+     "name": "Research Station Hull",
+     "amount": 2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -4594,6 +5016,13 @@
      "name": "Species leader exp gain +0.2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "species_leader_exp_gain",
+     "name": "Species leader exp gain",
+     "amount": 0.2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -4632,6 +5061,23 @@
     {
      "kind": "Effect",
      "name": "Hyper Jump Cooldown -5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_interstellar_speed_mult",
+     "name": "FTL Speed",
+     "amount": 0.25
+    },
+    {
+     "key": "ship_windup_mult",
+     "name": "Hyper Jump Charge Time",
+     "amount": -0.05
+    },
+    {
+     "key": "ship_winddown_mult",
+     "name": "Hyper Jump Cooldown",
+     "amount": -0.05
     }
    ],
    "source": "1793768254",
@@ -4689,6 +5135,13 @@
     {
      "kind": "Effect",
      "name": "Research Cost ( Physics) -5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "physics_tech_cost_mult",
+     "name": "Research Cost ( Physics)",
+     "amount": -0.05
     }
    ],
    "source": "1793768254",
@@ -4782,6 +5235,18 @@
      "name": "Defense Platform Damage +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_starbase_damage_mult",
+     "name": "Station Damage",
+     "amount": 0.25
+    },
+    {
+     "key": "shipclass_military_station_damage_mult",
+     "name": "Defense Platform Damage",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -4871,6 +5336,13 @@
      "name": "Defense Platform Hull Points +100%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_military_station_hull_mult",
+     "name": "Defense Platform Hull Points",
+     "amount": 1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -4909,6 +5381,23 @@
     {
      "kind": "Effect",
      "name": "Hyper Jump Cooldown -5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_interstellar_speed_mult",
+     "name": "FTL Speed",
+     "amount": 0.25
+    },
+    {
+     "key": "ship_windup_mult",
+     "name": "Hyper Jump Charge Time",
+     "amount": -0.05
+    },
+    {
+     "key": "ship_winddown_mult",
+     "name": "Hyper Jump Cooldown",
+     "amount": -0.05
     }
    ],
    "source": "1793768254",
@@ -4971,6 +5460,18 @@
     {
      "kind": "Effect",
      "name": "Resources Produced from Research Stations +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_physicists_physics_research_produces_add",
+     "name": "Produced per 100 [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.5
+    },
+    {
+     "key": "station_researchers_produces_mult",
+     "name": "Resources Produced from Research Stations",
+     "amount": 0.05
     }
    ],
    "source": "1793768254",
@@ -5043,6 +5544,13 @@
     {
      "kind": "Effect",
      "name": "Hull Damage +20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_hull_damage_mult",
+     "name": "Hull Damage",
+     "amount": 0.2
     }
    ],
    "source": "1793768254",
@@ -5136,6 +5644,18 @@
      "name": "Defense Platform Damage +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_starbase_damage_mult",
+     "name": "Station Damage",
+     "amount": 0.25
+    },
+    {
+     "key": "shipclass_military_station_damage_mult",
+     "name": "Defense Platform Damage",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -5216,6 +5736,23 @@
      "name": "Defense Platforms Cap +5"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_military_station_small_cost_mult",
+     "name": "Defense Platform Build Cost",
+     "amount": -0.1
+    },
+    {
+     "key": "ship_military_station_small_upkeep_mult",
+     "name": "Small Defensive Platform Upkeep",
+     "amount": -0.1
+    },
+    {
+     "key": "starbase_defense_platform_capacity_add",
+     "name": "Defense Platforms Cap",
+     "amount": 5
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -5286,6 +5823,13 @@
     {
      "kind": "Effect",
      "name": "Armor Damage +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_armor_damage_mult",
+     "name": "Armor Damage",
+     "amount": 0.15
     }
    ],
    "source": "1793768254",
@@ -5360,6 +5904,13 @@
      "name": "Armor Penetration +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_armor_penetration_mult",
+     "name": "Armor Penetration",
+     "amount": 0.15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -5432,6 +5983,13 @@
      "name": "Shield Damage +15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_shield_damage_mult",
+     "name": "Shield Damage",
+     "amount": 0.15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -5502,6 +6060,13 @@
     {
      "kind": "Effect",
      "name": "Shield Penetration +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_shield_penetration_mult",
+     "name": "Shield Penetration",
+     "amount": 0.15
     }
    ],
    "source": "1793768254",
@@ -5591,6 +6156,13 @@
      "name": "Explosive Weapon Damage +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "weapon_type_explosive_weapon_damage_mult",
+     "name": "Explosive Weapon Damage",
+     "amount": 0.2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -5648,6 +6220,13 @@
      "name": "Army Energy Credits Upkeep -15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "armies_energy_upkeep_mult",
+     "name": "Army Energy Credits Upkeep",
+     "amount": -0.15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -5686,6 +6265,23 @@
     {
      "kind": "Effect",
      "name": "Hyper Jump Cooldown -5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_interstellar_speed_mult",
+     "name": "FTL Speed",
+     "amount": 0.5
+    },
+    {
+     "key": "ship_windup_mult",
+     "name": "Hyper Jump Charge Time",
+     "amount": -0.05
+    },
+    {
+     "key": "ship_winddown_mult",
+     "name": "Hyper Jump Cooldown",
+     "amount": -0.05
     }
    ],
    "source": "1793768254",
@@ -5767,6 +6363,18 @@
      "name": "Resources Produced from Research Stations +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_physicists_physics_research_produces_add",
+     "name": "Produced per 100 [GetPhysicistSwapPluralWithIcon]",
+     "amount": 0.5
+    },
+    {
+     "key": "station_researchers_produces_mult",
+     "name": "Resources Produced from Research Stations",
+     "amount": 0.1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -5807,6 +6415,23 @@
     {
      "kind": "Effect",
      "name": "Hyper Jump Cooldown -10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_interstellar_speed_mult",
+     "name": "FTL Speed",
+     "amount": 0.5
+    },
+    {
+     "key": "ship_windup_mult",
+     "name": "Hyper Jump Charge Time",
+     "amount": -0.1
+    },
+    {
+     "key": "ship_winddown_mult",
+     "name": "Hyper Jump Cooldown",
+     "amount": -0.1
     }
    ],
    "source": "1793768254",
@@ -5896,6 +6521,13 @@
      "name": "Defense Platform Damage +50%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "shipclass_military_station_damage_mult",
+     "name": "Defense Platform Damage",
+     "amount": 0.5
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -5966,6 +6598,13 @@
     {
      "kind": "Effect",
      "name": "Orbital Bombardment Damage -0.2"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_orbital_bombardment_damage",
+     "name": "Orbital Bombardment Damage",
+     "amount": -0.2
     }
    ],
    "source": "1793768254",
@@ -6066,6 +6705,13 @@
      "name": "Megastructure Energy Output +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructures_energy_produces_mult",
+     "name": "Megastructure Energy Output",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -6164,6 +6810,13 @@
      "name": "Megastructure Physics Research Output +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructures_physics_research_produces_mult",
+     "name": "Megastructure Physics Research Output",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_phys_tech.txt"
   },
@@ -6244,6 +6897,13 @@
     {
      "kind": "Effect",
      "name": "Standard Science Ship Build Speed +100%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_science_build_speed_mult",
+     "name": "Standard Science Ship Build Speed",
+     "amount": 1
     }
    ],
    "source": "1793768254",
@@ -6418,6 +7078,13 @@
      "name": "Food from Starbase Constructions +40%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "starbase_constructions_food_produces_mult",
+     "name": "Food from Starbase Constructions",
+     "amount": 0.4
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -6582,6 +7249,13 @@
      "name": "Monthly Society Research +10"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_base_society_research_produces_add",
+     "name": "Monthly Society Research",
+     "amount": 10
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -6645,6 +7319,13 @@
     {
      "kind": "Effect",
      "name": "Anomaly Discovery Chance +5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_anomaly_generation_chance_mult",
+     "name": "Anomaly Discovery Chance",
+     "amount": 0.05
     }
    ],
    "source": "1793768254",
@@ -6712,6 +7393,13 @@
      "name": "Ship anomaly research speed mult +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_anomaly_research_speed_mult",
+     "name": "Ship anomaly research speed mult",
+     "amount": 0.2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -6777,6 +7465,13 @@
      "name": "Leader age +15"
     }
    ],
+   "modifiers": [
+    {
+     "key": "leader_age",
+     "name": "Leader age",
+     "amount": 15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -6838,6 +7533,18 @@
      "name": "Colony Infrastructure Refund +20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_building_build_speed_mult",
+     "name": "Infrastructure Build Speed",
+     "amount": 0.2
+    },
+    {
+     "key": "planet_building_refund_mult",
+     "name": "Colony Infrastructure Refund",
+     "amount": 0.2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -6893,6 +7600,13 @@
     {
      "kind": "Effect",
      "name": "District Minerals Cost -40"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_districts_minerals_cost_add",
+     "name": "District Minerals Cost",
+     "amount": -40
     }
    ],
    "source": "1793768254",
@@ -6952,6 +7666,13 @@
      "name": "Edict Fund +20"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_edict_fund_add",
+     "name": "Edict Fund",
+     "amount": 20
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -7007,6 +7728,13 @@
     {
      "kind": "Effect",
      "name": "Research Cost ( Society) -5%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "society_tech_cost_mult",
+     "name": "Research Cost ( Society)",
+     "amount": -0.05
     }
    ],
    "source": "1793768254",
@@ -7098,6 +7826,13 @@
      "name": "Ship Experience Gain +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_experience_gain_mult",
+     "name": "Ship Experience Gain",
+     "amount": 0.3
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -7155,6 +7890,13 @@
      "name": "Mining Station Mineral Cost -15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "station_gatherers_minerals_cost_mult",
+     "name": "Mining Station Mineral Cost",
+     "amount": -0.15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -7210,6 +7952,13 @@
     {
      "kind": "Effect",
      "name": "Research Station Mineral Cost -15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "station_researchers_minerals_cost_mult",
+     "name": "Research Station Mineral Cost",
+     "amount": -0.15
     }
    ],
    "source": "1793768254",
@@ -7277,6 +8026,13 @@
      "name": "Colony Ship Build Cost -20%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "ship_colonizer_cost_mult",
+     "name": "Colony Ship Build Cost",
+     "amount": -0.2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -7340,6 +8096,13 @@
     {
      "kind": "Effect",
      "name": "Colony Ship Build Speed +33%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "shipsize_colonizer_build_speed_mult",
+     "name": "Colony Ship Build Speed",
+     "amount": 0.33
     }
    ],
    "source": "1793768254",
@@ -7419,6 +8182,13 @@
      "name": "Damage to Pirates +40%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "damage_vs_country_type_pirate_mult",
+     "name": "Damage to Pirates",
+     "amount": 0.4
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -7474,6 +8244,13 @@
     {
      "kind": "Effect",
      "name": "Clear Blocker Time -20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_clear_blocker_time_mult",
+     "name": "Clear Blocker Time",
+     "amount": -0.2
     }
    ],
    "source": "1793768254",
@@ -7730,6 +8507,13 @@
      "name": "Desert Habitability +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_desert_habitability",
+     "name": "Desert Habitability",
+     "amount": 0.05
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -7982,6 +8766,13 @@
     {
      "kind": "Effect",
      "name": "Arid Habitability +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pc_arid_habitability",
+     "name": "Arid Habitability",
+     "amount": 0.05
     }
    ],
    "source": "1793768254",
@@ -8238,6 +9029,13 @@
      "name": "Savanna World Habitability +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_savannah_habitability",
+     "name": "Savanna World Habitability",
+     "amount": 0.05
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -8490,6 +9288,13 @@
     {
      "kind": "Effect",
      "name": "Tropical Habitability +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pc_tropical_habitability",
+     "name": "Tropical Habitability",
+     "amount": 0.05
     }
    ],
    "source": "1793768254",
@@ -8746,6 +9551,13 @@
      "name": "Continental Habitability +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_continental_habitability",
+     "name": "Continental Habitability",
+     "amount": 0.05
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -8998,6 +9810,13 @@
     {
      "kind": "Effect",
      "name": "Ocean Habitability +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pc_ocean_habitability",
+     "name": "Ocean Habitability",
+     "amount": 0.05
     }
    ],
    "source": "1793768254",
@@ -9254,6 +10073,13 @@
      "name": "Tundra Habitability +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_tundra_habitability",
+     "name": "Tundra Habitability",
+     "amount": 0.05
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -9506,6 +10332,13 @@
     {
      "kind": "Effect",
      "name": "Arctic Habitability +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pc_arctic_habitability",
+     "name": "Arctic Habitability",
+     "amount": 0.05
     }
    ],
    "source": "1793768254",
@@ -9762,6 +10595,13 @@
      "name": "Alpine World Habitability +0.05"
     }
    ],
+   "modifiers": [
+    {
+     "key": "pc_alpine_habitability",
+     "name": "Alpine World Habitability",
+     "amount": 0.05
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -9824,6 +10664,18 @@
      "name": "Resources Produced from Research Stations +5%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.5
+    },
+    {
+     "key": "station_researchers_produces_mult",
+     "name": "Resources Produced from Research Stations",
+     "amount": 0.05
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -9879,6 +10731,13 @@
     {
      "kind": "Effect",
      "name": "Ship Build Speed (Defensive War) +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "starbase_defensive_war_ship_build_speed_mult",
+     "name": "Ship Build Speed (Defensive War)",
+     "amount": 0.15
     }
    ],
    "source": "1793768254",
@@ -9953,6 +10812,13 @@
      "name": "Army Experience Gain +50%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_experience_gain_mult",
+     "name": "Army Experience Gain",
+     "amount": 0.5
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -10023,6 +10889,13 @@
     {
      "kind": "Effect",
      "name": "Army Morale +0.3"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "army_morale",
+     "name": "Army Morale",
+     "amount": 0.3
     }
    ],
    "source": "1793768254",
@@ -10097,6 +10970,13 @@
      "name": "Army Damage +30%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "army_damage_mult",
+     "name": "Army Damage",
+     "amount": 0.3
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -10169,6 +11049,13 @@
      "name": "War Exhaustion Gain -10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_war_exhaustion_mult",
+     "name": "War Exhaustion Gain",
+     "amount": -0.1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -10231,6 +11118,18 @@
      "name": "Edict Fund +20"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_max_buildings_add",
+     "name": "Building Slots",
+     "amount": 1
+    },
+    {
+     "key": "country_edict_fund_add",
+     "name": "Edict Fund",
+     "amount": 20
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -10286,6 +11185,13 @@
     {
      "kind": "Effect",
      "name": "Colony Development Speed +40%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_colony_development_speed_mult",
+     "name": "Colony Development Speed",
+     "amount": 0.4
     }
    ],
    "source": "1793768254",
@@ -10348,6 +11254,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -10428,6 +11335,7 @@
     ]
    },
    "unlocks": [],
+   "modifiers": [],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -10483,6 +11391,13 @@
     {
      "kind": "Effect",
      "name": "Decision Enactment Speed +25%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_decision_enact_speed_mult",
+     "name": "Decision Enactment Speed",
+     "amount": 0.25
     }
    ],
    "source": "1793768254",
@@ -10548,6 +11463,13 @@
     {
      "kind": "Effect",
      "name": "Ship piracy suppression add +25"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ship_piracy_suppression_add",
+     "name": "Ship piracy suppression add",
+     "amount": 25
     }
    ],
    "source": "1793768254",
@@ -10638,6 +11560,23 @@
     {
      "kind": "Effect",
      "name": "Edict Fund +20"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "ruler_skill_levels",
+     "name": "Ruler skill levels",
+     "amount": 1
+    },
+    {
+     "key": "governor_skill_levels",
+     "name": "Governor skill levels",
+     "amount": 2
+    },
+    {
+     "key": "country_edict_fund_add",
+     "name": "Edict Fund",
+     "amount": 20
     }
    ],
    "source": "1793768254",
@@ -10752,6 +11691,13 @@
      "name": "Insult Efficiency +1"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_insult_efficiency",
+     "name": "Insult Efficiency",
+     "amount": 1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -10832,6 +11778,13 @@
     {
      "kind": "Effect",
      "name": "Building Cost -10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "planet_buildings_cost_mult",
+     "name": "Building Cost",
+     "amount": -0.1
     }
    ],
    "source": "1793768254",
@@ -10951,6 +11904,13 @@
      "name": "Max rivalries +2"
     }
    ],
+   "modifiers": [
+    {
+     "key": "max_rivalries",
+     "name": "Max rivalries",
+     "amount": 2
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -11050,6 +12010,18 @@
      "name": "Diplomatic Acceptance +50"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_subject_acceptance_add",
+     "name": "Subjugation Acceptance",
+     "amount": 50
+    },
+    {
+     "key": "diplo_action_acceptance_add",
+     "name": "Diplomatic Acceptance",
+     "amount": 50
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -11113,6 +12085,13 @@
     {
      "kind": "Effect",
      "name": "Subject Integration Cooldown -20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_integration_cooldown_mult",
+     "name": "Subject Integration Cooldown",
+     "amount": -0.2
     }
    ],
    "source": "1793768254",
@@ -11187,6 +12166,13 @@
     {
      "kind": "Effect",
      "name": "Claim Influence Cost -10%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_claim_influence_cost_mult",
+     "name": "Claim Influence Cost",
+     "amount": -0.1
     }
    ],
    "source": "1793768254",
@@ -11268,6 +12254,18 @@
      "name": "Resources Produced from Research Stations +10%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "planet_biologists_society_research_produces_add",
+     "name": "Produced per 100 [GetBiologistSwapPluralWithIcon]",
+     "amount": 0.5
+    },
+    {
+     "key": "station_researchers_produces_mult",
+     "name": "Resources Produced from Research Stations",
+     "amount": 0.1
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -11323,6 +12321,13 @@
     {
      "kind": "Effect",
      "name": "Resettlement Cost -30%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_resettlement_cost_mult",
+     "name": "Resettlement Cost",
+     "amount": -0.3
     }
    ],
    "source": "1793768254",
@@ -11462,6 +12467,13 @@
      "name": "Border Friction -15%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "country_border_friction_mult",
+     "name": "Border Friction",
+     "amount": -0.15
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -11534,6 +12546,13 @@
     {
      "kind": "Effect",
      "name": "Terraform speed mult +15%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "terraform_speed_mult",
+     "name": "Terraform speed mult",
+     "amount": 0.15
     }
    ],
    "source": "1793768254",
@@ -11609,6 +12628,13 @@
     {
      "kind": "Effect",
      "name": "Civic Slots +1"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "country_government_civic_points_add",
+     "name": "Civic Slots",
+     "amount": 1
     }
    ],
    "source": "1793768254",
@@ -11691,6 +12717,13 @@
     {
      "kind": "Effect",
      "name": "Habitability +0.05"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "pop_environment_tolerance",
+     "name": "Habitability",
+     "amount": 0.05
     }
    ],
    "source": "1793768254",
@@ -11791,6 +12824,13 @@
      "name": "Megastructure Society Research Output +25%"
     }
    ],
+   "modifiers": [
+    {
+     "key": "megastructures_society_research_produces_mult",
+     "name": "Megastructure Society Research Output",
+     "amount": 0.25
+    }
+   ],
    "source": "1793768254",
    "file": "common/technology/gt_soc_tech.txt"
   },
@@ -11863,6 +12903,13 @@
     {
      "kind": "Effect",
      "name": "Megastructure Influence Cost -20%"
+    }
+   ],
+   "modifiers": [
+    {
+     "key": "megastructures_influence_cost_mult",
+     "name": "Megastructure Influence Cost",
+     "amount": -0.2
     }
    ],
    "source": "1793768254",
