@@ -47,7 +47,67 @@ country={
 
 const META = 'version="Corvus v4.5.2"\nname="United Nations of Earth"\ndate="2312.04.01"\n';
 
+/** The layout Stellaris 4.5 actually writes: every opening brace on the line after its key. */
+const GAMESTATE_AS_WRITTEN = `version="Cygnus v4.5.2"
+player=
+{
+\t
+\t{
+\t\tname="Ophidyan"
+\t\tcountry=0
+\t}
+ 
+}
+country=
+{
+\t0=
+\t{
+\t\tname=
+\t\t{
+\t\t\tkey="Alderix Unix"
+\t\t}
+\t\ttech_status=
+\t\t{
+\t\t\ttechnology="tech_solar_panel_network"
+\t\t\tlevel=1
+\t\t\ttechnology="tech_corvettes"
+\t\t\tlevel=1
+\t\t\tpotential=
+\t\t\t{
+\t\t\t\t"tech_potential_not_researched"
+\t\t\t}
+\t\t\talways_available_tech=
+\t\t\t{
+\t\t\t\t"tech_available_not_researched"
+\t\t\t}
+\t\t}
+\t}
+\t1=
+\t{
+\t\ttech_status=
+\t\t{
+\t\t\ttechnology="tech_not_mine"
+\t\t\tlevel=1
+\t\t}
+\t}
+}
+`;
+
 describe('readSaveResearch', () => {
+  it('reads saves laid out as the game writes them, braces on their own lines', async () => {
+    const research = await readSaveResearch(
+      zipOf({
+        meta: 'name="Alderix Unix 5"\ndate="2206.01.01"\n',
+        gamestate: GAMESTATE_AS_WRITTEN,
+      }),
+    );
+    expect(research).toEqual({
+      empireName: 'Alderix Unix 5',
+      date: '2206.01.01',
+      researched: { tech_solar_panel_network: 1, tech_corvettes: 1 },
+    });
+  });
+
   it("reads the player empire's researched techs and repeatable levels, and nothing queued or offered", async () => {
     const stages: string[] = [];
     const research = await readSaveResearch(zipOf({ meta: META, gamestate: GAMESTATE }), (stage) =>

@@ -40,16 +40,26 @@ function playerCountryId(gamestate: string): string {
   return country;
 }
 
+/**
+ * Saves open every block on the line after its key (`tech_status=` then `{`), with tabs showing
+ * the depth, so each step matches `key=`, any whitespace, then the brace.
+ */
 function techStatusOf(gamestate: string, country: string): ScriptBlock {
-  const countries = gamestate.indexOf('\ncountry={');
+  const countries = indexAfter(gamestate, /\ncountry=\s*\{/g, 0);
   if (countries === -1) throw unreadable('it has no empires');
-  const start = gamestate.indexOf(`\n\t${country}={`, countries);
+  const start = indexAfter(gamestate, new RegExp(`\\n\\t${country}=\\s*\\{`, 'g'), countries);
   if (start === -1) throw unreadable('the player empire is missing');
-  const nextCountry = gamestate.slice(start + 1).search(/\n\t\d+=\{/);
-  const end = nextCountry === -1 ? gamestate.length : start + 1 + nextCountry;
-  const techStatus = gamestate.indexOf('\n\t\ttech_status={', start);
+  const nextCountry = indexAfter(gamestate, /\n\t\d+=\s*\{/g, start + 1);
+  const end = nextCountry === -1 ? gamestate.length : nextCountry;
+  const techStatus = indexAfter(gamestate, /\n\t\ttech_status=\s*\{/g, start);
   if (techStatus === -1 || techStatus > end) throw unreadable('the player empire has no research');
-  return blockFrom(gamestate, techStatus + '\n\t\ttech_status='.length);
+  return blockFrom(gamestate, gamestate.indexOf('{', techStatus));
+}
+
+/** Where `pattern` (which must be global) next matches at or after `from`, or -1. */
+function indexAfter(text: string, pattern: RegExp, from: number): number {
+  pattern.lastIndex = from;
+  return pattern.exec(text)?.index ?? -1;
 }
 
 /**
@@ -71,7 +81,7 @@ function researchedTechs(techStatus: ScriptBlock): Record<string, number> {
 }
 
 function topLevelBlock(gamestate: string, key: string): ScriptBlock {
-  const start = gamestate.startsWith(`${key}={`) ? 0 : gamestate.indexOf(`\n${key}={`);
+  const start = indexAfter(gamestate, new RegExp(`(^|\\n)${key}=\\s*\\{`, 'g'), 0);
   if (start === -1) throw unreadable(`it has no ${key} section`);
   return blockFrom(gamestate, gamestate.indexOf('{', start));
 }
