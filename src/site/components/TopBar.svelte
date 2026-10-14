@@ -1,21 +1,26 @@
 <script lang="ts">
-  import type { SnapshotManifest } from '../../domain/snapshot.ts';
+  import type { SnapshotManifest, VersionEntry } from '../../domain/snapshot.ts';
   import type { TreeView } from '../state/tree-view.svelte.ts';
   import type { SaveImport } from '../state/save-import-status.svelte.ts';
   import type { TopBarPanel } from '../state/top-bar-panel.ts';
   import CampaignPanel from './CampaignPanel.svelte';
+  import CapacitiesPanel from './CapacitiesPanel.svelte';
   import Legend from './Legend.svelte';
   import ModPanel from './ModPanel.svelte';
 
   let {
     view,
     manifest,
+    versions,
+    onchooseversion,
     saveImport,
     search = $bindable(),
     openPanel = $bindable(),
   }: {
     view: TreeView;
     manifest: SnapshotManifest;
+    versions: VersionEntry[];
+    onchooseversion: (version: VersionEntry) => void;
     saveImport: SaveImport;
     search: HTMLInputElement | null;
     openPanel: TopBarPanel | null;
@@ -23,6 +28,11 @@
 
   const shownCount = $derived(view.visible.size);
   const campaign = $derived(view.campaigns.active);
+
+  function chooseVersion(gameVersion: string): void {
+    const version = versions.find((each) => each.gameVersion === gameVersion);
+    if (version) onchooseversion(version);
+  }
 
   function toggle(panel: TopBarPanel): void {
     openPanel = openPanel === panel ? null : panel;
@@ -33,9 +43,24 @@
 <header class="top-bar">
   <div class="brand">
     <h1>Stellaris Tech Tree</h1>
-    <span class="version" title={manifest.notice ?? undefined}>
-      Stellaris {manifest.gameVersion}{manifest.notice ? ' · preview data' : ''}
-    </span>
+    {#if versions.length > 1}
+      <label class="version">
+        <span>Stellaris</span>
+        <select
+          id="game-version"
+          value={manifest.gameVersion}
+          onchange={(event) => chooseVersion(event.currentTarget.value)}
+        >
+          {#each versions as version, index (version.gameVersion)}
+            <option value={version.gameVersion}
+              >{version.gameVersion}{index === 0 ? ' (newest)' : ''}</option
+            >
+          {/each}
+        </select>
+      </label>
+    {:else}
+      <span class="version">Stellaris {manifest.gameVersion}</span>
+    {/if}
   </div>
 
   <label class="search">
@@ -68,6 +93,9 @@
     <button onclick={() => toggle('campaigns')} aria-expanded={openPanel === 'campaigns'}>
       {campaign ? campaign.name : 'Campaign'}
     </button>
+    <button onclick={() => toggle('capacities')} aria-expanded={openPanel === 'capacities'}>
+      Capacities
+    </button>
     {#if view.mods().length > 0}
       <button onclick={() => toggle('mods')} aria-expanded={openPanel === 'mods'}>
         Mods {view.enabledMods.size}/{view.mods().length}
@@ -81,6 +109,8 @@
   <Legend onclose={() => (openPanel = null)} />
 {:else if openPanel === 'mods'}
   <ModPanel {view} onclose={() => (openPanel = null)} />
+{:else if openPanel === 'capacities'}
+  <CapacitiesPanel {view} onclose={() => (openPanel = null)} />
 {:else if openPanel === 'campaigns'}
   <CampaignPanel {view} {saveImport} onclose={() => (openPanel = null)} />
 {/if}
@@ -112,8 +142,20 @@
   }
 
   .version {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
     color: var(--text-muted);
     font-size: 0.85rem;
+  }
+
+  .version select {
+    padding: 0.15rem 0.3rem;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--space);
+    color: var(--text);
+    font: inherit;
   }
 
   .search {

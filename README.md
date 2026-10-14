@@ -70,10 +70,18 @@ The game decides conflicts the same way here as in game: a mod file with the sam
 
 ![Searching for lasers hides every other tech and narrows the columns](docs/images/search.png)
 
-## Coming next
+## Empire capacities
 
-1. **Older versions** - pick an earlier game patch.
-2. **Empire capacities** - a tab listing capacity bonuses such as Arc Furnace and Dyson Swarm capacity, what you have and which techs raise them.
+Techs quietly raise limits the game makes hard to track: Arc Furnace and Dyson Swarm capacity, storage, naval capacity, fleet command limit and more.
+**Capacities** lists every one of them, with the total your campaign's research gives, which techs it came from, and the techs that would raise it further.
+Click one of those techs to light its path in the tree.
+Untick **Capacities only** to see every empire bonus a tech gives.
+The totals count technologies only; traditions, ascension perks, civics, edicts and megastructures can change some of them too.
+
+## Older game versions
+
+When more than one game version has been extracted, a version picker appears next to the title.
+Mods auto-update and cannot be rolled back, so older versions show the base game only.
 
 ## Updating the data for your own game
 
@@ -116,6 +124,9 @@ You don't need to be a programmer to update it; these steps take about ten minut
 
 The extracted data lands in `public/data/<game version>/`.
 Running the extraction again after a patch replaces that version's data.
+
+To add an older game version, switch Stellaris to that version under **Properties → Betas** in Steam, run `npm run extract` again, and switch back.
+A version older than one already extracted is always extracted without mods.
 
 ## Credits
 

@@ -1,4 +1,5 @@
 import type { DrawWeight, WeightModifier } from '../domain/condition.ts';
+import { modifierText, type EmpireModifier } from '../domain/empire-modifier.ts';
 import { isResearchArea } from '../domain/research-area.ts';
 import type { Repeatability, Technology, TechnologyTrait, Unlock } from '../domain/technology.ts';
 import {
@@ -55,6 +56,7 @@ export function readTechnology(
     availability: potential ? context.narrator.describe(potential) : null,
     drawWeight,
     unlocks: unlocksOf(block, key, context),
+    modifiers: empireModifiersOf(block, context),
     source: context.source,
     file,
   };
@@ -161,7 +163,10 @@ function unlocksOf(block: ScriptBlock, key: string, context: TechnologyContext):
   const unlocks = [
     ...(context.unlocks.get(key) ?? []),
     ...describedUnlocks(block, context.localisation),
-    ...modifierEffects(block, context),
+    ...empireModifiersOf(block, context).map((modifier) => ({
+      kind: 'Effect',
+      name: modifierText(modifier),
+    })),
   ];
   return deduplicated(unlocks);
 }
@@ -178,23 +183,16 @@ function describedUnlocks(block: ScriptBlock, localisation: Localisation): Unloc
   });
 }
 
-/** Direct bonuses from the tech's `modifier` block, named as the game names them. */
-function modifierEffects(block: ScriptBlock, context: TechnologyContext): Unlock[] {
+/** Direct bonuses from the tech's own `modifier` block, named as the game names them. */
+function empireModifiersOf(block: ScriptBlock, context: TechnologyContext): EmpireModifier[] {
   const modifier = blockOf(block, 'modifier');
   return (modifier?.entries ?? []).flatMap((entry) => {
     if (!entry.key || typeof entry.value !== 'string') return [];
-    const value = context.variables.numberOf(entry.value);
+    const amount = context.variables.numberOf(entry.value);
+    if (amount === undefined) return [];
     const name = context.localisation.text(`mod_${entry.key}`) ?? humanise(entry.key);
-    return value === undefined
-      ? []
-      : [{ kind: 'Effect', name: `${name} ${signedAmount(entry.key, value)}` }];
+    return [{ key: entry.key, name, amount }];
   });
-}
-
-function signedAmount(modifierKey: string, value: number): string {
-  const sign = value >= 0 ? '+' : '';
-  if (modifierKey.endsWith('_mult')) return `${sign}${Math.round(value * 1000) / 10}%`;
-  return `${sign}${value}`;
 }
 
 function deduplicated(unlocks: Unlock[]): Unlock[] {

@@ -1,6 +1,7 @@
 <script lang="ts">
   import { untrack } from 'svelte';
   import { layoutBoard } from '../state/board-layout.ts';
+  import type { VersionEntry } from '../../domain/snapshot.ts';
   import type { LoadedSnapshot } from '../state/snapshot-loader.ts';
   import { CampaignBook } from '../state/campaign-book.svelte.ts';
   import { SaveImport } from '../state/save-import-status.svelte.ts';
@@ -11,7 +12,17 @@
   import type { TopBarPanel } from '../state/top-bar-panel.ts';
   import TopBar from './TopBar.svelte';
 
-  let { snapshot }: { snapshot: LoadedSnapshot } = $props();
+  let {
+    snapshot,
+    versions,
+    onchooseversion,
+  }: {
+    snapshot: LoadedSnapshot;
+    versions: VersionEntry[];
+    onchooseversion: (version: VersionEntry) => void;
+  } = $props();
+
+  const isNewest = $derived(versions[0]?.gameVersion === snapshot.version.gameVersion);
 
   const view = untrack(() => restoredView(snapshot));
   const layout = $derived(layoutBoard(view.tree));
@@ -22,7 +33,12 @@
   );
 
   $effect(() => {
-    writeSharedView({ query: view.query, lit: [...view.lit], modsOff: view.modsOff() });
+    writeSharedView({
+      version: isNewest ? null : snapshot.version.gameVersion,
+      query: view.query,
+      lit: [...view.lit],
+      modsOff: view.modsOff(),
+    });
   });
 
   function restoredView({ layers }: LoadedSnapshot): TreeView {
@@ -66,7 +82,15 @@
 />
 
 <div class="page">
-  <TopBar {view} manifest={snapshot.manifest} {saveImport} bind:search bind:openPanel />
+  <TopBar
+    {view}
+    manifest={snapshot.manifest}
+    {versions}
+    {onchooseversion}
+    {saveImport}
+    bind:search
+    bind:openPanel
+  />
   <div class="workspace">
     <Board {view} {layout} assetBase={snapshot.assetBase} />
     {#if view.inspected}

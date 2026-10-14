@@ -52,7 +52,7 @@ Each milestone ships on its own and is useful on its own.
 2. **Mods** - extraction of the playset, mod layers, the mod toggle panel, provenance and change display.
 3. **Progress** - campaigns, bulk marking, save import, hide researched, tier-gate progress.
 4. **Older versions** - version picker over earlier vanilla snapshots.
-5. **Empire capacities** (to explore after milestone 4) - see 5.12.
+5. **Empire capacities** - see 5.12.
 
 ## 5. Functional requirements
 
@@ -143,6 +143,7 @@ Anything not recognised falls back to the raw script; nothing is dropped.
 
 - A picker lists one snapshot per game version, newest first.
 - Re-extracting on the same game version replaces that snapshot.
+- Older versions come from Steam's beta branches; the extraction leaves mods out of any version older than the newest one already extracted.
 - Only the newest snapshot has mod layers.
 
 ### 5.10 Shareable view
@@ -157,7 +158,7 @@ Campaign marks are personal and stay out of the address.
 - Desktop-first; usable on a tablet; phones get a readable, scrollable layout without the hover features.
 - Keyboard: `/` focuses search, `Esc` clears search, then clears lit locks.
 
-### 5.12 Empire capacities (to explore)
+### 5.12 Empire capacities
 
 Some techs raise empire-wide limits that the game makes hard to track: Arc Furnace and Dyson Swarm capacity, Deep Space Citadel capacity, resource storage, and similar.
 A separate tab lists them.
@@ -170,7 +171,7 @@ A separate tab lists them.
   Traditions, ascension perks, civics, edicts and megastructure upgrades also move some of these numbers; including them needs their files extracted too and is a later step.
 - Techs the game never draws show where they come from (an event, a tradition, an ascension perk, a relic, and so on) in the details panel, with a distinct badge for each kind of source, once those files are extracted.
 - The extraction keeps each tech's bonuses structured (modifier key, English name, amount) rather than as display text, so the tab can add them up.
-- Open questions for when this milestone starts: which modifiers count as "capacities" by default, and whether the tab shows only capacities or every empire modifier with a capacity filter.
+- A bonus counts as a capacity when its English name mentions a capacity, limit, cap or maximum (38 of the 467 tech bonuses in the captain's playset); the tab shows capacities by default, with a switch to show every empire bonus.
 
 ## 6. Data pipeline
 

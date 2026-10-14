@@ -1,4 +1,5 @@
 import type { ConditionText, DrawWeight } from './condition.ts';
+import type { EmpireModifier } from './empire-modifier.ts';
 import type { ResearchArea } from './research-area.ts';
 
 export type TechnologyKey = string;
@@ -23,6 +24,8 @@ export interface Technology {
   availability: ConditionText | null;
   drawWeight: DrawWeight;
   unlocks: Unlock[];
+  /** Lasting empire bonuses from the tech's own `modifier` block. */
+  modifiers: EmpireModifier[];
   source: string;
   /** The game file that defines this tech, such as `common/technology/00_eng_tech.txt`. */
   file: string;

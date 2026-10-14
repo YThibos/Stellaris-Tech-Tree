@@ -10,7 +10,7 @@ import { ContentFolder } from './content-folder.ts';
 import { ContentLibrary } from './content-library.ts';
 import { gameVersionOf } from './game-installation.ts';
 import { extractLayer, type LayerExtraction } from './layer-extraction.ts';
-import { writeSnapshot } from './snapshot-writer.ts';
+import { newerExtractedVersion, writeSnapshot } from './snapshot-writer.ts';
 
 const FIXTURE = path.resolve('tests/fixtures/stellaris');
 const ICONS = 'gfx/interface/icons/technologies';
@@ -118,6 +118,14 @@ describe('extracting a game folder', () => {
       { kind: 'Effect', name: 'Resource Storage Capacity +20000' },
       { kind: 'Effect', name: 'Megastructure build speed mult +25%' },
     ]);
+    expect(technology('tech_mega_engineering').modifiers).toEqual([
+      { key: 'country_resource_max_add', name: 'Resource Storage Capacity', amount: 20000 },
+      {
+        key: 'megastructure_build_speed_mult',
+        name: 'Megastructure build speed mult',
+        amount: 0.25,
+      },
+    ]);
     expect(technology('tech_repeatable_hull').unlocks).toEqual([
       { kind: 'Component', name: 'Mega Armour' },
     ]);
@@ -198,6 +206,11 @@ describe('writing a snapshot', () => {
     expect(written.iconFailures[0]).toMatch(new RegExp(`^${ICONS}/tech_battleships.dds: `));
     const layer = await readJson<ContentLayer>(path.join(dataRoot, '4.5.3', 'vanilla.json'));
     expect(layer.technologies.find(({ key }) => key === 'tech_battleships')?.icon).toBeNull();
+  });
+
+  it('knows when a newer version than the one being extracted already exists', async () => {
+    expect(await newerExtractedVersion(dataRoot, '4.5.0')).toBe('4.5.3');
+    expect(await newerExtractedVersion(dataRoot, '4.6.0')).toBeUndefined();
   });
 
   it('lists versions newest first and replaces a re-extracted version', async () => {

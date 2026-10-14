@@ -8,6 +8,7 @@ import {
   unmarkResearched,
   type TierGateProgress,
 } from '../../domain/campaign.ts';
+import { summariseEmpireModifiers, type ModifierSummary } from '../../domain/empire-capacities.ts';
 import type { ResearchArea } from '../../domain/research-area.ts';
 import { mergeLayers, type MergedContent } from '../../domain/content-merge.ts';
 import type { ContentLayer, ContentSource } from '../../domain/snapshot.ts';
@@ -43,6 +44,8 @@ export class TreeView {
   readonly visible: Set<TechnologyKey>;
   readonly litPath: Set<TechnologyKey>;
   readonly links: Link[];
+  /** What the tree's techs do for each empire bonus, for the active campaign. */
+  readonly empireModifiers: ModifierSummary[];
   private readonly sources: Map<string, ContentSource>;
 
   constructor(
@@ -63,6 +66,9 @@ export class TreeView {
     this.visible = $derived.by(() => this.techsMatchingSearch());
     this.litPath = $derived(this.tree.requirementPathOfAll(this.lit));
     this.links = $derived.by(() => this.visibleLinks());
+    this.empireModifiers = $derived(
+      summariseEmpireModifiers(this.tree.technologies, this.campaigns.active?.researched ?? {}),
+    );
   }
 
   /** The mods in the snapshot, in launcher load order. */

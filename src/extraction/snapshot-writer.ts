@@ -101,6 +101,17 @@ async function listVersion(dataRoot: string, gameVersion: string): Promise<void>
   await writeJson(file, { versions });
 }
 
+/** The newest game version already extracted, if a newer one than `gameVersion` exists. */
+export async function newerExtractedVersion(
+  dataRoot: string,
+  gameVersion: string,
+): Promise<string | undefined> {
+  const { versions } = await readCatalogue(path.join(dataRoot, 'versions.json'));
+  return versions
+    .map((entry) => entry.gameVersion)
+    .find((listed) => compareVersions(listed, gameVersion) > 0);
+}
+
 async function readCatalogue(file: string): Promise<VersionCatalogue> {
   try {
     return JSON.parse(await readFile(file, 'utf8')) as VersionCatalogue;
