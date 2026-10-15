@@ -67,6 +67,18 @@ Open the research screen in game, with its three options per area.
       Tick it again: everything returns.
 - [x] **All off** leaves the base game only (679 techs); **All on** restores 2,130.
 
+## 5b. DLCs (after the next extract)
+
+The DLC list comes from the extraction, so run `npm run extract` once and push the data first.
+
+- [ ] The extract report lists "DLCs some techs need" for the base game, with counts close to: The Machine Age 28, First Contact 21, Shadows of the Shroud 21, Grand Archive 12, Cosmic Storms 10, Apocalypse 9.
+- [ ] A **DLCs** button appears in the top bar, reading 8/8 or similar, and its panel lists those DLCs with their tech counts.
+- [ ] Untick Apocalypse: Colossi, Titans and the other Apocalypse techs disappear, and so does anything reachable only through them.
+      Tick it again: they return.
+- [ ] Open Colossi's details: they say "Needs DLC: Apocalypse".
+- [ ] Untick a DLC, reload the page: it is still unticked.
+- [ ] Drop the autosave: the message says the tree now matches that game, Mods reads 19/19, and DLCs shows every DLC you own ticked.
+
 ## 6. Marking research by hand
 
 Use a scratch campaign for this (Campaign panel, Create) so your imported one stays clean.

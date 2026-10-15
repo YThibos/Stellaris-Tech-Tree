@@ -22,6 +22,8 @@ export interface Technology {
   traits: TechnologyTrait[];
   icon: string | null;
   availability: ConditionText | null;
+  /** DLCs the availability conditions cannot hold without, by the game's names for them. */
+  requiredDlcs: string[];
   drawWeight: DrawWeight;
   unlocks: Unlock[];
   /** Lasting empire bonuses from the tech's own `modifier` block. */

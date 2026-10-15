@@ -13,6 +13,7 @@
  */
 import path from 'node:path';
 import { parseArgs } from 'node:util';
+import type { Technology } from '../domain/technology.ts';
 import { findGameFolder, gameVersionOf, isStellaris } from './game-installation.ts';
 import type { LayerExtraction } from './layer-extraction.ts';
 import { findUserFolder, readPlayset, type Playset } from './playset.ts';
@@ -101,6 +102,17 @@ function reportLayer({ layer, findings }: LayerExtraction): void {
   listFindings('Techs without an English name', findings.unnamedTechnologies);
   listFindings('Techs without an icon', findings.technologiesWithoutIcon);
   listFindings('Techs with a research cost of 0', findings.technologiesWithoutCost);
+  listFindings('DLCs some techs need', dlcCounts(layer.technologies));
+}
+
+/** How many techs each DLC gates, most first, so a missing DLC check shows up at a glance. */
+function dlcCounts(technologies: Technology[]): string[] {
+  const counts = new Map<string, number>();
+  for (const dlc of technologies.flatMap(({ requiredDlcs }) => requiredDlcs))
+    counts.set(dlc, (counts.get(dlc) ?? 0) + 1);
+  return [...counts.entries()]
+    .sort(([, left], [, right]) => right - left)
+    .map(([dlc, count]) => `${dlc}: ${count} techs`);
 }
 
 function listFindings(title: string, findings: string[]): void {

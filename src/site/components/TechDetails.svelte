@@ -126,6 +126,10 @@
     <dd>
       {#if source}<ModLink mod={source} />{:else}{technology.source}{/if}
     </dd>
+    {#if technology.requiredDlcs.length > 0}
+      <dt>Needs DLC</dt>
+      <dd>{technology.requiredDlcs.join(', ')}</dd>
+    {/if}
     {#if unlockSources.length > 0}
       <dt>New unlocks from</dt>
       <dd class="mod-list">

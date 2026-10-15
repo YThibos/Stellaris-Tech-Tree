@@ -6,6 +6,7 @@ tech_starbase_5 = {
 	tier = 4
 	category = { voidcraft }
 	prerequisites = { "tech_starbase_4" }
+	potential = { has_machine_age_dlc = yes }
 	weight = @[ tier5weight1 * 2 ]
 }
 

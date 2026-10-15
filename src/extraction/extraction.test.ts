@@ -63,6 +63,11 @@ describe('extracting a game folder', () => {
     });
   });
 
+  it("records the DLCs a tech cannot appear without, through the game's named checks", () => {
+    expect(technology('tech_starbase_5').requiredDlcs).toEqual(['The Machine Age']);
+    expect(technology('tech_mega_engineering').requiredDlcs).toEqual([]);
+  });
+
   it('reads a cost that conditions scale from its starting factor', () => {
     expect(technology('tech_battleships').cost).toBe(8000);
   });

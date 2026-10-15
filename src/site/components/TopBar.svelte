@@ -5,6 +5,7 @@
   import type { TopBarPanel } from '../state/top-bar-panel.ts';
   import CampaignPanel from './CampaignPanel.svelte';
   import CapacitiesPanel from './CapacitiesPanel.svelte';
+  import DlcPanel from './DlcPanel.svelte';
   import Legend from './Legend.svelte';
   import ModPanel from './ModPanel.svelte';
   import SearchBox from './SearchBox.svelte';
@@ -94,6 +95,11 @@
         Mods {view.enabledMods.size}/{view.mods().length}
       </button>
     {/if}
+    {#if view.dlcs.length > 0}
+      <button onclick={() => toggle('dlcs')} aria-expanded={openPanel === 'dlcs'}>
+        DLCs {view.dlcs.filter((dlc) => !view.dlcsOff.has(dlc)).length}/{view.dlcs.length}
+      </button>
+    {/if}
     <button onclick={() => toggle('legend')} aria-expanded={openPanel === 'legend'}>Legend</button>
     <button onclick={() => toggle('shortkeys')} aria-expanded={openPanel === 'shortkeys'}>
       Shortkeys
@@ -105,6 +111,8 @@
   <Legend onclose={() => (openPanel = null)} />
 {:else if openPanel === 'mods'}
   <ModPanel {view} onclose={() => (openPanel = null)} />
+{:else if openPanel === 'dlcs'}
+  <DlcPanel {view} onclose={() => (openPanel = null)} />
 {:else if openPanel === 'shortkeys'}
   <ShortkeysPanel onclose={() => (openPanel = null)} />
 {:else if openPanel === 'capacities'}

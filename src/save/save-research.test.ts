@@ -93,11 +93,24 @@ country=
 }
 `;
 
+const META_AS_WRITTEN = `name="Alderix Unix 5"
+date="2206.01.01"
+required_dlcs=
+{
+\t"Apocalypse"
+\t"The Machine Age"
+}
+mods=
+{
+\t"Gigastructural Engineering & More (4.5)"
+}
+`;
+
 describe('readSaveResearch', () => {
   it('reads saves laid out as the game writes them, braces on their own lines', async () => {
     const research = await readSaveResearch(
       zipOf({
-        meta: 'name="Alderix Unix 5"\ndate="2206.01.01"\n',
+        meta: META_AS_WRITTEN,
         gamestate: GAMESTATE_AS_WRITTEN,
       }),
     );
@@ -105,6 +118,8 @@ describe('readSaveResearch', () => {
       empireName: 'Alderix Unix 5',
       date: '2206.01.01',
       researched: { tech_solar_panel_network: 1, tech_corvettes: 1 },
+      dlcs: ['Apocalypse', 'The Machine Age'],
+      mods: ['Gigastructural Engineering & More (4.5)'],
     });
   });
 
@@ -117,6 +132,8 @@ describe('readSaveResearch', () => {
       empireName: 'United Nations of Earth',
       date: '2312.04.01',
       researched: { tech_lasers_1: 1, tech_repeatable_weapon_type_energy_damage: 4 },
+      dlcs: null,
+      mods: null,
     });
     expect(stages).toEqual(['unpacking', 'reading']);
   });

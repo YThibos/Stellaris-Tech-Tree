@@ -44,6 +44,7 @@ This version is built around the questions you actually ask mid-campaign:
 | Track a campaign                             | Click **Campaign**, create one or drop a save file onto the page                               |
 | Mark a tech researched                       | Click the ✓ on its card; everything it requires is marked too                                  |
 | Declutter                                    | Tick **Hide researched**                                                                       |
+| Leave out DLCs you lack                      | Click **DLCs** and untick them                                                                 |
 | Switch mods on or off                        | Click **Mods**, find a mod by name and tick or untick it                                       |
 | Find every tech from one mod                 | Type part of the mod's name in the search box                                                  |
 | Share exactly what you're looking at         | Copy the page address; it remembers your search, lit techs and mods                            |
@@ -60,7 +61,7 @@ Keep track of what you have researched in one or more campaigns, stored in your 
 - **Import a save:** drop a `.sav` file onto the page, or choose one under **Campaign**.
   The save is read in your browser and never uploaded.
   Importing a later save of the same empire updates its campaign.
-  The mods the save's research comes from are switched on for you.
+  The tree then matches that game: the mods it runs with are switched on, and DLCs it lacks are left out.
 - **Mark as you go:** the ✓ on a card marks the tech researched together with everything it requires.
   Unmarking a tech also unmarks everything that needed it, so a campaign never contradicts the tree.
 - **Mark a whole tier** at once, in one research area or all three, from the **Campaign** panel.
@@ -74,13 +75,20 @@ Keep track of what you have researched in one or more campaigns, stored in your 
 The tree includes every mod in your playset that touches technology: mods that add techs, like Gigastructural Engineering, Ancient Cache of Technologies or Guilli's Technologies, mods that change the game's techs, and mods that give existing techs new unlocks.
 Mods start switched off, so the tree first shows the base game as it ships.
 Switch on the ones you play with in the **Mods** list, and the tree rebuilds itself as the game would load it; your browser remembers your choice for next time.
-Importing a save switches on the mods its research comes from.
+Importing a save switches on exactly the mods that game runs with.
 Every tech a mod adds, changes or gives new unlocks carries a small MOD tag, and its details link to the Workshop page of each mod involved.
 When a mod changes a tech, the details also say what changed, such as a new requirement or a higher cost.
 
 The game decides conflicts the same way here as in game: a mod file with the same name as an earlier one replaces it, and when two files define the same tech, the file whose name sorts last wins.
 
 ![Searching for lasers hides every other tech and narrows the columns](docs/images/search.png)
+
+## DLCs
+
+About one tech in six needs a DLC to appear, such as Colossi with Apocalypse or the cybernetics techs with The Machine Age.
+The tree counts every DLC as owned until you say otherwise: untick the ones you lack under **DLCs**, and their techs leave the tree together with every tech that can only be reached through them.
+A tech's details name the DLC it needs.
+Importing a save ticks exactly the DLCs that game uses.
 
 ## Empire capacities
 

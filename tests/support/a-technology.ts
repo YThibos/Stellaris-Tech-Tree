@@ -14,6 +14,7 @@ export function aTechnology(overrides: Partial<Technology> & Pick<Technology, 'k
     traits: [],
     icon: null,
     availability: null,
+    requiredDlcs: [],
     drawWeight: { base: 100, factor: 1, modifiers: [] },
     unlocks: [],
     modifiers: [],

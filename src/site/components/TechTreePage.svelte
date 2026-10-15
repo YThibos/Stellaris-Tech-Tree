@@ -7,7 +7,14 @@
   import { SaveImport } from '../state/save-import-status.svelte.ts';
   import { TreeView } from '../state/tree-view.svelte.ts';
   import { readSharedView, writeSharedView } from '../state/view-address.ts';
-  import { initialModChoice, readStoredModChoice, storeModChoice } from '../state/mod-choice.ts';
+  import {
+    initialDlcChoice,
+    initialModChoice,
+    readStoredDlcChoice,
+    readStoredModChoice,
+    storeDlcChoice,
+    storeModChoice,
+  } from '../state/content-choice.ts';
   import Board from './Board.svelte';
   import DetailsDrawer from './DetailsDrawer.svelte';
   import type { TopBarPanel } from '../state/top-bar-panel.ts';
@@ -35,7 +42,7 @@
       new SaveImport(
         view.campaigns,
         (key) => view.tree.technology(key) !== undefined,
-        (keys) => view.switchOnModsDefining(keys),
+        (game) => view.matchGame(game),
       ),
   );
 
@@ -45,7 +52,12 @@
       query: view.query,
       lit: [...view.lit],
       modsOn: view.modsOn(),
+      dlcsOff: [...view.dlcsOff],
     });
+  });
+
+  $effect(() => {
+    storeDlcChoice([...view.dlcsOff]);
   });
 
   $effect(() => {
@@ -56,7 +68,8 @@
     const shared = readSharedView();
     const available = layers.slice(1).map(({ source }) => source.id);
     const modsOn = initialModChoice(shared, available, readStoredModChoice());
-    const restored = new TreeView(layers, modsOn, new CampaignBook());
+    const dlcsOff = initialDlcChoice(shared, readStoredDlcChoice());
+    const restored = new TreeView(layers, modsOn, new CampaignBook(), dlcsOff);
     restored.query = shared.query;
     for (const key of shared.lit) if (restored.tree.technology(key)) restored.lit.add(key);
     return restored;

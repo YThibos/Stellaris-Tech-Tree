@@ -54,7 +54,7 @@ export async function extractLayer(
   library: ContentLibrary,
 ): Promise<LayerExtraction> {
   const folders = loaded.includes(own) ? loaded : [...loaded, own];
-  const { variables, inlineScripts, localisation } = await library.contextFor(folders);
+  const { variables, inlineScripts, localisation, dlcChecks } = await library.contextFor(folders);
   const { definitions, files } = await readDefinitions(own, variables, inlineScripts);
   const narrator = new ConditionNarrator(localisation, (key) => technologyName(key, localisation));
   const unlocks = await indexUnlocks(own, inlineScripts, localisation);
@@ -64,6 +64,7 @@ export async function extractLayer(
     variables,
     localisation,
     narrator,
+    dlcChecks,
     unlocks,
     iconPath: (name) => icons.claim(name),
   });

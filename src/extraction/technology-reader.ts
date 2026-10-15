@@ -12,6 +12,7 @@ import {
   type ScriptBlock,
 } from '../script/script-node.ts';
 import { humanise, type ConditionNarrator } from './condition-narrator.ts';
+import type { DlcChecks } from './dlc-checks.ts';
 import type { Localisation } from './localisation.ts';
 import type { ScriptedVariables } from './scripted-variables.ts';
 
@@ -28,6 +29,7 @@ export interface TechnologyContext {
   variables: ScriptedVariables;
   localisation: Localisation;
   narrator: ConditionNarrator;
+  dlcChecks: DlcChecks;
   unlocks: Map<string, Unlock[]>;
   iconPath: (iconName: string) => string;
 }
@@ -54,6 +56,7 @@ export function readTechnology(
     traits: traitsOf(block, drawWeight),
     icon: context.iconPath(textOf(block, 'icon') ?? key),
     availability: potential ? context.narrator.describe(potential) : null,
+    requiredDlcs: potential ? context.dlcChecks.requiredBy(potential) : [],
     drawWeight,
     unlocks: unlocksOf(block, key, context),
     modifiers: empireModifiersOf(block, context),

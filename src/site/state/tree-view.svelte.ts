@@ -11,6 +11,7 @@ import {
 import { summariseEmpireModifiers, type ModifierSummary } from '../../domain/empire-capacities.ts';
 import type { ResearchArea } from '../../domain/research-area.ts';
 import { mergeLayers, type MergedContent } from '../../domain/content-merge.ts';
+import { dlcsNeededBy, withoutDlcs } from '../../domain/dlc-availability.ts';
 import type { ContentLayer, ContentSource } from '../../domain/snapshot.ts';
 import { TechTree } from '../../domain/tech-tree.ts';
 import { matchesSearch } from '../../domain/technology-search.ts';
@@ -35,6 +36,21 @@ export interface Link {
   oneOf: boolean;
 }
 
+/** What a save says about the game it comes from, for the tree to match it. */
+export interface GameSetup {
+  researched: TechnologyKey[];
+  /** Mod names; null when the save does not list them. */
+  mods: string[] | null;
+  /** DLC names; null when the save does not list them. */
+  dlcs: string[] | null;
+}
+
+/** How the tree changed to match a game. */
+export interface GameMatch {
+  modsOn: number;
+  dlcsLeftOut: number;
+}
+
 /** How many earlier selections Backspace can step back through. */
 const TRAIL_LENGTH = 50;
 
@@ -48,6 +64,8 @@ export class TreeView {
   readonly layers: readonly ContentLayer[];
   readonly campaigns: CampaignBook;
   readonly enabledMods: SvelteSet<string>;
+  /** DLCs the player does not have; every DLC counts as owned unless listed here. */
+  readonly dlcsOff: SvelteSet<string>;
   query = $state('');
   selected = $state<TechnologyKey | null>(null);
   /** Whether the selected tech's details are slid in; folded, only their edge shows. */
@@ -58,6 +76,8 @@ export class TreeView {
   readonly lit = new SvelteSet<TechnologyKey>();
 
   readonly merged: MergedContent;
+  /** The DLCs the techs of the enabled content need, whether owned or not. */
+  readonly dlcs: string[];
   readonly tree: TechTree;
   readonly visible: Set<TechnologyKey>;
   readonly litPath: Set<TechnologyKey>;
@@ -72,7 +92,12 @@ export class TreeView {
   private readonly trail: TechnologyKey[] = [];
   private readonly sources: Map<string, ContentSource>;
 
-  constructor(layers: readonly ContentLayer[], modsOn: readonly string[], campaigns: CampaignBook) {
+  constructor(
+    layers: readonly ContentLayer[],
+    modsOn: readonly string[],
+    campaigns: CampaignBook,
+    dlcsOff: readonly string[] = [],
+  ) {
     this.layers = layers;
     this.campaigns = campaigns;
     this.sources = new Map(layers.map((layer) => [layer.source.id, layer.source]));
@@ -81,8 +106,12 @@ export class TreeView {
         .map(({ id }) => id)
         .filter((id) => modsOn.includes(id)),
     );
+    this.dlcsOff = new SvelteSet(dlcsOff);
     this.merged = $derived(mergeLayers(layers, this.enabledMods));
-    this.tree = $derived(new TechTree(this.merged.technologies, this.merged.tierGates));
+    this.dlcs = $derived(dlcsNeededBy(this.merged.technologies));
+    this.tree = $derived(
+      new TechTree(withoutDlcs(this.merged.technologies, this.dlcsOff), this.merged.tierGates),
+    );
     this.visible = $derived.by(() => this.techsMatchingSearch());
     this.litPath = $derived(this.tree.requirementPathOfAll(this.lit));
     this.selectedLeadsTo = $derived(new Set(this.selected ? this.tree.leadsTo(this.selected) : []));
@@ -136,6 +165,22 @@ export class TreeView {
       .filter((id) => this.enabledMods.has(id));
   }
 
+  /**
+   * Sets the mods and DLCs to those of a save's game: the mods it lists, plus any defining a tech it
+   * researched, and only the DLCs it lists. What the save does not list is left as it was.
+   */
+  matchGame(game: GameSetup): GameMatch {
+    if (game.mods) this.setAllMods(false);
+    this.switchOnModsDefining(game.researched);
+    if (game.mods) this.switchOnModsNamed(game.mods);
+    const dlcs = game.dlcs;
+    if (dlcs) {
+      this.setAllDlcs(true);
+      for (const dlc of this.dlcs.filter((each) => !dlcs.includes(each))) this.dlcsOff.add(dlc);
+    }
+    return { modsOn: this.enabledMods.size, dlcsLeftOut: this.dlcsOff.size };
+  }
+
   /** Switches on the mods that define any of these techs, such as a save's; returns those switched on. */
   switchOnModsDefining(keys: readonly TechnologyKey[]): ContentSource[] {
     const wanted = new Set(keys);
@@ -144,6 +189,27 @@ export class TreeView {
       .filter((layer) => layer.technologies.some(({ key }) => wanted.has(key)));
     for (const { source } of needed) this.enabledMods.add(source.id);
     return needed.map(({ source }) => source);
+  }
+
+  private switchOnModsNamed(names: readonly string[]): void {
+    for (const mod of this.mods()) if (names.includes(mod.name)) this.enabledMods.add(mod.id);
+  }
+
+  toggleDlc(dlc: string): void {
+    if (this.dlcsOff.has(dlc)) this.dlcsOff.delete(dlc);
+    else this.dlcsOff.add(dlc);
+  }
+
+  setAllDlcs(owned: boolean): void {
+    for (const dlc of this.dlcs) {
+      if (owned) this.dlcsOff.delete(dlc);
+      else this.dlcsOff.add(dlc);
+    }
+  }
+
+  /** How many techs of the enabled content need a DLC. */
+  techsNeeding(dlc: string): number {
+    return this.merged.technologies.filter(({ requiredDlcs }) => requiredDlcs.includes(dlc)).length;
   }
 
   /** Levels researched in the active campaign; 0 when not researched or no campaign is active. */

@@ -94,7 +94,9 @@ describe('TreeView selection', () => {
 describe('TreeView mods', () => {
   const giga: ContentLayer = {
     source: { id: 'giga', name: 'Gigastructures', version: '4.5', workshopId: '1121692237' },
-    technologies: [aTechnology({ key: 'giga_tech_birch', source: 'giga' })],
+    technologies: [
+      aTechnology({ key: 'giga_tech_birch', source: 'giga', file: 'common/technology/giga.txt' }),
+    ],
     tierGates: [],
     technologyFiles: [],
     unlocksAdded: {},
@@ -102,7 +104,13 @@ describe('TreeView mods', () => {
   const guilli: ContentLayer = {
     ...giga,
     source: { id: 'guilli', name: "Guilli's Technologies", version: '1', workshopId: null },
-    technologies: [aTechnology({ key: 'tech_guilli_planet', source: 'guilli' })],
+    technologies: [
+      aTechnology({
+        key: 'tech_guilli_planet',
+        source: 'guilli',
+        file: 'common/technology/guilli.txt',
+      }),
+    ],
   };
 
   it('shows only the mods it is given switched on', () => {
@@ -111,11 +119,57 @@ describe('TreeView mods', () => {
     expect(view.tree.technology('giga_tech_birch')).toBeUndefined();
   });
 
+  it("matches a save's game: the mods it lists or researched from, and only its DLCs", () => {
+    const apocalyptic: ContentLayer = {
+      ...vanilla,
+      technologies: [aTechnology({ key: 'tech_colossus', requiredDlcs: ['Apocalypse'] })],
+    };
+    const view = new TreeView([apocalyptic, giga, guilli], ['guilli'], new CampaignBook());
+    const match = view.matchGame({
+      researched: ['giga_tech_birch'],
+      mods: ['More Events Mod'],
+      dlcs: ['Nemesis'],
+    });
+    expect(view.modsOn()).toEqual(['giga']);
+    expect([...view.dlcsOff]).toEqual(['Apocalypse']);
+    expect(match).toEqual({ modsOn: 1, dlcsLeftOut: 1 });
+  });
+
+  it('leaves the mods and DLCs a save does not list as they were', () => {
+    const view = new TreeView([vanilla, giga, guilli], ['guilli'], new CampaignBook());
+    view.matchGame({ researched: ['giga_tech_birch'], mods: null, dlcs: null });
+    expect(view.modsOn()).toEqual(['giga', 'guilli']);
+  });
+
   it("switches on the mods behind a save's techs and says which", () => {
     const view = new TreeView([vanilla, giga, guilli], [], new CampaignBook());
     const switchedOn = view.switchOnModsDefining(['tech_lasers_1', 'giga_tech_birch']);
     expect(switchedOn.map(({ id }) => id)).toEqual(['giga']);
     expect(view.tree.technology('giga_tech_birch')).toBeDefined();
     expect(view.modsOn()).toEqual(['giga']);
+  });
+});
+
+describe('TreeView DLCs', () => {
+  const withDlcs: ContentLayer = {
+    ...vanilla,
+    technologies: [
+      ...vanilla.technologies,
+      aTechnology({ key: 'tech_colossus', requiredDlcs: ['Apocalypse'] }),
+      aTechnology({ key: 'tech_titans', requiredDlcs: ['Apocalypse'] }),
+    ],
+  };
+
+  it('lists the DLCs the techs need and counts the techs each gates', () => {
+    const view = new TreeView([withDlcs], [], new CampaignBook());
+    expect(view.dlcs).toEqual(['Apocalypse']);
+    expect(view.techsNeeding('Apocalypse')).toBe(2);
+  });
+
+  it('leaves out the techs of a DLC switched off', () => {
+    const view = new TreeView([withDlcs], [], new CampaignBook(), ['Apocalypse']);
+    expect(view.tree.technology('tech_colossus')).toBeUndefined();
+    view.toggleDlc('Apocalypse');
+    expect(view.tree.technology('tech_colossus')).toBeDefined();
   });
 });

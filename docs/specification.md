@@ -116,10 +116,17 @@ Anything not recognised falls back to the raw script; nothing is dropped.
 - A mod panel lists the layers, searchable by name, each with a toggle and counts of techs added and changed.
 - Every mod starts switched off, so a first visit shows the base game as it ships.
   The browser remembers which mods the player switched on; a shared address that names its mods takes precedence.
-- Importing a save switches on the mods that define any of its researched techs.
 - Toggling recomputes the tree instantly in the browser, by re-merging the enabled layers in load order.
 - A tech whose prerequisite does not exist in the enabled set is flagged, never silently dropped.
 - Mods with no tech content (UI, graphics, events only) do not appear in the panel.
+
+### 5.5b DLCs
+
+- The extraction records, per tech, the DLCs its availability conditions cannot hold without: direct DLC checks and the game's named DLC checks from its scripted triggers, at the top level or inside AND, never inside OR or NOT.
+- A DLC panel lists the DLCs the enabled techs need, with how many techs each gates; every DLC counts as owned until unticked.
+- Leaving out a DLC removes its techs and every tech reachable only through removed techs.
+- The choice is remembered in the browser and carried in the shared address.
+- Importing a save sets the DLCs to those the save lists, and the mods to those it lists plus any behind its researched techs.
 
 ### 5.6 Mod changes to vanilla
 

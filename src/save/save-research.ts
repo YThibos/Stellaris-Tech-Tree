@@ -1,4 +1,4 @@
-import { blockOf, isBlock, textOf, type ScriptBlock } from '../script/script-node.ts';
+import { blockOf, isBlock, listItems, textOf, type ScriptBlock } from '../script/script-node.ts';
 import { parseScript } from '../script/script-parser.ts';
 import { readZipEntry } from './zip-reader.ts';
 
@@ -8,6 +8,10 @@ export interface SaveResearch {
   date: string;
   /** Each researched tech with its level; 1 for techs researched once. */
   researched: Record<string, number>;
+  /** The DLCs the game runs with, by the game's names; null when the save does not say. */
+  dlcs: string[] | null;
+  /** The mods the game runs with, by name; null when the save does not say. */
+  mods: string[] | null;
 }
 
 export type SaveReadingStage = 'unpacking' | 'reading';
@@ -29,7 +33,14 @@ export async function readSaveResearch(
     empireName: textOf(meta, 'name') ?? 'Imported campaign',
     date: textOf(meta, 'date') ?? '',
     researched: researchedTechs(techStatusOf(gamestate, country)),
+    dlcs: listIn(meta, 'required_dlcs'),
+    mods: listIn(meta, 'mods'),
   };
+}
+
+function listIn(meta: ScriptBlock, key: string): string[] | null {
+  const block = blockOf(meta, key);
+  return block ? listItems(block) : null;
 }
 
 function playerCountryId(gamestate: string): string {

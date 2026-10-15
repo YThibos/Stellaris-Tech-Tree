@@ -29,14 +29,15 @@ export async function loadSnapshot(version: VersionEntry): Promise<LoadedSnapsho
   const layers = await Promise.all(
     manifest.layers.map((layer) => fetchJson<ContentLayer>(`${assetBase}/${layer.file}`)),
   );
-  return { version, manifest, layers: layers.map(withModifierLists), assetBase };
+  return { version, manifest, layers: layers.map(withListsFilledIn), assetBase };
 }
 
-/** Snapshots extracted before techs recorded their empire bonuses simply have none. */
-function withModifierLists(layer: ContentLayer): ContentLayer {
+/** Snapshots extracted before techs recorded their empire bonuses or DLCs simply have none. */
+function withListsFilledIn(layer: ContentLayer): ContentLayer {
   const technologies = layer.technologies.map((technology): Technology => ({
     ...technology,
     modifiers: technology.modifiers ?? [],
+    requiredDlcs: technology.requiredDlcs ?? [],
   }));
   return { ...layer, technologies };
 }

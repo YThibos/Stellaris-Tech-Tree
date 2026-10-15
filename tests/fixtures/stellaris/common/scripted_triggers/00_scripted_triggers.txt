@@ -1,0 +1,3 @@
+has_machine_age_dlc = {
+	host_has_dlc = "The Machine Age"
+}
