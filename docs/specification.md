@@ -86,13 +86,20 @@ Each milestone ships on its own and is useful on its own.
 - It matches tech name, key, description, category and unlock text, case-insensitively.
 - Empty columns and bands collapse while a filter is active.
 - Lit techs stay visible regardless of the filter, so a target never disappears.
+- While typing, a list under the search box suggests techs whose name holds every word typed, best match first.
+  The arrow keys walk the list and Enter, or a click, picks one: its details open, the search clears and the board centres on it.
 
 ### 5.4 Tech details
 
-Shown in a side panel when a tech is opened:
+Clicking a card's ⓘ selects the tech and slides its details in from the right.
+The selected tech stands out on the board with a bright outline and a glow in its research area's colour, and its details are headed "Selected tech".
+The details fold away to a slim edge on the right, which shows the selected tech's name upright in its area's colour; clicking the edge slides them back in.
+With nothing selected the edge is light grey and does nothing.
+
+The details show:
 
 - Name, icon, description, tier, area, category, cost, repeatable levels.
-- Prerequisites and the techs it leads to, each clickable.
+- Prerequisites and the techs it leads to; clicking one selects it and centres the board on it.
 - Unlocks.
 - Availability, as plain English, with the raw game script collapsed underneath.
 - Draw weight: base weight, then each weight modifier as plain English with its factor, raw script collapsed underneath.
@@ -156,10 +163,11 @@ Campaign marks are personal and stay out of the address.
 
 - Dark theme echoing the in-game research screen, with area colours (physics blue, society green, engineering orange) and game icons on cards.
 - Desktop-first; usable on a tablet; phones get a readable, scrollable layout without the hover features.
-- Keyboard shortcuts echo Stellaris's own: `Q` centres the board on the selected tech, `F` (and `/`) opens the finder, `W` `A` `S` `D` move the board like the camera, `Home` returns to tier 0 as Home returns to the capital, and `Esc` closes the open panel, then clears the search, the details and the lit techs, one per press.
+- Keyboard shortcuts echo Stellaris's own where the game has one: `Q` centres the board on the selected tech, `F` (and `/`) opens the finder, `W` `A` `S` `D` move the board like the camera, `Home` returns to tier 0 as Home returns to the capital, and `Esc` closes the open panel, then clears the search, folds the details away, clears the selection and switches off the lit techs, one per press.
+- Keys of the tree's own: `0` to `9` jump to that tier, `End` to the repeatables, and `Backspace` returns to the tech selected before.
 - A Shortkeys button shows a cheat sheet of these keys and their Stellaris equivalents.
-- The details panel has a Go to button that centres the board on the tech; clearing a search returns the board to the open tech.
-- The tech whose details are open draws violet lines to the techs it leads to, one step on, and those techs stay on the board during a search.
+- The details panel has a Go to button that centres the board on the tech; clearing a search returns the board to the selected tech.
+- The selected tech draws violet lines to the techs it leads to, one step on, and those techs stay on the board during a search.
 
 ### 5.12 Empire capacities
 

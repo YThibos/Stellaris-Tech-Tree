@@ -26,19 +26,20 @@
   };
 
   const cards = new SvelteMap<string, HTMLElement>();
+  const columnHeaders = new Map<string, HTMLElement>();
   let board = $state<HTMLElement | null>(null);
   let content = $state<HTMLElement | null>(null);
 
   const LOCATED_MARK_MS = 1600;
 
   /**
-   * A new search starts from the top-left; clearing the search returns to the open tech, so the
-   * player does not lose the place they searched for.
+   * A new search starts from the top-left; clearing the search returns to the selected tech, so
+   * the player does not lose the place they searched for.
    */
   $effect(() => {
     const searching = view.isSearching();
-    const inspected = untrack(() => view.inspected);
-    if (!searching && inspected) view.goTo(inspected);
+    const selected = untrack(() => view.selected);
+    if (!searching && selected) view.goTo(selected);
     else board?.scrollTo({ left: 0, top: 0 });
   });
 
@@ -52,6 +53,15 @@
     if (command.kind === 'pan')
       board?.scrollBy({ left: command.right, top: command.down, behavior: scrollBehaviour() });
     if (command.kind === 'locate') locate(command.key);
+    if (command.kind === 'column') showColumn(command.columnId);
+  }
+
+  /** Scrolls a column to the left edge, just right of the research area labels. */
+  function showColumn(id: string): void {
+    const header = columnHeaders.get(id);
+    if (!board || !header || header.hidden) return;
+    const labelWidth = parseFloat(getComputedStyle(board).getPropertyValue('--band-label-width'));
+    board.scrollTo({ left: header.offsetLeft - labelWidth, behavior: scrollBehaviour() });
   }
 
   function locate(key: string): void {
@@ -94,6 +104,11 @@
     return { destroy: () => cards.delete(key) };
   };
 
+  const registerColumn: Action<HTMLElement, string> = (element, id) => {
+    columnHeaders.set(id, element);
+    return { destroy: () => columnHeaders.delete(id) };
+  };
+
   function cellIn(cells: Cell[], columnId: string): Cell | undefined {
     return cells.find((cell) => cell.columnId === columnId);
   }
@@ -126,7 +141,11 @@
   >
     <div class="corner"></div>
     {#each layout.columns as column (column.id)}
-      <div class="column-header" hidden={!visibleColumnIds.has(column.id)}>
+      <div
+        class="column-header"
+        hidden={!visibleColumnIds.has(column.id)}
+        use:registerColumn={column.id}
+      >
         <span class="badge" class:repeatable={column.column.kind === 'repeatable'}>
           {columnBadge(column.column)}
         </span>

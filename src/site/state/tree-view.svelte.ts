@@ -20,31 +20,38 @@ import type { CampaignBook } from './campaign-book.svelte.ts';
 /** How strongly a card stands out, strongest first. */
 export type Emphasis = 'lit' | 'on-lit-path' | 'leads-to' | 'none';
 
-/** Something the board itself must do: centre a tech, return to the start, or move. */
+/** Something the board itself must do: centre a tech, show a column, return to the start, or move. */
 export type BoardCommand =
   | { kind: 'locate'; key: TechnologyKey }
+  | { kind: 'column'; columnId: string }
   | { kind: 'home' }
   | { kind: 'pan'; right: number; down: number };
 
 export interface Link {
   from: TechnologyKey;
   to: TechnologyKey;
-  /** A requirement on a lit path, or a step onward from the tech whose details are open. */
+  /** A requirement on a lit path, or a step onward from the selected tech. */
   kind: 'requirement' | 'leads-to';
   oneOf: boolean;
 }
 
+/** How many earlier selections Backspace can step back through. */
+const TRAIL_LENGTH = 50;
+
 /**
  * What the player is looking at: which mods are on, the search, the techs they clicked to light,
- * and the tech whose details are open. Lit techs stay lit until clicked again, and several can be
- * lit at once. Switching a mod rebuilds the tree from the layers, exactly as the game would load it.
+ * and the selected tech, whose details slide in and out. Lit techs stay lit until clicked again,
+ * and several can be lit at once. Switching a mod rebuilds the tree from the layers, exactly as
+ * the game would load it.
  */
 export class TreeView {
   readonly layers: readonly ContentLayer[];
   readonly campaigns: CampaignBook;
   readonly enabledMods: SvelteSet<string>;
   query = $state('');
-  inspected = $state<TechnologyKey | null>(null);
+  selected = $state<TechnologyKey | null>(null);
+  /** Whether the selected tech's details are slid in; folded, only their edge shows. */
+  detailsOpen = $state(false);
   /** The tech just located, briefly marked so the eye finds it. */
   located = $state<TechnologyKey | null>(null);
   boardCommand = $state<{ command: BoardCommand; serial: number } | null>(null);
@@ -55,12 +62,14 @@ export class TreeView {
   readonly visible: Set<TechnologyKey>;
   readonly litPath: Set<TechnologyKey>;
   readonly links: Link[];
-  /** The techs the open tech leads to directly, one step onward. */
-  readonly inspectedLeadsTo: Set<TechnologyKey>;
+  /** The techs the selected tech leads to directly, one step onward. */
+  readonly selectedLeadsTo: Set<TechnologyKey>;
   /** What the tree's techs do for each empire bonus, for the active campaign. */
   readonly empireModifiers: ModifierSummary[];
   /** A plain counter, so issuing a command never reads the state it writes. */
   private commandSerial = 0;
+  /** Earlier selections, most recent last; a plain list, as nothing on screen shows it. */
+  private readonly trail: TechnologyKey[] = [];
   private readonly sources: Map<string, ContentSource>;
 
   constructor(
@@ -80,9 +89,7 @@ export class TreeView {
     this.tree = $derived(new TechTree(this.merged.technologies, this.merged.tierGates));
     this.visible = $derived.by(() => this.techsMatchingSearch());
     this.litPath = $derived(this.tree.requirementPathOfAll(this.lit));
-    this.inspectedLeadsTo = $derived(
-      new Set(this.inspected ? this.tree.leadsTo(this.inspected) : []),
-    );
+    this.selectedLeadsTo = $derived(new Set(this.selected ? this.tree.leadsTo(this.selected) : []));
     this.links = $derived.by(() => this.visibleLinks());
     this.empireModifiers = $derived(
       summariseEmpireModifiers(this.tree.technologies, this.campaigns.active?.researched ?? {}),
@@ -167,7 +174,49 @@ export class TreeView {
   emphasisOf(key: TechnologyKey): Emphasis {
     if (this.lit.has(key)) return 'lit';
     if (this.litPath.has(key)) return 'on-lit-path';
-    return this.inspectedLeadsTo.has(key) ? 'leads-to' : 'none';
+    return this.selectedLeadsTo.has(key) ? 'leads-to' : 'none';
+  }
+
+  /** Selects a tech, remembering the one before so Backspace can return to it. */
+  select(key: TechnologyKey): void {
+    if (key === this.selected) return;
+    this.rememberSelection();
+    this.selected = key;
+  }
+
+  /** Selects a tech and slides its details in. */
+  openDetails(key: TechnologyKey): void {
+    this.select(key);
+    this.detailsOpen = true;
+  }
+
+  /** Opens a tech's details and centres the board on it, wherever the player was. */
+  travelTo(key: TechnologyKey): void {
+    this.openDetails(key);
+    this.goTo(key);
+  }
+
+  /** Slides the details in or out; there is nothing to show while no tech is selected. */
+  toggleDetails(): void {
+    this.detailsOpen = !this.detailsOpen && this.selected !== null;
+  }
+
+  foldDetails(): void {
+    this.detailsOpen = false;
+  }
+
+  clearSelection(): void {
+    this.rememberSelection();
+    this.selected = null;
+    this.detailsOpen = false;
+  }
+
+  /** Returns to the tech selected before this one and centres the board on it. */
+  goBack(): void {
+    const previous = this.previousSelection();
+    if (!previous) return;
+    this.selected = previous;
+    this.goTo(previous);
   }
 
   /** Centres the board on a tech, as Stellaris centres the view on the selected object. */
@@ -175,10 +224,15 @@ export class TreeView {
     this.command({ kind: 'locate', key });
   }
 
-  /** Centres the tech whose details are open, or else the most recently lit one. */
+  /** Centres the selected tech, or else the most recently lit one. */
   goToSelection(): void {
-    const selected = this.inspected ?? [...this.lit].at(-1);
-    if (selected) this.goTo(selected);
+    const target = this.selected ?? [...this.lit].at(-1);
+    if (target) this.goTo(target);
+  }
+
+  /** Brings a column of the board into view, such as a tier. */
+  goToColumn(columnId: string): void {
+    this.command({ kind: 'column', columnId });
   }
 
   goHome(): void {
@@ -212,8 +266,23 @@ export class TreeView {
     this.boardCommand = { command, serial: this.commandSerial };
   }
 
+  private rememberSelection(): void {
+    if (!this.selected || this.trail.at(-1) === this.selected) return;
+    this.trail.push(this.selected);
+    if (this.trail.length > TRAIL_LENGTH) this.trail.shift();
+  }
+
+  /** The latest earlier selection still in the tree; a mod switched off may have removed some. */
+  private previousSelection(): TechnologyKey | undefined {
+    while (this.trail.length > 0) {
+      const previous = this.trail.pop();
+      if (previous && previous !== this.selected && this.tree.technology(previous)) return previous;
+    }
+    return undefined;
+  }
+
   /**
-   * Lit techs, the tech whose details are open and the techs it leads to always stay on the board;
+   * Lit techs, the selected tech and the techs it leads to always stay on the board;
    * others must match the search and, if asked, be unresearched.
    */
   private techsMatchingSearch(): Set<TechnologyKey> {
@@ -222,8 +291,8 @@ export class TreeView {
       .filter(
         (technology) =>
           this.lit.has(technology.key) ||
-          technology.key === this.inspected ||
-          this.inspectedLeadsTo.has(technology.key) ||
+          technology.key === this.selected ||
+          this.selectedLeadsTo.has(technology.key) ||
           (!(hideResearched && this.isResearched(technology.key)) &&
             matchesSearch(technology, this.query, this.sourceOf(technology)?.name)),
       )
@@ -248,11 +317,11 @@ export class TreeView {
     });
   }
 
-  /** One step onward from the tech whose details are open. */
+  /** One step onward from the selected tech. */
   private leadsToLinks(): Link[] {
-    const from = this.inspected;
+    const from = this.selected;
     if (!from) return [];
-    return [...this.inspectedLeadsTo].map((to) => this.linkBetween(from, to, 'leads-to'));
+    return [...this.selectedLeadsTo].map((to) => this.linkBetween(from, to, 'leads-to'));
   }
 
   private linkBetween(from: TechnologyKey, to: TechnologyKey, kind: Link['kind']): Link {

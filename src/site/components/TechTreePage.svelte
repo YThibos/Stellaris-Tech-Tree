@@ -8,9 +8,9 @@
   import { TreeView } from '../state/tree-view.svelte.ts';
   import { readSharedView, writeSharedView } from '../state/view-address.ts';
   import Board from './Board.svelte';
-  import TechDetails from './TechDetails.svelte';
+  import DetailsDrawer from './DetailsDrawer.svelte';
   import type { TopBarPanel } from '../state/top-bar-panel.ts';
-  import { panFor } from '../state/shortkeys.ts';
+  import { columnForKey, panFor } from '../state/shortkeys.ts';
   import TopBar from './TopBar.svelte';
 
   let {
@@ -55,6 +55,7 @@
 
   /** Keys modelled on Stellaris; letters only act while the player is not typing in a box. */
   function onKeydown(event: KeyboardEvent): void {
+    if (event.defaultPrevented) return;
     if (event.key === 'Escape') return clearInOrder();
     if (isTyping(event) || event.ctrlKey || event.metaKey || event.altKey) return;
     if (handleShortkey(event)) event.preventDefault();
@@ -64,9 +65,16 @@
     const key = event.key.toLowerCase();
     if (key === 'f' || key === '/') search?.focus();
     else if (key === 'q') view.goToSelection();
+    else if (event.key === 'Backspace') view.goBack();
     else if (event.key === 'Home') view.goHome();
-    else return pan(event);
+    else return jumpToColumn(event) || pan(event);
     return true;
+  }
+
+  function jumpToColumn(event: KeyboardEvent): boolean {
+    const column = columnForKey(event.key, event.code);
+    if (column) view.goToColumn(column);
+    return column !== undefined;
   }
 
   function pan(event: KeyboardEvent): boolean {
@@ -90,11 +98,15 @@
     void saveImport.start(file);
   }
 
-  /** Escape closes the open panel first, as in game, then clears the search, the details, the lit techs. */
+  /**
+   * Escape closes the open panel first, as in game, then clears the search, folds the details away,
+   * clears the selection and switches off the lit techs.
+   */
   function clearInOrder(): void {
     if (openPanel) openPanel = null;
     else if (view.query) view.query = '';
-    else if (view.inspected) view.inspected = null;
+    else if (view.detailsOpen) view.foldDetails();
+    else if (view.selected) view.clearSelection();
     else view.clearLit();
   }
 </script>
@@ -109,6 +121,7 @@
   <TopBar
     {view}
     manifest={snapshot.manifest}
+    assetBase={snapshot.assetBase}
     {versions}
     {onchooseversion}
     {saveImport}
@@ -117,9 +130,7 @@
   />
   <div class="workspace">
     <Board {view} {layout} assetBase={snapshot.assetBase} />
-    {#if view.inspected}
-      <TechDetails {view} assetBase={snapshot.assetBase} />
-    {/if}
+    <DetailsDrawer {view} assetBase={snapshot.assetBase} />
   </div>
 </div>
 

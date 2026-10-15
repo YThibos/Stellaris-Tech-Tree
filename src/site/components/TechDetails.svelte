@@ -22,18 +22,19 @@
   import ConditionBlock from './ConditionBlock.svelte';
   import ModLink from './ModLink.svelte';
 
-  let { view, assetBase }: { view: TreeView; assetBase: string } = $props();
+  let {
+    view,
+    technology,
+    assetBase,
+  }: { view: TreeView; technology: Technology; assetBase: string } = $props();
 
-  const technology = $derived(view.tree.technology(view.inspected ?? ''));
-  const requirementCount = $derived(
-    technology ? view.tree.requirementPath(technology.key).size : 0,
-  );
-  const level = $derived(technology ? view.researchedLevel(technology.key) : 0);
-  const missing = $derived(technology ? view.tree.missingRequirements(technology) : []);
-  const source = $derived(technology ? view.sourceOf(technology) : undefined);
-  const unlockSources = $derived(technology ? view.unlockSourcesOf(technology.key) : []);
-  const replaced = $derived(technology ? view.replacedDefinitionOf(technology.key) : undefined);
-  const changes = $derived(technology && replaced ? changesBetween(replaced, technology) : []);
+  const requirementCount = $derived(view.tree.requirementPath(technology.key).size);
+  const level = $derived(view.researchedLevel(technology.key));
+  const missing = $derived(view.tree.missingRequirements(technology));
+  const source = $derived(view.sourceOf(technology));
+  const unlockSources = $derived(view.unlockSourcesOf(technology.key));
+  const replaced = $derived(view.replacedDefinitionOf(technology.key));
+  const changes = $derived(replaced ? changesBetween(replaced, technology) : []);
 
   function nameOf(key: string): string {
     return view.tree.technology(key)?.name ?? key;
@@ -51,207 +52,209 @@
   }
 </script>
 
-{#if technology}
-  <aside class="details {technology.area}" aria-label="Details of {technology.name}">
-    <button class="close" onclick={() => (view.inspected = null)} aria-label="Close details"
-      >×</button
-    >
-
-    <header>
-      {#if technology.icon}
-        <img src={iconUrl(assetBase, technology.icon)} alt="" width="52" height="52" />
-      {/if}
-      <div>
-        <h2>{technology.name}</h2>
-        <p class="tags">
-          <span class="tier"
-            >{hasTrait(technology, 'starting') ? 'Start · ' : ''}Tier {technology.tier}</span
-          >
-          <span>{areaTitle(technology.area)}</span>
-          <span>{technology.category}</span>
-        </p>
-      </div>
-    </header>
-
-    <div class="actions">
-      <button
-        class="go-to"
-        onclick={() => view.goTo(technology.key)}
-        title="Centre the board on this tech (Q)"
-      >
-        Go to <kbd>Q</kbd>
-      </button>
-      <button
-        class="light"
-        class:on={view.lit.has(technology.key)}
-        onclick={() => view.toggleLit(technology.key)}
-      >
-        {view.lit.has(technology.key)
-          ? 'Switch off its lit path'
-          : `Light its path (${requirementCount} techs)`}
-      </button>
-    </div>
-
-    {#if view.campaigns.active}
-      <div class="research">
-        {#if isRepeatable(technology)}
-          <span>Researched levels</span>
-          <button
-            onclick={() => view.setResearchedLevel(technology.key, level - 1)}
-            disabled={level === 0}
-            aria-label="One level fewer">−</button
-          >
-          <span class="level">{level}</span>
-          <button
-            onclick={() => view.setResearchedLevel(technology.key, level + 1)}
-            aria-label="One level more">+</button
-          >
-        {:else}
-          <button
-            class="mark"
-            class:done={level > 0}
-            onclick={() => view.toggleResearched(technology.key)}
-          >
-            {level > 0 ? '✓ Researched - unmark' : 'Mark researched, with everything it requires'}
-          </button>
-        {/if}
-      </div>
+<aside class="details {technology.area}" aria-label="Details of {technology.name}">
+  <header>
+    {#if technology.icon}
+      <img src={iconUrl(assetBase, technology.icon)} alt="" width="52" height="52" />
     {/if}
+    <div>
+      <p class="kicker">Selected tech</p>
+      <h2>{technology.name}</h2>
+      <p class="tags">
+        <span class="tier"
+          >{hasTrait(technology, 'starting') ? 'Start · ' : ''}Tier {technology.tier}</span
+        >
+        <span>{areaTitle(technology.area)}</span>
+        <span>{technology.category}</span>
+      </p>
+    </div>
+  </header>
 
-    <dl class="facts">
-      <dt>Cost</dt>
-      <dd>{researchCost(technology.cost)}</dd>
-      {#if repeatabilityText(technology.repeatability)}
-        <dt>Repeats</dt>
-        <dd>{repeatabilityText(technology.repeatability)}</dd>
+  <div class="actions">
+    <button
+      class="go-to"
+      onclick={() => view.goTo(technology.key)}
+      title="Centre the board on this tech (Q)"
+    >
+      Go to <kbd>Q</kbd>
+    </button>
+    <button
+      class="light"
+      class:on={view.lit.has(technology.key)}
+      onclick={() => view.toggleLit(technology.key)}
+    >
+      {view.lit.has(technology.key)
+        ? 'Switch off its lit path'
+        : `Light its path (${requirementCount} techs)`}
+    </button>
+  </div>
+
+  {#if view.campaigns.active}
+    <div class="research">
+      {#if isRepeatable(technology)}
+        <span>Researched levels</span>
+        <button
+          onclick={() => view.setResearchedLevel(technology.key, level - 1)}
+          disabled={level === 0}
+          aria-label="One level fewer">−</button
+        >
+        <span class="level">{level}</span>
+        <button
+          onclick={() => view.setResearchedLevel(technology.key, level + 1)}
+          aria-label="One level more">+</button
+        >
+      {:else}
+        <button
+          class="mark"
+          class:done={level > 0}
+          onclick={() => view.toggleResearched(technology.key)}
+        >
+          {level > 0 ? '✓ Researched - unmark' : 'Mark researched, with everything it requires'}
+        </button>
       {/if}
-      <dt>{replaced ? 'Changed by' : source && source.id !== 'vanilla' ? 'Added by' : 'Source'}</dt>
-      <dd>
-        {#if source}<ModLink mod={source} />{:else}{technology.source}{/if}
+    </div>
+  {/if}
+
+  <dl class="facts">
+    <dt>Cost</dt>
+    <dd>{researchCost(technology.cost)}</dd>
+    {#if repeatabilityText(technology.repeatability)}
+      <dt>Repeats</dt>
+      <dd>{repeatabilityText(technology.repeatability)}</dd>
+    {/if}
+    <dt>{replaced ? 'Changed by' : source && source.id !== 'vanilla' ? 'Added by' : 'Source'}</dt>
+    <dd>
+      {#if source}<ModLink mod={source} />{:else}{technology.source}{/if}
+    </dd>
+    {#if unlockSources.length > 0}
+      <dt>New unlocks from</dt>
+      <dd class="mod-list">
+        {#each unlockSources as mod (mod.id)}<ModLink {mod} />{/each}
       </dd>
-      {#if unlockSources.length > 0}
-        <dt>New unlocks from</dt>
-        <dd class="mod-list">
-          {#each unlockSources as mod (mod.id)}<ModLink {mod} />{/each}
-        </dd>
-      {/if}
-    </dl>
+    {/if}
+  </dl>
 
-    {#if technology.traits.length > 0}
-      <ul class="traits">
-        {#each technology.traits as trait (trait)}
-          <li class={trait}><span>{traitGlyph(trait)}</span> {traitTitle(trait)}</li>
+  {#if technology.traits.length > 0}
+    <ul class="traits">
+      {#each technology.traits as trait (trait)}
+        <li class={trait}><span>{traitGlyph(trait)}</span> {traitTitle(trait)}</li>
+      {/each}
+    </ul>
+  {/if}
+
+  {#if changes.length > 0}
+    <section>
+      <h3>What {source?.name} changed</h3>
+      <ul>
+        {#each changes as change, index (index)}<li>{changeText(change, nameOf)}</li>{/each}
+      </ul>
+    </section>
+  {/if}
+
+  {#if technology.description}
+    <p class="description">{technology.description}</p>
+  {/if}
+
+  <section>
+    <h3>Requires</h3>
+    {#if technology.prerequisites.length === 0 && technology.requiresOneOf.length === 0}
+      <p class="none">Nothing - available from the start of its tier.</p>
+    {:else}
+      <ul class="links">
+        {#each existing(technology.prerequisites) as prerequisite (prerequisite.key)}
+          <li>
+            <button onclick={() => view.travelTo(prerequisite.key)} title="Select and go to it"
+              >{prerequisite.name}</button
+            >
+          </li>
         {/each}
       </ul>
     {/if}
-
-    {#if changes.length > 0}
-      <section>
-        <h3>What {source?.name} changed</h3>
-        <ul>
-          {#each changes as change, index (index)}<li>{changeText(change, nameOf)}</li>{/each}
-        </ul>
-      </section>
+    {#each technology.requiresOneOf as group, index (index)}
+      <h4>
+        {group.length > 1 ? 'And one of' : 'And'}
+        <span class="hint">(from its availability conditions)</span>
+      </h4>
+      <ul class="links one-of">
+        {#each existing(group) as option (option.key)}
+          <li>
+            <button onclick={() => view.travelTo(option.key)} title="Select and go to it"
+              >{option.name}</button
+            >
+          </li>
+        {/each}
+      </ul>
+    {/each}
+    {#if missing.length > 0}
+      <p class="warning">Not in this data: {missing.join(', ')}</p>
     {/if}
+  </section>
 
-    {#if technology.description}
-      <p class="description">{technology.description}</p>
-    {/if}
-
+  {#if view.tree.leadsTo(technology.key).length > 0}
     <section>
-      <h3>Requires</h3>
-      {#if technology.prerequisites.length === 0 && technology.requiresOneOf.length === 0}
-        <p class="none">Nothing - available from the start of its tier.</p>
-      {:else}
-        <ul class="links">
-          {#each existing(technology.prerequisites) as prerequisite (prerequisite.key)}
-            <li>
-              <button onclick={() => (view.inspected = prerequisite.key)}
-                >{prerequisite.name}</button
-              >
-            </li>
-          {/each}
-        </ul>
-      {/if}
-      {#each technology.requiresOneOf as group, index (index)}
-        <h4>
-          {group.length > 1 ? 'And one of' : 'And'}
-          <span class="hint">(from its availability conditions)</span>
-        </h4>
-        <ul class="links one-of">
-          {#each existing(group) as option (option.key)}
-            <li><button onclick={() => (view.inspected = option.key)}>{option.name}</button></li>
-          {/each}
+      <h3>Leads to</h3>
+      <ul class="links">
+        {#each existing(view.tree.leadsTo(technology.key)) as next (next.key)}
+          <li>
+            <button onclick={() => view.travelTo(next.key)} title="Select and go to it"
+              >{next.name}</button
+            >
+          </li>
+        {/each}
+      </ul>
+    </section>
+  {/if}
+
+  {#if technology.unlocks.length > 0}
+    <section>
+      <h3>Unlocks</h3>
+      {#each unlocksByKind(technology.unlocks) as [kind, names] (kind)}
+        <h4>{kind}</h4>
+        <ul>
+          {#each names as name, index (index)}<li>{name}</li>{/each}
         </ul>
       {/each}
-      {#if missing.length > 0}
-        <p class="warning">Not in this data: {missing.join(', ')}</p>
-      {/if}
     </section>
+  {/if}
 
-    {#if view.tree.leadsTo(technology.key).length > 0}
-      <section>
-        <h3>Leads to</h3>
-        <ul class="links">
-          {#each existing(view.tree.leadsTo(technology.key)) as next (next.key)}
-            <li><button onclick={() => (view.inspected = next.key)}>{next.name}</button></li>
-          {/each}
-        </ul>
-      </section>
-    {/if}
-
-    {#if technology.unlocks.length > 0}
-      <section>
-        <h3>Unlocks</h3>
-        {#each unlocksByKind(technology.unlocks) as [kind, names] (kind)}
-          <h4>{kind}</h4>
-          <ul>
-            {#each names as name, index (index)}<li>{name}</li>{/each}
-          </ul>
-        {/each}
-      </section>
-    {/if}
-
-    {#if technology.availability}
-      <section>
-        <h3>Only available when</h3>
-        <ConditionBlock condition={technology.availability} />
-      </section>
-    {/if}
-
+  {#if technology.availability}
     <section>
-      <h3>Draw chance</h3>
-      <p class="weight">
-        Base weight <b>{technology.drawWeight.base}</b>{#if technology.drawWeight.factor !== 1}
-          , ×{technology.drawWeight.factor}{/if}
-      </p>
-      {#if technology.drawWeight.modifiers.length > 0}
-        <ul class="modifiers">
-          {#each technology.drawWeight.modifiers as modifier, index (index)}
-            <li>
-              <span class="effect {weightEffectTone(modifier.effect)}"
-                >{weightEffectText(modifier.effect)}</span
-              >
-              <div><ConditionBlock condition={modifier.condition} /></div>
-            </li>
-          {/each}
-        </ul>
-      {/if}
+      <h3>Only available when</h3>
+      <ConditionBlock condition={technology.availability} />
     </section>
-  </aside>
-{/if}
+  {/if}
+
+  <section>
+    <h3>Draw chance</h3>
+    <p class="weight">
+      Base weight <b>{technology.drawWeight.base}</b>{#if technology.drawWeight.factor !== 1}
+        , ×{technology.drawWeight.factor}{/if}
+    </p>
+    {#if technology.drawWeight.modifiers.length > 0}
+      <ul class="modifiers">
+        {#each technology.drawWeight.modifiers as modifier, index (index)}
+          <li>
+            <span class="effect {weightEffectTone(modifier.effect)}"
+              >{weightEffectText(modifier.effect)}</span
+            >
+            <div><ConditionBlock condition={modifier.condition} /></div>
+          </li>
+        {/each}
+      </ul>
+    {/if}
+  </section>
+</aside>
 
 <style>
   .details {
     --area: var(--engineering);
-    position: relative;
-    z-index: 10;
-    width: min(400px, 100vw);
+    box-sizing: border-box;
+    width: min(400px, calc(100vw - var(--edge-width)));
+    height: 100%;
     overflow-y: auto;
     padding: 1rem 1.1rem 2rem;
     background: var(--panel);
-    border-left: 1px solid var(--line);
-    box-shadow: -12px 0 30px #0008;
+    border-top: 3px solid var(--area);
   }
 
   .physics {
@@ -266,12 +269,22 @@
     display: flex;
     gap: 0.8rem;
     align-items: center;
-    padding-right: 1.5rem;
   }
 
   header img {
     border-radius: 6px;
-    border: 1px solid var(--area);
+    outline: 2px solid var(--selected);
+    outline-offset: 2px;
+    box-shadow: 0 0 14px var(--area);
+  }
+
+  .kicker {
+    margin: 0 0 0.1rem;
+    color: var(--area);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
 
   h2 {
@@ -520,27 +533,5 @@
 
   .modifiers :global(ul) {
     margin-top: 0;
-  }
-
-  .close {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.6rem;
-    border: none;
-    background: none;
-    color: var(--text-muted);
-    font-size: 1.4rem;
-    cursor: pointer;
-  }
-
-  @media (max-width: 720px) {
-    .details {
-      position: fixed;
-      inset: auto 0 0 0;
-      width: 100%;
-      max-height: 70vh;
-      border-left: none;
-      border-top: 1px solid var(--line);
-    }
   }
 </style>

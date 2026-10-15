@@ -27,24 +27,26 @@ This version is built around the questions you actually ask mid-campaign:
 
 ## Using the tree
 
-| To                                   | Do this                                                                            |
-| ------------------------------------ | ---------------------------------------------------------------------------------- |
-| Keep its whole requirement path lit  | Click it; click it again to switch it off                                          |
-| Plan towards several goals at once   | Click several techs; their paths combine                                           |
-| Centre the board on the open tech    | Click **Go to** in its details, or press `Q`                                       |
-| Read a tech's details                | Click the ⓘ on its card                                                            |
-| Find a tech                          | Type in the search box, or press `F`; clearing the search returns to the open tech |
-| Move around                          | `W` `A` `S` `D`, as the game camera; `Home` returns to tier 0                      |
-| Close and clear, step by step        | Press `Esc`                                                                        |
-| Track a campaign                     | Click **Campaign**, create one or drop a save file onto the page                   |
-| Mark a tech researched               | Click the ✓ on its card; everything it requires is marked too                      |
-| Declutter                            | Tick **Hide researched**                                                           |
-| Switch mods on or off                | Click **Mods**, find a mod by name and tick or untick it                           |
-| Find every tech from one mod         | Type part of the mod's name in the search box                                      |
-| Share exactly what you're looking at | Copy the page address; it remembers your search, lit techs and mods                |
+| To                                           | Do this                                                                                        |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Keep its whole requirement path lit          | Click it; click it again to switch it off                                                      |
+| Plan towards several goals at once           | Click several techs; their paths combine                                                       |
+| Select a tech and read its details           | Click the ⓘ on its card                                                                        |
+| Fold the details away, or bring them back    | Click the coloured edge on the right                                                           |
+| Centre the board on the selected tech        | Click **Go to** in its details, or press `Q`                                                   |
+| Find a tech                                  | Type in the search box, or press `F`; pick a suggestion with the arrow keys and `Enter`        |
+| Follow a requirement or what a tech leads to | Click its name in the details; `Backspace` steps back                                          |
+| Move around                                  | `W` `A` `S` `D`, as the game camera; `0` to `9` jump to a tier, `Home` and `End` to either end |
+| Close and clear, step by step                | Press `Esc`                                                                                    |
+| Track a campaign                             | Click **Campaign**, create one or drop a save file onto the page                               |
+| Mark a tech researched                       | Click the ✓ on its card; everything it requires is marked too                                  |
+| Declutter                                    | Tick **Hide researched**                                                                       |
+| Switch mods on or off                        | Click **Mods**, find a mod by name and tick or untick it                                       |
+| Find every tech from one mod                 | Type part of the mod's name in the search box                                                  |
+| Share exactly what you're looking at         | Copy the page address; it remembers your search, lit techs and mods                            |
 
 Purple cards are rare techs and red cards dangerous ones, as in the game.
-The tech whose details are open draws violet lines to the techs it leads to, one step on.
+The selected tech has a bright outline and draws violet lines to the techs it leads to, one step on.
 Every shortcut, modelled on Stellaris's own keys, is listed under **Shortkeys**.
 Markers on a card: ★ starting tech, ✦ never drawn (granted by events and similar), ∞ repeatable, ⇇ more than one requirement, MOD added by a mod or given new unlocks by one, ✎ changed by a mod, ! needs a tech that is not loaded (for example from a mod you switched off).
 

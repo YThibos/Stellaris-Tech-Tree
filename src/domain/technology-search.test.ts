@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { aTechnology } from '../../tests/support/a-technology.ts';
-import { matchesSearch } from './technology-search.ts';
+import { matchesSearch, suggestTechnologies } from './technology-search.ts';
 
 const lasers = aTechnology({
   key: 'tech_lasers_2',
@@ -30,5 +30,43 @@ describe('matchesSearch with a source', () => {
   it('finds a tech by the name of the mod it comes from', () => {
     expect(matchesSearch(lasers, 'giga', 'Gigastructural Engineering & More')).toBe(true);
     expect(matchesSearch(lasers, 'giga')).toBe(false);
+  });
+});
+
+describe('suggestTechnologies', () => {
+  const named = (name: string) => aTechnology({ key: name.toLowerCase().replace(/ /g, '_'), name });
+  const technologies = [
+    named('Red Lasers'),
+    named('Lasers'),
+    named('Laser Drills'),
+    named('Blue Lasers'),
+    named('Gamma Lasers'),
+    named('Particle Lances'),
+  ];
+  const namesFor = (query: string, limit = 10) =>
+    suggestTechnologies(technologies, query, limit).map(({ name }) => name);
+
+  it('suggests nothing for a blank query', () => {
+    expect(namesFor('  ')).toEqual([]);
+  });
+
+  it('puts the exact name first, then names starting with the query, then word starts', () => {
+    expect(namesFor('lasers')).toEqual(['Lasers', 'Blue Lasers', 'Gamma Lasers', 'Red Lasers']);
+    expect(namesFor('laser')).toEqual([
+      'Laser Drills',
+      'Lasers',
+      'Blue Lasers',
+      'Gamma Lasers',
+      'Red Lasers',
+    ]);
+  });
+
+  it('matches names only, with every word of the query', () => {
+    expect(namesFor('blue laser')).toEqual(['Blue Lasers']);
+    expect(namesFor('particles')).toEqual([]);
+  });
+
+  it('keeps to the limit', () => {
+    expect(namesFor('a', 2)).toHaveLength(2);
   });
 });

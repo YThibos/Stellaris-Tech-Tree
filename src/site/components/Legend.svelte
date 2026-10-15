@@ -13,7 +13,10 @@
       <b>Click</b> a tech to keep its full requirement path lit; click it again to switch it off. Several
       techs can be lit at once.
     </li>
-    <li><b>ⓘ</b> on a card opens that tech's details.</li>
+    <li>
+      <b>ⓘ</b> on a card selects that tech and opens its details; the edge on the right folds them away
+      and brings them back.
+    </li>
     <li>
       <b>✓</b> on a card, once a campaign is chosen, marks the tech researched with everything it requires;
       clicking it again unmarks it and everything that needed it.
@@ -24,10 +27,11 @@
   <ul class="swatches">
     <li><span class="swatch lit"></span>Prerequisite of a lit tech</li>
     <li><span class="swatch lit one-of"></span>One of several options the tech needs</li>
-    <li><span class="swatch leads-to"></span>What the open tech leads to, one step on</li>
+    <li><span class="swatch leads-to"></span>What the selected tech leads to, one step on</li>
   </ul>
   <h3>Cards</h3>
   <ul class="swatches">
+    <li><span class="card-swatch selected"></span>Selected tech</li>
     <li><span class="card-swatch rare"></span>Rare tech</li>
     <li><span class="card-swatch dangerous"></span>Dangerous tech</li>
   </ul>
@@ -151,6 +155,14 @@
     border: 1px solid;
     border-left: 3px solid var(--engineering);
     border-radius: 3px;
+  }
+
+  .card-swatch.selected {
+    border-color: var(--engineering);
+    background: color-mix(in srgb, var(--engineering) 18%, var(--card));
+    outline: 2px solid var(--selected);
+    outline-offset: 1px;
+    filter: drop-shadow(0 0 4px var(--engineering));
   }
 
   .card-swatch.rare {

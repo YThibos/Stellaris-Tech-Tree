@@ -10,7 +10,8 @@
     <button class="close" onclick={onclose} aria-label="Close shortkeys">×</button>
   </header>
   <p class="note">
-    Modelled on the game's own keys. They work whenever you are not typing in a box.
+    Keys the game also has do the same here. They work whenever you are not typing in a box; the
+    arrow keys and Enter belong to the search box.
   </p>
   <table>
     <thead>
@@ -23,7 +24,7 @@
             >{#each shortkey.keys as key (key)}<kbd>{key}</kbd>{/each}</td
           >
           <td>{shortkey.action}</td>
-          <td class="game">{shortkey.inStellaris}</td>
+          <td class="game">{shortkey.inStellaris ?? ''}</td>
         </tr>
       {/each}
     </tbody>

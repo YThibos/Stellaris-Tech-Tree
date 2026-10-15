@@ -12,7 +12,7 @@ Ticked items passed in the first round of testing; open items are still to do, m
 - Step 3, once the campaign has run 20 to 30 game years.
 - Step 4's ACOT check, once the empire reaches ACOT's hidden requirements.
 - Step 5's changed techs, once one of them comes up.
-- Steps 6 to 13.
+- Steps 6 onwards; step 11's first check passed in the navigation round.
 
 ## 0. Setup
 
@@ -105,17 +105,37 @@ Open **Capacities**; the imported campaign's totals appear on the right.
 
 Open **Shortkeys** first: it lists every key below.
 
-- [ ] Open a far-away tech's details (ⓘ), scroll elsewhere, then click **Go to**: the board centres on that tech and its card pulses briefly.
+- [x] Open a far-away tech's details (ⓘ), scroll elsewhere, then click **Go to**: the board centres on that tech and its card pulses briefly.
 - [ ] Scroll away again and press `Q`: same result.
 - [ ] Press `F`, and separately `/`: the search box takes the focus, ready to type.
 - [ ] `W` `A` `S` `D` move the board like the game camera; holding `Shift` moves it further.
 - [ ] `Home` returns to tier 0 at the top.
-- [ ] While typing in the search box, letters go into the box and never move the board.
-- [ ] With details open, violet lines run from that tech to the techs it leads to, one step on only, and those techs stay visible while searching.
-- [ ] Open a tech's details, search for something else, then clear the search: the board returns to the open tech.
-- [ ] `Esc` steps back one thing at a time: an open panel (such as Mods or Shortkeys), then the search, then the details, then the lit techs.
+- [ ] `3` shows tier 3 at the left edge, `7` tier 7, `0` tier 0; `End` scrolls to the repeatables.
+- [ ] While typing in the search box, letters and numbers go into the box and never move the board.
+- [ ] With a tech selected, violet lines run from it to the techs it leads to, one step on only, and those techs stay visible while searching.
+- [ ] Select a tech, search for something else, then clear the search: the board returns to the selected tech.
 
-## 12. Older game version (optional)
+## 12. Selection and the details edge
+
+- [ ] With nothing selected, a slim light-grey edge on the right reads "No tech selected", and clicking it does nothing.
+- [ ] Click a card's ⓘ: the details slide in, headed "Selected tech", and the card has a bright outline with a glow in its area's colour, easy to spot from across the board.
+- [ ] Click the coloured edge: the details slide out, leaving the edge with the tech's name upright in its area's colour (blue physics, green society, orange engineering); click it again and they slide back in.
+- [ ] With the details folded, scroll away and press `Q`: the board still centres on the selected tech.
+- [ ] In the details, click a requirement, then a "leads to" tech: each becomes the selected tech and the board centres on it.
+- [ ] Press `Backspace` twice: the selection steps back through those techs, centring each.
+- [ ] `Esc` steps back one thing at a time: an open panel (such as Mods or Shortkeys), then the search, then folds the details, then clears the selection (the edge turns grey), then switches off lit techs.
+- [ ] After clearing the selection with `Esc`, `Backspace` brings it back.
+
+## 13. Search suggestions
+
+- [ ] Type `mega`: a list of up to ten techs with "mega" in their name drops down, the closest names first, each with its tier (∞ for repeatables) and area.
+- [ ] Keep typing (`mega eng`): the list narrows with every key.
+- [ ] Press `↓` and `↑`: the highlight moves through the list and wraps around.
+- [ ] Press `Enter`: the details of the highlighted tech open, the search clears, and the board centres on it.
+- [ ] Click a suggestion with the mouse: same result.
+- [ ] Type again and press `Esc` once: only the list closes and the search stays; a second `Esc` clears the search.
+
+## 14. Older game version (optional)
 
 Only if you want to try the version picker; it needs an older patch from Steam.
 
@@ -125,6 +145,6 @@ Only if you want to try the version picker; it needs an older patch from Steam.
 - [ ] `npm run dev`: a version picker appears beside the title; switching shows the older base-game tree, and your campaign still applies.
 - [ ] Commit the older version's folder only if you want it published.
 
-## 13. Feel
+## 15. Feel
 
 - [ ] Note how long the first load takes on your machine, and anything that felt slow or awkward while playing.

@@ -40,7 +40,7 @@
   class:dimmed
   class:rare={hasTrait(technology, 'rare')}
   class:dangerous={hasTrait(technology, 'dangerous')}
-  class:inspected={view.inspected === technology.key}
+  class:selected={view.selected === technology.key}
   class:researched={level > 0}
   class:located={view.located === technology.key}
   hidden={!view.visible.has(technology.key)}
@@ -86,7 +86,7 @@
   <div class="side">
     <button
       class="info"
-      onclick={() => (view.inspected = technology.key)}
+      onclick={() => view.openDetails(technology.key)}
       aria-label="Details of {technology.name}"
       title="Details">ⓘ</button
     >
@@ -194,9 +194,16 @@
     }
   }
 
-  .card.inspected {
-    outline: 1px dashed var(--text-muted);
+  .card.selected {
+    z-index: 3;
+    background: color-mix(in srgb, var(--area) 18%, var(--card));
+    outline: 2px solid var(--selected);
     outline-offset: 2px;
+    filter: drop-shadow(0 0 8px var(--area));
+  }
+
+  .card.selected .name {
+    color: #ffffff;
   }
 
   .body {

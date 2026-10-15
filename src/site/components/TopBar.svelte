@@ -7,11 +7,13 @@
   import CapacitiesPanel from './CapacitiesPanel.svelte';
   import Legend from './Legend.svelte';
   import ModPanel from './ModPanel.svelte';
+  import SearchBox from './SearchBox.svelte';
   import ShortkeysPanel from './ShortkeysPanel.svelte';
 
   let {
     view,
     manifest,
+    assetBase,
     versions,
     onchooseversion,
     saveImport,
@@ -20,6 +22,7 @@
   }: {
     view: TreeView;
     manifest: SnapshotManifest;
+    assetBase: string;
     versions: VersionEntry[];
     onchooseversion: (version: VersionEntry) => void;
     saveImport: SaveImport;
@@ -27,7 +30,6 @@
     openPanel: TopBarPanel | null;
   } = $props();
 
-  const shownCount = $derived(view.visible.size);
   const campaign = $derived(view.campaigns.active);
 
   function chooseVersion(gameVersion: string): void {
@@ -38,7 +40,6 @@
   function toggle(panel: TopBarPanel): void {
     openPanel = openPanel === panel ? null : panel;
   }
-  const totalCount = $derived(view.tree.technologies.length);
 </script>
 
 <header class="top-bar">
@@ -64,20 +65,7 @@
     {/if}
   </div>
 
-  <label class="search">
-    <span class="visually-hidden">Search techs</span>
-    <input
-      bind:this={search}
-      bind:value={view.query}
-      type="search"
-      placeholder="Search techs, unlocks, categories, mods…   ( F )"
-      autocomplete="off"
-      spellcheck="false"
-    />
-    {#if view.query}
-      <span class="count">{shownCount} of {totalCount}</span>
-    {/if}
-  </label>
+  <SearchBox {view} {assetBase} bind:input={search} />
 
   <div class="actions">
     {#if view.lit.size > 0}
@@ -164,41 +152,9 @@
     font: inherit;
   }
 
-  .search {
-    position: relative;
-    flex: 1;
-    min-width: 220px;
-    max-width: 560px;
-  }
-
-  input {
-    width: 100%;
-    padding: 0.5rem 0.75rem;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--space);
-    color: var(--text);
-    font: inherit;
-  }
-
-  input:focus {
-    outline: none;
-    border-color: var(--hover);
-    box-shadow: 0 0 0 2px #7fe3ff33;
-  }
-
-  .count {
-    position: absolute;
-    right: 2.2rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--text-muted);
-    font-size: 0.8rem;
-    pointer-events: none;
-  }
-
   .actions {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
     margin-left: auto;
   }
@@ -243,13 +199,5 @@
     border-radius: 50%;
     background: var(--lit);
     box-shadow: 0 0 8px var(--lit);
-  }
-
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
   }
 </style>
