@@ -267,6 +267,18 @@ export class TreeView {
     this.lit.clear();
   }
 
+  /** A click on a card: it lights or unlights the tech's path and makes it the selected tech. */
+  toggleLitAndSelect(key: TechnologyKey): void {
+    this.toggleLit(key);
+    this.select(key);
+  }
+
+  /** Back to a clean board: no lit paths and nothing selected. */
+  clearLitAndSelection(): void {
+    this.clearLit();
+    this.clearSelection();
+  }
+
   private modLayers(): readonly ContentLayer[] {
     return this.layers.slice(1);
   }

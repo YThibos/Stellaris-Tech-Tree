@@ -32,10 +32,10 @@ This version is built around the questions you actually ask mid-campaign:
 
 | To                                           | Do this                                                                                        |
 | -------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Keep its whole requirement path lit          | Click it; click it again to switch it off                                                      |
+| Keep its whole requirement path lit          | Click it, which also selects it; click it again to switch it off                               |
 | Plan towards several goals at once           | Click several techs; their paths combine                                                       |
 | Select a tech and read its details           | Click the ⓘ on its card                                                                        |
-| Fold the details away, or bring them back    | Click the coloured edge on the right                                                           |
+| Fold the details away, or bring them back    | Click the coloured edge on the right; a click on empty board space also folds them             |
 | Centre the board on the selected tech        | Click **Go to** in its details, or press `Q`                                                   |
 | Find a tech                                  | Type in the search box, or press `F`; pick a suggestion with the arrow keys and `Enter`        |
 | Follow a requirement or what a tech leads to | Click its name in the details; `Backspace` steps back                                          |

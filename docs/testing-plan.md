@@ -128,6 +128,9 @@ Open **Shortkeys** first: it lists every key below.
 - [ ] Press `Backspace` twice: the selection steps back through those techs, centring each.
 - [ ] `Esc` steps back one thing at a time: an open panel (such as Mods or Shortkeys), then the search, then folds the details, then clears the selection (the edge turns grey), then switches off lit techs.
 - [ ] After clearing the selection with `Esc`, `Backspace` brings it back.
+- [ ] With the details open, click another card to light it: it becomes the selected tech and the details switch to it.
+- [ ] Click empty board space between columns: the details fold away; clicking cards while folded keeps them folded and updates the name on the edge.
+- [ ] Click **Clear** in the top bar: lit paths and the selection both clear, and the edge turns grey.
 
 ## 13. Search suggestions
 

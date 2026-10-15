@@ -69,7 +69,11 @@
 
   <div class="actions">
     {#if view.lit.size > 0}
-      <button class="lit-summary" onclick={() => view.clearLit()} title="Clear every lit path">
+      <button
+        class="lit-summary"
+        onclick={() => view.clearLitAndSelection()}
+        title="Clear every lit path and the selection"
+      >
         <span class="lit-dot"></span>{view.lit.size} lit · Clear
       </button>
     {/if}

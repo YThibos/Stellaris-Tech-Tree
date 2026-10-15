@@ -73,8 +73,8 @@ Each milestone ships on its own and is useful on its own.
 - Requirements the game hides in a tech's availability conditions (in 4.5.2, Synaptic Cogitator needs Scalable Reservoir Computing; in 4.3.7, Mega-Engineering needed Battleships or Stingers) are links too, drawn dashed and listed as "and one of", because the player must research them all the same.
 - Clicking a tech locks its requirement path lit until that tech is clicked again.
 - Several techs can be locked lit at once; the lit set is the union of their requirement paths.
-- A "clear all" control removes every lock.
-- Clicking the body of a card lights it; only the ⓘ on a card opens its details.
+- A "clear all" control removes every lock and clears the selection.
+- Clicking the body of a card lights it and selects it, so details already open follow the click; only the ⓘ on a card opens the details.
 - There is no hover preview: in a board this packed it got in the way.
 - Links are drawn only for lit techs, so the default view stays uncluttered.
 - When researched techs are hidden (5.7), a lit path shows only what remains to be researched.
@@ -94,6 +94,7 @@ Each milestone ships on its own and is useful on its own.
 Clicking a card's ⓘ selects the tech and slides its details in from the right.
 The selected tech stands out on the board with a bright outline and a glow in its research area's colour, and its details are headed "Selected tech".
 The details fold away to a slim edge on the right, which shows the selected tech's name upright in its area's colour; clicking the edge slides them back in.
+A click on empty board space folds them away too.
 With nothing selected the edge is light grey and does nothing.
 
 The details show:

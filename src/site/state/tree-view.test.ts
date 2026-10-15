@@ -65,6 +65,23 @@ describe('TreeView selection', () => {
     expect(view.selected).toBe('tech_lasers_3');
   });
 
+  it('selects a tech clicked to light its path, so open details follow the click', () => {
+    const view = aView();
+    view.openDetails('tech_lasers_1');
+    view.toggleLitAndSelect('tech_lasers_3');
+    expect(view.selected).toBe('tech_lasers_3');
+    expect(view.lit.has('tech_lasers_3')).toBe(true);
+    expect(view.detailsOpen).toBe(true);
+  });
+
+  it('clears the lit paths and the selection together', () => {
+    const view = aView();
+    view.toggleLitAndSelect('tech_lasers_2');
+    view.clearLitAndSelection();
+    expect(view.lit.size).toBe(0);
+    expect(view.selected).toBeNull();
+  });
+
   it('stays put when there is nothing to step back to', () => {
     const view = aView();
     view.select('tech_lasers_1');

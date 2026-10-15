@@ -74,6 +74,12 @@
     }, LOCATED_MARK_MS);
   }
 
+  /** A click on the empty board, away from any card or control, folds the details away. */
+  function onBoardClick(event: MouseEvent): void {
+    const target = event.target as HTMLElement | null;
+    if (!target?.closest('.card, button, a, input, select, label')) view.foldDetails();
+  }
+
   function scrollBehaviour(): 'smooth' | 'auto' {
     return matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
   }
@@ -130,7 +136,9 @@
   }
 </script>
 
-<div class="board" aria-label="Technology tree" bind:this={board}>
+<!-- Folding on a background click is a mouse convenience; Esc does the same from the keyboard. -->
+<!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
+<div class="board" aria-label="Technology tree" bind:this={board} onclick={onBoardClick}>
   <div
     class="content"
     bind:this={content}

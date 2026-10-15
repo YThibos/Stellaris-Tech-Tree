@@ -48,7 +48,7 @@
 >
   <button
     class="body"
-    onclick={() => view.toggleLit(technology.key)}
+    onclick={() => view.toggleLitAndSelect(technology.key)}
     aria-pressed={view.lit.has(technology.key)}
     title={technology.name}
   >
