@@ -422,13 +422,13 @@
    "unlocks": [
     {
      "kind": "Effect",
-     "name": "Building Minerals Cost -40"
+     "name": "Planet Building Mineral Cost -40"
     }
    ],
    "modifiers": [
     {
      "key": "planet_buildings_minerals_cost_add",
-     "name": "Building Minerals Cost",
+     "name": "Planet Building Mineral Cost",
      "amount": -40
     }
    ],

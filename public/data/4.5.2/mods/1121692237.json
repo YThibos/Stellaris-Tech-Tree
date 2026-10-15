@@ -14371,7 +14371,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Resources Produced from [GetResearcherPluralWithIcon] +5%"
+     "name": "Resources from Researchers +5%"
     },
     {
      "kind": "Effect",
@@ -14381,7 +14381,7 @@
    "modifiers": [
     {
      "key": "planet_researchers_produces_mult",
-     "name": "Resources Produced from [GetResearcherPluralWithIcon]",
+     "name": "Resources from Researchers",
      "amount": 0.05
     },
     {
@@ -39857,7 +39857,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Megastructures Energy Upkeep -10%"
+     "name": "Megastructures Energy Upkeep: -10%"
     }
    ],
    "modifiers": [
@@ -39868,7 +39868,7 @@
     },
     {
      "key": "megastructures_energy_upkeep_mult",
-     "name": "Megastructures Energy Upkeep",
+     "name": "Megastructures Energy Upkeep:",
      "amount": -0.1
     }
    ],
@@ -40400,22 +40400,22 @@
     },
     {
      "kind": "Effect",
-     "name": "Alloys Storage Capacity +200000"
+     "name": "Max Alloys Capacity Add +200000"
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +400000"
+     "name": "Max Energy Capacity Add +400000"
     }
    ],
    "modifiers": [
     {
      "key": "country_resource_max_alloys_add",
-     "name": "Alloys Storage Capacity",
+     "name": "Max Alloys Capacity Add",
      "amount": 200000
     },
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 400000
     }
    ],
@@ -40461,22 +40461,22 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +1000000"
+     "name": "Max Energy Capacity Add +1000000"
     },
     {
      "kind": "Effect",
-     "name": "Megastructures Energy Upkeep -10%"
+     "name": "Megastructures Energy Upkeep: -10%"
     }
    ],
    "modifiers": [
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 1000000
     },
     {
      "key": "megastructures_energy_upkeep_mult",
-     "name": "Megastructures Energy Upkeep",
+     "name": "Megastructures Energy Upkeep:",
      "amount": -0.1
     }
    ],
@@ -40522,7 +40522,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +5000000"
+     "name": "Max Energy Capacity Add +5000000"
     },
     {
      "kind": "Effect",
@@ -40532,7 +40532,7 @@
    "modifiers": [
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 5000000
     },
     {
@@ -40811,7 +40811,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +10000000"
+     "name": "Max Energy Capacity Add +10000000"
     }
    ],
    "modifiers": [
@@ -40822,7 +40822,7 @@
     },
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 10000000
     }
    ],
@@ -40920,22 +40920,22 @@
     },
     {
      "kind": "Effect",
-     "name": "Megastructures Energy produces +30%"
+     "name": "Megastructure Energy Output +30%"
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +5000000"
+     "name": "Max Energy Capacity Add +5000000"
     }
    ],
    "modifiers": [
     {
      "key": "megastructures_energy_produces_mult",
-     "name": "Megastructures Energy produces",
+     "name": "Megastructure Energy Output",
      "amount": 0.3
     },
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 5000000
     }
    ],
@@ -40985,7 +40985,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +5000000"
+     "name": "Max Energy Capacity Add +5000000"
     }
    ],
    "modifiers": [
@@ -40996,7 +40996,7 @@
     },
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 5000000
     }
    ],
@@ -41046,7 +41046,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +5000000"
+     "name": "Max Energy Capacity Add +5000000"
     }
    ],
    "modifiers": [
@@ -41057,7 +41057,7 @@
     },
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 5000000
     }
    ],
@@ -41107,7 +41107,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +5000000"
+     "name": "Max Energy Capacity Add +5000000"
     }
    ],
    "modifiers": [
@@ -41118,7 +41118,7 @@
     },
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 5000000
     }
    ],
@@ -41165,22 +41165,22 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +10000000"
+     "name": "Max Energy Capacity Add +10000000"
     },
     {
      "kind": "Effect",
-     "name": "Alloys Storage Capacity +500000"
+     "name": "Max Alloys Capacity Add +500000"
     }
    ],
    "modifiers": [
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 10000000
     },
     {
      "key": "country_resource_max_alloys_add",
-     "name": "Alloys Storage Capacity",
+     "name": "Max Alloys Capacity Add",
      "amount": 500000
     }
    ],
@@ -41235,7 +41235,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +10000000"
+     "name": "Max Energy Capacity Add +10000000"
     }
    ],
    "modifiers": [
@@ -41246,7 +41246,7 @@
     },
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 10000000
     }
    ],
@@ -41292,7 +41292,7 @@
     },
     {
      "kind": "Effect",
-     "name": "Energy Storage Capacity +5000000"
+     "name": "Max Energy Capacity Add +5000000"
     },
     {
      "kind": "Effect",
@@ -41302,7 +41302,7 @@
    "modifiers": [
     {
      "key": "country_resource_max_energy_add",
-     "name": "Energy Storage Capacity",
+     "name": "Max Energy Capacity Add",
      "amount": 5000000
     },
     {
@@ -44099,7 +44099,7 @@
    "area": "physics",
    "tier": 6,
    "category": "Field Manipulation",
-   "cost": 0,
+   "cost": 80000,
    "repeatability": {
     "kind": "once"
    },
@@ -44179,7 +44179,7 @@
    "area": "physics",
    "tier": 7,
    "category": "Field Manipulation",
-   "cost": 0,
+   "cost": 160000,
    "repeatability": {
     "kind": "once"
    },
@@ -44214,7 +44214,7 @@
       ]
      },
      {
-      "text": "Has researched Dark matter power core ae",
+      "text": "Has researched Alpha-class Enigmatic Power",
       "details": []
      }
     ],
@@ -44267,7 +44267,7 @@
    "area": "physics",
    "tier": 8,
    "category": "Field Manipulation",
-   "cost": 0,
+   "cost": 480000,
    "repeatability": {
     "kind": "once"
    },
@@ -44359,7 +44359,7 @@
    "area": "physics",
    "tier": 9,
    "category": "Field Manipulation",
-   "cost": 0,
+   "cost": 1440000,
    "repeatability": {
     "kind": "once"
    },
@@ -44398,7 +44398,7 @@
       ]
      },
      {
-      "text": "Has researched Dark matter power core se",
+      "text": "Has researched Stellarite Energy Application",
       "details": []
      }
     ],
@@ -48273,7 +48273,7 @@
   "tech_colossus": [
    {
     "kind": "Ship",
-    "name": "Precursor colossus"
+    "name": "Precursor Herculean"
    },
    {
     "kind": "Ship",

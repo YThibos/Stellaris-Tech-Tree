@@ -13554,7 +13554,7 @@
    "area": "physics",
    "tier": 2,
    "category": "Field Manipulation",
-   "cost": 0,
+   "cost": 2500,
    "repeatability": {
     "kind": "once"
    },
@@ -13785,7 +13785,7 @@
    "area": "physics",
    "tier": 3,
    "category": "Field Manipulation",
-   "cost": 0,
+   "cost": 4000,
    "repeatability": {
     "kind": "once"
    },
@@ -13991,7 +13991,7 @@
    "area": "engineering",
    "tier": 1,
    "category": "Industry",
-   "cost": 0,
+   "cost": 1000,
    "repeatability": {
     "kind": "once"
    },
@@ -14227,7 +14227,7 @@
    "area": "engineering",
    "tier": 2,
    "category": "Industry",
-   "cost": 0,
+   "cost": 2000,
    "repeatability": {
     "kind": "once"
    },
@@ -14469,7 +14469,7 @@
    "area": "physics",
    "tier": 1,
    "category": "Computing",
-   "cost": 0,
+   "cost": 1250,
    "repeatability": {
     "kind": "once"
    },
@@ -14716,7 +14716,7 @@
    "area": "physics",
    "tier": 3,
    "category": "Computing",
-   "cost": 0,
+   "cost": 5000,
    "repeatability": {
     "kind": "once"
    },
@@ -14961,7 +14961,7 @@
    "area": "engineering",
    "tier": 1,
    "category": "Materials",
-   "cost": 0,
+   "cost": 1250,
    "repeatability": {
     "kind": "once"
    },
@@ -15195,7 +15195,7 @@
    "area": "engineering",
    "tier": 2,
    "category": "Materials",
-   "cost": 0,
+   "cost": 2000,
    "repeatability": {
     "kind": "once"
    },
@@ -15425,7 +15425,7 @@
    "area": "engineering",
    "tier": 1,
    "category": "Voidcraft",
-   "cost": 0,
+   "cost": 1250,
    "repeatability": {
     "kind": "once"
    },
@@ -15648,7 +15648,7 @@
    "area": "engineering",
    "tier": 2,
    "category": "Voidcraft",
-   "cost": 0,
+   "cost": 2000,
    "repeatability": {
     "kind": "once"
    },
