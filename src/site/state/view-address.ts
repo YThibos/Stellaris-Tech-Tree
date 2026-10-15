@@ -6,8 +6,10 @@ export interface SharedView {
   version: string | null;
   query: string;
   lit: TechnologyKey[];
-  /** Mods switched off; every mod in the snapshot is on unless listed here. */
-  modsOff: string[];
+  /** Mods switched on; null when the address does not say. */
+  modsOn: string[] | null;
+  /** Mods switched off, as addresses shared before mods started off still say; null when absent. */
+  modsOff: string[] | null;
 }
 
 export function readSharedView(): SharedView {
@@ -16,16 +18,17 @@ export function readSharedView(): SharedView {
     version: parameters.get('version'),
     query: parameters.get('search') ?? '',
     lit: listOf(parameters.get('lit')),
-    modsOff: listOf(parameters.get('off')),
+    modsOn: optionalListOf(parameters.get('mods')),
+    modsOff: optionalListOf(parameters.get('off')),
   };
 }
 
-export function writeSharedView(view: SharedView): void {
+export function writeSharedView(view: Omit<SharedView, 'modsOff'>): void {
   const parameters = new URLSearchParams();
   if (view.version) parameters.set('version', view.version);
   if (view.query) parameters.set('search', view.query);
   if (view.lit.length > 0) parameters.set('lit', view.lit.join(','));
-  if (view.modsOff.length > 0) parameters.set('off', view.modsOff.join(','));
+  if (view.modsOn && view.modsOn.length > 0) parameters.set('mods', view.modsOn.join(','));
   const hash = parameters.toString();
   try {
     history.replaceState(null, '', hash ? `#${hash}` : location.pathname + location.search);
@@ -36,4 +39,8 @@ export function writeSharedView(view: SharedView): void {
 
 function listOf(value: string | null): string[] {
   return (value ?? '').split(',').filter(Boolean);
+}
+
+function optionalListOf(value: string | null): string[] | null {
+  return value === null ? null : listOf(value);
 }

@@ -113,6 +113,9 @@ Anything not recognised falls back to the raw script; nothing is dropped.
 - The snapshot for the newest game version carries one layer per tech-relevant mod in the playset.
   Older snapshots are vanilla only, because mods auto-update and cannot be rolled back.
 - A mod panel lists the layers, searchable by name, each with a toggle and counts of techs added and changed.
+- Every mod starts switched off, so a first visit shows the base game as it ships.
+  The browser remembers which mods the player switched on; a shared address that names its mods takes precedence.
+- Importing a save switches on the mods that define any of its researched techs.
 - Toggling recomputes the tree instantly in the browser, by re-merging the enabled layers in load order.
 - A tech whose prerequisite does not exist in the enabled set is flagged, never silently dropped.
 - Mods with no tech content (UI, graphics, events only) do not appear in the panel.

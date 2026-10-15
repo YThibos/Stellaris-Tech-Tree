@@ -19,6 +19,9 @@ Ticked items passed in the first round of testing; open items are still to do, m
 - [x] Pull the branch, run `npm install` once if `package-lock.json` changed, then `npm run dev` and open http://localhost:5173.
       The private preview has the same data and works too, except for exporting campaign files.
 - [x] The title shows Stellaris 4.5.2, the board has columns T0 to T10 and ∞, and the Mods button reads 19/19.
+- [ ] Since public testing, mods start off: in a private window, the Mods button reads 0/19 and the board has the base game's 679 techs, T0 to T5 and ∞.
+- [ ] Switch a few mods on and reload the page: the same mods are still on.
+- [ ] In that private window, drop the autosave: the message says it switched on the mods the save uses, and none of its techs are reported missing.
 
 ## 1. First autosave of the new empire
 

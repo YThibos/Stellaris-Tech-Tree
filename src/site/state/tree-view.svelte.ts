@@ -72,18 +72,14 @@ export class TreeView {
   private readonly trail: TechnologyKey[] = [];
   private readonly sources: Map<string, ContentSource>;
 
-  constructor(
-    layers: readonly ContentLayer[],
-    modsOff: readonly string[],
-    campaigns: CampaignBook,
-  ) {
+  constructor(layers: readonly ContentLayer[], modsOn: readonly string[], campaigns: CampaignBook) {
     this.layers = layers;
     this.campaigns = campaigns;
     this.sources = new Map(layers.map((layer) => [layer.source.id, layer.source]));
     this.enabledMods = new SvelteSet(
       this.mods()
         .map(({ id }) => id)
-        .filter((id) => !modsOff.includes(id)),
+        .filter((id) => modsOn.includes(id)),
     );
     this.merged = $derived(mergeLayers(layers, this.enabledMods));
     this.tree = $derived(new TechTree(this.merged.technologies, this.merged.tierGates));
@@ -98,7 +94,7 @@ export class TreeView {
 
   /** The mods in the snapshot, in launcher load order. */
   mods(): ContentSource[] {
-    return this.layers.slice(1).map((layer) => layer.source);
+    return this.modLayers().map((layer) => layer.source);
   }
 
   sourceOf(technology: Technology): ContentSource | undefined {
@@ -134,10 +130,20 @@ export class TreeView {
     }
   }
 
-  modsOff(): string[] {
+  modsOn(): string[] {
     return this.mods()
       .map(({ id }) => id)
-      .filter((id) => !this.enabledMods.has(id));
+      .filter((id) => this.enabledMods.has(id));
+  }
+
+  /** Switches on the mods that define any of these techs, such as a save's; returns those switched on. */
+  switchOnModsDefining(keys: readonly TechnologyKey[]): ContentSource[] {
+    const wanted = new Set(keys);
+    const needed = this.modLayers()
+      .filter((layer) => !this.enabledMods.has(layer.source.id))
+      .filter((layer) => layer.technologies.some(({ key }) => wanted.has(key)));
+    for (const { source } of needed) this.enabledMods.add(source.id);
+    return needed.map(({ source }) => source);
   }
 
   /** Levels researched in the active campaign; 0 when not researched or no campaign is active. */
@@ -259,6 +265,10 @@ export class TreeView {
 
   clearLit(): void {
     this.lit.clear();
+  }
+
+  private modLayers(): readonly ContentLayer[] {
+    return this.layers.slice(1);
   }
 
   private command(command: BoardCommand): void {

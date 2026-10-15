@@ -60,6 +60,7 @@ Keep track of what you have researched in one or more campaigns, stored in your 
 - **Import a save:** drop a `.sav` file onto the page, or choose one under **Campaign**.
   The save is read in your browser and never uploaded.
   Importing a later save of the same empire updates its campaign.
+  The mods the save's research comes from are switched on for you.
 - **Mark as you go:** the ✓ on a card marks the tech researched together with everything it requires.
   Unmarking a tech also unmarks everything that needed it, so a campaign never contradicts the tree.
 - **Mark a whole tier** at once, in one research area or all three, from the **Campaign** panel.
@@ -71,7 +72,9 @@ Keep track of what you have researched in one or more campaigns, stored in your 
 ## Mods
 
 The tree includes every mod in your playset that touches technology: mods that add techs, like Gigastructural Engineering, Ancient Cache of Technologies or Guilli's Technologies, mods that change the game's techs, and mods that give existing techs new unlocks.
-Each one can be switched off in the **Mods** list, and the tree rebuilds itself as the game would load it.
+Mods start switched off, so the tree first shows the base game as it ships.
+Switch on the ones you play with in the **Mods** list, and the tree rebuilds itself as the game would load it; your browser remembers your choice for next time.
+Importing a save switches on the mods its research comes from.
 Every tech a mod adds, changes or gives new unlocks carries a small MOD tag, and its details link to the Workshop page of each mod involved.
 When a mod changes a tech, the details also say what changed, such as a new requirement or a higher cost.
 

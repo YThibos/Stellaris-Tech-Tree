@@ -73,3 +73,32 @@ describe('TreeView selection', () => {
     expect(view.boardCommand).toBeNull();
   });
 });
+
+describe('TreeView mods', () => {
+  const giga: ContentLayer = {
+    source: { id: 'giga', name: 'Gigastructures', version: '4.5', workshopId: '1121692237' },
+    technologies: [aTechnology({ key: 'giga_tech_birch', source: 'giga' })],
+    tierGates: [],
+    technologyFiles: [],
+    unlocksAdded: {},
+  };
+  const guilli: ContentLayer = {
+    ...giga,
+    source: { id: 'guilli', name: "Guilli's Technologies", version: '1', workshopId: null },
+    technologies: [aTechnology({ key: 'tech_guilli_planet', source: 'guilli' })],
+  };
+
+  it('shows only the mods it is given switched on', () => {
+    const view = new TreeView([vanilla, giga, guilli], ['guilli'], new CampaignBook());
+    expect(view.modsOn()).toEqual(['guilli']);
+    expect(view.tree.technology('giga_tech_birch')).toBeUndefined();
+  });
+
+  it("switches on the mods behind a save's techs and says which", () => {
+    const view = new TreeView([vanilla, giga, guilli], [], new CampaignBook());
+    const switchedOn = view.switchOnModsDefining(['tech_lasers_1', 'giga_tech_birch']);
+    expect(switchedOn.map(({ id }) => id)).toEqual(['giga']);
+    expect(view.tree.technology('giga_tech_birch')).toBeDefined();
+    expect(view.modsOn()).toEqual(['giga']);
+  });
+});
