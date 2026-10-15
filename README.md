@@ -2,7 +2,10 @@
 
 An interactive Stellaris technology tree that finally shows the whole picture: every prerequisite, the requirements the game hides, and the tier gates that decide when a tech can even appear.
 
-**Live site:** https://ythibos.github.io/Stellaris-Tech-Tree/ (goes live with the first public release)
+**Live site:** https://ythibos.github.io/Stellaris-Tech-Tree/
+
+The tree is in public testing.
+If something looks wrong or differs from the game, please [open an issue](https://github.com/YThibos/Stellaris-Tech-Tree/issues) with the tech's name, what the site shows and what the game shows.
 
 ![Orbital Rings lit up, with a line to each of its three prerequisites](docs/images/lit-path.png)
 
@@ -164,4 +167,4 @@ npm run extract    # read game files into public/data
 - `docs/specification.md` - what the project sets out to build, milestone by milestone.
 
 Every pull request runs lint, type checks, tests and a build.
-Merges to `master` publish the site to GitHub Pages once the repository is public.
+Merges to `master` publish the site to GitHub Pages.
