@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "A Stellaris technology tree that shows every prerequisite, tier gates and the techs your mods add.",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=22"

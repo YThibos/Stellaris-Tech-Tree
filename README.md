@@ -148,6 +148,17 @@ A big thank you to:
 Stellaris and all of its text and icons belong to Paradox Interactive.
 This is an unofficial fan project, not affiliated with or endorsed by Paradox Interactive.
 
+## Support
+
+The tree is free and always will be.
+If it saves you a few headaches mid-campaign and you'd like to support its upkeep, you can [chip in on Patreon](https://www.patreon.com/c/Ophidyan).
+Supporters get no extra features; every part of the tree is for everyone.
+
+## Licence
+
+The code is open source under the [MIT licence](LICENSE): use it, change it and share it freely, keeping the copyright notice.
+The game data the site shows belongs to Paradox Interactive and to the mod authors; see [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
 ## For developers
 
 ```sh

@@ -52,9 +52,31 @@
       that is off
     </li>
   </ul>
+  <p class="about">
+    Free and open source.
+    <a href="https://github.com/YThibos/Stellaris-Tech-Tree" target="_blank" rel="noopener"
+      >Source and feedback</a
+    >
+    ·
+    <a href="https://www.patreon.com/c/Ophidyan" target="_blank" rel="noopener"
+      >Support it on Patreon</a
+    >
+  </p>
 </aside>
 
 <style>
+  .about {
+    margin: 1rem 0 0;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--line);
+    color: var(--text-muted);
+    font-size: 0.8rem;
+  }
+
+  .about a {
+    color: var(--hover);
+  }
+
   .legend {
     position: absolute;
     right: 1rem;
