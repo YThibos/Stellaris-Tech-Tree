@@ -18,11 +18,19 @@ import { allRequirements, type Technology, type TechnologyKey } from '../../doma
 import type { CampaignBook } from './campaign-book.svelte.ts';
 
 /** How strongly a card stands out, strongest first. */
-export type Emphasis = 'lit' | 'on-lit-path' | 'none';
+export type Emphasis = 'lit' | 'on-lit-path' | 'leads-to' | 'none';
+
+/** Something the board itself must do: centre a tech, return to the start, or move. */
+export type BoardCommand =
+  | { kind: 'locate'; key: TechnologyKey }
+  | { kind: 'home' }
+  | { kind: 'pan'; right: number; down: number };
 
 export interface Link {
   from: TechnologyKey;
   to: TechnologyKey;
+  /** A requirement on a lit path, or a step onward from the tech whose details are open. */
+  kind: 'requirement' | 'leads-to';
   oneOf: boolean;
 }
 
@@ -37,6 +45,9 @@ export class TreeView {
   readonly enabledMods: SvelteSet<string>;
   query = $state('');
   inspected = $state<TechnologyKey | null>(null);
+  /** The tech just located, briefly marked so the eye finds it. */
+  located = $state<TechnologyKey | null>(null);
+  boardCommand = $state<{ command: BoardCommand; serial: number } | null>(null);
   readonly lit = new SvelteSet<TechnologyKey>();
 
   readonly merged: MergedContent;
@@ -44,8 +55,12 @@ export class TreeView {
   readonly visible: Set<TechnologyKey>;
   readonly litPath: Set<TechnologyKey>;
   readonly links: Link[];
+  /** The techs the open tech leads to directly, one step onward. */
+  readonly inspectedLeadsTo: Set<TechnologyKey>;
   /** What the tree's techs do for each empire bonus, for the active campaign. */
   readonly empireModifiers: ModifierSummary[];
+  /** A plain counter, so issuing a command never reads the state it writes. */
+  private commandSerial = 0;
   private readonly sources: Map<string, ContentSource>;
 
   constructor(
@@ -65,6 +80,9 @@ export class TreeView {
     this.tree = $derived(new TechTree(this.merged.technologies, this.merged.tierGates));
     this.visible = $derived.by(() => this.techsMatchingSearch());
     this.litPath = $derived(this.tree.requirementPathOfAll(this.lit));
+    this.inspectedLeadsTo = $derived(
+      new Set(this.inspected ? this.tree.leadsTo(this.inspected) : []),
+    );
     this.links = $derived.by(() => this.visibleLinks());
     this.empireModifiers = $derived(
       summariseEmpireModifiers(this.tree.technologies, this.campaigns.active?.researched ?? {}),
@@ -148,7 +166,27 @@ export class TreeView {
 
   emphasisOf(key: TechnologyKey): Emphasis {
     if (this.lit.has(key)) return 'lit';
-    return this.litPath.has(key) ? 'on-lit-path' : 'none';
+    if (this.litPath.has(key)) return 'on-lit-path';
+    return this.inspectedLeadsTo.has(key) ? 'leads-to' : 'none';
+  }
+
+  /** Centres the board on a tech, as Stellaris centres the view on the selected object. */
+  goTo(key: TechnologyKey): void {
+    this.command({ kind: 'locate', key });
+  }
+
+  /** Centres the tech whose details are open, or else the most recently lit one. */
+  goToSelection(): void {
+    const selected = this.inspected ?? [...this.lit].at(-1);
+    if (selected) this.goTo(selected);
+  }
+
+  goHome(): void {
+    this.command({ kind: 'home' });
+  }
+
+  pan(right: number, down: number): void {
+    this.command({ kind: 'pan', right, down });
   }
 
   /** Cards fade back only while something is lit and no search is narrowing the board. */
@@ -169,13 +207,23 @@ export class TreeView {
     this.lit.clear();
   }
 
-  /** Lit techs always stay on the board; others must match the search and, if asked, be unresearched. */
+  private command(command: BoardCommand): void {
+    this.commandSerial += 1;
+    this.boardCommand = { command, serial: this.commandSerial };
+  }
+
+  /**
+   * Lit techs, the tech whose details are open and the techs it leads to always stay on the board;
+   * others must match the search and, if asked, be unresearched.
+   */
   private techsMatchingSearch(): Set<TechnologyKey> {
     const hideResearched = this.campaigns.hideResearched && this.campaigns.active !== null;
     const matching = this.tree.technologies
       .filter(
         (technology) =>
           this.lit.has(technology.key) ||
+          technology.key === this.inspected ||
+          this.inspectedLeadsTo.has(technology.key) ||
           (!(hideResearched && this.isResearched(technology.key)) &&
             matchesSearch(technology, this.query, this.sourceOf(technology)?.name)),
       )
@@ -183,15 +231,32 @@ export class TreeView {
     return new Set(matching);
   }
 
-  /** The requirement links between lit techs and their paths, where both ends are on the board. */
   private visibleLinks(): Link[] {
+    const links = [...this.requirementLinks(), ...this.leadsToLinks()];
+    return links.filter((link) => this.visible.has(link.from) && this.visible.has(link.to));
+  }
+
+  /** The requirement links between lit techs and their paths. */
+  private requirementLinks(): Link[] {
     const highlighted = new Set([...this.lit, ...this.litPath]);
     return [...highlighted].flatMap((to) => {
       const technology = this.tree.technology(to);
       const required = technology ? allRequirements(technology) : [];
       return required
-        .filter((from) => highlighted.has(from) && this.visible.has(from) && this.visible.has(to))
-        .map((from): Link => ({ from, to, oneOf: !technology?.prerequisites.includes(from) }));
+        .filter((from) => highlighted.has(from))
+        .map((from): Link => this.linkBetween(from, to, 'requirement'));
     });
+  }
+
+  /** One step onward from the tech whose details are open. */
+  private leadsToLinks(): Link[] {
+    const from = this.inspected;
+    if (!from) return [];
+    return [...this.inspectedLeadsTo].map((to) => this.linkBetween(from, to, 'leads-to'));
+  }
+
+  private linkBetween(from: TechnologyKey, to: TechnologyKey, kind: Link['kind']): Link {
+    const prerequisites = this.tree.technology(to)?.prerequisites ?? [];
+    return { from, to, kind, oneOf: !prerequisites.includes(from) };
   }
 }

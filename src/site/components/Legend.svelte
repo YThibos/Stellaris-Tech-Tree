@@ -18,12 +18,13 @@
       <b>✓</b> on a card, once a campaign is chosen, marks the tech researched with everything it requires;
       clicking it again unmarks it and everything that needed it.
     </li>
-    <li><b>/</b> jumps to search; <b>Esc</b> clears search, then details, then lit paths.</li>
+    <li>Keyboard shortcuts, modelled on Stellaris, are under <b>Shortkeys</b>.</li>
   </ul>
   <h3>Lines</h3>
   <ul class="swatches">
     <li><span class="swatch lit"></span>Prerequisite of a lit tech</li>
     <li><span class="swatch lit one-of"></span>One of several options the tech needs</li>
+    <li><span class="swatch leads-to"></span>What the open tech leads to, one step on</li>
   </ul>
   <h3>Cards</h3>
   <ul class="swatches">
@@ -101,6 +102,10 @@
 
   .swatch.lit {
     background: var(--lit);
+  }
+
+  .swatch.leads-to {
+    background: var(--leads-to);
   }
 
   .swatch.one-of {

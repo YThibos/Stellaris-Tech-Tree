@@ -10,6 +10,7 @@
   import Board from './Board.svelte';
   import TechDetails from './TechDetails.svelte';
   import type { TopBarPanel } from '../state/top-bar-panel.ts';
+  import { panFor } from '../state/shortkeys.ts';
   import TopBar from './TopBar.svelte';
 
   let {
@@ -49,13 +50,35 @@
     return restored;
   }
 
+  const TEXT_ENTRY =
+    'input:not([type="checkbox"], [type="radio"], [type="file"]), textarea, select, [contenteditable="true"]';
+
+  /** Keys modelled on Stellaris; letters only act while the player is not typing in a box. */
   function onKeydown(event: KeyboardEvent): void {
-    if (event.key === '/' && document.activeElement !== search) {
-      event.preventDefault();
-      search?.focus();
-    } else if (event.key === 'Escape') {
-      clearInOrder();
-    }
+    if (event.key === 'Escape') return clearInOrder();
+    if (isTyping(event) || event.ctrlKey || event.metaKey || event.altKey) return;
+    if (handleShortkey(event)) event.preventDefault();
+  }
+
+  function handleShortkey(event: KeyboardEvent): boolean {
+    const key = event.key.toLowerCase();
+    if (key === 'f' || key === '/') search?.focus();
+    else if (key === 'q') view.goToSelection();
+    else if (event.key === 'Home') view.goHome();
+    else return pan(event);
+    return true;
+  }
+
+  function pan(event: KeyboardEvent): boolean {
+    const movement = panFor(event.key, event.shiftKey);
+    if (movement) view.pan(...movement);
+    return movement !== undefined;
+  }
+
+  /** Typing in a text box or list must never trigger a shortcut; ticking a checkbox may. */
+  function isTyping(event: KeyboardEvent): boolean {
+    const target = event.target as HTMLElement | null;
+    return Boolean(target?.closest(TEXT_ENTRY));
   }
 
   /** A save dropped anywhere on the page is imported as a campaign. */
@@ -67,9 +90,10 @@
     void saveImport.start(file);
   }
 
-  /** Escape first clears the search, then the details, then the lit techs. */
+  /** Escape closes the open panel first, as in game, then clears the search, the details, the lit techs. */
   function clearInOrder(): void {
-    if (view.query) view.query = '';
+    if (openPanel) openPanel = null;
+    else if (view.query) view.query = '';
     else if (view.inspected) view.inspected = null;
     else view.clearLit();
   }

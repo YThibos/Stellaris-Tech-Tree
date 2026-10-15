@@ -73,15 +73,24 @@
       </div>
     </header>
 
-    <button
-      class="light"
-      class:on={view.lit.has(technology.key)}
-      onclick={() => view.toggleLit(technology.key)}
-    >
-      {view.lit.has(technology.key)
-        ? 'Switch off its lit path'
-        : `Light its path (${requirementCount} techs)`}
-    </button>
+    <div class="actions">
+      <button
+        class="go-to"
+        onclick={() => view.goTo(technology.key)}
+        title="Centre the board on this tech (Q)"
+      >
+        Go to <kbd>Q</kbd>
+      </button>
+      <button
+        class="light"
+        class:on={view.lit.has(technology.key)}
+        onclick={() => view.toggleLit(technology.key)}
+      >
+        {view.lit.has(technology.key)
+          ? 'Switch off its lit path'
+          : `Light its path (${requirementCount} techs)`}
+      </button>
+    </div>
 
     {#if view.campaigns.active}
       <div class="research">
@@ -290,9 +299,33 @@
     font-weight: 700;
   }
 
-  .light {
-    width: 100%;
+  .actions {
+    display: flex;
+    gap: 0.5rem;
     margin: 0.9rem 0 0.4rem;
+  }
+
+  .go-to {
+    flex: none;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid #7fe3ff66;
+    border-radius: var(--radius);
+    background: #7fe3ff12;
+    color: var(--hover);
+    cursor: pointer;
+  }
+
+  .go-to kbd {
+    margin-left: 0.25rem;
+    padding: 0 0.3rem;
+    border: 1px solid #7fe3ff55;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 0.75rem;
+  }
+
+  .light {
+    flex: 1;
     padding: 0.5rem;
     border: 1px solid #ffd16666;
     border-radius: var(--radius);

@@ -42,6 +42,7 @@
   class:dangerous={hasTrait(technology, 'dangerous')}
   class:inspected={view.inspected === technology.key}
   class:researched={level > 0}
+  class:located={view.located === technology.key}
   hidden={!view.visible.has(technology.key)}
   use:register={technology.key}
 >
@@ -167,6 +168,30 @@
   .card.emphasis-on-lit-path {
     border-color: #ffd166aa;
     box-shadow: 0 0 10px #ffd16633;
+  }
+
+  .card.emphasis-leads-to {
+    border-color: var(--leads-to);
+    box-shadow: 0 0 10px #c49bff44;
+  }
+
+  .card.located {
+    animation: locate 0.8s ease-out 2;
+  }
+
+  @keyframes locate {
+    from {
+      box-shadow:
+        0 0 0 3px var(--hover),
+        0 0 24px var(--hover);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card.located {
+      animation: none;
+      box-shadow: 0 0 0 3px var(--hover);
+    }
   }
 
   .card.inspected {

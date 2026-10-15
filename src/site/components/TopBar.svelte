@@ -7,6 +7,7 @@
   import CapacitiesPanel from './CapacitiesPanel.svelte';
   import Legend from './Legend.svelte';
   import ModPanel from './ModPanel.svelte';
+  import ShortkeysPanel from './ShortkeysPanel.svelte';
 
   let {
     view,
@@ -69,7 +70,7 @@
       bind:this={search}
       bind:value={view.query}
       type="search"
-      placeholder="Search techs, unlocks, categories…   ( / )"
+      placeholder="Search techs, unlocks, categories, mods…   ( F )"
       autocomplete="off"
       spellcheck="false"
     />
@@ -102,6 +103,9 @@
       </button>
     {/if}
     <button onclick={() => toggle('legend')} aria-expanded={openPanel === 'legend'}>Legend</button>
+    <button onclick={() => toggle('shortkeys')} aria-expanded={openPanel === 'shortkeys'}>
+      Shortkeys
+    </button>
   </div>
 </header>
 
@@ -109,6 +113,8 @@
   <Legend onclose={() => (openPanel = null)} />
 {:else if openPanel === 'mods'}
   <ModPanel {view} onclose={() => (openPanel = null)} />
+{:else if openPanel === 'shortkeys'}
+  <ShortkeysPanel onclose={() => (openPanel = null)} />
 {:else if openPanel === 'capacities'}
   <CapacitiesPanel {view} onclose={() => (openPanel = null)} />
 {:else if openPanel === 'campaigns'}

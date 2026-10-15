@@ -156,7 +156,10 @@ Campaign marks are personal and stay out of the address.
 
 - Dark theme echoing the in-game research screen, with area colours (physics blue, society green, engineering orange) and game icons on cards.
 - Desktop-first; usable on a tablet; phones get a readable, scrollable layout without the hover features.
-- Keyboard: `/` focuses search, `Esc` clears search, then clears lit locks.
+- Keyboard shortcuts echo Stellaris's own: `Q` centres the board on the selected tech, `F` (and `/`) opens the finder, `W` `A` `S` `D` move the board like the camera, `Home` returns to tier 0 as Home returns to the capital, and `Esc` closes the open panel, then clears the search, the details and the lit techs, one per press.
+- A Shortkeys button shows a cheat sheet of these keys and their Stellaris equivalents.
+- The details panel has a Go to button that centres the board on the tech; clearing a search returns the board to the open tech.
+- The tech whose details are open draws violet lines to the techs it leads to, one step on, and those techs stay on the board during a search.
 
 ### 5.12 Empire capacities
 

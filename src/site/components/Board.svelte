@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { tick, untrack } from 'svelte';
   import type { Action } from 'svelte/action';
   import { SvelteMap } from 'svelte/reactivity';
   import type { ResearchArea } from '../../domain/research-area.ts';
@@ -10,7 +11,7 @@
     type CategoryGroup,
   } from '../state/board-layout.ts';
   import { areaTitle, columnBadge, columnTitle } from '../state/presentation.ts';
-  import type { TreeView } from '../state/tree-view.svelte.ts';
+  import type { BoardCommand, TreeView } from '../state/tree-view.svelte.ts';
   import LinkLayer from './LinkLayer.svelte';
   import TechCard from './TechCard.svelte';
   import TierGateNote from './TierGateNote.svelte';
@@ -28,10 +29,44 @@
   let board = $state<HTMLElement | null>(null);
   let content = $state<HTMLElement | null>(null);
 
+  const LOCATED_MARK_MS = 1600;
+
+  /**
+   * A new search starts from the top-left; clearing the search returns to the open tech, so the
+   * player does not lose the place they searched for.
+   */
   $effect(() => {
-    void view.query;
-    board?.scrollTo({ left: 0, top: 0 });
+    const searching = view.isSearching();
+    const inspected = untrack(() => view.inspected);
+    if (!searching && inspected) view.goTo(inspected);
+    else board?.scrollTo({ left: 0, top: 0 });
   });
+
+  $effect(() => {
+    const request = view.boardCommand;
+    if (request) untrack(() => void tick().then(() => carryOut(request.command)));
+  });
+
+  function carryOut(command: BoardCommand): void {
+    if (command.kind === 'home') board?.scrollTo({ left: 0, top: 0, behavior: scrollBehaviour() });
+    if (command.kind === 'pan')
+      board?.scrollBy({ left: command.right, top: command.down, behavior: scrollBehaviour() });
+    if (command.kind === 'locate') locate(command.key);
+  }
+
+  function locate(key: string): void {
+    const card = cards.get(key);
+    if (!card || card.hidden) return;
+    card.scrollIntoView({ block: 'center', inline: 'center', behavior: scrollBehaviour() });
+    view.located = key;
+    setTimeout(() => {
+      if (view.located === key) view.located = null;
+    }, LOCATED_MARK_MS);
+  }
+
+  function scrollBehaviour(): 'smooth' | 'auto' {
+    return matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+  }
 
   const visibleColumnIds = $derived(
     new Set(

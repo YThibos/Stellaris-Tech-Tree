@@ -12,6 +12,7 @@
 
   interface DrawnLink {
     id: string;
+    kind: Link['kind'];
     oneOf: boolean;
     path: string;
   }
@@ -49,7 +50,8 @@
     if (!from || !to) return [];
     const start = { x: from.right - origin.left, y: from.top + from.height / 2 - origin.top };
     const end = { x: to.left - origin.left, y: to.top + to.height / 2 - origin.top };
-    return [{ id: `${link.from}>${link.to}`, oneOf: link.oneOf, path: curve(start, end) }];
+    const id = `${link.kind}:${link.from}>${link.to}`;
+    return [{ id, kind: link.kind, oneOf: link.oneOf, path: curve(start, end) }];
   }
 
   /** A smooth curve from the right edge of a prerequisite to the left edge of what it unlocks. */
@@ -61,7 +63,7 @@
 
 <svg class="links" width={size.width} height={size.height} aria-hidden="true">
   {#each drawn as link (link.id)}
-    <path class:one-of={link.oneOf} d={link.path} />
+    <path class={link.kind} class:one-of={link.oneOf} d={link.path} />
   {/each}
 </svg>
 
@@ -80,6 +82,11 @@
     stroke-width: 2;
     stroke-linecap: round;
     filter: drop-shadow(0 0 3px #ffd16699);
+  }
+
+  .leads-to {
+    stroke: var(--leads-to);
+    filter: drop-shadow(0 0 3px #c49bff88);
   }
 
   .one-of {
