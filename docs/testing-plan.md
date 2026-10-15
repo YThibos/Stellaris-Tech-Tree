@@ -69,10 +69,10 @@ Open the research screen in game, with its three options per area.
 
 ## 5b. DLCs (after the next extract)
 
-The DLC list comes from the extraction, so run `npm run extract` once and push the data first.
+The extract of the first feedback round records them: 135 base-game techs need one of 17 DLCs.
 
-- [ ] The extract report lists "DLCs some techs need" for the base game, with counts close to: The Machine Age 28, First Contact 21, Shadows of the Shroud 21, Grand Archive 12, Cosmic Storms 10, Apocalypse 9.
-- [ ] A **DLCs** button appears in the top bar, reading 8/8 or similar, and its panel lists those DLCs with their tech counts.
+- [x] The extract report lists "DLCs some techs need": The Machine Age 28, Ancient Relics 23, First Contact 21, Shadows of the Shroud 15, Grand Archive 12, Cosmic Storms 10, Apocalypse 9, and ten more with four techs or fewer.
+- [ ] A **DLCs** button in the top bar reads 17/17, and its panel lists those DLCs with their tech counts.
 - [ ] Untick Apocalypse: Colossi, Titans and the other Apocalypse techs disappear, and so does anything reachable only through them.
       Tick it again: they return.
 - [ ] Open Colossi's details: they say "Needs DLC: Apocalypse".

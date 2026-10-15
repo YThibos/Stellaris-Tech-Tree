@@ -122,6 +122,8 @@ Anything not recognised falls back to the raw script; nothing is dropped.
 
 ### 5.5b DLCs
 
+In 4.5.2, 135 of the base game's 679 techs need one of 17 DLCs; the five psionic techs that need Shadows of the Shroud only as one option among others stay in the tree without it.
+
 - The extraction records, per tech, the DLCs its availability conditions cannot hold without: direct DLC checks and the game's named DLC checks from its scripted triggers, at the top level or inside AND, never inside OR or NOT.
 - A DLC panel lists the DLCs the enabled techs need, with how many techs each gates; every DLC counts as owned until unticked.
 - Leaving out a DLC removes its techs and every tech reachable only through removed techs.
@@ -283,6 +285,7 @@ Settled by the first extraction of 4.5.2:
 
 - Tiers 2 to 5 each need 6 techs of the previous tier in the same area; tiers 0 and 1 need none.
 - Mega-Engineering needs only Zero Point Power in 4.5.2; the Citadel and Battleships requirements of earlier versions are gone.
+- 228 of the 679 base-game techs carry the game's own rare flag, Modular Engineering and Corps of Engineers among them; every one of the 554 techs shared with the original tree's 4.3.7 data agrees on it, so the purple cards are faithful.
 
 - The game's override rules for technologies, per the Stellaris wiki's modding page: a file with the same path as an earlier source's replaces it; files are then read in ASCII order of their names, with launcher order breaking ties; for technologies the last definition of a key wins (LIOS).
   The site's layer merge follows exactly this, with tests.
