@@ -24,6 +24,7 @@
    ],
    "icon": "icons/1455861246/tech_materials_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -88,6 +89,7 @@
    ],
    "icon": "icons/1455861246/tech_industry_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -152,6 +154,7 @@
    ],
    "icon": "icons/1455861246/tech_rocketry_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -225,6 +228,7 @@
    ],
    "icon": "icons/1455861246/tech_particles_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -294,6 +298,7 @@
    ],
    "icon": "icons/1455861246/tech_voidcraft_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -358,6 +363,7 @@
    ],
    "icon": "icons/1455861246/tech_field_manipulation_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -431,6 +437,7 @@
    ],
    "icon": "icons/1455861246/tech_computing_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -504,6 +511,7 @@
    ],
    "icon": "icons/1455861246/tech_biology_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -577,6 +585,7 @@
    ],
    "icon": "icons/1455861246/tech_statecraft_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -654,6 +663,7 @@
    ],
    "icon": "icons/1455861246/tech_military_theory_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -730,6 +740,7 @@
    ],
    "icon": "icons/1455861246/tech_psionics_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -798,6 +809,7 @@
    ],
    "icon": "icons/1455861246/tech_new_worlds_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,
@@ -866,6 +878,7 @@
    ],
    "icon": "icons/1455861246/tech_archeo_breakthrough.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 1,

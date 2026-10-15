@@ -26,6 +26,7 @@
    ],
    "icon": "icons/2475617894/tech_gravitational_flows_theory.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -77,6 +78,7 @@
    ],
    "icon": "icons/2475617894/tech_core_isostasia_theory.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -128,6 +130,7 @@
    ],
    "icon": "icons/2475617894/tech_stellar_process_control.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -172,6 +175,7 @@
    "traits": [],
    "icon": "icons/2475617894/tech_blocked_tunnell.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -286,6 +290,7 @@
    "traits": [],
    "icon": "icons/2475617894/tech_ice_crust.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -400,6 +405,7 @@
    "traits": [],
    "icon": "icons/2475617894/tech_dune_sea.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -529,6 +535,7 @@
    "traits": [],
    "icon": "icons/2475617894/tech_thick_forest.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -658,6 +665,7 @@
    "traits": [],
    "icon": "icons/2475617894/tech_large_ice_ridge.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -787,6 +795,7 @@
    "traits": [],
    "icon": "icons/2475617894/tech_igneous_traps.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -942,6 +951,7 @@
     ],
     "script": "any_galaxy_planet = {\n  has_modifier = noxious_world\n  is_surveyed = {\n    who = ROOT\n    status = yes\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 80,
     "factor": 1,

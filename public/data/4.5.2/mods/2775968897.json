@@ -35,6 +35,7 @@
     ],
     "script": "is_wilderness_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -63,6 +64,7 @@
    "traits": [],
    "icon": "icons/2775968897/tech_planetary_station_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 100,
     "factor": 1,
@@ -91,6 +93,7 @@
    "traits": [],
    "icon": "icons/2775968897/tech_extreme_mining_methods.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -119,6 +122,7 @@
    "traits": [],
    "icon": "icons/2775968897/tech_planetary_station_3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 1,
@@ -148,6 +152,7 @@
    "traits": [],
    "icon": "icons/2775968897/tech_planetary_station_4.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 1,
@@ -176,6 +181,7 @@
    "traits": [],
    "icon": "icons/2775968897/tech_colonial_station_protocol.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -213,6 +219,7 @@
    "traits": [],
    "icon": "icons/2775968897/tech_planet_meltification.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,

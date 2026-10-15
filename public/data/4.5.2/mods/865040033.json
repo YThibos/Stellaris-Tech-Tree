@@ -22,6 +22,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_remnants_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -68,6 +69,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_remnants_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -114,6 +116,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_energy_grid_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -160,6 +163,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_energy_grid_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -206,6 +210,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_satellite_grid_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -252,6 +257,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_satellite_grid_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -298,6 +304,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_city_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -344,6 +351,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_city_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -390,6 +398,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_shipyards_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -436,6 +445,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_shipyards_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -482,6 +492,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_planetary_gun_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -528,6 +539,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_planetary_gun_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -565,6 +577,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_bunker_grid_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -611,6 +624,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_bunker_grid_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -657,6 +671,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_mechs_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -694,6 +709,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_mechs_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -731,6 +747,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_planetary_shield_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -777,6 +794,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_planetary_shield_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -814,6 +832,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_floating_city_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -851,6 +870,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_floating_city_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -888,6 +908,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_capital_complex_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -925,6 +946,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_capital_complex_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -962,6 +984,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_communication_hub_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1017,6 +1040,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_communication_hub_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1063,6 +1087,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_singularity_drive_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1100,6 +1125,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_singularity_drive_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1146,6 +1172,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_eternal_fortress_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1183,6 +1210,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_eternal_fortress_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1229,6 +1257,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_prison_planet_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1283,6 +1312,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1320,6 +1350,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_mines_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1357,6 +1388,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_mines_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1392,6 +1424,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_manufactorium_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1438,6 +1471,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_manufactorium_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1484,6 +1518,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_vaults_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1530,6 +1565,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_vaults_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1585,6 +1621,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_crashed_spacestation_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1640,6 +1677,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_crashed_spacestation_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1695,6 +1733,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_battleground_ruins_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1732,6 +1771,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_battleground_ruins_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1769,6 +1809,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_outpost_ruins_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1815,6 +1856,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_outpost_ruins_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1860,6 +1902,7 @@
     ],
     "script": "is_machine_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1906,6 +1949,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_harbor_ruins_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1943,6 +1987,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_ruins_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -1989,6 +2034,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_ruins_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2026,6 +2072,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_obelisks_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2072,6 +2119,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_precursor_obelisks_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2118,6 +2166,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_very_hot_core_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2157,6 +2206,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_very_hot_core_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2194,6 +2244,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_gaia_world_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2241,6 +2292,7 @@
     ],
     "script": "is_machine_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2278,6 +2330,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_holy_world_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2317,6 +2370,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_holy_world_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2354,6 +2408,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_floating_islands_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2402,6 +2457,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_floating_islands_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2439,6 +2495,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_ruined_battlefield_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2478,6 +2535,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_ruined_battlefield_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2515,6 +2573,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_spaceship_graveyard_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2554,6 +2613,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_spaceship_graveyard_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2591,6 +2651,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_artificial_water_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2630,6 +2691,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_artificial_water_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2675,6 +2737,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2714,6 +2777,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_android_pleasure_palace_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2751,6 +2815,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_ancient_temple_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2790,6 +2855,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_ancient_temple_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2827,6 +2893,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_crystal_moon_palace_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2866,6 +2933,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_crystal_moon_palace_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2903,6 +2971,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_plasmoid_life_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2942,6 +3011,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_plasmoid_life_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -2979,6 +3049,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_temple_of_the_ancient_one_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3018,6 +3089,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_temple_of_the_ancient_one_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3063,6 +3135,7 @@
     ],
     "script": "is_machine_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3110,6 +3183,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3156,6 +3230,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_hiveworld_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3195,6 +3270,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_hiveworld_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3232,6 +3308,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_arachnophobia_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3260,6 +3337,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_arachnophobia_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3297,6 +3375,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_giant_worm_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3345,6 +3424,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_giant_worm_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3392,6 +3472,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3431,6 +3512,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_surface_of_bones_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3477,6 +3559,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_strange_alien_eggs_discovery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3505,6 +3588,7 @@
    ],
    "icon": "icons/865040033/tech_gpm_strange_alien_eggs_discovery_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3550,6 +3634,7 @@
     ],
     "script": "is_machine_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3597,6 +3682,7 @@
     ],
     "script": "is_machine_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3634,6 +3720,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_supermaterials_precursor.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3675,6 +3762,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_manufactory_hub.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3706,6 +3794,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_enigmatic_power_relays.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3747,6 +3836,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_singularity_matrix.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -3786,6 +3876,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -3922,6 +4013,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -4048,6 +4140,7 @@
     ],
     "script": "OR = {\n  is_machine_empire = no\n  AND = {\n    is_machine_empire = yes\n    has_civic = civic_machine_servitor\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -4145,6 +4238,7 @@
     ],
     "script": "OR = {\n  is_machine_empire = no\n  AND = {\n    is_machine_empire = yes\n    has_civic = civic_machine_servitor\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -4218,6 +4312,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -4321,6 +4416,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -4394,6 +4490,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -4462,6 +4559,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_tb_seasonal_flooding.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -4576,6 +4674,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_tb_locust_plagues.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -4690,6 +4789,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_tb_toxic_gas.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -4814,6 +4914,9 @@
     ],
     "script": "has_ancrel = yes"
    },
+   "requiredDlcs": [
+    "Ancient Relics Story Pack"
+   ],
    "drawWeight": {
     "base": 50,
     "factor": 0.5,
@@ -4885,6 +4988,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_hangar_1.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,
@@ -4916,6 +5020,7 @@
    "traits": [],
    "icon": "icons/865040033/tech_gpm_crystalis_targeting_matrix_1.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1,
     "factor": 0,

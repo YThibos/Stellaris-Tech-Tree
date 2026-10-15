@@ -32,6 +32,7 @@
     ],
     "script": "has_origin = origin_shiva"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 0,
@@ -68,6 +69,7 @@
     ],
     "script": "has_country_flag = tma_path_a"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -99,6 +101,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -141,6 +144,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -173,6 +177,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -206,6 +211,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -271,6 +277,7 @@
     ],
     "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -321,6 +328,7 @@
     ],
     "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -371,6 +379,7 @@
     ],
     "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -421,6 +430,7 @@
     ],
     "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -471,6 +481,7 @@
     ],
     "script": "OR = {\n  has_country_flag = tma_ascended\n  is_country_type = master_ai_country\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -515,6 +526,7 @@
     ],
     "script": "has_valid_civic = civic_secure_ships"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -574,6 +586,7 @@
     ],
     "script": "has_valid_civic = civic_machine_mineral_compositions"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -619,6 +632,7 @@
     ],
     "script": "has_origin = origin_born_of_knowledge"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 1,
@@ -655,6 +669,7 @@
     ],
     "script": "has_origin = origin_born_of_knowledge"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -691,6 +706,7 @@
     ],
     "script": "has_origin = origin_born_of_knowledge"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -725,6 +741,7 @@
     ],
     "script": "has_origin = origin_born_of_knowledge"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -766,6 +783,7 @@
     ],
     "script": "has_origin = origin_born_of_knowledge"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -807,6 +825,7 @@
     ],
     "script": "has_origin = origin_born_of_knowledge"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -850,6 +869,7 @@
     ],
     "script": "has_origin = origin_born_of_knowledge"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -891,6 +911,7 @@
     ],
     "script": "has_origin = origin_born_of_knowledge"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -927,6 +948,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 100,
     "factor": 2,
@@ -974,6 +996,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1.5,
@@ -1021,6 +1044,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 1.5,
@@ -1060,6 +1084,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1.5,
@@ -1123,6 +1148,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 100,
     "factor": 2.5,
@@ -1159,6 +1185,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 2,
@@ -1200,6 +1227,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 2,
@@ -1248,6 +1276,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 1.5,
@@ -1297,6 +1326,7 @@
     ],
     "script": "has_origin = origin_emex_contagion_outbreak"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1.5,
@@ -1358,6 +1388,7 @@
     ],
     "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  is_individual_machine = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1.5,
@@ -1483,6 +1514,7 @@
     ],
     "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  is_individual_machine = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -1627,6 +1659,7 @@
     ],
     "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  is_individual_machine = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 0.5,

@@ -34,6 +34,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -123,6 +124,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -221,6 +223,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -310,6 +313,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -389,6 +393,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_buildings_minerals_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -453,6 +458,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_shipsize_mining_station_hull_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -508,6 +514,7 @@
    ],
    "icon": "icons/1793768254/GT_country_base_minerals_produces_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -679,6 +686,7 @@
    ],
    "icon": "icons/1793768254/GT_country_base_engineering_research_produces_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -848,6 +856,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ship_emergency_ftl_min_days_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -929,6 +938,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -993,6 +1003,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_shipsize_mining_station_build_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -1057,6 +1068,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_shipsize_research_station_build_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -1121,6 +1133,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_researchers_engineering_research_produces_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -1185,6 +1198,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_starbase_shipyard_build_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -1249,6 +1263,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_army_defense_health_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -1328,6 +1343,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_small_weapon_fire_rate_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -1424,6 +1440,7 @@
    ],
    "icon": "icons/1793768254/GT_ship_corvette_alloys_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.5,
@@ -1503,6 +1520,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_building_build_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -1577,6 +1595,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_researchers_engineering_research_produces_mult2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -1651,6 +1670,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_starbase_defense_platform_capacity_add2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -1748,6 +1768,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_army_health.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -1812,6 +1833,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_torpedo_weapon_fire_rate_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -1906,6 +1928,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_torpedo_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -1970,6 +1993,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_medium_weapon_fire_rate_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -2064,6 +2088,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ship_orbital_bombardment_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -2175,6 +2200,7 @@
    ],
    "icon": "icons/1793768254/GT_ship_destroyer_alloys_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 0.5,
@@ -2257,6 +2283,7 @@
    ],
    "icon": "icons/1793768254/GT_planet_researchers_engineering_research_produces_mult3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 0.5,
@@ -2345,6 +2372,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_starbase_buildings_alloys_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -2409,6 +2437,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_starbase_modules_alloys_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -2473,6 +2502,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_large_weapon_fire_rate_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -2578,6 +2608,7 @@
    ],
    "icon": "icons/1793768254/GT_ship_cruiser_alloys_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 0.5,
@@ -2657,6 +2688,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ship_interstellar_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -2696,6 +2728,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_extra_large_weapon_fire_rate_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -2799,6 +2832,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_country_ship_upgrade_cost_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -2865,6 +2899,7 @@
    ],
    "icon": "icons/1793768254/GT_ship_battleship_alloys_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -2946,6 +2981,7 @@
    ],
    "icon": "icons/1793768254/GT_planet_non_artificial_max_districts_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -3027,6 +3063,7 @@
    ],
    "icon": "icons/1793768254/GT_terraforming_cost_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -3108,6 +3145,7 @@
    ],
    "icon": "icons/1793768254/GT_megastructure_build_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -3209,6 +3247,7 @@
    ],
    "icon": "icons/1793768254/GT_megastructures_minerals_produces_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -3314,6 +3353,7 @@
    ],
    "icon": "icons/1793768254/GT_megastructures_engineering_research_produces_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -3419,6 +3459,7 @@
    ],
    "icon": "icons/1793768254/GT_megastructures_alloys_cost_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -3528,6 +3569,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -3626,6 +3668,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -3707,6 +3750,7 @@
    ],
    "icon": "icons/1793768254/GT_ship_weapon_range_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -3816,6 +3860,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_small_weapon_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -3910,6 +3955,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_weapon_role_point_defense_weapon_fire_rate_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -4006,6 +4052,7 @@
    ],
    "icon": "icons/1793768254/GT_damage_vs_country_type_amoeba_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -4122,6 +4169,7 @@
    ],
    "icon": "icons/1793768254/GT_damage_vs_country_type_crystal_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -4238,6 +4286,7 @@
    ],
    "icon": "icons/1793768254/GT_damage_vs_country_type_drone_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -4339,6 +4388,7 @@
    ],
    "icon": "icons/1793768254/GT_damage_vs_country_type_cloud_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -4440,6 +4490,7 @@
    ],
    "icon": "icons/1793768254/GT_country_base_energy_produces_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -4611,6 +4662,7 @@
    ],
    "icon": "icons/1793768254/GT_country_base_physics_research_produces_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -4780,6 +4832,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_shipclass_mining_station_hull_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -4880,6 +4933,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_shipclass_research_station_hull_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -4980,6 +5034,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_species_leader_exp_gain.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -5044,6 +5099,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ftl_speed_1.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -5101,6 +5157,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_researchers_physics_research_produces_mult1.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -5165,6 +5222,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_medium_weapon_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -5270,6 +5328,7 @@
    ],
    "icon": "icons/1793768254/GT_shipclass_military_station_hull_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 0.5,
@@ -5364,6 +5423,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ftl_speed_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -5422,6 +5482,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_researchers_physics_research_produces_mult2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -5495,6 +5556,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ship_hull_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -5574,6 +5636,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_large_weapon_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -5677,6 +5740,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_starbase_defense_platform_capacity_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -5774,6 +5838,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ship_armor_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -5853,6 +5918,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ship_armor_penetration_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -5932,6 +5998,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ship_shield_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -6011,6 +6078,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ship_shield_penetration_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -6090,6 +6158,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_torpedo_weapon_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -6184,6 +6253,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_armies_energy_upkeep_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -6248,6 +6318,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_ftl_speed_3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -6308,6 +6379,7 @@
    ],
    "icon": "icons/1793768254/GT_planet_researchers_physics_research_produces_mult3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 0.5,
@@ -6398,6 +6470,7 @@
    ],
    "icon": "icons/1793768254/GT_ftl_speed_4.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -6455,6 +6528,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_extra_large_weapon_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -6549,6 +6623,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_orbital_bombardment_damage.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -6630,6 +6705,7 @@
    ],
    "icon": "icons/1793768254/GT_megastructures_energy_produces_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -6735,6 +6811,7 @@
    ],
    "icon": "icons/1793768254/GT_megastructures_physics_research_produces_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -6848,6 +6925,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -6937,6 +7015,7 @@
     ],
     "script": "is_machine_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -7108,6 +7187,7 @@
    ],
    "icon": "icons/1793768254/GT_country_base_society_research_produces_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 0.5,
@@ -7285,6 +7365,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -7357,6 +7438,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -7429,6 +7511,7 @@
     ],
     "script": "is_machine_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -7493,6 +7576,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_building_refund_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 100,
     "factor": 1,
@@ -7566,6 +7650,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_districts_minerals_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -7630,6 +7715,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_country_admin_cap_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 90,
     "factor": 1,
@@ -7694,6 +7780,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_researchers_society_research_produces_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -7760,6 +7847,7 @@
    ],
    "icon": "icons/1793768254/GT_ship_experience_gain_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.5,
@@ -7854,6 +7942,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_station_gatherers_build_cost_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -7918,6 +8007,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_station_researchers_build_cost_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -7990,6 +8080,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -8062,6 +8153,7 @@
     ],
     "script": "is_ai = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -8126,6 +8218,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_damage_vs_country_type_pirate_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -8210,6 +8303,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_clear_blocker_time_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 1,
@@ -8276,6 +8370,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_desert_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -8537,6 +8632,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_arid_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -8798,6 +8894,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_savannah_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -9059,6 +9156,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_tropical_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -9320,6 +9418,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_continental_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -9581,6 +9680,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_ocean_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -9842,6 +9942,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_tundra_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -10103,6 +10204,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_arctic_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -10364,6 +10466,7 @@
    ],
    "icon": "icons/1793768254/GT_pc_alpine_habitability.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.1,
@@ -10624,6 +10727,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_researchers_society_research_produces_mult2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -10697,6 +10801,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_starbase_defensive_war_ship_build_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -10761,6 +10866,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_army_experience_gain_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10840,6 +10946,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_army_morale.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10919,6 +11026,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_army_damage_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -10998,6 +11106,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_country_war_exhaustion_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -11078,6 +11187,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_country_admin_cap_add2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -11151,6 +11261,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_colony_development_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -11223,6 +11334,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -11284,6 +11396,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -11357,6 +11470,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_planet_decision_enact_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -11429,6 +11543,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -11503,6 +11618,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 0.5,
@@ -11610,6 +11726,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 0.5,
@@ -11729,6 +11846,7 @@
     ],
     "script": "is_hive_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 0.5,
@@ -11808,6 +11926,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_max_rivalries.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -11940,6 +12059,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -12051,6 +12171,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -12117,6 +12238,7 @@
    ],
    "icon": "icons/1793768254/GT_country_claim_influence_cost_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 0.5,
@@ -12199,6 +12321,7 @@
    ],
    "icon": "icons/1793768254/GT_planet_researchers_society_research_produces_mult3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 0.5,
@@ -12287,6 +12410,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_country_resettlement_cost_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -12351,6 +12475,7 @@
    "traits": [],
    "icon": "icons/1793768254/GT_country_border_friction_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -12497,6 +12622,7 @@
    ],
    "icon": "icons/1793768254/GT_terraform_speed_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 0.5,
@@ -12579,6 +12705,7 @@
    ],
    "icon": "icons/1793768254/GT_country_admin_cap_add3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -12668,6 +12795,7 @@
     ],
     "script": "is_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -12749,6 +12877,7 @@
    ],
    "icon": "icons/1793768254/GT_megastructures_society_research_produces_mult.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -12854,6 +12983,7 @@
    ],
    "icon": "icons/1793768254/GT_megastructures_influence_cost_add.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,

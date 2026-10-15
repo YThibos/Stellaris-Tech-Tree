@@ -25,6 +25,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_armor.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -59,6 +60,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_shield.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -93,6 +95,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_power.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -131,6 +134,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_cpu.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -169,6 +173,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_thruster.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -207,6 +212,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_drive.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -245,6 +251,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_sensor.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -283,6 +290,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_hull_repair.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -317,6 +325,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_shield_repair.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -351,6 +360,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_lab.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -386,6 +396,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lex_artifact.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -423,6 +434,7 @@
     ],
     "script": "has_country_flag = mem_aevum_allowedtogettemple"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -471,6 +483,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -519,6 +532,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -576,6 +590,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -626,6 +641,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancestors_grudge_robot_traits.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -670,6 +686,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancestors_grudge_dragon_lure.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -710,6 +727,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancestors_grudge_zarkin_doctrin.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -776,6 +794,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancestors_grudge_forge_alt.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -810,6 +829,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancestors_grudge_dranir_spacelife.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -854,6 +874,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancestors_grudge_dranir_flesh_shaping.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -883,6 +904,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancestors_grudge_dranir_drg_crew_lure.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -927,6 +949,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancestors_grudge_dranir_necron_beam.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -988,6 +1011,7 @@
    ],
    "icon": "icons/727000451/tech_mem_asp_geocentric_device.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -1022,6 +1046,7 @@
    ],
    "icon": "icons/727000451/tech_mem_outsiders_weaponized_rift.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -1056,6 +1081,7 @@
    ],
    "icon": "icons/727000451/tech_mem_outsiders_rift_impellers.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -1105,6 +1131,7 @@
    ],
    "icon": "icons/727000451/tech_mem_outsiders_flux_campouphlage.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -1139,6 +1166,7 @@
    ],
    "icon": "icons/727000451/tech_mem_outsiders_flux_power.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -1174,6 +1202,7 @@
    ],
    "icon": "icons/727000451/tech_planetary_shield_generator.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 0.5,
@@ -1299,6 +1328,7 @@
    ],
    "icon": "icons/727000451/tech_mem_planetary_shield_generator_heavy.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 0.25,
@@ -1437,6 +1467,7 @@
    ],
    "icon": "icons/727000451/tech_mem_planetary_shield_generator_orila.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -1484,6 +1515,7 @@
     ],
     "script": "has_country_flag = mem_crystal_fields"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -1587,6 +1619,7 @@
     ],
     "script": "has_country_flag = mem_giant_amoeba_sample"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -1678,6 +1711,7 @@
    ],
    "icon": "icons/727000451/tech_mem_ancient_weapon.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -1713,6 +1747,7 @@
    ],
    "icon": "icons/727000451/tech_mem_crawler_physiology.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 1.5,
@@ -1816,6 +1851,7 @@
    ],
    "icon": "icons/727000451/tech_mem_lunatics_tidals.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -1845,6 +1881,7 @@
    ],
    "icon": "icons/727000451/tech_mem_mountain_scales.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -1879,6 +1916,7 @@
    ],
    "icon": "icons/727000451/tech_mem_surveyor_alkree_secrets.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -1919,6 +1957,7 @@
    ],
    "icon": "icons/727000451/tech_mem_voggo_cloning.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -1980,6 +2019,7 @@
     ],
     "script": "always = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -2040,6 +2080,7 @@
    ],
    "icon": "icons/727000451/tech_mem_vazuran_xentronium_armor.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -2103,6 +2144,7 @@
    ],
    "icon": "icons/727000451/tech_mem_scourge_damage_bonus.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -2144,6 +2186,7 @@
    ],
    "icon": "icons/727000451/tech_mem_vazuran_xentronium_aura.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -2187,6 +2230,7 @@
    ],
    "icon": "icons/727000451/tech_mem_vazuran_xentronium_hangar.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,

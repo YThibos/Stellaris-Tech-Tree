@@ -52,6 +52,7 @@
     ],
     "script": "has_global_flag = ui_overhaul_qhd_ascension_tech_popup\nNOT = {\n  has_global_flag = ui_overhaul_qhd_ascension_tech_disabled\n}\nis_pirate = no\nis_primitive = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 0.5,

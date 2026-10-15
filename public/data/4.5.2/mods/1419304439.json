@@ -41,6 +41,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -113,6 +114,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -185,6 +187,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -257,6 +260,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -317,6 +321,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -401,6 +406,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_army_forbidden\n  has_global_flag = acot_delta_forbidden\n}\nOR = {\n  NOT = {\n    is_machine_empire = yes\n  }\n  has_civic = civic_machine_assimilator\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -482,6 +488,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_army_forbidden\n}\nOR = {\n  NOT = {\n    is_machine_empire = yes\n  }\n  has_civic = civic_machine_assimilator\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -553,6 +560,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_army_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -622,6 +630,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_army_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -707,6 +716,7 @@
     ],
     "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  is_individual_machine = yes\n  has_global_flag = acot_army_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -806,6 +816,7 @@
     ],
     "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  is_individual_machine = yes\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -896,6 +907,7 @@
     ],
     "script": "NOR = {\n  has_ethic = ethic_gestalt_consciousness\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -987,6 +999,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_militarist\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -1068,6 +1081,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_militarist\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -1145,6 +1159,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_pacifist\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -1226,6 +1241,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_pacifist\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -1303,6 +1319,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_xenophile\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -1384,6 +1401,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_xenophile\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -1461,6 +1479,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_xenophobe\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -1542,6 +1561,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_xenophobe\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -1617,6 +1637,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_egalitarian\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -1698,6 +1719,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_egalitarian\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -1775,6 +1797,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_authoritarian\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -1856,6 +1879,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_authoritarian\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -1933,6 +1957,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_materialist\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -2014,6 +2039,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_materialist\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -2091,6 +2117,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_spiritualist\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -2172,6 +2199,7 @@
     ],
     "script": "has_ethic = ethic_fanatic_spiritualist\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -2247,6 +2275,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -2307,6 +2336,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -2368,6 +2398,7 @@
     ],
     "script": "is_hive_empire = yes\nNOR = {\n  has_global_flag = acot_army_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -2431,6 +2462,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -2494,6 +2526,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -2558,6 +2591,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -2639,6 +2673,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -2714,6 +2749,7 @@
     ],
     "script": "OR = {\n  is_machine_empire = yes\n  is_individual_machine = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1.5,
@@ -2774,6 +2810,7 @@
     ],
     "script": "OR = {\n  is_machine_empire = yes\n  is_individual_machine = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -2853,6 +2890,7 @@
     ],
     "script": "OR = {\n  is_machine_empire = yes\n  is_individual_machine = yes\n}\nNOR = {\n  has_global_flag = acot_army_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -2941,6 +2979,7 @@
     ],
     "script": "OR = {\n  is_machine_empire = yes\n  is_individual_machine = yes\n}\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3033,6 +3072,7 @@
     ],
     "script": "OR = {\n  is_machine_empire = yes\n  is_individual_machine = yes\n}\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3111,6 +3151,7 @@
     ],
     "script": "is_individual_machine = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3192,6 +3233,7 @@
     ],
     "script": "is_individual_machine = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -3267,6 +3309,7 @@
     ],
     "script": "is_machine_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3348,6 +3391,7 @@
     ],
     "script": "is_machine_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3430,6 +3474,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_army_forbidden\n}\nis_regular_empire = yes\nhas_genetic_ascension = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3504,6 +3549,7 @@
     ],
     "script": "NOR = {\n  is_machine_empire = yes\n  has_global_flag = acot_army_forbidden\n}\nhas_genetic_ascension = yes\nOR = {\n  has_technology = tech_acot_army_dm\n  has_technology = tech_acot_army_hive_dm\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3572,6 +3618,7 @@
     ],
     "script": "has_tradition = tr_genetics_finish\nNOT = {\n  has_global_flag = acot_army_forbidden\n}\nis_regular_empire = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3629,6 +3676,7 @@
     ],
     "script": "NOR = {\n  is_gestalt = yes\n  has_global_flag = acot_army_forbidden\n}\nhas_ascension_perk = ap_mind_over_matter"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3685,6 +3733,7 @@
     ],
     "script": "has_tradition = tr_psionics_finish\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3753,6 +3802,7 @@
     ],
     "script": "has_ascension_perk = ap_the_flesh_is_weak\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3840,6 +3890,7 @@
     ],
     "script": "has_tradition = tr_cybernetics_finish\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -3923,6 +3974,7 @@
     ],
     "script": "has_ascension_perk = ap_synthetic_evolution\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -4014,6 +4066,7 @@
     ],
     "script": "has_tradition = tr_synthetics_finish\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -4118,6 +4171,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}\nOR = {\n  has_technology = tech_acot_army_dm\n  has_technology = tech_acot_army_robotic_dm\n  has_technology = tech_acot_army_machine_dm\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -4201,6 +4255,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}\nOR = {\n  has_technology = tech_acot_army_ae\n  has_technology = tech_acot_army_robotic_ae\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -4291,6 +4346,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -4369,6 +4425,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}\nOR = {\n  has_technology = tech_acot_army_hive_ae\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -4438,6 +4495,7 @@
     ],
     "script": "is_machine_empire = yes\nNOT = {\n  has_global_flag = acot_army_forbidden\n}\nOR = {\n  has_technology = tech_acot_army_hive_ae\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -4503,6 +4561,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -4607,6 +4666,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -4688,6 +4748,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -4748,6 +4809,7 @@
     ],
     "script": "is_regular_empire = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -4813,6 +4875,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -4913,6 +4976,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}\nis_regular_empire = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5017,6 +5081,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}\nis_pacifist = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5121,6 +5186,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5195,6 +5261,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}\nis_regular_empire = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5281,6 +5348,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5389,6 +5457,7 @@
     ],
     "script": "is_megacorp = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5463,6 +5532,7 @@
     ],
     "script": "is_megacorp = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5537,6 +5607,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}\nis_regular_empire = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5623,6 +5694,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5739,6 +5811,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5865,6 +5938,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -5950,6 +6024,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}\nis_homicidal = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6055,6 +6130,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}\nis_regular_empire = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6166,6 +6242,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6271,6 +6348,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6352,6 +6430,7 @@
     ],
     "script": "has_civic = civic_hive_devouring_swarm\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6426,6 +6505,7 @@
     ],
     "script": "is_machine_empire = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6500,6 +6580,7 @@
     ],
     "script": "is_machine_empire = yes\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6581,6 +6662,7 @@
     ],
     "script": "has_civic = civic_machine_assimilator\nNOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6682,6 +6764,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_ethictech_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -6784,6 +6867,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nOR = {\n  has_technology = tech_explosive_weapon_enig\n  has_technology = tech_energy_weapon_enig\n  has_technology = tech_kinetic_weapon_enig\n  has_technology = tech_hangar_weapon_enig\n}\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -6849,6 +6933,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nhas_precursor_tech = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -6895,6 +6980,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -6950,6 +7036,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7013,6 +7100,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7077,6 +7165,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_pe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7140,6 +7229,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_re"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7191,6 +7281,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7246,6 +7337,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7309,6 +7401,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7364,6 +7457,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7418,6 +7512,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7480,6 +7575,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7530,6 +7626,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7584,6 +7681,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7646,6 +7744,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7696,6 +7795,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7750,6 +7850,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7812,6 +7913,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7862,6 +7964,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7912,6 +8015,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -7974,6 +8078,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8024,6 +8129,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8078,6 +8184,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8140,6 +8247,7 @@
     ],
     "script": "always = no\ncountry_uses_bio_ships = yes\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8176,6 +8284,7 @@
     ],
     "script": "country_uses_bio_ships = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -8330,6 +8439,7 @@
     ],
     "script": "country_uses_bio_ships = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -8489,6 +8599,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -8567,6 +8678,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8646,6 +8758,7 @@
     ],
     "script": "OR = {\n  is_beastmasters_empire = yes\n  has_any_dna = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8703,6 +8816,7 @@
     ],
     "script": "OR = {\n  is_beastmasters_empire = yes\n  has_any_dna = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8769,6 +8883,7 @@
     ],
     "script": "OR = {\n  is_beastmasters_empire = yes\n  has_any_dna = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8862,6 +8977,7 @@
     ],
     "script": "OR = {\n  is_beastmasters_empire = yes\n  has_any_dna = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -8982,6 +9098,7 @@
     ],
     "script": "OR = {\n  is_beastmasters_empire = yes\n  has_any_dna = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -9075,6 +9192,7 @@
     ],
     "script": "OR = {\n  is_beastmasters_empire = yes\n  has_any_dna = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -9195,6 +9313,7 @@
     ],
     "script": "OR = {\n  is_beastmasters_empire = yes\n  has_any_dna = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -9253,6 +9372,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_acot_fauna_space_whale_upgrades.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -9308,6 +9428,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_acot_fauna_space_whale_type_1.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -9342,6 +9463,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_acot_fauna_space_whale_type_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -9404,6 +9526,9 @@
     ],
     "script": "has_distar = yes\nOR = {\n  has_technology = tech_acot_fauna_mutations_alpha\n  has_technology = tech_acot_fauna_mutations_phi\n}"
    },
+   "requiredDlcs": [
+    "Distant Stars Story Pack"
+   ],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -9509,6 +9634,7 @@
     ],
     "script": "OR = {\n  is_regular_empire = yes\n  is_individual_machine = yes\n}\nNOR = {\n  has_global_flag = acot_building_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -9613,6 +9739,7 @@
     ],
     "script": "is_machine_empire = yes\nNOR = {\n  has_global_flag = acot_building_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -9717,6 +9844,7 @@
     ],
     "script": "is_hive_empire = yes\nNOR = {\n  has_global_flag = acot_building_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -9825,6 +9953,7 @@
     ],
     "script": "OR = {\n  is_regular_empire = yes\n  is_individual_machine = yes\n}\nNOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -9903,6 +10032,7 @@
     ],
     "script": "is_machine_empire = yes\nNOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -9981,6 +10111,7 @@
     ],
     "script": "is_hive_empire = yes\nNOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -10068,6 +10199,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_ae_ancient_palace\n  has_technology = tech_acot_ae_ancient_control_center\n  has_technology = tech_acot_ae_ancient_hive_cluster\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -10150,6 +10282,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nis_gestalt = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10252,6 +10385,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nis_gestalt = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10348,6 +10482,7 @@
     ],
     "script": "is_hive_empire = no\nNOT = {\n  has_global_flag = acot_building_forbidden\n}\nOR = {\n  has_technology = tech_robotic_workers\n  is_machine_empire = yes\n  is_individual_machine = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10492,6 +10627,7 @@
     ],
     "script": "is_hive_empire = no\nNOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10618,6 +10754,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nis_hive_empire = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10709,6 +10846,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nis_hive_empire = yes\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10787,6 +10925,7 @@
     ],
     "script": "has_genetic_ascension = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1.5,
@@ -10916,6 +11055,7 @@
     ],
     "script": "has_genetic_ascension = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1.5,
@@ -11045,6 +11185,7 @@
     ],
     "script": "has_ascension_perk = ap_mind_over_matter"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1.5,
@@ -11129,6 +11270,7 @@
     ],
     "script": "has_ascension_perk = ap_mind_over_matter"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1.5,
@@ -11240,6 +11382,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nOR = {\n  has_ascension_perk = ap_the_flesh_is_weak\n  has_ascension_perk = ap_synthetic_evolution\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -11327,6 +11470,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nOR = {\n  has_ascension_perk = ap_the_flesh_is_weak\n  has_ascension_perk = ap_synthetic_evolution\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -11405,6 +11549,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nis_hive_empire = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -11483,6 +11628,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nis_hive_empire = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -11560,6 +11706,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_ascension_perk = ap_synthetic_age"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -11638,6 +11785,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_ascension_perk = ap_synthetic_age"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -11710,6 +11858,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -11761,6 +11910,7 @@
     ],
     "script": "NOR = {\n  merg_is_fallen_empire = yes\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -11837,6 +11987,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -11888,6 +12039,7 @@
     ],
     "script": "NOR = {\n  merg_is_fallen_empire = yes\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -11966,6 +12118,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -12073,6 +12226,7 @@
     ],
     "script": "NOR = {\n  merg_is_fallen_empire = yes\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -12149,6 +12303,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -12407,6 +12562,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -12659,6 +12815,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -12742,6 +12899,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -12820,6 +12978,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -12903,6 +13062,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -12978,6 +13138,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13061,6 +13222,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13137,6 +13299,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13221,6 +13384,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13298,6 +13462,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13381,6 +13546,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13458,6 +13624,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13541,6 +13708,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13621,6 +13789,7 @@
     ],
     "script": "country_uses_consumer_goods = yes\nNOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13708,6 +13877,7 @@
     ],
     "script": "country_uses_consumer_goods = yes\nNOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13783,6 +13953,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13866,6 +14037,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -13941,6 +14113,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -14017,6 +14190,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -14093,6 +14267,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -14169,6 +14344,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -14252,6 +14428,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -14365,6 +14542,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -14471,6 +14649,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -14573,6 +14752,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -14677,6 +14857,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -14793,6 +14974,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -14910,6 +15092,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -15040,6 +15223,7 @@
     ],
     "script": "is_spiritualist = no\nNOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -15127,6 +15311,7 @@
     ],
     "script": "is_spiritualist = no\nNOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -15225,6 +15410,7 @@
     ],
     "script": "OR = {\n  is_spiritualist = yes\n  AND = {\n    is_gestalt = no\n    has_make_spiritualist_perk = yes\n  }\n}\nNOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -15330,6 +15516,7 @@
     ],
     "script": "OR = {\n  is_spiritualist = yes\n  AND = {\n    is_gestalt = no\n    has_make_spiritualist_perk = yes\n  }\n}\nNOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -15419,6 +15606,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nOR = {\n  is_machine_empire = yes\n  is_individual_machine = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -15515,6 +15703,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nOR = {\n  is_machine_empire = yes\n  is_individual_machine = yes\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -15601,6 +15790,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -15684,6 +15874,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -15786,6 +15977,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 5,
     "factor": 1,
@@ -15883,6 +16075,7 @@
     ],
     "script": "always = no\nNOR = {\n  has_global_flag = acot_building_forbidden\n  merg_is_fallen_empire = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 2,
@@ -15981,6 +16174,7 @@
     ],
     "script": "always = no\nNOR = {\n  has_global_flag = acot_building_forbidden\n  merg_is_fallen_empire = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 2,
@@ -16125,6 +16319,7 @@
     ],
     "script": "always = no\nNOR = {\n  has_global_flag = acot_building_forbidden\n  merg_is_fallen_empire = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 2,
@@ -16223,6 +16418,7 @@
     ],
     "script": "always = no\nNOR = {\n  has_global_flag = acot_building_forbidden\n  merg_is_fallen_empire = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -16360,6 +16556,7 @@
     ],
     "script": "always = no\nNOR = {\n  has_global_flag = acot_building_forbidden\n  merg_is_fallen_empire = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 2,
@@ -16458,6 +16655,7 @@
     ],
     "script": "always = no\nNOR = {\n  has_global_flag = acot_building_forbidden\n  merg_is_fallen_empire = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 2,
@@ -16556,6 +16754,7 @@
     ],
     "script": "always = no\nNOR = {\n  has_global_flag = acot_building_forbidden\n  merg_is_fallen_empire = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -16652,6 +16851,7 @@
     ],
     "script": "always = no\nNOR = {\n  has_global_flag = acot_building_forbidden\n  merg_is_fallen_empire = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -16772,6 +16972,7 @@
     ],
     "script": "any_owned_planet = {\n  OR = {\n    is_planet_class = pc_dark_fractured\n    is_planet_class = pc_dark_fractured_ae\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -16893,6 +17094,7 @@
     ],
     "script": "any_owned_planet = {\n  OR = {\n    is_planet_class = pc_dark_fractured\n    is_planet_class = pc_dark_fractured_ae\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -17014,6 +17216,7 @@
     ],
     "script": "any_owned_planet = {\n  OR = {\n    is_planet_class = pc_dark_fractured\n    is_planet_class = pc_dark_fractured_ae\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 75,
     "factor": 1,
@@ -17135,6 +17338,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_acot_dm_hospital"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -17251,6 +17455,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_building_forbidden\n}\nis_gestalt = yes\nOR = {\n  has_technology = tech_acot_dm_super_assembly\n  has_technology = tech_acot_dm_hive_depot\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -17325,6 +17530,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -17396,6 +17602,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -17539,6 +17746,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -17678,6 +17886,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -17814,6 +18023,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -17920,6 +18130,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -17995,6 +18206,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18070,6 +18282,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18145,6 +18358,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18219,6 +18433,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18282,6 +18497,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18345,6 +18561,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18408,6 +18625,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18471,6 +18689,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18518,6 +18737,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18565,6 +18785,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18612,6 +18833,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18659,6 +18881,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18734,6 +18957,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18808,6 +19032,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18871,6 +19096,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -18934,6 +19160,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19001,6 +19228,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19048,6 +19276,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19116,6 +19345,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_missiles_5\n  AND = {\n    country_uses_bio_ships = yes\n    has_technology = tech_swarmer_missiles_2\n  }\n}\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19204,6 +19434,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_torpedoes_3\n  AND = {\n    country_uses_bio_ships = yes\n    has_technology = tech_swarmer_missiles_2\n    has_technology = tech_mauler_growth_2\n  }\n}\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19267,6 +19498,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19329,6 +19561,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19392,6 +19625,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19455,6 +19689,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19502,6 +19737,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19549,6 +19785,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19612,6 +19849,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19675,6 +19913,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19738,6 +19977,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19801,6 +20041,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19864,6 +20105,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19927,6 +20169,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -19998,6 +20241,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -20053,6 +20297,7 @@
     ],
     "script": "country_uses_bio_ships = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -20242,6 +20487,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_acot_ship_colony_upgrade.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -20342,6 +20588,7 @@
     ],
     "script": "OR = {\n  any_planet_within_border = {\n    OR = {\n      is_planet_class = pc_dark_fractured\n      is_planet_class = pc_dark_fractured_unstable\n    }\n  }\n  has_technology = tech_bombardment_ae_final\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20391,6 +20638,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20441,6 +20689,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20538,6 +20787,7 @@
     ],
     "script": "any_owned_planet = {\n  OR = {\n    is_planet_class = pc_acot_enigmatic\n    is_planet_class = pc_acot_enigmopolis\n  }\n}\nNOT = {\n  has_global_flag = acot_voidsphere_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20598,6 +20848,7 @@
     ],
     "script": "any_owned_planet = {\n  is_planet_class = pc_acot_enigmopolis\n}\nNOT = {\n  has_global_flag = acot_voidsphere_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20656,6 +20907,7 @@
     ],
     "script": "any_owned_planet = {\n  is_planet_class = pc_acot_enigmopolis\n}\nNOT = {\n  has_global_flag = acot_voidsphere_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20710,6 +20962,7 @@
     ],
     "script": "any_owned_planet = {\n  is_planet_class = pc_acot_enigmopolis\n}\nNOT = {\n  has_global_flag = acot_voidsphere_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20763,6 +21016,7 @@
     ],
     "script": "any_owned_planet = {\n  is_planet_class = pc_acot_enigmopolis\n}\nNOT = {\n  has_global_flag = acot_voidsphere_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20841,6 +21095,7 @@
     ],
     "script": "any_owned_planet = {\n  is_planet_class = pc_acot_enigmopolis\n}\nNOT = {\n  has_global_flag = acot_voidsphere_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -20896,6 +21151,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_colonize_fractured\n  has_technology = tech_acot_colonize_fractured_ae\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -20951,6 +21207,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_colonize_fractured\n  has_technology = tech_acot_colonize_fractured_ae\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -21010,6 +21267,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_colonize_fractured\n  has_technology = tech_acot_colonize_fractured_ae\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -21069,6 +21327,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_colonize_fractured\n  has_technology = tech_acot_colonize_fractured_ae\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -21136,6 +21395,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_dm_ancient_palace\n  has_technology = tech_acot_dm_ancient_control_center\n  has_technology = tech_acot_dm_ancient_hive_cluster\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 4,
@@ -21215,6 +21475,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_dm_ancient_palace\n  has_technology = tech_acot_dm_ancient_control_center\n  has_technology = tech_acot_dm_ancient_hive_cluster\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 4,
@@ -21290,6 +21551,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_dm_ancient_palace\n  has_technology = tech_acot_dm_ancient_control_center\n  has_technology = tech_acot_dm_ancient_hive_cluster\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 4,
@@ -21350,6 +21612,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_dm_ancient_palace\n  has_technology = tech_acot_dm_ancient_control_center\n  has_technology = tech_acot_dm_ancient_hive_cluster\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 4,
@@ -21406,6 +21669,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_dm_ancient_palace\n  has_technology = tech_acot_dm_ancient_control_center\n  has_technology = tech_acot_dm_ancient_hive_cluster\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 4,
@@ -21471,6 +21735,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_dm_ancient_palace\n  has_technology = tech_acot_dm_ancient_control_center\n  has_technology = tech_acot_dm_ancient_hive_cluster\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 4,
@@ -21535,6 +21800,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_acot_dm_ancient_palace\n  has_technology = tech_acot_dm_ancient_control_center\n  has_technology = tech_acot_dm_ancient_hive_cluster\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 4,
@@ -21566,6 +21832,7 @@
     "narration": [],
     "script": ""
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 4,
@@ -21617,6 +21884,7 @@
     ],
     "script": "NOT = {\n  has_ascension_perk = ap_cosmogenesis\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -21664,6 +21932,7 @@
     ],
     "script": "NOT = {\n  has_ascension_perk = ap_cosmogenesis\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -21717,6 +21986,7 @@
     ],
     "script": "NOT = {\n  has_ascension_perk = ap_cosmogenesis\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -21770,6 +22040,7 @@
     ],
     "script": "NOT = {\n  has_ascension_perk = ap_cosmogenesis\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -21820,6 +22091,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -21880,6 +22152,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -21937,6 +22210,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -21994,6 +22268,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -22050,6 +22325,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -22098,6 +22374,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -22158,6 +22435,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -22202,6 +22480,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -22246,6 +22525,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -22294,6 +22574,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -22342,6 +22623,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -22406,6 +22688,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -22448,6 +22731,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -22490,6 +22774,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -22533,6 +22818,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -22651,6 +22937,7 @@
     ],
     "script": "has_country_flag = acot_herculean_research_required"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -22690,6 +22977,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -22769,6 +23057,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -22856,6 +23145,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -22943,6 +23233,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23046,6 +23337,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23132,6 +23424,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23211,6 +23504,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23286,6 +23580,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23389,6 +23684,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23498,6 +23794,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23565,6 +23862,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23654,6 +23952,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23751,6 +24050,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23848,6 +24148,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -23961,6 +24262,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -24057,6 +24359,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -24146,6 +24449,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -24221,6 +24525,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 5,
     "factor": 1,
@@ -24309,6 +24614,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 5,
     "factor": 1,
@@ -24397,6 +24703,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 5,
     "factor": 1,
@@ -24484,6 +24791,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 5,
     "factor": 1,
@@ -24587,6 +24895,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 5,
     "factor": 1,
@@ -24674,6 +24983,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 5,
     "factor": 1,
@@ -24753,6 +25063,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -24828,6 +25139,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -24899,6 +25211,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -25004,6 +25317,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -25075,6 +25389,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25167,6 +25482,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25267,6 +25583,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25367,6 +25684,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25466,6 +25784,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25566,6 +25885,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25656,6 +25976,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25731,6 +26052,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -25819,6 +26141,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25906,6 +26229,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25993,6 +26317,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26072,6 +26397,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26160,6 +26486,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26263,6 +26590,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26342,6 +26670,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26413,6 +26742,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26518,6 +26848,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26574,6 +26905,7 @@
    ],
    "icon": "icons/1419304439/tech_precursor_enigmalith.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -26657,6 +26989,7 @@
     ],
     "script": "has_technology = tech_precursor_enigmalith\nNOT = {\n  check_variable = {\n    which = acot_enigmalith_counter\n    value >= 10\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -26722,6 +27055,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -26783,6 +27117,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -26848,6 +27183,7 @@
     ],
     "script": "is_fallen_empire = no\nis_sbtg_activated = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -26902,6 +27238,7 @@
    ],
    "icon": "icons/1419304439/tech_precursor_gateway.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -26941,6 +27278,7 @@
    ],
    "icon": "icons/1419304439/tech_precursor_nexus.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -26992,6 +27330,7 @@
    ],
    "icon": "icons/1419304439/tech_precursor_spyorb.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -27043,6 +27382,7 @@
    ],
    "icon": "icons/1419304439/tech_precursor_strategy_center.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -27094,6 +27434,7 @@
    ],
    "icon": "icons/1419304439/tech_precursor_dyson_sphere.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -27137,6 +27478,7 @@
    ],
    "icon": null,
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -27190,6 +27532,7 @@
     ],
     "script": "is_fallen_empire = no\nhas_country_flag = acot_has_acquired_amerigo_once"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27235,6 +27578,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27284,6 +27628,7 @@
     ],
     "script": "is_fallen_empire = no\nis_sbtg_activated = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27332,6 +27677,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27388,6 +27734,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27444,6 +27791,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27497,6 +27845,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27545,6 +27894,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27594,6 +27944,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27642,6 +27993,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27699,6 +28051,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27747,6 +28100,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27797,6 +28151,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27844,6 +28199,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27896,6 +28252,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -27947,6 +28304,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28000,6 +28358,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28051,6 +28410,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28099,6 +28459,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28146,6 +28507,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28194,6 +28556,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28241,6 +28604,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28293,6 +28657,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28340,6 +28705,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28382,6 +28748,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28430,6 +28797,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28477,6 +28845,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28519,6 +28888,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28562,6 +28932,7 @@
     ],
     "script": "has_country_flag = herculean_started\nhas_country_flag = acot_herculean_curator_assist"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28604,6 +28975,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28651,6 +29023,7 @@
     ],
     "script": "has_country_flag = herculean_built\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28694,6 +29067,7 @@
     ],
     "script": "country_uses_bio_ships = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -28824,6 +29198,7 @@
     ],
     "script": "country_uses_bio_ships = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -28944,6 +29319,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_space_defense_station_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 0.5,
@@ -29037,6 +29413,7 @@
    ],
    "icon": "icons/1419304439/tech_space_defense_station_3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 0.5,
@@ -29157,6 +29534,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29206,6 +29584,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29273,6 +29652,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29331,6 +29711,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29390,6 +29771,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29444,6 +29826,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29498,6 +29881,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29560,6 +29944,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29613,6 +29998,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_ascension_perk = ap_cosmogenesis"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29646,6 +30032,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_mine_dark_energy.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29716,6 +30103,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -29777,6 +30165,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_dm"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -29894,6 +30283,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_dm"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -30011,6 +30401,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_dm"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -30128,6 +30519,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_dm"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -30239,6 +30631,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30318,6 +30711,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30397,6 +30791,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30476,6 +30871,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30555,6 +30951,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30622,6 +31019,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30689,6 +31087,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30756,6 +31155,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30831,6 +31231,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30882,6 +31283,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30933,6 +31335,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -30984,6 +31387,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31035,6 +31439,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31114,6 +31519,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31189,6 +31595,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31256,6 +31663,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31323,6 +31731,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31390,6 +31799,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31502,6 +31912,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31614,6 +32025,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31681,6 +32093,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31748,6 +32161,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31815,6 +32229,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31882,6 +32297,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -31949,6 +32365,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32000,6 +32417,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32051,6 +32469,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32118,6 +32537,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32185,6 +32605,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32252,6 +32673,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_weapons_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32319,6 +32741,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32378,6 +32801,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32441,6 +32865,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32504,6 +32929,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32559,6 +32985,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -32615,6 +33042,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -32711,6 +33139,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -32815,6 +33244,7 @@
    ],
    "icon": "icons/1419304439/tech_reinforced_starbase.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -32961,6 +33391,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -33015,6 +33446,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -33069,6 +33501,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -33123,6 +33556,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -33181,6 +33615,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -33239,6 +33674,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -33302,6 +33738,9 @@
     ],
     "script": "has_first_contact_dlc = yes\nNOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [
+    "First Contact Story Pack"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -33412,6 +33851,7 @@
     ],
     "script": "country_uses_bio_ships = no\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -33864,6 +34304,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -33984,6 +34425,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}\nhas_dm_tier_munitions = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34087,6 +34529,7 @@
     ],
     "script": "OR = {\n  has_country_flag = acot_databank_sophia_agreed\n}\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_alpha_forbidden\n}\nis_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -34165,6 +34608,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae\nhas_ae_tier_munitions = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34256,6 +34700,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34332,6 +34777,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34408,6 +34854,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34484,6 +34931,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34564,6 +35012,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34671,6 +35120,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34778,6 +35228,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34885,6 +35336,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -34992,6 +35444,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35086,6 +35539,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35181,6 +35635,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35276,6 +35731,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35375,6 +35831,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35456,6 +35913,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35536,6 +35994,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35616,6 +36075,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35696,6 +36156,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35803,6 +36264,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -35906,6 +36368,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36001,6 +36464,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36096,6 +36560,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36195,6 +36660,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36275,6 +36741,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36356,6 +36823,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36450,6 +36918,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36544,6 +37013,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36639,6 +37109,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36734,6 +37205,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36829,6 +37301,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36909,6 +37382,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -36989,6 +37463,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37084,6 +37559,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37179,6 +37655,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37274,6 +37751,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37369,6 +37847,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37461,6 +37940,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  is_fallen_empire = yes\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37553,6 +38033,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  is_fallen_empire = yes\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37645,6 +38126,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37729,6 +38211,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37817,6 +38300,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37901,6 +38385,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -37985,6 +38470,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -38069,6 +38555,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  is_fallen_empire = yes\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -38157,6 +38644,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  is_fallen_empire = yes\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -38245,6 +38733,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -38329,6 +38818,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_utilitys_forbidden\n  is_fallen_empire = yes\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -38395,6 +38885,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -38480,6 +38971,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -38601,6 +39093,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -38711,6 +39204,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_ascension_perk = ap_mind_over_matter\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -38836,6 +39330,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nis_hive_empire = yes\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -38963,6 +39458,9 @@
     ],
     "script": "has_first_contact_dlc = yes\nhas_technology = tech_dark_matter_power_core_ae\nNOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [
+    "First Contact Story Pack"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39053,6 +39551,9 @@
     ],
     "script": "has_first_contact_dlc = yes\nhas_technology = tech_dark_matter_power_core_ae\nNOR = {\n  has_global_flag = acot_utilitys_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [
+    "First Contact Story Pack"
+   ],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -39159,6 +39660,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39253,6 +39755,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nis_pacifist = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39307,6 +39812,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39369,6 +39877,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nis_spiritualist = no\nis_pacifist = no\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39463,6 +39974,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nis_spiritualist = yes\nhas_technology = tech_dark_matter_power_core_ae\nOR = {\n  AND = {\n    NOT = {\n      has_utopia = yes\n    }\n    has_technology = tech_telepathy\n  }\n  AND = {\n    has_utopia = yes\n    has_ascension_perk = ap_mind_over_matter\n  }\n}"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39521,6 +40035,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nhas_valid_civic = civic_machine_assimilator\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39570,6 +40087,7 @@
     ],
     "script": "has_ascension_perk = ap_hydrocentric\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39628,6 +40146,10 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_ancrel = yes\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [
+    "Apocalypse",
+    "Ancient Relics Story Pack"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 0.5,
@@ -39755,6 +40277,7 @@
     ],
     "script": "country_uses_bio_ships = no\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -39902,6 +40425,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -40003,6 +40527,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_ae_tier_munitions = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -40062,6 +40587,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -40146,6 +40672,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40209,6 +40736,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40272,6 +40800,7 @@
     ],
     "script": "is_fallen_empire = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40344,6 +40873,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -40469,6 +40999,7 @@
     ],
     "script": "is_fallen_empire = no\nhas_country_flag = acot_phanon_tech_enabled\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40542,6 +41073,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -40663,6 +41195,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -40781,6 +41314,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -40902,6 +41436,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41020,6 +41555,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41133,6 +41669,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41243,6 +41780,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41356,6 +41894,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41466,6 +42005,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41588,6 +42128,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41701,6 +42242,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41818,6 +42360,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -41928,6 +42471,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42049,6 +42593,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42167,6 +42712,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42280,6 +42826,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42390,6 +42937,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42503,6 +43051,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42613,6 +43162,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42734,6 +43284,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42853,6 +43404,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -42967,6 +43519,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43078,6 +43631,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43192,6 +43746,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43302,6 +43857,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43419,6 +43975,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43535,6 +44092,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43650,6 +44208,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43762,6 +44321,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43877,6 +44437,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -43985,6 +44546,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44097,6 +44659,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44205,6 +44768,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44317,6 +44881,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44428,6 +44993,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44542,6 +45108,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44653,6 +45220,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44767,6 +45335,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44878,6 +45447,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -44992,6 +45562,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45102,6 +45673,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45215,6 +45787,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45325,6 +45898,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45438,6 +46012,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45548,6 +46123,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45661,6 +46237,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45771,6 +46348,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45884,6 +46462,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -45994,6 +46573,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -46107,6 +46687,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -46217,6 +46798,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -46330,6 +46912,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -46440,6 +47023,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -46553,6 +47137,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -46664,6 +47249,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -46778,6 +47364,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -46889,6 +47476,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47003,6 +47591,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47114,6 +47703,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47228,6 +47818,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47337,6 +47928,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47450,6 +48042,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47560,6 +48153,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47673,6 +48267,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47783,6 +48378,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -47896,6 +48492,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48006,6 +48603,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48119,6 +48717,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48229,6 +48828,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48342,6 +48942,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48439,6 +49040,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48543,6 +49145,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48644,6 +49247,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48748,6 +49352,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48849,6 +49454,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -48953,6 +49559,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -49063,6 +49670,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -49180,6 +49788,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -49294,6 +49903,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -49411,6 +50021,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -49525,6 +50136,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -49642,6 +50254,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -49758,6 +50371,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_utilitys_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -49900,6 +50514,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50017,6 +50632,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50131,6 +50747,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50248,6 +50865,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50362,6 +50980,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50483,6 +51102,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50601,6 +51221,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50722,6 +51343,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50835,6 +51457,7 @@
     ],
     "script": "is_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_pe\nNOR = {\n  has_global_flag = acot_aux_forbidden\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -50947,6 +51570,7 @@
     ],
     "script": "is_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_aux_forbidden\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51061,6 +51685,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_pe\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51182,6 +51807,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51295,6 +51921,7 @@
     ],
     "script": "is_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_pe\nNOR = {\n  has_global_flag = acot_aux_forbidden\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51383,6 +52010,7 @@
     ],
     "script": "is_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_aux_forbidden\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51492,6 +52120,7 @@
     ],
     "script": "is_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_pe\nNOR = {\n  has_global_flag = acot_aux_forbidden\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51580,6 +52209,7 @@
     ],
     "script": "is_fallen_empire = no\nhas_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_aux_forbidden\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51685,6 +52315,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_pe\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51801,6 +52432,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -51926,6 +52558,9 @@
     ],
     "script": "has_first_contact_dlc = yes\nhas_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_utilitys_forbidden\n}\nNOT = {\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [
+    "First Contact Story Pack"
+   ],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -52055,6 +52690,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -52180,6 +52816,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_weapons_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -52294,6 +52931,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -52720,6 +53358,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -52826,6 +53465,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_shipcom_forbidden\n  has_global_flag = acot_delta_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -53016,6 +53656,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -53206,6 +53847,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nOR = {\n  has_technology = tech_phanon_fighter\n  has_technology = tech_phanon_cruiser\n  has_technology = tech_phanon_bb\n  has_technology = tech_phanon_plat_m\n  has_technology = tech_phanon_plat_l\n  has_technology = tech_phanon_mothership\n  has_technology = tech_phanon_titan\n}\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -53326,6 +53968,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nhas_precursor_tech = yes\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -53479,6 +54122,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -53621,6 +54265,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_army_forbidden\n}\ncheck_variable = {\n  which = acot_phanon_dutyman_count\n  value < 3\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -53722,6 +54367,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -53851,6 +54497,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -53993,6 +54640,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_army_forbidden\n}\ncheck_variable = {\n  which = acot_phanon_machina_count\n  value < 3\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -54093,6 +54741,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_army_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -54236,6 +54885,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOR = {\n  has_global_flag = acot_phanon_forbidden\n  has_global_flag = acot_army_forbidden\n}\ncheck_variable = {\n  which = acot_phanon_agent_count\n  value <= 0\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -54332,6 +54982,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -54453,6 +55104,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -54575,6 +55227,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -54697,6 +55350,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -54823,6 +55477,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -54944,6 +55599,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -55066,6 +55722,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_re\nNOT = {\n  has_global_flag = acot_phanon_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -55183,6 +55840,7 @@
     ],
     "script": "acot_can_acquire_advanced_psionic_tech = yes\nNOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -55272,6 +55930,7 @@
     ],
     "script": "acot_can_acquire_advanced_psionic_tech = yes\nNOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_precursor_design"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -55349,6 +56008,7 @@
     ],
     "script": "acot_can_acquire_advanced_psionic_tech = yes\nNOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -55431,6 +56091,7 @@
     ],
     "script": "acot_can_acquire_advanced_psionic_tech = yes\nis_fallen_empire = no\nNOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -55528,6 +56189,7 @@
     ],
     "script": "acot_can_acquire_advanced_psionic_tech = yes\nis_fallen_empire = no\nNOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -55627,6 +56289,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -55689,6 +56352,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -55751,6 +56415,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -55814,6 +56479,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -55868,6 +56534,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -55931,6 +56598,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -55986,6 +56654,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56041,6 +56710,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56096,6 +56766,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56152,6 +56823,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56208,6 +56880,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56263,6 +56936,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56317,6 +56991,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56379,6 +57054,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56434,6 +57110,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56490,6 +57167,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56545,6 +57223,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56604,6 +57283,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56659,6 +57339,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56713,6 +57394,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56767,6 +57449,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56821,6 +57504,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56875,6 +57559,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56930,6 +57615,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -56985,6 +57671,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57040,6 +57727,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57095,6 +57783,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57150,6 +57839,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57205,6 +57895,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57260,6 +57951,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57314,6 +58006,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57380,6 +58073,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57446,6 +58140,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57512,6 +58207,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57584,6 +58280,7 @@
     ],
     "script": "NOR = {\n  has_global_flag = acot_sigma_forbidden\n  has_global_flag = acot_shipcom_forbidden\n}\nNOR = {\n  is_fallen_empire = yes\n  is_country_type = acot_phanon_base\n}\nhas_country_flag = stellarite_tech_enable"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -57691,6 +58388,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57749,6 +58447,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57832,6 +58531,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57886,6 +58586,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -57945,6 +58646,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58004,6 +58706,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58063,6 +58766,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58126,6 +58830,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58185,6 +58890,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58248,6 +58954,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58312,6 +59019,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58375,6 +59083,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58434,6 +59143,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58493,6 +59203,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58552,6 +59263,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58611,6 +59323,7 @@
     ],
     "script": "is_fallen_empire = no\nNOT = {\n  has_global_flag = acot_aux_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58666,6 +59379,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -58731,6 +59445,9 @@
     ],
     "script": "has_first_contact_dlc = yes\nhas_technology = tech_dark_matter_power_core_se\nNOT = {\n  has_global_flag = acot_utilitys_forbidden\n}"
    },
+   "requiredDlcs": [
+    "First Contact Story Pack"
+   ],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -58847,6 +59564,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nis_pacifist = no"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 30,
     "factor": 0.5,
@@ -58895,6 +59615,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 30,
     "factor": 0.5,
@@ -58967,6 +59690,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nis_spiritualist = no\nis_pacifist = no"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 30,
     "factor": 0.5,
@@ -59071,6 +59797,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nis_spiritualist = yes\nOR = {\n  AND = {\n    NOT = {\n      has_utopia = yes\n    }\n    has_technology = tech_telepathy\n  }\n  AND = {\n    has_utopia = yes\n    has_ascension_perk = ap_mind_over_matter\n  }\n}"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 30,
     "factor": 0.5,
@@ -59123,6 +59852,9 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_country_flag = colossus_project\nhas_valid_civic = civic_machine_assimilator"
    },
+   "requiredDlcs": [
+    "Apocalypse"
+   ],
    "drawWeight": {
     "base": 30,
     "factor": 0.5,
@@ -59200,6 +59932,7 @@
     ],
     "script": "has_ascension_perk = ap_hydrocentric\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -59256,6 +59989,10 @@
     ],
     "script": "host_has_dlc = Apocalypse\nhas_ancrel = yes\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [
+    "Apocalypse",
+    "Ancient Relics Story Pack"
+   ],
    "drawWeight": {
     "base": 30,
     "factor": 0.5,
@@ -59400,6 +60137,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_se_tier_munitions = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -59481,6 +60219,7 @@
     ],
     "script": "has_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -59551,6 +60290,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -59738,6 +60478,7 @@
     ],
     "script": "country_uses_bio_ships = yes\nNOR = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -59930,6 +60671,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -59985,6 +60727,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60048,6 +60791,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60103,6 +60847,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60162,6 +60907,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60217,6 +60963,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60272,6 +61019,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60331,6 +61079,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60386,6 +61135,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60440,6 +61190,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60495,6 +61246,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60550,6 +61302,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60609,6 +61362,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60664,6 +61418,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60719,6 +61474,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60774,6 +61530,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -60825,6 +61582,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -60943,6 +61701,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -61060,6 +61819,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_weapons_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -61176,6 +61936,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61231,6 +61992,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61286,6 +62048,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61341,6 +62104,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61396,6 +62160,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61445,6 +62210,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -61500,6 +62266,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61555,6 +62322,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61610,6 +62378,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61665,6 +62434,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61720,6 +62490,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61787,6 +62558,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61850,6 +62622,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61917,6 +62690,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -61981,6 +62755,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nOR = {\n  is_progenitor_empires = yes\n  has_country_flag = acquired_light_matter\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62044,6 +62819,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62099,6 +62875,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62182,6 +62959,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62241,6 +63019,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62300,6 +63079,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -62355,6 +63135,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62414,6 +63195,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62473,6 +63255,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62532,6 +63315,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62591,6 +63375,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -62650,6 +63435,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62709,6 +63495,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62764,6 +63551,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62823,6 +63611,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = acot_shipcom_forbidden\n}\nhas_technology = tech_dark_matter_power_core_oe"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62865,6 +63654,7 @@
     ],
     "script": "is_playable_country = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62902,6 +63692,7 @@
     ],
     "script": "is_playable_country = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62939,6 +63730,7 @@
     ],
     "script": "is_playable_country = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -62969,6 +63761,7 @@
    ],
    "icon": "icons/1419304439/tech_dark_matter_generation.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -63105,6 +63898,7 @@
    ],
    "icon": "icons/1419304439/tech_dark_matter_container.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -63246,6 +64040,7 @@
    ],
    "icon": "icons/1419304439/tech_dark_matter_strategy.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -63388,6 +64183,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_acot_transport_upgrade.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -63445,6 +64241,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_acot_transport_upgrade_enig.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -63488,6 +64285,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_tactical_drop.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -63522,6 +64320,7 @@
    "traits": [],
    "icon": "icons/1419304439/tech_acot_transport_upgrade_dm.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,

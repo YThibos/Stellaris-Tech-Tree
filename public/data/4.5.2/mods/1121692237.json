@@ -43,6 +43,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = warmoon_disabled\n}\nhas_galactic_wonders = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -295,6 +296,7 @@
     ],
     "script": "is_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -424,6 +426,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = storm_observatory_disabled\n    has_global_flag = suppressor_disabled\n    has_global_flag = compressor_disabled\n    has_global_flag = ndb_disabled\n    has_global_flag = penrose_sphere_disabled\n    has_global_flag = planetary_computer_disabled\n    has_global_flag = lifters_disabled\n    has_global_flag = terraform_barren_disabled\n    has_global_flag = terraform_toxic_disabled\n    has_global_flag = terraform_gasgiant_disabled\n    has_global_flag = geothermal_disabled\n    has_global_flag = glue_disabled\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -670,6 +673,7 @@
     ],
     "script": "OR = {\n  has_gigastructural_constructs = yes\n  has_country_flag = blokkat_bureau_unlocked\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -998,6 +1002,7 @@
     ],
     "script": "is_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -1079,6 +1084,7 @@
     ],
     "script": "is_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -1148,6 +1154,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_war_system_4.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -1230,6 +1237,9 @@
     ],
     "script": "has_overlord_dlc = yes\nis_nomadic = no"
    },
+   "requiredDlcs": [
+    "Overlord"
+   ],
    "drawWeight": {
     "base": 35,
     "factor": 0.5,
@@ -1418,6 +1428,7 @@
     ],
     "script": "has_galactic_wonders = yes\nNOT = {\n  has_global_flag = suppressor_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -1861,6 +1872,7 @@
     ],
     "script": "has_gigastructural_constructs = yes\nis_nomadic = no\nNOT = {\n  AND = {\n    has_global_flag = ndb_disabled\n    has_global_flag = systemcraft_disabled\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 17,
     "factor": 1,
@@ -2495,6 +2507,7 @@
     ],
     "script": "is_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -2970,6 +2983,7 @@
     ],
     "script": "is_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -3447,6 +3461,7 @@
     ],
     "script": "is_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 16,
     "factor": 1,
@@ -3926,6 +3941,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = kugel_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -4123,6 +4139,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = compressor_disabled\n}\nNOT = {\n  has_global_flag = suppressor_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -4301,6 +4318,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = penrose_sphere_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -4401,6 +4419,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = penrose_sphere_disabled\n}\nhas_galactic_wonders = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -4496,6 +4515,7 @@
     ],
     "script": "has_galactic_wonders = yes\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -4838,6 +4858,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = terraform_gasgiant_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -5285,6 +5306,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = disco_moon_disabled\n}\ngiga_can_use_habitables = yes\nOR = {\n  has_technology = tech_autocurating_vault\n  has_technology = tech_transcendent_faith\n  has_valid_civic = civic_machine_servitor\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -5858,6 +5880,7 @@
     ],
     "script": "is_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -6329,6 +6352,7 @@
     ],
     "script": "is_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 8,
     "factor": 1,
@@ -6763,6 +6787,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_war_system_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -7226,6 +7251,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_war_system_3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -7689,6 +7715,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_war_system_5.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -8180,6 +8207,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = giga_celestial_printing_moon_disabled\n}\nhas_ascension_perk = ap_celestial_printing"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -8316,6 +8344,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = giga_celestial_printing_planet_disabled\n}\nhas_ascension_perk = ap_celestial_printing"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -8499,6 +8528,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = vanilla_dyson_disabled\n}\nOR = {\n  NOT = {\n    has_global_flag = giga_o_stars_disabled\n  }\n  has_global_flag = has_real_space_mod\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -8599,6 +8629,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = lifters_disabled\n}\nOR = {\n  NOT = {\n    has_global_flag = giga_o_stars_disabled\n  }\n  has_global_flag = has_real_space_mod\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -8699,6 +8730,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = matrioshka_brain_disabled\n}\nOR = {\n  NOT = {\n    has_global_flag = giga_o_stars_disabled\n  }\n  has_global_flag = has_real_space_mod\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 8,
     "factor": 1,
@@ -8924,6 +8956,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = orbital_naval_logistics_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -9436,6 +9469,7 @@
     ],
     "script": "always = no\ngiga_can_use_habitables = yes\nNOT = {\n  has_global_flag = giga_elysium_disabled\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -9720,6 +9754,7 @@
     ],
     "script": "giga_can_use_habitables = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -9908,6 +9943,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = orchid_disabled\n    has_global_flag = orbital_artificial_eco_disabled\n  }\n}\nOR = {\n  is_nomadic = yes\n  has_technology = tech_terrestrial_sculpting\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10456,6 +10492,7 @@
     ],
     "script": "OR = {\n  has_technology = tech_gene_tailoring\n  AND = {\n    is_machine_empire = yes\n    or = {\n      is_catalytic_empire = yes\n      country_uses_bio_ships = yes\n    }\n  }\n}\nOR = {\n  has_genetically_ascended = yes\n  country_uses_bio_ships = yes\n  is_catalytic_empire = yes\n}\nNOT = {\n  AND = {\n    has_global_flag = orchid_disabled\n    has_global_flag = planetary_seeder_nexus_disabled\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -10953,6 +10990,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = orchid_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -11462,6 +11500,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = the_vat_disabled\n}\nhas_galactic_wonders = yes\nOR = {\n  has_genetically_ascended = yes\n  has_active_tradition = tr_genetics_finish_extra_traits\n  has_ascension_perk = ap_mechromancy\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -12151,6 +12190,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = asteroid_manufactory_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -12644,6 +12684,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = terraform_barren_disabled\n    has_global_flag = terraform_toxic_disabled\n    has_global_flag = terraform_gasgiant_disabled\n    has_global_flag = geothermal_disabled\n    has_global_flag = glue_disabled\n  }\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -13099,6 +13140,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = terraform_toxic_disabled\n    has_global_flag = terraform_gasgiant_disabled\n    has_global_flag = geothermal_disabled\n    has_global_flag = glue_disabled\n  }\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -13466,6 +13508,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = geothermal_disabled\n    has_global_flag = glue_disabled\n  }\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -13824,6 +13867,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = glue_disabled\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -14178,6 +14222,7 @@
     ],
     "script": "has_galactic_wonders = yes\nNOT = {\n  has_global_flag = planetary_computer_disabled\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -14422,6 +14467,7 @@
     ],
     "script": "always = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.25,
@@ -14761,6 +14807,7 @@
     ],
     "script": "has_finished_psionic_tradition = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 0.5,
@@ -15430,6 +15477,7 @@
     ],
     "script": "has_finished_psionic_tradition = yes\nNOT = {\n  has_global_flag = siphon_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.5,
@@ -15945,6 +15993,7 @@
     ],
     "script": "has_ascension_perk = ap_celestial_printing"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -16054,6 +16103,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = megabase_disabled\n    has_global_flag = lifters_disabled\n    has_global_flag = compressor_disabled\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -16550,6 +16600,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = drill_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -16895,6 +16946,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = lifters_disabled\n}\nhas_galactic_wonders = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -17235,6 +17287,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = crystal_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -17578,6 +17631,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = hyperstructural_ass_disabled\n}\nhas_gigastructural_constructs = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 14,
     "factor": 1,
@@ -18146,6 +18200,7 @@
     ],
     "script": "OR = {\n  NOT = {\n    has_global_flag = shipyard_disabled\n  }\n  is_giga_one_planet_origin = yes\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -18706,6 +18761,9 @@
     ],
     "script": "has_overlord_dlc = yes\nis_nomadic = no"
    },
+   "requiredDlcs": [
+    "Overlord"
+   ],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -18862,6 +18920,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = nidavellir_disabled\n}\nhas_gigastructural_constructs = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -18966,6 +19025,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = gigaforge_disabled\n    has_global_flag = nidavellir_disabled\n  }\n}\nhas_galactic_wonders = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 16,
     "factor": 1,
@@ -19084,6 +19144,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = penrose_sphere_disabled\n}\nhas_galactic_wonders = yes\nis_giga_one_planet_origin = no\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -19205,6 +19266,7 @@
     ],
     "script": "has_galactic_wonders = yes\ngiga_can_use_habitables = yes\nNOT = {\n  has_global_flag = upgrade_disabled\n}\nOR = {\n  has_global_flag = giga_rings_tit\n  has_global_flag = giga_rings_beh\n  has_global_flag = giga_rings_gar\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -19397,6 +19459,7 @@
     ],
     "script": "OR = {\n  has_global_flag = giga_rings_tit\n  has_global_flag = giga_rings_beh\n  has_global_flag = giga_rings_gar\n  is_giga_one_planet_origin = yes\n}\nhas_galactic_wonders = yes\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 16,
     "factor": 1,
@@ -19497,6 +19560,7 @@
     ],
     "script": "OR = {\n  has_global_flag = giga_rings_gar\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -19584,6 +19648,7 @@
     ],
     "script": "OR = {\n  has_global_flag = giga_rings_gar\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 8,
     "factor": 1,
@@ -19683,6 +19748,7 @@
     ],
     "script": "has_gigastructural_constructs = yes\nNOT = {\n  has_global_flag = alderson_disabled\n}\ngiga_can_use_habitables = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 8,
     "factor": 1,
@@ -19882,6 +19948,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = stellarhabitat_disabled\n    has_global_flag = svalinn_disabled\n  }\n}\nis_void_dweller_empire = yes\ngiga_can_use_habitables = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -20055,6 +20122,7 @@
     ],
     "script": "always = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -20242,6 +20310,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = warmoon_disabled\n    has_global_flag = warplanet_disabled\n    has_global_flag = systemcraft_disabled\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -20749,6 +20818,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = warmoon_disabled\n    has_global_flag = warplanet_disabled\n    has_global_flag = systemcraft_disabled\n  }\n}\nhas_galactic_wonders = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 16,
     "factor": 1,
@@ -21251,6 +21321,7 @@
     ],
     "script": "has_galactic_wonders = yes\nNOT = {\n  has_global_flag = warmoon_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -21739,6 +21810,7 @@
     ],
     "script": "has_galactic_wonders = yes\nNOT = {\n  has_global_flag = warmoon_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -22273,6 +22345,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = warplanet_disabled\n    has_global_flag = systemcraft_disabled\n  }\n}\nhas_gigastructural_constructs = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -22791,6 +22864,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = orbital_arcologies_disabled\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -22968,6 +23042,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = succ_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -23307,6 +23382,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = systemcraft_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -23811,6 +23887,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -24370,6 +24447,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -24865,6 +24943,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -25405,6 +25484,7 @@
    "traits": [],
    "icon": "icons/1121692237/giga_tech_repeatable_dimensional_storage.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 0.5,
@@ -25445,6 +25525,7 @@
    "traits": [],
    "icon": "icons/1121692237/giga_tech_repeatable_reduced_mega_building_time.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 0.5,
@@ -25510,6 +25591,7 @@
     ],
     "script": "has_ascension_perk = ap_celestial_printing\nNOR = {\n  has_global_flag = systemcraft_disabled\n  has_global_flag = warmoon_disabled\n  has_global_flag = warplanet_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25575,6 +25657,7 @@
     ],
     "script": "has_gigastructural_constructs = yes\nNOT = {\n  has_global_flag = hraemc_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25634,6 +25717,7 @@
     ],
     "script": "has_gigastructural_constructs = yes\nNOT = {\n  has_global_flag = matrioshka_brain_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25765,6 +25849,7 @@
     ],
     "script": "has_ascension_perk = ap_qso\nNOT = {\n  has_global_flag = quasistellar_disabled\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25830,6 +25915,7 @@
     ],
     "script": "has_country_flag = psychic_beacon_possible\nNOT = {\n  has_global_flag = psychic_beacon_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -25940,6 +26026,7 @@
     ],
     "script": "or = {\n  AND = {\n    has_ascension_perk = ap_vast_expanses\n    NOT = {\n      has_global_flag = birch_disabled\n    }\n  }\n  any_owned_planet = {\n    or = {\n      uses_district_set = giga_birch\n      uses_district_set = acot_giga_void_sphere\n    }\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26005,6 +26092,7 @@
     ],
     "script": "has_gigastructural_constructs = yes\nOR = {\n  has_global_flag = giga_rings_beh\n  has_global_flag = giga_rings_gar\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26056,6 +26144,7 @@
     ],
     "script": "has_ascension_perk = ap_supermassive_ehof"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26106,6 +26195,7 @@
     ],
     "script": "has_country_flag = pouchkinn_tech_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26181,6 +26271,7 @@
     ],
     "script": "has_country_flag = tech_quasi_neural_net_possible\nNOT = {\n  has_global_flag = ehof_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26247,6 +26338,7 @@
     ],
     "script": "has_country_flag = pouchkinn_lifespan_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26295,6 +26387,7 @@
     ],
     "script": "has_country_flag = scourge_deployment_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26352,6 +26445,7 @@
     ],
     "script": "has_country_flag = katzen_atomic_munitions_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26413,6 +26507,7 @@
     ],
     "script": "has_country_flag = squareworld_tech_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26487,6 +26582,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nhas_country_flag = qnm_utilities_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26552,6 +26648,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nOR = {\n  AND = {\n    any_country = {\n      has_technology = tech_ehof_sentient_tier_4\n    }\n  }\n  has_country_flag = ehof_level_1_possible\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26645,6 +26742,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nOR = {\n  AND = {\n    any_country = {\n      has_technology = tech_ehof_sentient_tier_5\n    }\n  }\n  has_country_flag = ehof_code_2_complete\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26734,6 +26832,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nOR = {\n  AND = {\n    any_country = {\n      has_technology = tech_ehof_sentient_tier_6\n    }\n    is_ai = yes\n  }\n  has_country_flag = ehof_code_3_complete\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26831,6 +26930,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nOR = {\n  AND = {\n    any_country = {\n      has_technology = tech_ehof_sentient_tier_7\n    }\n    is_ai = yes\n  }\n  has_country_flag = ehof_code_4_complete\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -26938,6 +27038,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nOR = {\n  AND = {\n    count_country = {\n      limit = {\n        OR = {\n          has_tech_option = tech_ehof_sentient_tier_7\n          has_technology = tech_ehof_sentient_tier_7\n        }\n      }\n      count >= 3\n    }\n    is_ai = yes\n  }\n  has_country_flag = ehof_code_5_complete\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -27045,6 +27146,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nOR = {\n  AND = {\n    count_country = {\n      limit = {\n        OR = {\n          has_tech_option = tech_ehof_sentient_tier_7\n          has_technology = tech_ehof_sentient_tier_7\n        }\n      }\n      count >= 4\n    }\n    is_ai = yes\n  }\n  has_country_flag = ehof_code_6_complete\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -27152,6 +27254,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nOR = {\n  AND = {\n    count_country = {\n      limit = {\n        OR = {\n          has_tech_option = tech_ehof_sentient_tier_7\n          has_technology = tech_ehof_sentient_tier_7\n        }\n      }\n      count >= 5\n    }\n    is_ai = yes\n  }\n  has_country_flag = ehof_code_7_complete\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -27217,6 +27320,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_dyson_disabled\n}\nhas_global_flag = vanilla_dyson_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27292,6 +27396,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_array_disabled\n}\nhas_global_flag = vanilla_array_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27367,6 +27472,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_matter_disabled\n}\nhas_global_flag = vanilla_matter_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27442,6 +27548,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_interstellar_disabled\n}\nhas_global_flag = vanilla_interstellar_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27517,6 +27624,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_art_disabled\n}\nhas_global_flag = vanilla_art_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27592,6 +27700,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_shipyard_disabled\n}\nhas_global_flag = vanilla_shipyard_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27667,6 +27776,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_ringworld_disabled\n}\nhas_global_flag = vanilla_ringworld_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27742,6 +27852,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_nexus_disabled\n}\nhas_global_flag = vanilla_nexus_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27817,6 +27928,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_strategic_disabled\n}\nhas_global_flag = vanilla_strategic_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27892,6 +28004,7 @@
     ],
     "script": "not = {\n  has_global_flag = alderson_disabled\n}\nhas_global_flag = alderson_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -27967,6 +28080,7 @@
     ],
     "script": "not = {\n  has_global_flag = terraform_toxic_disabled\n}\nhas_global_flag = terraform_toxic_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28042,6 +28156,7 @@
     ],
     "script": "not = {\n  has_global_flag = warmoon_disabled\n}\nhas_global_flag = warmoon_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28117,6 +28232,7 @@
     ],
     "script": "not = {\n  has_global_flag = drill_disabled\n}\nhas_global_flag = drill_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28192,6 +28308,7 @@
     ],
     "script": "not = {\n  has_global_flag = warplanet_disabled\n}\nhas_global_flag = warplanet_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28267,6 +28384,7 @@
     ],
     "script": "not = {\n  has_global_flag = crystal_disabled\n}\nhas_global_flag = crystal_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28342,6 +28460,7 @@
     ],
     "script": "not = {\n  has_global_flag = terraform_barren_disabled\n}\nhas_global_flag = terraform_barren_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28417,6 +28536,7 @@
     ],
     "script": "not = {\n  has_global_flag = shipyard_disabled\n}\nhas_global_flag = shipyard_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28492,6 +28612,7 @@
     ],
     "script": "not = {\n  has_global_flag = suppressor_disabled\n}\nhas_global_flag = suppressor_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28567,6 +28688,7 @@
     ],
     "script": "not = {\n  has_global_flag = geothermal_disabled\n}\nhas_global_flag = geothermal_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28642,6 +28764,7 @@
     ],
     "script": "not = {\n  has_global_flag = glue_disabled\n}\nhas_global_flag = glue_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28717,6 +28840,7 @@
     ],
     "script": "not = {\n  has_global_flag = hraemc_disabled\n}\nhas_global_flag = hraemc_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28792,6 +28916,7 @@
     ],
     "script": "not = {\n  has_global_flag = hyperstructural_ass_disabled\n}\nhas_global_flag = hyperstructural_ass_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28867,6 +28992,7 @@
     ],
     "script": "not = {\n  has_global_flag = stellarhabitat_disabled\n}\nhas_global_flag = stellarhabitat_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -28942,6 +29068,7 @@
     ],
     "script": "not = {\n  has_global_flag = kugel_disabled\n}\nhas_global_flag = kugel_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29017,6 +29144,7 @@
     ],
     "script": "not = {\n  has_global_flag = disco_moon_disabled\n}\nhas_global_flag = disco_moon_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29092,6 +29220,7 @@
     ],
     "script": "not = {\n  has_global_flag = terraform_gasgiant_disabled\n}\nhas_global_flag = terraform_gasgiant_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29167,6 +29296,7 @@
     ],
     "script": "not = {\n  has_global_flag = megabase_disabled\n}\nhas_global_flag = megabase_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29242,6 +29372,7 @@
     ],
     "script": "not = {\n  has_global_flag = matrioshka_brain_disabled\n}\nhas_global_flag = matrioshka_brain_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29317,6 +29448,7 @@
     ],
     "script": "not = {\n  has_global_flag = gigaforge_disabled\n}\nhas_global_flag = gigaforge_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29392,6 +29524,7 @@
     ],
     "script": "not = {\n  has_global_flag = nidavellir_disabled\n}\nhas_global_flag = nidavellir_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29467,6 +29600,7 @@
     ],
     "script": "not = {\n  has_global_flag = orbital_arcologies_disabled\n}\nhas_global_flag = orbital_arcologies_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29542,6 +29676,7 @@
     ],
     "script": "not = {\n  has_global_flag = planetary_seeder_nexus_disabled\n}\nhas_global_flag = planetary_seeder_nexus_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29617,6 +29752,7 @@
     ],
     "script": "not = {\n  has_global_flag = orbital_artificial_eco_disabled\n}\nhas_global_flag = orbital_artificial_eco_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29692,6 +29828,7 @@
     ],
     "script": "not = {\n  has_global_flag = orbital_naval_logistics_disabled\n}\nhas_global_flag = orbital_naval_logistics_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29767,6 +29904,7 @@
     ],
     "script": "not = {\n  has_global_flag = penrose_sphere_disabled\n}\nhas_global_flag = penrose_sphere_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29842,6 +29980,7 @@
     ],
     "script": "not = {\n  has_global_flag = planetary_computer_disabled\n}\nhas_global_flag = planetary_computer_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29917,6 +30056,7 @@
     ],
     "script": "not = {\n  has_global_flag = siphon_disabled\n}\nhas_global_flag = siphon_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -29992,6 +30132,7 @@
     ],
     "script": "not = {\n  has_global_flag = lifters_disabled\n}\nhas_global_flag = lifters_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30067,6 +30208,7 @@
     ],
     "script": "not = {\n  has_global_flag = systemcraft_disabled\n}\nhas_global_flag = systemcraft_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30142,6 +30284,7 @@
     ],
     "script": "not = {\n  has_global_flag = compressor_disabled\n}\nhas_global_flag = compressor_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30217,6 +30360,7 @@
     ],
     "script": "not = {\n  has_global_flag = succ_disabled\n}\nhas_global_flag = succ_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30292,6 +30436,7 @@
     ],
     "script": "not = {\n  has_global_flag = orchid_disabled\n}\nhas_global_flag = orchid_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30367,6 +30512,7 @@
     ],
     "script": "not = {\n  has_global_flag = the_vat_disabled\n}\nhas_global_flag = the_vat_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30442,6 +30588,7 @@
     ],
     "script": "not = {\n  has_global_flag = asteroid_manufactory_disabled\n}\nhas_global_flag = asteroid_manufactory_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30517,6 +30664,7 @@
     ],
     "script": "not = {\n  has_global_flag = asteroid_artillery_disabled\n}\nhas_global_flag = asteroid_artillery_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30592,6 +30740,7 @@
     ],
     "script": "not = {\n  has_global_flag = planetshipyard_disabled\n}\nhas_global_flag = planetshipyard_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30667,6 +30816,7 @@
     ],
     "script": "not = {\n  has_global_flag = maginot_disabled\n}\nhas_global_flag = maginot_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30742,6 +30892,7 @@
     ],
     "script": "not = {\n  has_global_flag = storm_observatory_disabled\n}\nhas_global_flag = storm_observatory_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30817,6 +30968,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_furnace_disabled\n}\nhas_global_flag = vanilla_furnace_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30902,6 +31054,7 @@
     ],
     "script": "not = {\n  has_global_flag = vanilla_dyson_disabled\n}\nhas_global_flag = vanilla_dyson_capped_r"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -30973,6 +31126,7 @@
    ],
    "icon": "icons/1121692237/tech_sm_computers.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 22,
     "factor": 1.25,
@@ -31079,6 +31233,7 @@
    ],
    "icon": "icons/1121692237/tech_qnm_sensors.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -31168,6 +31323,7 @@
    ],
    "icon": "icons/1121692237/tech_sm_armor.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 17,
     "factor": 1.25,
@@ -31251,6 +31407,7 @@
    ],
    "icon": "icons/1121692237/tech_sm_auto_repair.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1.25,
@@ -31321,6 +31478,7 @@
    ],
    "icon": "icons/1121692237/tech_qnm_shields.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1.25,
@@ -31405,6 +31563,7 @@
    ],
    "icon": "icons/1121692237/tech_qnm_thrusters.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -31479,6 +31638,7 @@
    ],
    "icon": "icons/1121692237/tech_qnm_reactors.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 2,
@@ -31568,6 +31728,7 @@
    ],
    "icon": "icons/1121692237/tech_qnm_jumpdrive.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -31640,6 +31801,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_sm_flak_batteries.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -31739,6 +31901,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nor = {\n  AND = {\n    has_technology = tech_autocannons_3\n    has_technology = tech_qnm_utilities\n  }\n  has_country_flag = giga_special_tech_compound_weapon_bypass\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -31804,6 +31967,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_sm_mass_drivers.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -31869,6 +32033,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_sm_kinetic_artillery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -31934,6 +32099,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_sm_mass_accelerator.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -31999,6 +32165,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_sm_titanic.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32064,6 +32231,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_qnm_pd_tracking.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32129,6 +32297,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_qnm_lasers.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32194,6 +32363,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_qnm_plasma.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32293,6 +32463,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}\nor = {\n  AND = {\n    has_technology = tech_disruptors_3\n    has_technology = tech_qnm_utilities\n  }\n  has_country_flag = giga_special_tech_compound_weapon_bypass\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32358,6 +32529,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_qnm_energy_torpedoes.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32423,6 +32595,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_qnm_energy_lance.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32488,6 +32661,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_qnm_arc_emitter.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32553,6 +32727,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_qnm_titanic.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -32630,6 +32805,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 0.5,
@@ -32922,6 +33098,7 @@
     ],
     "script": "is_nomadic = no\nhas_country_flag = has_arcane_generator\nNOT = {\n  has_global_flag = ehof_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -33073,6 +33250,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = ehof_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
@@ -33215,6 +33393,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_photonic_m.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -33309,6 +33488,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_negative_pressure.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -33424,6 +33604,7 @@
     ],
     "script": "check_variable = {\n  which = ehof_phase\n  value >= 1\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -33554,6 +33735,7 @@
     ],
     "script": "has_country_flag = has_arcane_generator\nNOT = {\n  has_global_flag = ehof_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -33658,6 +33840,7 @@
    ],
    "icon": "icons/1121692237/tech_abstract_3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -33802,6 +33985,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_u_r_e_t.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -33949,6 +34133,7 @@
    ],
    "icon": "icons/1121692237/tech_negative_e_s.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -34152,6 +34337,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_ssn_det.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -34246,6 +34432,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_hardlight_c_u.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -34368,6 +34555,7 @@
    ],
    "icon": "icons/1121692237/tech_nm_utilization_1.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 14,
     "factor": 1,
@@ -34525,6 +34713,7 @@
     ],
     "script": "OR = {\n  check_variable = {\n    which = ehof_phase\n    value >= 2\n  }\n  is_nomadic = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 14,
     "factor": 1,
@@ -34637,6 +34826,7 @@
    ],
    "icon": "icons/1121692237/tech_abstract_4.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 14,
     "factor": 1,
@@ -34686,6 +34876,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_non_local_r_i.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 14,
     "factor": 1,
@@ -34731,6 +34922,7 @@
    ],
    "icon": "icons/1121692237/tech_nm_utilization_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 14,
     "factor": 1,
@@ -34811,6 +35003,7 @@
     ],
     "script": "has_country_flag = sphere_event_tech_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -34853,6 +35046,7 @@
     ],
     "script": "has_country_flag = sphere_event_tech_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -34917,6 +35111,7 @@
     ],
     "script": "OR = {\n  check_variable = {\n    which = ehof_phase\n    value >= 3\n  }\n  is_nomadic = yes\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 12,
     "factor": 1,
@@ -35009,6 +35204,7 @@
     ],
     "script": "has_galactic_wonders = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 8,
     "factor": 1.25,
@@ -35082,6 +35278,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_giga_power_plant_1.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -35148,6 +35345,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_giga_power_plant_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -35213,6 +35411,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_giga_power_plant_3.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 22,
     "factor": 1,
@@ -35278,6 +35477,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_l_conductor.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 2,
@@ -35328,6 +35528,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_hyperlane_p_t.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 2,
@@ -35379,6 +35580,7 @@
    "traits": [],
    "icon": "icons/1121692237/tech_field_e_e_t.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 2,
@@ -35431,6 +35633,7 @@
    ],
    "icon": "icons/1121692237/tech_giga_planetary_shield_generator_2.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 0.5,
@@ -35535,6 +35738,7 @@
     ],
     "script": "has_country_flag = kaiser_moon_tech_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -35593,6 +35797,7 @@
     ],
     "script": "has_country_flag = kaiser_moon_tech_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -35635,6 +35840,7 @@
     ],
     "script": "has_country_flag = kaiser_moon_tech_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -35667,6 +35873,7 @@
    "traits": [],
    "icon": "icons/1121692237/giga_tech_repeatable_increased_katzen_damage.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -36184,6 +36391,7 @@
     ],
     "script": "has_country_flag = panzer_tech_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -36226,6 +36434,7 @@
     ],
     "script": "always = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -36280,6 +36489,7 @@
     ],
     "script": "has_country_flag = aeternite_planetcraft_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -36332,6 +36542,7 @@
     ],
     "script": "has_country_flag = aeternite_armor_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -36420,6 +36631,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = asteroid_artillery_disabled\n    has_global_flag = maginot_disabled\n    has_global_flag = warmoon_disabled\n    has_global_flag = warplanet_disabled\n    has_global_flag = systemcraft_disabled\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -36884,6 +37096,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_asteroid_artillery_pen_shots.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -37340,6 +37553,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_asteroid_artillery_health_upgrade.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -37796,6 +38010,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_asteroid_artillery_damage_upgrade.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -38253,6 +38468,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_asteroid_artillery_planetcraft_upgrade.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 14,
     "factor": 1,
@@ -38707,6 +38923,7 @@
    "traits": [],
    "icon": "icons/1121692237/giga_tech_repeatable_asteroid_artillery_upgrade.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 1,
@@ -38775,6 +38992,7 @@
     ],
     "script": "has_country_flag = blokkat_sociology_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -38821,6 +39039,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_blokkat_society_repeatable.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -38889,6 +39108,7 @@
     ],
     "script": "has_country_flag = blokkat_dimensions_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -38935,6 +39155,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_blokkat_physics_repeatable.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -39003,6 +39224,7 @@
     ],
     "script": "has_country_flag = blokkat_armor_study_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39049,6 +39271,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_blokkat_engineering_repeatable.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -39117,6 +39340,7 @@
     ],
     "script": "has_country_flag = blokkat_scrap_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39160,6 +39384,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_blokkat_scrap_research.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1000,
     "factor": 1,
@@ -39233,6 +39458,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_blokkat_scrap_damage.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 1000,
     "factor": 1,
@@ -39315,6 +39541,7 @@
     ],
     "script": "has_country_flag = blokkat_laser_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39380,6 +39607,7 @@
     ],
     "script": "has_country_flag = blokkat_missile_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39436,6 +39664,7 @@
     ],
     "script": "has_country_flag = blokkat_strikecraft_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39492,6 +39721,7 @@
     ],
     "script": "has_country_flag = blokkat_armor_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39548,6 +39778,7 @@
     ],
     "script": "has_country_flag = blokkat_shield_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39604,6 +39835,7 @@
     ],
     "script": "has_country_flag = blokkat_pd_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39669,6 +39901,7 @@
     ],
     "script": "has_country_flag = blokkat_plasma_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39725,6 +39958,7 @@
     ],
     "script": "has_country_flag = blokkat_emitter_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39781,6 +40015,7 @@
     ],
     "script": "has_country_flag = blokkat_obliterator_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39837,6 +40072,7 @@
     ],
     "script": "has_country_flag = blokkat_booster_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39902,6 +40138,7 @@
     ],
     "script": "has_country_flag = blokkat_afterburner_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -39958,6 +40195,7 @@
     ],
     "script": "has_country_flag = blokkat_hull_repair_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40014,6 +40252,7 @@
     ],
     "script": "has_country_flag = blokkat_ftl_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40083,6 +40322,7 @@
     ],
     "script": "has_country_flag = blokkat_reactor_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40156,6 +40396,7 @@
     ],
     "script": "has_country_flag = blokkat_computer_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40225,6 +40466,7 @@
     ],
     "script": "has_country_flag = blokkat_sensors_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40290,6 +40532,7 @@
     ],
     "script": "has_country_flag = destabiliser_stage_0_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40336,6 +40579,7 @@
     ],
     "script": "has_country_flag = destabiliser_stage_1_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40388,6 +40632,7 @@
     ],
     "script": "has_country_flag = destabiliser_stage_2_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40449,6 +40694,7 @@
     ],
     "script": "has_country_flag = destabiliser_stage_3_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40510,6 +40756,7 @@
     ],
     "script": "has_country_flag = destabiliser_stage_4_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40571,6 +40818,7 @@
     ],
     "script": "has_country_flag = blokkat_snare_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40617,6 +40865,7 @@
     ],
     "script": "has_country_flag = blokkat_reprogram_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40669,6 +40918,7 @@
     ],
     "script": "has_country_flag = blokkat_history_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40730,6 +40980,7 @@
     ],
     "script": "has_country_flag = blokkat_temporal_discrepancy_solved"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40791,6 +41042,7 @@
     ],
     "script": "has_country_flag = blokkat_system_repair_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40856,6 +41108,7 @@
     ],
     "script": "has_country_flag = blokkat_language_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40908,6 +41161,7 @@
     ],
     "script": "has_country_flag = blokkat_math_projects_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -40969,6 +41223,7 @@
     ],
     "script": "has_country_flag = blokkat_math_projects_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -41030,6 +41285,7 @@
     ],
     "script": "has_country_flag = blokkat_math_projects_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -41091,6 +41347,7 @@
     ],
     "script": "has_country_flag = blokkat_nodes_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -41153,6 +41410,7 @@
     ],
     "script": "has_country_flag = blokkat_gigarelay_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -41215,6 +41473,7 @@
     ],
     "script": "has_country_flag = blokkat_gigarelay_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -41280,6 +41539,7 @@
     ],
     "script": "has_country_flag = blokkat_flee_ehof_activate_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -41345,6 +41605,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -41460,6 +41721,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -41576,6 +41838,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -41691,6 +41954,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 25,
     "factor": 1,
@@ -41806,6 +42070,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -41922,6 +42187,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -42038,6 +42304,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = planetshipyard_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -42113,6 +42380,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = maginot_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -42748,6 +43016,7 @@
    "traits": [],
    "icon": "icons/1121692237/giga_tech_maginot_firepower_1.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 16,
     "factor": 1,
@@ -42848,6 +43117,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_maginot_planetcraft_upgrade.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 14,
     "factor": 1,
@@ -42972,6 +43242,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_maginot_systemcraft_upgrade.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 8,
     "factor": 1,
@@ -43101,6 +43372,7 @@
     ],
     "script": "giga_has_frameworld_origin = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 85,
     "factor": 1,
@@ -43149,6 +43421,7 @@
     ],
     "script": "giga_has_frameworld_origin = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -43197,6 +43470,7 @@
     ],
     "script": "giga_has_frameworld_origin = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -43252,6 +43526,7 @@
     ],
     "script": "has_technology = tech_starbase_3\ngiga_has_frameworld_origin = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -43301,6 +43576,7 @@
     ],
     "script": "has_technology = tech_starbase_4\ngiga_has_frameworld_origin = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -43350,6 +43626,7 @@
     ],
     "script": "has_technology = tech_starbase_5\ngiga_has_frameworld_origin = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -43399,6 +43676,7 @@
     ],
     "script": "has_technology = giga_tech_maginot_world\ngiga_has_frameworld_origin = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -43440,6 +43718,7 @@
     ],
     "script": "giga_has_frameworld_origin = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 0.5,
@@ -43485,6 +43764,7 @@
     ],
     "script": "has_global_flag = @giga_amb_flag"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 65,
     "factor": 1,
@@ -43618,6 +43898,7 @@
     ],
     "script": "has_global_flag = @giga_amb_flag"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -43744,6 +44025,7 @@
     ],
     "script": "has_global_flag = @giga_amb_flag"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -43874,6 +44156,9 @@
     ],
     "script": "has_global_flag = @giga_amb_flag\nhas_overlord_dlc = yes"
    },
+   "requiredDlcs": [
+    "Overlord"
+   ],
    "drawWeight": {
     "base": 35,
     "factor": 0.5,
@@ -43984,6 +44269,7 @@
     ],
     "script": "has_global_flag = @giga_amb_flag"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -44082,6 +44368,7 @@
     ],
     "script": "has_global_flag = @giga_amb_flag"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -44132,6 +44419,7 @@
     ],
     "script": "has_acot = yes\nhas_global_flag = @giga_amb_flag\nNOT = {\n  has_global_flag = acot_building_forbidden\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -44220,6 +44508,7 @@
     ],
     "script": "has_acot = yes\nhas_global_flag = @giga_amb_flag\nNOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_ae"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -44312,6 +44601,7 @@
     ],
     "script": "has_acot = yes\nhas_global_flag = has_aot_mod\nhas_global_flag = @giga_amb_flag\nNOT = {\n  has_global_flag = aot_phanon_content_OFF\n}\nhas_technology = tech_civil_phanon_application"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -44404,6 +44694,7 @@
     ],
     "script": "has_acot = yes\nhas_global_flag = has_aot_mod\nhas_global_flag = @giga_amb_flag\nNOT = {\n  has_global_flag = acot_building_forbidden\n}\nhas_technology = tech_dark_matter_power_core_se"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 30,
     "factor": 1,
@@ -44471,6 +44762,7 @@
     ],
     "script": "has_country_flag = giga_faust_weaponry_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44513,6 +44805,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_eawaf_psifusion.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44565,6 +44858,7 @@
     ],
     "script": "has_country_flag = giga_tech_eawaf_sirens_secret_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44615,6 +44909,7 @@
     ],
     "script": "has_country_flag = giga_tech_eawaf_disenchanter_1_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44676,6 +44971,7 @@
     ],
     "script": "has_country_flag = giga_tech_eawaf_disenchanter_2_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44741,6 +45037,7 @@
     ],
     "script": "has_country_flag = giga_tech_eawaf_disenchanter_3_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44810,6 +45107,7 @@
     ],
     "script": "has_country_flag = giga_tech_eawaf_disenchanter_4_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44871,6 +45169,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_eawaf_sirens_strike_craft.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44905,6 +45204,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_eawaf_sirens_autocannon.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44939,6 +45239,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_eawaf_sirens_artillery.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -44973,6 +45274,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_eawaf_sirens_missile.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -45007,6 +45309,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_eawaf_sirens_impactor.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -45041,6 +45344,7 @@
    ],
    "icon": "icons/1121692237/giga_tech_eawaf_sirens_voidbeam.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 1,
@@ -45082,6 +45386,7 @@
     ],
     "script": "has_country_flag = giga_tech_eawaf_weapons_repeatable_possible"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 15,
     "factor": 0.5,
@@ -45142,6 +45447,7 @@
     ],
     "script": "is_nomadic = yes\nNOT = {\n  has_global_flag = gigaforge_disabled\n}\nhas_technology = tech_mega_engineering"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 16,
     "factor": 1,
@@ -45254,6 +45560,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = warmoon_disabled\n    has_global_flag = warplanet_disabled\n    has_global_flag = systemcraft_disabled\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 18,
     "factor": 1,
@@ -45749,6 +46056,7 @@
     ],
     "script": "NOT = {\n  AND = {\n    has_global_flag = warmoon_disabled\n    has_global_flag = warplanet_disabled\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 16,
     "factor": 1,
@@ -46252,6 +46560,7 @@
     ],
     "script": "is_nomadic = yes\nNOT = {\n  has_global_flag = warplanet_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 10,
     "factor": 1,
@@ -46753,6 +47062,7 @@
     ],
     "script": "NOT = {\n  has_global_flag = kugel_disabled\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 40,
     "factor": 1,
@@ -46840,6 +47150,7 @@
     ],
     "script": "always = yes"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0,
@@ -46899,6 +47210,7 @@
    ],
    "icon": "icons/1121692237/tech_mega_engineering.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 0.25,

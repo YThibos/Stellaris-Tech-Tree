@@ -57,6 +57,7 @@
     ],
     "script": "any_system_within_border = {\n  any_system_planet = {\n    OR = {\n      is_planet_class = pc_pd_ammonia\n      is_planet_class = pc_pd_methane\n      is_planet_class = pc_pd_nitrogen\n    }\n  }\n}"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,
@@ -130,6 +131,7 @@
    ],
    "icon": "icons/1732437279/tech_pd_pressure_suits.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -179,6 +181,7 @@
     ],
     "script": "has_trait = trait_cryophile"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 45,
     "factor": 1,
@@ -251,6 +254,7 @@
    "traits": [],
    "icon": "icons/1732437279/tech_pd_cryo_toxic_mire.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,
@@ -365,6 +369,7 @@
    "traits": [],
    "icon": "icons/1732437279/tech_pd_cryo_glacier_wall.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 95,
     "factor": 1,

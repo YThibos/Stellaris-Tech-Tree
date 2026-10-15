@@ -26,6 +26,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_shield.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -167,6 +168,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_phys_research.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -310,6 +312,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_laser.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -460,6 +463,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_survey.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -601,6 +605,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_admin_cap.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -742,6 +747,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_society_research.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -883,6 +889,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_army.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -1033,6 +1040,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_lifespan.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -1174,6 +1182,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_influence.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -1315,6 +1324,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_envoy.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,
@@ -1456,6 +1466,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_engineering_research.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -1599,6 +1610,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_armor.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 50,
     "factor": 1,
@@ -1742,6 +1754,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_missiles.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -1894,6 +1907,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_kinetic.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 35,
     "factor": 1,
@@ -2044,6 +2058,7 @@
    ],
    "icon": "icons/1067631798/tech_esap_technological_ascendancy_bonus_1_stations.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 20,
     "factor": 1,

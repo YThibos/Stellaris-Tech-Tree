@@ -33,6 +33,7 @@
     ],
     "script": "has_ascension_perk = ap_pd_necro_worlds"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 0,
     "factor": 0,
@@ -105,6 +106,7 @@
     ],
     "script": "NOT = {\n  has_origin = origin_wilderness\n}\nis_nomadic = no"
    },
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1,

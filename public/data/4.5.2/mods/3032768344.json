@@ -24,6 +24,7 @@
    "traits": [],
    "icon": "icons/3032768344/tech_impact_terraforming.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1.5,
@@ -117,6 +118,7 @@
    "traits": [],
    "icon": "icons/3032768344/tech_atmospheric_manipulation.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 70,
     "factor": 1.5,
@@ -215,6 +217,7 @@
    "traits": [],
    "icon": "icons/3032768344/tech_ecological_adaptation.webp",
    "availability": null,
+   "requiredDlcs": [],
    "drawWeight": {
     "base": 60,
     "factor": 1,
