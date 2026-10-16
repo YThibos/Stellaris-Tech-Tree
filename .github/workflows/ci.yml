@@ -5,6 +5,10 @@ on:
   push:
     branches: [master]
 
+# Checks only read the code; they never need to write to the repository.
+permissions:
+  contents: read
+
 jobs:
   check:
     name: Lint, type check, test and build

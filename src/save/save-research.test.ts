@@ -5,7 +5,7 @@ import { readSaveResearch } from './save-research.ts';
 const GAMESTATE = `version="Corvus v4.5.2"
 player={
 	{
-		name="Captain"
+		name="Player One"
 		country=1
 	}
 }
@@ -53,7 +53,7 @@ player=
 {
 \t
 \t{
-\t\tname="Ophidyan"
+\t\tname="Player One"
 \t\tcountry=0
 \t}
  

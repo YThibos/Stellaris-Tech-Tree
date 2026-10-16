@@ -1,6 +1,6 @@
 # Testing plan
 
-A hands-on check of the site against a real game, for Stellaris 4.5.2 with the captain's 42-mod playset.
+A hands-on check of the site against a real game, for Stellaris 4.5.2 with the maintainer's 42-mod playset.
 Work through it alongside a new empire; each step says what to do and what should happen.
 Note anything that differs, with the tech's name, what the site shows and what the game shows.
 

@@ -1,6 +1,6 @@
 # Stellaris Tech Tree - specification
 
-Status: approved by the captain on 2026-10-11.
+Status: approved on 2026-10-11.
 Repository: YThibos/Stellaris-Tech-Tree.
 
 ## 1. Purpose
@@ -195,13 +195,13 @@ A separate tab lists them.
   Traditions, ascension perks, civics, edicts and megastructure upgrades also move some of these numbers; including them needs their files extracted too and is a later step.
 - Techs the game never draws show where they come from (an event, a tradition, an ascension perk, a relic, and so on) in the details panel, with a distinct badge for each kind of source, once those files are extracted.
 - The extraction keeps each tech's bonuses structured (modifier key, English name, amount) rather than as display text, so the tab can add them up.
-- A bonus counts as a capacity when its English name mentions a capacity, limit, cap or maximum (38 of the 467 tech bonuses in the captain's playset); the tab shows capacities by default, with a switch to show every empire bonus.
+- A bonus counts as a capacity when its English name mentions a capacity, limit, cap or maximum (38 of the 467 tech bonuses in the maintainer's playset); the tab shows capacities by default, with a switch to show every empire bonus.
 
 ## 6. Data pipeline
 
 ### 6.1 Extraction script
 
-A TypeScript command-line tool the captain runs on the gaming PC after a patch or a mod change.
+A TypeScript command-line tool the maintainer runs on a gaming PC after a patch or a mod change.
 
 - Inputs, all discovered automatically with override flags:
   - The Stellaris install folder.
@@ -213,7 +213,7 @@ A TypeScript command-line tool the captain runs on the gaming PC after a patch o
 - A mod becomes a layer when it adds or changes techs, defines tiers, or gives existing techs new unlocks; other mods are listed in the report.
 - Resolves `@variables` and inline maths, localisation references and colour codes.
 - Converts icons from DDS to WebP.
-- Writes a snapshot folder per game version, committed by the captain.
+- Writes a snapshot folder per game version, committed by the maintainer.
 - Prints a short report: techs per source, overrides found, unresolved references, mods skipped as non-tech.
 - Deterministic: the same inputs always produce byte-identical output, so the git diff of a re-extraction is meaningful.
 
@@ -245,12 +245,12 @@ If late-game saves prove too slow to read in milestone 3, the `jomini` library (
   - `extraction` - the Node command-line tool.
   - `site` - the browser application, built with Vite.
 - The domain is shared, so extraction and site can never disagree about what a tech is.
-- UI framework: Svelte (compiled, small, fast with thousands of cards); open to the captain's preference.
+- UI framework: Svelte (compiled, small, fast with thousands of cards); open to change.
 - All state is client-side: no server, no accounts, no tracking.
 
 ## 8. Quality bar
 
-The captain's craftsmanship rules are acceptance criteria for every change:
+These craftsmanship rules are acceptance criteria for every change:
 
 - Clean Code and domain-driven design; quality first, no "good enough for now".
 - Names and boundaries use the domain language of section 3, not mechanism names.
@@ -269,7 +269,7 @@ The captain's craftsmanship rules are acceptance criteria for every change:
 ## 10. Hosting and deployment
 
 - GitHub Pages, deployed by a GitHub Actions workflow on every merge to the default branch.
-- The repository must be public for free Pages hosting; the captain makes that switch once development and testing are finished.
+- The repository must be public for free Pages hosting; the maintainer made that switch once development and testing were finished.
 - The release is showcased in a Reddit post, so the README is written for players, not developers:
   - What the tool is and why it beats the existing tree, with a screenshot and a link to the live site.
   - How to use it: tiers, lit paths, search, mods, campaigns, save import.
@@ -296,7 +296,7 @@ Still open:
 - That Ironman saves are plain text like normal saves.
 - How Technology Ascendant changes research, since it may alter costs or tiers across the board rather than add techs.
 
-## 12. Mod inventory (from the captain's Steam library, 52 subscriptions)
+## 12. Mod inventory (the maintainer's Steam library, 52 subscriptions)
 
 Subscriptions are not the playset; the extraction script reads which are actually enabled.
 Which mods carry tech content is confirmed by the first extraction report.
