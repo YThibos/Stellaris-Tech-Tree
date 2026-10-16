@@ -3,6 +3,10 @@
 The MIT licence in `LICENSE` covers this project's code and documentation.
 The game data the site shows, under `public/data`, is not covered by it: it stays the property of its owners, listed below.
 
+## Exo 2
+
+The site's font, Exo 2 by the Exo 2 Project Authors, ships with the site under the SIL Open Font License 1.1, through the Fontsource package `@fontsource/exo-2`.
+
 ## Stellaris
 
 Stellaris, its text and its icons are the property of Paradox Interactive.
